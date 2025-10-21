@@ -241,16 +241,18 @@ Mirobaldo/
 
 ## 🎨 Design e Interface
 
-### Paleta de Cores
+### Paleta de Cores (Alvinegras)
+
+O Sporting Clube Farense usa as cores **alvinegras** (preto e branco):
 
 | Cor | Hex | Uso |
 |-----|-----|-----|
-| 🔴 Farense Red | `#c41e3a` | Cor principal do clube |
-| ⚫ Farense Black | `#0a0a0a` | Cor secundária |
-| ⚪ White | `#ffffff` | Texto principal |
-| 🌑 Background | `#0f0f0f` | Fundo da aplicação |
+| ⚫ Farense Black | `#0a0a0a` | Cor principal do clube |
+| ⚪ White | `#ffffff` | Cor secundária e texto principal |
+| 🌑 Dark Background | `#0f0f0f` | Fundo da aplicação |
 | 💬 User Message | `#1a1a1a` | Fundo das mensagens do utilizador |
 | 🤖 Bot Message | `#0d0d0d` | Fundo das respostas do bot |
+| 🔘 Accent Gray | `#2a2a2a` | Destaques e botões |
 
 ### Tipografia
 
