@@ -16,3 +16,6 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Temporary folders
+autiliza/
