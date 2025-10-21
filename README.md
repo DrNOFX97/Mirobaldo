@@ -394,6 +394,7 @@ Este projeto está licenciado sob a **MIT License** - veja o ficheiro [LICENSE](
 **Dados históricos compilados de:**
 - Arquivo histórico do Sporting Clube Farense
 - [Blog Algarve e Alentejo](http://algarvalentejo.blogspot.com)
+- [ZeroZero.pt](https://www.zerozero.pt) - Base de dados de futebol português
 - Documentação oficial do clube
 - Contribuições de adeptos farenses
 
