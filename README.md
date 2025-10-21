@@ -395,6 +395,8 @@ Este projeto está licenciado sob a **MIT License** - veja o ficheiro [LICENSE](
 - Arquivo histórico do Sporting Clube Farense
 - [Blog Algarve e Alentejo](http://algarvalentejo.blogspot.com)
 - [ZeroZero.pt](https://www.zerozero.pt) - Base de dados de futebol português
+- **"50 Anos de História do Futebol em Faro (1900-1950)"** - Raminhos Bispo (2008)
+- **"História e Vida do Sporting Clube Farense"** - Luís Vaz da Costa (1982)
 - Documentação oficial do clube
 - Contribuições de adeptos farenses
 
