@@ -1,0 +1,46 @@
+/Users/f.nuno/Desktop/chatbot_2.0/
+├── auto_update_requirements.py
+├── backups
+├── config
+├── dados
+│   ├── classificacoes
+│   ├── dados
+│   ├── jogadores
+│   ├── outros
+│   └── resultados
+├── docs
+│   ├── ARVORE_PROJETO.txt
+│   ├── ESTRUTURA_PROJETO.md
+│   ├── GUIA_USO.md
+│   └── RELATORIO_ORGANIZACAO.md
+├── logs
+├── package-lock.json
+├── package.json
+├── public
+│   ├── client.js
+│   ├── index.html
+│   ├── mirobaldo_chatbot.png
+│   └── styles.css
+├── README_requirements_updater.md
+├── README.md
+├── requirements.txt
+├── requirements.txt.bak
+├── scripts
+│   ├── requirements_updater
+│   └── requirements_updater.zip
+├── shell_scripts
+│   ├── abrir_navegador.sh
+│   ├── iniciar.sh
+│   ├── parar_servidor.sh
+│   ├── reiniciar_servidor.sh
+│   ├── setup_python_env.sh
+│   ├── start_chatbot.sh
+│   ├── status_servidor.sh
+│   ├── update_dependencies.sh
+│   └── verificar_sistema.sh
+├── src
+│   ├── agents
+│   └── server.js
+└── update_requirements.py
+
+17 directories, 27 files
