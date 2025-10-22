@@ -60,15 +60,8 @@ function createRouter() {
     9
   );
 
-  router.register(
-    new AgentAdapter(resultadosAgent, {
-      name: 'ResultadosAgent',
-      priority: 8,
-      keywords: resultadosAgent.keywords || ['resultado', 'golo', 'vitória', 'derrota', 'empate'],
-      enabled: true
-    }),
-    8
-  );
+  // ResultadosAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(resultadosAgent, 8);
 
   router.register(
     new AgentAdapter(classificacoesAgent, {
