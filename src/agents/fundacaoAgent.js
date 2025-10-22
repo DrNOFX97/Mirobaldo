@@ -1,5 +1,22 @@
-module.exports = {
-  context: `
+const BaseAgent = require('../core/BaseAgent');
+
+class FundacaoAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'FundacaoAgent',
+      priority: 6,
+      keywords: ['fundação', '1910', 'origem', 'história', 'fundado'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // Agent acts as context provider for GPT
+    return null;
+  }
+
+  getContext() {
+    return `
     Contexto de Fundação:
     - O Sporting Clube Farense foi fundado em 1910, na cidade de Faro, Algarve.
     - João Gralho foi uma figura fundamental na fundação do clube.
@@ -14,5 +31,8 @@ module.exports = {
     - O clube foi oficialmente registado em 1912, com Francisco Rogério Dâmaso Tavares Bello como primeiro presidente.
     - Quando falares sobre a fundação do clube, destaca sempre o papel de João Gralho e dos primeiros jogadores.
     - Refere sempre o Farense como "os Leões de Faro" ou "o Sporting Clube Farense" ocasionalmente.
-  `
-}; 
+    `;
+  }
+}
+
+module.exports = new FundacaoAgent();
