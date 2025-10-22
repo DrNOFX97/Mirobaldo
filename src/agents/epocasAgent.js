@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 function getEpocasCompletas() {
   try {
@@ -158,11 +159,23 @@ const dadosCompletos = getEpocasCompletas();
 const epocasParsed = parseClassificacoes(dadosCompletos);
 const analise = analisarEpocas(epocasParsed);
 
-module.exports = {
-  getEpocasCompletas,
-  parseClassificacoes,
-  analisarEpocas,
-  context: `
+class EpocasAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'EpocasAgent',
+      priority: 6,
+      keywords: ['época', 'ano', 'temporada', 'campeonato'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // Agent acts as context provider for GPT
+    return null;
+  }
+
+  getContext() {
+    return `
 # Agente de Análise de Épocas do Sporting Clube Farense
 
 ## Missão
@@ -325,5 +338,8 @@ ${dadosCompletos}
 ---
 
 **IMPORTANTE**: Usa sempre os dados acima. Nunca inventes classificações ou estatísticas!
-  `
-};
+    `;
+  }
+}
+
+module.exports = new EpocasAgent();
