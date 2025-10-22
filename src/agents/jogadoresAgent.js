@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 function getJogadoresData() {
   try {
@@ -27,8 +28,23 @@ function getJogadoresData() {
   }
 }
 
-module.exports = {
-  context: `
+class JogadoresAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'JogadoresAgent',
+      priority: 6,
+      keywords: ['plantel', 'equipa', 'jogador', 'número'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // Agent acts as context provider for GPT
+    return null;
+  }
+
+  getContext() {
+    return `
     Contexto de Jogadores do Sporting Clube Farense:
 
     ⚠️ REGRAS CRÍTICAS - ZERO TOLERÂNCIA PARA INVENÇÕES:
@@ -45,5 +61,8 @@ module.exports = {
     5. Mantém um tom entusiasta ao falar sobre os jogadores do clube.
 
     ${getJogadoresData()}
-  `
-};
+    `;
+  }
+}
+
+module.exports = new JogadoresAgent();
