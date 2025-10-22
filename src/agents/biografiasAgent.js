@@ -4,35 +4,40 @@ const path = require('path');
 // Função para criar índice resumido de todas as biografias
 function getBiografiasIndex() {
   try {
-    const biografiasDir = path.join(__dirname, '../../dados/biografias');
+    const biografiasRootDir = path.join(__dirname, '../../dados/biografias');
     const index = [];
+    const subfolders = ['jogadores', 'presidentes', 'treinadores', 'outras_figuras'];
 
-    if (fs.existsSync(biografiasDir)) {
-      const files = fs.readdirSync(biografiasDir);
-      const historiaFiles = files.filter(f => f.startsWith('historia_') && f.endsWith('.md'));
+    subfolders.forEach(subfolder => {
+      const biografiasDir = path.join(biografiasRootDir, subfolder);
 
-      historiaFiles.forEach(file => {
-        const filePath = path.join(biografiasDir, file);
-        if (fs.statSync(filePath).isFile()) {
-          const content = fs.readFileSync(filePath, 'utf-8');
-          // Extrair título (primeira linha com #)
-          const titleMatch = content.match(/^#\s+(.+)$/m);
-          const title = titleMatch ? titleMatch[1] : file;
+      if (fs.existsSync(biografiasDir)) {
+        const files = fs.readdirSync(biografiasDir);
+        const historiaFiles = files.filter(f => f.startsWith('historia_') && f.endsWith('.md'));
 
-          // Extrair primeiro parágrafo para resumo
-          const lines = content.split('\n');
-          let summary = '';
-          for (const line of lines) {
-            if (line.trim() && !line.startsWith('#') && !line.startsWith('**')) {
-              summary = line.substring(0, 200);
-              break;
+        historiaFiles.forEach(file => {
+          const filePath = path.join(biografiasDir, file);
+          if (fs.statSync(filePath).isFile()) {
+            const content = fs.readFileSync(filePath, 'utf-8');
+            // Extrair título (primeira linha com #)
+            const titleMatch = content.match(/^#\s+(.+)$/m);
+            const title = titleMatch ? titleMatch[1] : file;
+
+            // Extrair primeiro parágrafo para resumo
+            const lines = content.split('\n');
+            let summary = '';
+            for (const line of lines) {
+              if (line.trim() && !line.startsWith('#') && !line.startsWith('**')) {
+                summary = line.substring(0, 200);
+                break;
+              }
             }
-          }
 
-          index.push({ file, title, summary });
-        }
-      });
-    }
+            index.push({ file, title, summary, subfolder });
+          }
+        });
+      }
+    });
 
     return index;
   } catch (error) {
@@ -41,10 +46,11 @@ function getBiografiasIndex() {
   }
 }
 
-// Função para buscar biografias específicas
+// Função para buscar biografias específicas em todas as subpastas
 function searchBiografias(query) {
   try {
-    const biografiasDir = path.join(__dirname, '../../dados/biografias');
+    const biografiasRootDir = path.join(__dirname, '../../dados/biografias');
+    const subfolders = ['jogadores', 'presidentes', 'treinadores', 'outras_figuras'];
     const lowerQuery = query.toLowerCase();
     // Normalizar query: remover acentos e trocar espaços por underscores
     const normalizedQuery = lowerQuery
@@ -52,38 +58,63 @@ function searchBiografias(query) {
       .replace(/\s+/g, '_'); // Substitui espaços por underscores
 
     const results = [];
+    const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 2);
 
-    if (fs.existsSync(biografiasDir)) {
-      const files = fs.readdirSync(biografiasDir);
-      const historiaFiles = files.filter(f => f.startsWith('historia_') && f.endsWith('.md'));
+    // Procurar em TODAS as subpastas (não quebrar no meio)
+    for (const subfolder of subfolders) {
+      const biografiasDir = path.join(biografiasRootDir, subfolder);
 
-      for (const file of historiaFiles) {
-        const filePath = path.join(biografiasDir, file);
-        if (fs.statSync(filePath).isFile()) {
-          const content = fs.readFileSync(filePath, 'utf-8');
-          const fileNormalized = file.toLowerCase()
-            .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      if (fs.existsSync(biografiasDir)) {
+        const files = fs.readdirSync(biografiasDir);
+        const historiaFiles = files.filter(f => f.startsWith('historia_') && f.endsWith('.md'));
 
-          // Buscar por: 1) nome normalizado no arquivo, 2) query normal no conteúdo
-          const matchesFile = fileNormalized.includes(normalizedQuery);
-          const matchesContent = content.toLowerCase().includes(lowerQuery);
+        for (const file of historiaFiles) {
+          const filePath = path.join(biografiasDir, file);
+          if (fs.statSync(filePath).isFile()) {
+            const content = fs.readFileSync(filePath, 'utf-8');
+            const fileNormalized = file.toLowerCase()
+              .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-          if (matchesFile || matchesContent) {
-            results.push({
-              file,
-              content: content, // Biografia completa sem truncar
-              score: matchesFile ? 10 : 5 // Prioriza matches no nome do arquivo
-            });
+            // Buscar por: 1) nome normalizado no arquivo (exacto ou por palavras), 2) query normal no conteúdo
+            const matchesFileExact = fileNormalized.includes(normalizedQuery);
+            // Também procurar por TODAS as palavras do query no nome do arquivo
+            const matchesFileWords = queryWords.length > 0 &&
+              queryWords.every(word => fileNormalized.includes(word));
+            const matchesFile = matchesFileExact || matchesFileWords;
 
-            // Limitar a 5 resultados para não exceder tokens
-            if (results.length >= 5) break;
+            // Para content match, procurar por palavras completas do query (ex: "tavares" E "bello")
+            const matchesContent = queryWords.length > 0 &&
+              queryWords.every(word => content.toLowerCase().includes(word));
+
+            if (matchesFile || matchesContent) {
+              results.push({
+                file,
+                content: content, // Biografia completa sem truncar
+                // Match exacto no arquivo = score 100, match no conteúdo = score baseado em número de palavras
+                score: matchesFile ? 100 : (queryWords.length > 1 ? 50 : 10),
+                subfolder,
+                isFileMatch: matchesFile
+              });
+
+              // Limitar a 10 resultados para não exceder tokens
+              if (results.length >= 10) break;
+            }
           }
         }
+        // Se atingiu limite de resultados, não procura nas outras pastas
+        if (results.length >= 10) break;
       }
     }
 
-    // Ordenar por score (matches no nome do arquivo primeiro)
-    results.sort((a, b) => b.score - a.score);
+    // Ordenar por score (matches no nome do arquivo primeiro) e depois por subfolder priority
+    // Prioridade: presidentes > treinadores > outras_figuras > jogadores
+    const folderPriority = { presidentes: 3, treinadores: 2, outras_figuras: 1, jogadores: 0 };
+    results.sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score; // Score primeiro
+      }
+      return (folderPriority[b.subfolder] || 0) - (folderPriority[a.subfolder] || 0); // Depois folder priority
+    });
 
     return results;
   } catch (error) {

@@ -1936,24 +1936,18 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | 1/64 | 1988-12-21 | FC Vizela 1-0 D 1/32 1988 -11-01 Casa Santa Maria FC 3 - **0 SC Farense** | ✅ |
 
 
-### II Divisão II Fase 1989/90
-
-**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 0D • ⚽ 3 golos marcados • 🥅 2 golos sofridos • 📈 Saldo: +1
-
-| Jornada | Data | Jogo | Resultado |
-|:-------:|:----:|:-----|:---------:|
-| D | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** |  |
-| - | 1990-06-14 | Gil Vicente 0 - **0 SC Farense** | ➖ |
-| - | 1990-06-24 | **SC Farense 0** - 0 Gil Vicente | ➖ |
-| - | 1990-06-28 | **SC Farense 2** - 2 SC Salgueiros | ➖ |
-
-
 ### II Divisão Zona Sul 1989/1990
 
-**📊 Resumo:** 28 jogos • ✅ 20V • ➖ 4E • ❌ 4D • ⚽ 57 golos marcados • 🥅 26 golos sofridos • 📈 Saldo: +31
+**📊 Resumo:** 34 jogos • ✅ 24V • ➖ 5E • ❌ 5D • ⚽ 78 golos marcados • 🥅  31 golos sofridos • 📈 Saldo: +47
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
+| J1 | 1989-09-10 | **SC Farense 3** - 1 Torreense | ✅ |
+| J2 | 1989-09-24 | Lusitano VRSA 0 - **0 SC Farense** | ➖ |
+| J3 | 1989-10-15 | O Elvas 0 - **2 SC Farense** | ✅ |
+| J4 | 1989-10-22 | **SC Farense 4** - 2 FC Alverca | ✅ |
+| J5 | 1989-10-29 | Seixal FC 1 - **4 SC Farense** | ✅ |
+| J6 | 1989-11-05 | **SC Farense 3** - 0 Atlético CP | ✅ |
 | J7 | 1989-11-19 | Barreirense 0 - **0 SC Farense** | ➖ |
 | J8 | 1989-11-26 | **SC Farense 5** - 0 Samora Correia | ✅ |
 | J9 | 1989-12-03 | Lusit. Évora 1 - **2 SC Farense** | ✅ |
@@ -1986,10 +1980,12 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### Taça de Portugal 1989/1990
 
-**📊 Resumo:** 7 jogos • ✅ 5V • ➖ 2E • ❌ 0D • ⚽ 16 golos marcados • 🥅 12 golos sofridos • 📈 Saldo: +4
+**📊 Resumo:** 9 jogos • ✅ 7V • ➖ 2E • ❌ 0D • ⚽ 22 golos marcados • 🥅 13 golos sofridos • 📈 Saldo: +9
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
+| 1/128 | 1989-09-17 | **SC Farense 3** - 1 Torreense | ✅ |
+| 1/64 | 1989-11-12 | **SC Farense 3** - 2 UD Oliveirense | ✅ |
 | 1/32 | 1989-12-10 | Odivelas 1 - **9 SC Farense** | ✅ |
 | 1/16 | 1990-02-04 | **SC Farense 7** - 0 Esp. Lagos | ✅ |
 | 1/8 | 1990-02-27 | União Madeira 0 - **0 SC Farense** | ➖ |
@@ -1997,6 +1993,18 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | QF | 1990-03-28 | **SC Farense 4** - 0 UD Valonguense | ✅ |
 | MF | 1990-05-10 | Belenenses 1 - **2 SC Farense** | ✅ |
 | F | 1990-05-27 | Est. Amadora 1 - **1 SC Farense** | ➖ |
+
+
+### II Divisão II Fase 1989/90
+
+**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 0D • ⚽ 3 golos marcados • 🥅 2 golos sofridos • 📈 Saldo: +1
+
+| Jornada | Data | Jogo | Resultado |
+|:-------:|:----:|:-----|:---------:|
+| D | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** |  |
+| - | 1990-06-14 | Gil Vicente 0 - **0 SC Farense** | ➖ |
+| - | 1990-06-24 | **SC Farense 0** - 0 Gil Vicente | ➖ |
+| - | 1990-06-28 | **SC Farense 2** - 2 SC Salgueiros | ➖ |
 
 
 ### I Divisão 1990/91
@@ -2283,7 +2291,8 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J13 | 1995-12-10 | FC Felgueiras (Extinto) 3 - **1 SC Farense** | ❌ |
 | J14 | 1995-12-16 | **SC Farense 1** - 3 Benfica | ❌ |
 | J15 | 1995-12-23 | UD Leiria 1 - **0 SC Farense** | ❌ |
-| J16 | 1996-01-07 | SC Salgueiros 1-0 D J17 1995 -12-30 15:00 Casa Marítimo 2 - **0 SC Farense** | ✅ |
+| J16 | 1995-12-30 | **Casa Marítimo 2** - 0 SC Farense | ✅ |
+| J17 | 1996-01-07 | SC Salgueiros 1 - **0 SC Farense** | ❌ |
 | J18 | 1996-01-13 | Tirsense 2 - **1 SC Farense** | ❌ |
 | J19 | 1996-01-21 | **SC Farense 0** - 1 Vitória SC | ❌ |
 | J20 | 1996-01-28 | Est. Amadora 1 - **1 SC Farense** | ➖ |
@@ -2348,7 +2357,6 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J14 | 1997-01-05 | **SC Farense 1** - 1 Vitória FC | ➖ |
 | J15 | 1997-01-12 | UD Leiria 0 - **0 SC Farense** | ➖ |
 | J16 | 1997-01-19 | **SC Farense 0** - 2 GD Chaves | ❌ |
-| J17 | 1997-02-02 | Est. Amadora 2-1 D J18 1997 -01-26 15:00 Fora SC Salgueiros 2 - **1 SC Farense** | ❌ |
 | J19 | 1997-02-08 | **SC Farense 0** - 0 Sporting | ➖ |
 | J20 | 1997-02-16 | Boavista 1 - **1 SC Farense** | ➖ |
 | J21 | 1997-02-23 | **SC Farense 3** - 1 SC Espinho | ✅ |
@@ -3637,7 +3645,6 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J14 | 2022-12-28 | FC Porto B 4 - **0 SC Farense** | ❌ |
 | J15 | 2023-01-07 | **SC Farense 1** - 0 Nacional | ✅ |
 | J16 | 2023-01-15 | **SC Farense 5** - 2 Benfica B | ✅ |
-| J17 | 2023-01-29 | Torreense 1-0 D J18 2023 -01-22 14:00 Fora CD Tondela 1 - **0 SC Farense** | ❌ |
 | J19 | 2023-02-03 | **SC Farense 2** - 2 Est. Amadora | ➖ |
 | J20 | 2023-02-12 | Académico de Viseu 2 - **0 SC Farense** | ❌ |
 | J21 | 2023-02-19 | **SC Farense 1** - 0 CD Mafra | ✅ |

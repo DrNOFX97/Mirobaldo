@@ -52,22 +52,29 @@ function normalizarEpoca(epoca) {
 }
 
 function extrairResultadosEpoca(conteudo, epoca) {
-  // Procura pela seção da época nos resultados
-  const regexEpoca = new RegExp(`###\\s+[^\\n]*${epoca.replace('/', '.*')}[^\\n]*\\n([\\s\\S]*?)(?=\\n###|$)`, 'i');
-  const matches = conteudo.match(regexEpoca);
-  
-  if (!matches) return null;
-  
-  return matches[1];
+  // Procura por TODAS as seções da época nos resultados (pode ter múltiplas fases, taça, etc)
+  // Captura o header (###) e todo o conteúdo da seção para preservar títulos das competições
+  const regexEpoca = new RegExp(`(###\\s+[^\\n]*${epoca.replace('/', '.*')}[^\\n]*)\\n([\\s\\S]*?)(?=\\n###|$)`, 'gi');
+  const matches = conteudo.matchAll(regexEpoca);
+
+  let resultadosCompletos = '';
+  for (const match of matches) {
+    if (match[1]) {
+      // Incluir o header (###) + conteúdo
+      resultadosCompletos += match[1] + '\n' + match[2] + '\n\n';
+    }
+  }
+
+  return resultadosCompletos.trim() || null;
 }
 
 function extrairClassificacaoEpoca(conteudo, epoca) {
-  // Procura pela tabela de classificação da época
+  // Procura pela tabela de classificação da época (geralmente na primeira seção)
   const regexClassificacao = new RegExp(`###\\s+[^\\n]*${epoca.replace('/', '.*')}[^\\n]*\\n([\\s\\S]*?)(?=\\n###|$)`, 'i');
   const matches = conteudo.match(regexClassificacao);
-  
+
   if (!matches) return null;
-  
+
   return matches[1];
 }
 
@@ -80,7 +87,9 @@ function gerarRelatorioEpoca(epoca, resultados, classificacao) {
   }
   
   if (resultados) {
-    relatorio += `## 📅 Resultados Completos\n\n`;
+    // Adicionar seção de resultados com cada competição claramente titulada
+    // Manter a estrutura original do markdown mas adicionar emoji às secções
+    relatorio += '## 📋 Resultados Detalhados por Competição\n\n';
     relatorio += resultados + '\n\n';
   }
   

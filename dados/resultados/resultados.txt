@@ -336,7 +336,8 @@ Sport  2-1 D J1
 1950 -09-01  Casa  Aljustrelense  3-0 V J1 
 1950 -09-01  Casa  Desp. Beja  4-1 V J1 
 1950 -09-01  Casa  Portimonense  2-0 V J1 
-1950 -09-01  Casa  Lusitano VRSA  0-3 D J1 1950 -09-01  Fora  Lusitano VRSA  0-3 V J1 
+1950 -09-01  Casa  Lusitano VRSA  0-3 D J1 
+1950 -09-01  Fora  Lusitano VRSA  0-3 V J1
  
 II Divisão Grupo Sul Zona D 51/52  
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
@@ -432,7 +433,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1954 -12-12  Casa  Grupo União 
 Sport  2-2 E J15 
 1954 -12-05  Fora  GD 
-Portalegrense  0-2 V J14 1954 -11-28  Fora  SL Olivais  2-3 V J13 
+Portalegrense  0-2 V J14 
+1954 -11-28  Fora  SL Olivais  2-3 V J13
 1954 -11-21  Casa  Almada AC  5-2 V J12 
 1954 -11-14  Fora  Olhanense  0-3 V J11 
 1954 -11-07  Casa  Desp. Beja  4-1 V J10 
@@ -682,7 +684,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1961 -07-02 17:30  Casa  Lusit. Évora  1-0 V J5 
 1961 -06-25 00:00  Fora  SC Salgueiros  3-1 D J4 
 1961 -06-18  Casa  UD Oliveirense  2-2 E J3 
-1961 -06-11 00:00  Fora  Lusit. Évora  2-1 D J2 1961 -06-04 00:00  Casa  SC Salgueiros  1-3 D J1 
+1961 -06-11 00:00  Fora  Lusit. Évora  2-1 D J2 
+1961 -06-04 00:00  Casa  SC Salgueiros  1-3 D J1
  
 Taça de Portugal 1960/1961  
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
@@ -730,7 +733,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1962 -05-20 00:00  Fora  Vitória FC  3-0 D J25 
 1962 -05-13 00:00  Casa  Sacavenense  1-0 V J24 
 1961 -12-10  Fora  Lusitano VRSA  2-1 D J9 
-1961 -12-03  Casa  Seixal FC  2-3 D J8 1961 -11-19  Fora  Barreirense  4-0 D J7 
+1961 -12-03  Casa  Seixal FC  2-3 D J8 
+1961 -11-19  Fora  Barreirense  4-0 D J7
 1961 -11-12  Casa  Montijo  4-1 V J6 
 1961 -11-05  Fora  SL Olivais  1-2 V J5 
 1961 -10-29  Casa  Oriental  2-0 V J4 
@@ -780,7 +784,8 @@ Portalegrense  3-0 D J19
 Piedade  2-0 D J14 
 1963 -01-27 15:00  Fora  Montijo  2-1 D J13 
 1963 -01-20 15:00  Casa  Lusitano VRSA  3-2 V J12 
-1963 -01-13 15:00  Fora  Alhandra  1-1 E J11 1963 -01-06 15:00  Casa  Seixal FC  1-1 E J10 
+1963 -01-13 15:00  Fora  Alhandra  1-1 E J11 
+1963 -01-06 15:00  Casa  Seixal FC  1-1 E J10
 1962 -12-30 15:00  Fora  Sacavenense  4-0 D J9 
 1962 -12-23 15:00  Casa  Portimonense  0-1 D J8 
 1962 -12-09 15:00  Fora  Oriental  1-3 V J7 
@@ -1073,7 +1078,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1972 -04-16 00:00  Casa  CUF 2-2 E J26 
 1972 -04-09 00:00  Fora  FC Porto  2-0 D J25 
 1972 -03-26 00:00  Casa  Belenenses  3-1 V J24 
-1972 -03-19 00:00  Casa  Sporting  1-1 E J23 1972 -03-12 00:00  Fora  Vitória SC  5-1 D J22 
+1972 -03-19 00:00  Casa  Sporting  1-1 E J23 
+1972 -03-12 00:00  Fora  Vitória SC  5-1 D J22
 1972 -02-27 00:00  Casa  Académica 
 OAF 4-2 V J21 
 1972 -02-20 00:00  Fora  Leixões  1-0 D J20 
@@ -1456,7 +1462,8 @@ Sines  1-1 E J20
 1981 -01-18 00:00  Fora  Desp. Beja  0-0 E J15 
 1981 -01-11 00:00  Casa  Montijo  0-0 E J14 
 1980 -12-28 00:00  Fora  Lusitânia dos 
-Açores  1-1 E J13 1980 -12-13 00:00  Casa  Odivelas  1-1 E J12 
+Açores  1-1 E J13 
+1980 -12-13 00:00  Casa  Odivelas  1-1 E J12
 1980 -12-08 00:00  Fora  Estoril Praia  1-1 E J11 
 1980 -11-30 00:00  Casa  Nacional  1-0 V J10 
 1980 -11-16 00:00  Fora  Juventude 
@@ -1552,7 +1559,8 @@ Piedade  0-1 V J30
 1983 -05-29 15:00  Casa  Lusit. Évora  7-1 V J29 
 1983 -05-22 00:00  Fora  Nacional  1-2 V J28 
 1983 -05-15 00:00  Casa  Belenenses  1-0 V J27 
-1983 -05-01 00:00  Fora  O Elvas  1-1 E J26 1983 -04-24 00:00  Casa  Olhanense  3-3 E J25 
+1983 -05-01 00:00  Fora  O Elvas  1-1 E J26 
+1983 -04-24 00:00  Casa  Olhanense  3-3 E J25
 1983 -04-17 00:00  Fora  Barreirense  2-2 E J24 
 1983 -04-10 00:00  Casa  Sacavenense  1-1 E J23 
 1983 -03-26 00:00  Fora  Odivelas  2-2 E J22 
@@ -1602,7 +1610,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1984 -03-31  Fora  FC Penafiel  0-0 E J24 
 1984 -03-25 00:00  Fora  FC Porto  7-1 D J23 
 1984 -03-17 00:00  Casa  Benfica  2-7 D J22 
-1984 -03-11 00:00  Fora  SC Braga  1-0 D J21 1984 -03-04 00:00  Casa  RD Águeda  0-1 D J20 
+1984 -03-11 00:00  Fora  SC Braga  1-0 D J21 
+1984 -03-04 00:00  Casa  RD Águeda  0-1 D J20
 1984 -02-26 00:00  Fora  Estoril Praia  0-0 E J19 
 1984 -02-19 00:00  Casa  Rio Ave  0-0 E J18 
 1984 -02-12 00:00  Fora  Vitória FC  1-1 E J17 
@@ -1652,7 +1661,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1984 -12-23 00:00  Fora  Portimonense  3-1 D J14 
 1984 -12-16 00:00  Fora  Académica OAF  2-0 D J13 
 1984 -12-02 15:00  Casa  Vitória SC  3-1 V J12 
-1984 -11-25 15:00  Fora  Vitória FC  3-0 D J11 1984 -11-18 15:00  Casa  Benfica  1-0 V J10 
+1984 -11-25 15:00  Fora  Vitória FC  3-0 D J11 
+1984 -11-18 15:00  Casa  Benfica  1-0 V J10
 1984 -11-03 15:00  Fora  Boavista  3-0 D J9 
 1984 -10-28 00:00  Casa  Rio Ave  2-1 V J8 
 1984 -10-21 00:00  Fora  FC Porto  5-0 D J7 
@@ -1700,7 +1710,8 @@ Piedade  0-1 V J21
 1985 -12-22  Casa  Sacavenense  1-0 V J12 
 1985 -12-08 15:00  Fora  Lusit. Évora  1-3 V J11 
 1985 -12-01  Casa  União Madeira  2-1 V J10 
-1985 -11-24  Fora  Estoril Praia  2-2 E J9 1985 -11-10  Casa  Atlético CP  3-0 V J8 
+1985 -11-24  Fora  Estoril Praia  2-2 E J9 
+1985 -11-10  Casa  Atlético CP  3-0 V J8
 1985 -11-03  Fora  Barreirense  1-0 D J7 
 1985 -10-27  Casa  CD Cova 
 Piedade  2-0 V J6 
@@ -2095,7 +2106,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1995 -03-19 00:00  Casa  Vitória FC  2-0 V J25 
 1995 -03-12 00:00  Fora  União Madeira  3-0 D J24 
 1995 -03-04 00:00  Casa  Beira -Mar 3-0 V J23 
-1995 -02-25 00:00  Fora  SC Braga  0-0 E J22 1995 -02-19 00:00  Casa  Tirsense  1-0 V J21 
+1995 -02-25 00:00  Fora  SC Braga  0-0 E J22 
+1995 -02-19 00:00  Casa  Tirsense  1-0 V J21
 1995 -02-12 00:00  Fora  SC Salgueiros  0-3 V J20 
 1995 -02-04 00:00  Casa  Boavista  1-0 V J19 
 1995 -01-21 00:00  Fora  Sporting  1-1 E J18 
@@ -2145,7 +2157,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1996 -01-28 15:00  Fora  Est. Amadora  1-1 E J20 
 1996 -01-21 20:45  Casa  Vitória SC  0-1 D J19 
 1996 -01-13 15:00  Fora  Tirsense  2-1 D J18 
-1996 -01-07 15:00  Fora  SC Salgueiros  1-0 D J17 1995 -12-30 15:00  Casa  Marítimo  2-0 V J16 
+1996 -01-07 15:00  Fora  SC Salgueiros  1-0 D J17 
+1995 -12-30 15:00  Casa  Marítimo  2-0 V J16
 1995 -12-23 15:00  Fora  UD Leiria  1-0 D J15 
 1995 -12-16 20:45  Casa  Benfica  1-3 D J14 
 1995 -12-10 15:00  Fora  FC Felgueiras 
@@ -2193,7 +2206,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1997 -02-23 15:00  Casa  SC Espinho  3-1 V J21 
 1997 -02-16 15:00  Fora  Boavista  1-1 E J20 
 1997 -02-08 21:30  Casa  Sporting  0-0 E J19 
-1997 -02-02 15:00  Fora  Est. Amadora  2-1 D J18 1997 -01-26 15:00  Fora  SC Salgueiros  2-1 D J17 
+1997 -02-02 15:00  Fora  Est. Amadora  2-1 D J18 
+1997 -01-26 15:00  Fora  SC Salgueiros  2-1 D J17
 1997 -01-19 15:00  Casa  GD Chaves  0-2 D J16 
 1997 -01-12 16:00  Fora  UD Leiria  0-0 E J15 
 1997 -01-05 15:00  Casa  Vitória FC  1-1 E J14 
@@ -2243,7 +2257,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1997 -12-07 15:00  Casa  Est. Amadora  1-1 E J12 
 1997 -12-01 00:00  Fora  FC Porto  5-2 D J11 
 1997 -11-23 15:00  Casa  Varzim  1-0 V J10 
-1997 -11-09 16:00  Fora  Marítimo  1-1 E J9 1997 -11-02 15:00  Casa  SC Salgueiros  0-0 E J8 
+1997 -11-09 16:00  Fora  Marítimo  1-1 E J9 
+1997 -11-02 15:00  Casa  SC Salgueiros  0-0 E J8
 1997 -10-19 16:00  Fora  Benfica  3-1 D J7 
 1997 -10-06 15:00  Casa  Boavista  0-0 E J6 
 1997 -09-26 15:00  Fora  Vitória SC  2-0 D J5 
@@ -2389,7 +2404,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2002 -04-28 16:00  Fora  UD Leiria  4-1 D J33 
 2002 -04-21 16:00  Casa  FC Alverca  2-1 V J32 
 2002 -04-14 15:00  Fora  Belenenses  4-0 D J31 
-2002 -04-06 00:00  Casa  FC Porto  0-3 D J30 2002 -03-30 16:00  Fora  Beira -Mar 2-1 D J29 
+2002 -04-06 00:00  Casa  FC Porto  0-3 D J30 
+2002 -03-30 16:00  Fora  Beira -Mar 2-1 D J29
 2002 -03-24 16:00  Casa  Vitória FC  2-2 E J28 
 2002 -03-18 20:30  Fora  Benfica  5-0 D J27 
 2002 -03-10 16:00  Casa  Varzim  1-1 E J26 
@@ -2439,7 +2455,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2003 -03-23 00:00  Fora  GD Chaves  1-0 D J26 
 2003 -03-16 00:00  Fora  União Madeira  3-1 D J25 
 2003 -03-01 00:00  Casa  SC Salgueiros  4-0 V J24 
-2003 -02-23 00:00  Fora  Est. Amadora  1-1 E J23 2003 -02-16 00:00  Casa  U. Lamas  1-0 V J22 
+2003 -02-23 00:00  Fora  Est. Amadora  1-1 E J23 
+2003 -02-16 00:00  Casa  U. Lamas  1-0 V J22
 2003 -02-09 00:00  Fora  Maia  2-0 D J21 
 2003 -02-02 00:00  Casa  FC Felgueiras 
 (Extinto)  0-1 D J20 
@@ -2489,7 +2506,8 @@ Açores  2-1 V J29
 2004 -02-29  Fora  Olhanense  2-1 D J26 
 2004 -02-22  Casa  Estrela FC  4-1 V J25 
 2004 -02-15  Fora  Ribeira Brava  1-0 D J24 
-2004 -02-08  Casa  Amora FC  3-0 V J23 2004 -02-01  Fora  Oriental  0-1 V J22 
+2004 -02-08  Casa  Amora FC  3-0 V J23 
+2004 -02-01  Fora  Oriental  0-1 V J22
 2004 -01-25  Casa  Marítimo B  1-2 D J21 
 2004 -01-18  Fora  União 
 Micaelense  2-0 D J20 
@@ -2540,7 +2558,8 @@ M.Gordo  1-0 D J32
 2005 -02-19 15:00  Fora  Juventude 
 Évora  1-0 D J22 
 2005 -02-13 15:00  Casa  Silves  0-1 D J21 
-2005 -02-06 00:00  Fora  GD Lagoa  0-1 V J20 2005 -01-30 00:00  Casa  Almancilense  2-2 E J19 
+2005 -02-06 00:00  Fora  GD Lagoa  0-1 V J20 
+2005 -01-30 00:00  Casa  Almancilense  2-2 E J19
 2005 -01-23 00:00  Fora  Almada AC  1-2 V J18 
 2005 -01-15 15:00  Casa  U. Santiago  1-1 E J17 
 2005 -01-09 00:00  Fora  Desp. Beja  3-1 D J16 
@@ -2627,7 +2646,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2008 -01-26 15:00  Fora  ACR Alvorense  2-3 V J15 
 2008 -01-19 15:00  Casa  Guia  2-0 V J14 
 2008 -01-12 15:00  Fora  Salir  0-4 V J13 
-2008 -01-05 15:00  Casa  Machados  3-1 V J12 2007 -12-22 15:00  Casa  Culatrense  6-1 V J10 
+2008 -01-05 15:00  Casa  Machados  3-1 V J12 
+2007 -12-22 15:00  Casa  Culatrense  6-1 V J10
 2007 -12-15 15:00  Fora  Esp. Lagos  0-2 V J11 
 2007 -12-08 15:00  Fora  Faro e Benfica  2-5 V J9 
 2007 -12-01  Casa  Castromarinense  0-1 D J8 
@@ -2876,7 +2896,8 @@ Liga2 Cabovisão 13/14
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
 2014 -05-11 16:00  Fora  Beira -Mar 2-1 D J42 
 2014 -05-04 16:00  Casa  Trofense  1-0 V J41 
-2014 -04-26 16:00  Fora  Benfica B  0-2 V J40 2014 -04-19 16:00  Casa  Atlético CP  1-1 E J39 
+2014 -04-26 16:00  Fora  Benfica B  0-2 V J40 
+2014 -04-19 16:00  Casa  Atlético CP  1-1 E J39
 2014 -04-13 16:00  Fora  Sporting B  3-3 E J38 
 2014 -04-06 15:00  Casa  FC Porto B  1-0 V J37 
 2014 -03-30 15:00  Casa  Feirense  1-2 D J36 
@@ -2974,7 +2995,8 @@ Ledman LigaPro 15/16
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
 2016 -05-14 15:00  Fora  Gil Vicente  2-3 V J46 
 2016 -05-08 16:00  Casa  CD Aves  2-1 V J45 
-2016 -04-30 16:00  Fora  GD Chaves  1-1 E J44 2016 -04-24 16:00  Casa  Atlético CP  2-1 V J43 
+2016 -04-30 16:00  Fora  GD Chaves  1-1 E J44 
+2016 -04-24 16:00  Casa  Atlético CP  2-1 V J43
 2016 -04-17 16:00  Fora  Olhanense  1-0 D J42 
 2016 -04-13 17:00  Casa  FC Porto B  1-2 D J41 
 2016 -04-10 16:00  Fora  Varzim  2-2 E J40 
@@ -3024,7 +3046,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2017 -04-23 16:00  Casa  CD Fátima  3-1 V J11 
 2017 -04-15 16:00  Fora  Torreense  1-1 E J10 
 2017 -04-09 16:00  Casa  Operário Lagoa  4-1 V J9 
-2017 -04-02 15:00  Fora  Louletano  2-2 E J8 2017 -03-26 16:00  Fora  SC Praiense  2-2 E J7 
+2017 -04-02 15:00  Fora  Louletano  2-2 E J8 
+2017 -03-26 16:00  Fora  SC Praiense  2-2 E J7
 2017 -03-19 15:00  Casa  Sacavenense  0-0 E J6 
 2017 -03-12 15:00  Fora  Real SC  1-0 D J5 
 2017 -03-05 15:00  Fora  CD Fátima  0-2 V J4 
@@ -3120,7 +3143,8 @@ Viseu  1-0 V J34
 2019 -04-14 11:15  Casa  Estoril Praia  3-1 V J29 
 2019 -04-05 19:00  Fora  Benfica B  3-1 D J28 
 2019 -03-31 16:00  Casa  SC Covilhã  1-0 V J27 
-2019 -03-17 17:00  Fora  Vitória SC B  1-0 D J26 2019 -03-10 15:00  Casa  Varzim  3-0 V J25 
+2019 -03-17 17:00  Fora  Vitória SC B  1-0 D J26 
+2019 -03-10 15:00  Casa  Varzim  3-0 V J25
 2019 -03-03 15:00  Fora  CD Cova 
 Piedade  1-0 D J24 
 2019 -02-24 11:15  Casa  Paços de 
@@ -3168,7 +3192,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2020 -03-09 19:45  Fora  Leixões  1-1 E J24 
 2020 -02-29 11:00  Casa  Académico de 
 Viseu  3-1 V J23 
-2020 -02-21 20:00  Fora  Vilafranquense  0-3 V J22 2020 -02-16 17:15  Casa  UD Oliveirense  3-1 V J21 
+2020 -02-21 20:00  Fora  Vilafranquense  0-3 V J22 
+2020 -02-16 17:15  Casa  UD Oliveirense  3-1 V J21
 2020 -02-09 15:00  Fora  FC Porto B  1-1 E J20 
 2020 -02-01 11:15  Casa  Estoril Praia  0-2 D J19 
 2020 -01-26 15:00  Fora  Casa Pia AC  0-2 V J18 
@@ -3216,7 +3241,8 @@ Ferreira  0-2 V J28
 2021 -04-16 21:00  Casa  Sporting  0-1 D J27 
 2021 -04-10 15:00  Fora  Marítimo  1-0 D J26 
 2021 -04-05 18:45  Casa  SC Braga  1-2 D J25 
-2021 -03-21 17:30  Fora  Boavista  0-1 V J24 2021 -03-13 15:30  Casa  B SAD  0-1 D J23 
+2021 -03-21 17:30  Fora  Boavista  0-1 V J24 
+2021 -03-13 15:30  Casa  B SAD  0-1 D J23
 2021 -03-07 20:00  Fora  Rio Ave  2-0 D J22 
 2021 -02-27 15:30  Fora  FC Famalicão  0-0 E J21 
 2021 -02-21 20:15  Casa  Benfica  0-0 E J20 
@@ -3266,7 +3292,8 @@ Viseu  1-1 E J22
 2022 -02-03 20:15  Casa  Académica OAF  3-1 V J17 
 2022 -01-28 18:00  Casa  Est. Amadora  3-0 V J20 
 2022 -01-23 15:30  Fora  Rio Ave  2-1 D J19 
-2022 -01-17 18:00  Casa  Leixões  0-1 D J18 2021 -12-18 14:00  Fora  GD Chaves  2-1 D J15 
+2022 -01-17 18:00  Casa  Leixões  0-1 D J18 
+2021 -12-18 14:00  Fora  GD Chaves  2-1 D J15
 2021 -12-12 11:00  Casa  Nacional  2-2 E J14 
 2021 -12-05 20:30  Fora  CD Mafra  0-2 V J13 
 2021 -11-26 18:00  Casa  Casa Pia AC  0-1 D J12 
@@ -3314,7 +3341,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2023 -02-12 14:00  Fora  Académico de 
 Viseu  2-0 D J20 
 2023 -02-03 20:15  Casa  Est. Amadora  2-2 E J19 
-2023 -01-29 11:00  Fora  Torreense  1-0 D J18 2023 -01-22 14:00  Fora  CD Tondela  1-0 D J17 
+2023 -01-29 11:00  Fora  Torreense  1-0 D J18 
+2023 -01-22 14:00  Fora  CD Tondela  1-0 D J17
 2023 -01-15 15:30  Casa  Benfica B  5-2 V J16 
 2023 -01-07 14:00  Casa  Nacional  1-0 V J15 
 2022 -12-28 17:00  Fora  FC Porto B  4-0 D J14 
@@ -3362,7 +3390,8 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2024 -02-24 15:30  Casa  Moreirense  0-1 D J23 
 2024 -02-18 20:30  Fora  SC Braga  2-1 D J22 
 2024 -02-10 15:30  Casa  FC Famalicão  1-1 E J21 
-2024 -02-04 15:30  Fora  GD Chaves  1-1 E J20 2024 -01-28 18:00  Casa  FC Porto  1-3 D J19 
+2024 -02-04 15:30  Fora  GD Chaves  1-1 E J20 
+2024 -01-28 18:00  Casa  FC Porto  1-3 D J19
 2024 -01-20 18:00  Fora  Casa Pia AC  1-3 V J18 
 2024 -01-12 20:15  Fora  Portimonense  1-0 D J17 
 2024 -01-06 15:30  Casa  Gil Vicente  1-0 V J16 

@@ -15,10 +15,12 @@ const resultadosAgent = require('./agents/resultadosAgent');
 const classificacoesAgent = require('./agents/classificacoesAgent');
 const jogadoresAgent = require('./agents/jogadoresAgent');
 const livrosAgent = require('./agents/livrosAgent');
+const livroConteudoAgent = require('./agents/livroConteudoAgent');
 const biografiasAgent = require('./agents/biografiasAgent');
 const presidentesAgent = require('./agents/presidentesAgent');
 const fundacaoAgent = require('./agents/fundacaoAgent');
 const epocaDetalhadaAgent = require('./agents/epocaDetalhadaAgent');
+const estatisticasAgent = require('./agents/estatisticasAgent');
 
 const app = express();
 app.use(bodyParser.json());
@@ -27,10 +29,26 @@ app.use(cors());
 // Servir ficheiros estáticos da pasta public
 app.use(express.static(path.join(__dirname, '../public')));
 
+// Servir fotografias da pasta dados
+app.use('/fotografias', express.static(path.join(__dirname, '../dados/fotografias')));
+
 // Função para determinar qual agente usar
 function getAgentByTopic(userMessage) {
   const lowerMsg = userMessage.toLowerCase();
-  
+
+  // Estatísticas (PRIORIDADE - mais específico, refere dados agregados e análises)
+  if (lowerMsg.includes('estatísticas') || lowerMsg.includes('estatisticas') ||
+      lowerMsg.includes('recordes') || lowerMsg.includes('record') ||
+      lowerMsg.includes('ranking') || lowerMsg.includes('top') ||
+      lowerMsg.includes('compare') || lowerMsg.includes('vs') ||
+      lowerMsg.includes('versus') || lowerMsg.includes('diferença') ||
+      lowerMsg.includes('tendência') || lowerMsg.includes('evolução') ||
+      lowerMsg.includes('década') || lowerMsg.includes('melhor') ||
+      (lowerMsg.includes('qual') && lowerMsg.includes('melhor')) ||
+      (lowerMsg.includes('quais') && lowerMsg.includes('melhores'))) {
+    return estatisticasAgent;
+  }
+
   // Resultados (incluir mais palavras-chave e padrões de época)
   if (lowerMsg.includes('resultado') || lowerMsg.includes('jogo') || lowerMsg.includes('partida') ||
       lowerMsg.includes('venceu') || lowerMsg.includes('perdeu') || lowerMsg.includes('empatou') ||
@@ -57,22 +75,34 @@ function getAgentByTopic(userMessage) {
     return jogadoresAgent;
   }
   
-  // Livros
-  if (lowerMsg.includes('livro') || lowerMsg.includes('obra') || lowerMsg.includes('publicação') || 
+  // Conteúdo do Livro "50 Anos" (PRIORIDADE - mais específico)
+  if (lowerMsg.includes('segundo o livro') || lowerMsg.includes('no livro') ||
+      lowerMsg.includes('50 anos') || lowerMsg.includes('raminhos bispo') ||
+      lowerMsg.includes('o livro diz') || lowerMsg.includes('o livro menciona') ||
+      lowerMsg.includes('vieguinhas') || lowerMsg.includes('o que diz sobre')) {
+    return livroConteudoAgent;
+  }
+
+  // Livros (informação bibliográfica)
+  if (lowerMsg.includes('livro') || lowerMsg.includes('obra') || lowerMsg.includes('publicação') ||
       lowerMsg.includes('autor') || lowerMsg.includes('leitura') || lowerMsg.includes('escrito')) {
     return livrosAgent;
   }
   
   // Biografias
-  if (lowerMsg.includes('biografia') || lowerMsg.includes('vida') || lowerMsg.includes('carreira') || 
-      lowerMsg.includes('hassan') || lowerMsg.includes('nader') || 
-      lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes') || 
-      lowerMsg.includes('jorge soares') || lowerMsg.includes('soares') || 
-      lowerMsg.includes('manuel josé') || lowerMsg.includes('joão gralho') || 
-      lowerMsg.includes('gralho') || lowerMsg.includes('antónio gago') || 
-      lowerMsg.includes('gago') || lowerMsg.includes('quem foi') || 
-      lowerMsg.includes('quem é') || lowerMsg.includes('jogador histórico') || 
-      lowerMsg.includes('treinador histórico') || lowerMsg.includes('ídolo')) {
+  if (lowerMsg.includes('biografia') || lowerMsg.includes('vida') || lowerMsg.includes('carreira') ||
+      lowerMsg.includes('hassan') || lowerMsg.includes('nader') ||
+      lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes') ||
+      lowerMsg.includes('jorge soares') || lowerMsg.includes('soares') ||
+      lowerMsg.includes('manuel josé') || lowerMsg.includes('joão gralho') ||
+      lowerMsg.includes('gralho') || lowerMsg.includes('antónio gago') ||
+      lowerMsg.includes('gago') || lowerMsg.includes('quem foi') ||
+      lowerMsg.includes('quem é') || lowerMsg.includes('jogador histórico') ||
+      lowerMsg.includes('treinador histórico') || lowerMsg.includes('ídolo') ||
+      lowerMsg.includes('tavares bello') || lowerMsg.includes('bello') ||
+      lowerMsg.includes('francisco') || lowerMsg.includes('miguel cruz') ||
+      lowerMsg.includes('gilberto') || lowerMsg.includes('brasileiro') ||
+      (lowerMsg === 'gil' || lowerMsg.includes('quem foi gil') || lowerMsg.includes('gil farense'))) {
     return biografiasAgent;
   }
   
@@ -188,6 +218,19 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
           // Sem passar pelo GPT - resposta instantânea com todo o conteúdo
           const biografiaCompleta = searchResults[0].content;
           return res.json({ reply: biografiaCompleta });
+        }
+      }
+
+      // Se for o agente de estatísticas, gerar estatísticas direto
+      if (agent === estatisticasAgent && estatisticasAgent.generateStatistics) {
+        console.log('[DEBUG] Gerando estatísticas para query:', userMessage);
+        const classificacoes = estatisticasAgent.loadClassificacoes();
+        const resultados = estatisticasAgent.loadResultados();
+        const statsResponse = estatisticasAgent.generateStatistics(userMessage, classificacoes, resultados);
+
+        if (statsResponse && statsResponse.trim()) {
+          console.log('[DEBUG] Estatísticas geradas com sucesso');
+          return res.json({ reply: statsResponse });
         }
       }
 
