@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 function getLivrosData() {
   try {
@@ -17,8 +18,23 @@ function getLivrosData() {
   }
 }
 
-module.exports = {
-  context: `
+class LivrosAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'LivrosAgent',
+      priority: 5,
+      keywords: ['livro', 'livros', 'biblioteca', 'bibliográfico'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // Agent acts as context provider for GPT
+    return null;
+  }
+
+  getContext() {
+    return `
     # Assistente de Livros sobre o Sporting Clube Farense
 
 ## Identidade e Missão
@@ -146,5 +162,8 @@ Quando perguntarem sobre um livro não documentado:
 ## DADOS BIBLIOGRÁFICOS VERIFICADOS
 
 ${getLivrosData()}
-  `
-};
+    `;
+  }
+}
+
+module.exports = new LivrosAgent();
