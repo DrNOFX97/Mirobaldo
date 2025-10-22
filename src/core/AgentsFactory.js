@@ -56,15 +56,8 @@ function createRouter() {
   // BiografiasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
   router.register(biografiasAgent, 7);
 
-  router.register(
-    new AgentAdapter(presidentesAgent, {
-      name: 'PresidentesAgent',
-      priority: 6,
-      keywords: presidentesAgent.keywords || ['presidente', 'liderou', 'presidência'],
-      enabled: true
-    }),
-    6
-  );
+  // PresidentesAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(presidentesAgent, 6);
 
   router.register(
     new AgentAdapter(fundacaoAgent, {
