@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 // Função para criar índice resumido de todas as biografias
 function getBiografiasIndex() {
@@ -148,9 +149,31 @@ function getBiografiasData() {
   }
 }
 
-module.exports = {
-  searchBiografias: searchBiografias,
-  context: `
+class BiografiasAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'BiografiasAgent',
+      priority: 7,
+      keywords: ['quem foi', 'biografia', 'vida', 'nasceu', 'jogador', 'jogou', 'treinador'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // Realizar busca de biografias
+    const results = searchBiografias(message);
+
+    if (results && results.length > 0) {
+      // Retornar a primeira (melhor) resultado como markdown
+      return results[0].content;
+    }
+
+    // Se não houver resultado, retornar null para permitir fallback a GPT com contexto
+    return null;
+  }
+
+  getContext() {
+    return `
     # Assistente de Biografias do Sporting Clube Farense
 
 ## Identidade e Missão
@@ -270,7 +293,7 @@ Quando perguntarem sobre alguém não documentado na base de dados:
 
 ## Notas Importantes
 
-**Base de Dados Biográficos**: 
+**Base de Dados Biográficos**:
 - Jogadores históricos
 - Treinadores
 - Dirigentes
@@ -297,5 +320,8 @@ Quando perguntarem sobre alguém não documentado na base de dados:
     DADOS DE BIOGRAFIAS (usa APENAS estes dados):
 
     ${getBiografiasData()}
-  `
-};
+    `;
+  }
+}
+
+module.exports = new BiografiasAgent();

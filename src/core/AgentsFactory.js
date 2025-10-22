@@ -88,15 +88,8 @@ function createRouter() {
   );
 
   // PRIORIDADE MÉDIA (6-7) - Agentes padrão
-  router.register(
-    new AgentAdapter(biografiasAgent, {
-      name: 'BiografiasAgent',
-      priority: 7,
-      keywords: biografiasAgent.keywords || ['quem foi', 'biografia', 'vida', 'nasceu'],
-      enabled: true
-    }),
-    7
-  );
+  // BiografiasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(biografiasAgent, 7);
 
   router.register(
     new AgentAdapter(presidentesAgent, {
