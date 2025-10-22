@@ -63,15 +63,8 @@ function createRouter() {
   // ResultadosAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
   router.register(resultadosAgent, 8);
 
-  router.register(
-    new AgentAdapter(classificacoesAgent, {
-      name: 'ClassificacoesAgent',
-      priority: 8,
-      keywords: classificacoesAgent.keywords || ['classificação', 'tabela', 'liga', 'divisão'],
-      enabled: true
-    }),
-    8
-  );
+  // ClassificacoesAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(classificacoesAgent, 8);
 
   // PRIORIDADE MÉDIA (6-7) - Agentes padrão
   // BiografiasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)

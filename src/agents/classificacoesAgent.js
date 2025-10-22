@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 function getClassificacoesData() {
   try {
@@ -28,8 +29,24 @@ function getClassificacoesData() {
   }
 }
 
-module.exports = {
-  context: `
+class ClassificacoesAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'ClassificacoesAgent',
+      priority: 8,
+      keywords: ['classificação', 'tabela', 'liga', 'divisão', 'posição', '5º', 'campeão', 'promoção'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // ClassificacoesAgent primarily provides context for GPT
+    // Returns null to allow fallback to GPT with context
+    return null;
+  }
+
+  getContext() {
+    return `
 # Assistente de Classificações Históricas do Sporting Clube Farense
 
 ## Identidade e Missão
@@ -427,5 +444,10 @@ Exemplo de estrutura:
 
     ---
     LEMBRETE FINAL: Responde APENAS com base nos dados acima. Zero invenções!
-  `
-};
+
+    ${getClassificacoesData()}
+    `;
+  }
+}
+
+module.exports = new ClassificacoesAgent();
