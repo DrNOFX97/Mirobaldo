@@ -47,15 +47,8 @@ function createRouter() {
   );
 
   // PRIORIDADE ALTA (9-8) - Agentes muito específicos com palavras-chave únicas
-  router.register(
-    new AgentAdapter(estatisticasAgent, {
-      name: 'EstatisticasAgent',
-      priority: 9,
-      keywords: estatisticasAgent.keywords || ['ranking', 'recordes', 'estatísticas', 'melhor'],
-      enabled: true
-    }),
-    9
-  );
+  // EstatisticasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(estatisticasAgent, 9);
 
   router.register(
     new AgentAdapter(livroConteudoAgent, {

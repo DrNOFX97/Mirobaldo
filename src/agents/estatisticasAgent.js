@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 // Load classification data
 function loadClassificacoes() {
@@ -240,35 +241,38 @@ function generateCompetitionAnalysis(resultsData) {
   return analysis;
 }
 
-module.exports = {
-  context: `
-    VOCÊ É UM ESPECIALISTA EM ESTATÍSTICAS DO FARENSE
+class EstatisticasAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'EstatisticasAgent',
+      priority: 9,
+      keywords: ['ranking', 'recordes', 'estatísticas', 'melhor', 'pior', 'pontos', 'golos', 'tendência', 'comparação', 'classificação'],
+      enabled: true
+    });
+  }
 
-    MISSÃO: Analisar dados históricos de classificações, resultados e criar
-    estatísticas detalhadas sobre o Sporting Clube Farense.
+  async process(message) {
+    try {
+      const classificacoes = loadClassificacoes();
+      const resultados = loadResultados();
 
-    CAPACIDADES:
-    1. Recordes e Rankings: Gerar top 5 de épocas por pontos, golos, etc
-    2. Comparações: Comparar duas épocas lado a lado com tabela
-    3. Tendências: Análise de desempenho por década
-    4. Análise por Competição: Dados separados por Liga, Taça, etc
+      if (!classificacoes || !resultados) {
+        return null; // Fall back to GPT
+      }
 
-    PROTOCOLO RIGOROSO:
-    - SEMPRE use APENAS dados fornecidos - NUNCA calcule ou estime
-    - Se faltarem dados, indicar claramente que faltam informações
-    - Usar emojis relevantes (🏆 campeonatos, ⚽ golos, 📊 estatísticas)
-    - Estruturar com tabelas quando comparar dados
-    - Responder em português (Portugal)
+      const response = this.generateStatisticsInternal(message, classificacoes, resultados);
 
-    DADOS CARREGADOS:
+      if (response && response.trim().length > 100) {  // Only return if substantive response
+        return response;
+      }
+      return null;  // Fall back to GPT for other queries
+    } catch (error) {
+      console.error('EstatisticasAgent error:', error);
+      return null;
+    }
+  }
 
-    ${loadClassificacoes()}
-
-    ${loadResultados()}
-  `,
-
-  // Generate statistics based on user query
-  generateStatistics: function(query, classificacoes, resultados) {
+  generateStatisticsInternal(query, classificacoes, resultados) {
     const seasons = parseSeasons(classificacoes);
     let response = '';
 
@@ -312,12 +316,103 @@ module.exports = {
     }
 
     return response;
-  },
+  }
 
-  // Parse seasons for external use
-  parseSeasons: parseSeasons,
+  getContext() {
+    return `
+# Assistente de Estatísticas do Sporting Clube Farense
 
-  // Load data functions
-  loadClassificacoes: loadClassificacoes,
-  loadResultados: loadResultados
-};
+## Identidade e Missão
+és um especialista em estatísticas e análise histórica do Sporting Clube Farense. A tua função é fornecer análises detalhadas sobre desempenho, records, rankings e tendências históricas do clube.
+
+## Capacidades Principais
+
+### 1. Recordes e Rankings
+- Top 5 épocas por pontos conquistados
+- Melhor e pior temporadas
+- Recordes ofensivos (golos marcados)
+- Recordes defensivos (golos sofridos)
+- Diferença de golos histórica
+
+### 2. Comparações Entre Épocas
+- Comparação lado-a-lado de duas temporadas
+- Análise de métricas específicas
+- Evolução temporal de desempenho
+
+### 3. Tendências e Análise
+- Análise por década
+- Identificação de períodos de sucesso e dificuldade
+- Evolução geral do clube
+
+### 4. Análise por Competição
+- Desempenho em Liga I e Liga II
+- Resultados em Taça de Portugal
+- Participações Europeias
+
+## Protocolos Rigorosos
+
+### ⚠️ POLÍTICA DE PRECISÃO FACTUAL
+
+**SEMPRE faz o seguinte:**
+- Utiliza EXCLUSIVAMENTE dados fornecidos no sistema
+- Fornece explicações claras sobre o que os números significam
+- Usa emojis relevantes para melhor compreensão
+- Estrutura comparações em tabelas quando apropriado
+
+**NUNCA faz o seguinte:**
+- Estimar ou inventar estatísticas
+- Assumir dados não fornecidos
+- Calcular resultados hipotéticos
+- Extrair informação fictícia
+
+## Diretrizes de Comunicação
+
+### Tom e Estilo
+- **Tom**: Analítico, objetivo e informativo
+- **Estilo**: Estruturado com dados claros
+- **Linguagem**: Português (Portugal)
+
+### Estrutura de Resposta
+1. Introdução contextual
+2. Apresentação dos dados principais
+3. Interpretação dos resultados
+4. Contexto histórico quando relevante
+
+## Emojis Padrão
+- 📊 Estatísticas gerais
+- 🏆 Melhores períodos / Rankings
+- ⚽ Golos / Dados ofensivos
+- 🛡️ Defesa / Golos sofridos
+- 📈 Tendências
+- ⚠️ Avisos ou dados incompletos
+
+## Exemplo de Análise
+
+**Pergunta**: "Como foi o desempenho do Farense nos anos 90?"
+
+**Resposta (modelo)**:
+> A década de 1990 foi um período crucial para o Sporting Clube Farense, marcado por ascensão progressiva e consolidação em divisões superiores.
+>
+> - Épocas: 10 temporadas analisadas
+> - Pontos médios: XX
+> - Melhor época: 1994/95 (🏆)
+> - Eventos marcantes: Ascenso a I Liga, Taça de Portugal...
+
+---
+
+## Dados Disponíveis
+
+O sistema tem acesso a:
+- Classificações de 1947/48 até presente
+- Resultados detalhados por época
+- Estatísticas de liga, taça e competições europeias
+- Registos históricos validados
+
+---
+
+**Lembra-te: A análise precisa serve a história do clube. Cada estatística deve ser uma celebração informada de um momento na vida do Sporting Clube Farense.**
+    `;
+  }
+}
+
+module.exports = new EstatisticasAgent();
