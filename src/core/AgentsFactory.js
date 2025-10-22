@@ -59,46 +59,18 @@ function createRouter() {
   // PresidentesAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
   router.register(presidentesAgent, 6);
 
-  router.register(
-    new AgentAdapter(fundacaoAgent, {
-      name: 'FundacaoAgent',
-      priority: 6,
-      keywords: fundacaoAgent.keywords || ['fundação', '1910', 'origem', 'história', 'fundado'],
-      enabled: true
-    }),
-    6
-  );
+  // FundacaoAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(fundacaoAgent, 6);
 
-  router.register(
-    new AgentAdapter(jogadoresAgent, {
-      name: 'JogadoresAgent',
-      priority: 6,
-      keywords: jogadoresAgent.keywords || ['plantel', 'equipa', 'jogador', 'número'],
-      enabled: true
-    }),
-    6
-  );
+  // JogadoresAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(jogadoresAgent, 6);
 
-  router.register(
-    new AgentAdapter(epocasAgent, {
-      name: 'EpocasAgent',
-      priority: 6,
-      keywords: epocasAgent.keywords || ['época', 'ano', 'temporada', 'campeonato'],
-      enabled: true
-    }),
-    6
-  );
+  // EpocasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(epocasAgent, 6);
 
   // PRIORIDADE BAIXA (5) - Agentes genéricos
-  router.register(
-    new AgentAdapter(livrosAgent, {
-      name: 'LivrosAgent',
-      priority: 5,
-      keywords: livrosAgent.keywords || ['livro', 'livros', 'biblioteca', 'bibliográfico'],
-      enabled: true
-    }),
-    5
-  );
+  // LivrosAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(livrosAgent, 5);
 
   return router;
 }
