@@ -3,11 +3,15 @@
  *
  * Centraliza a inicialização e configuração de todos os agentes
  * do sistema de chatbot.
+ *
+ * NOTA: Usa o padrão Adapter para envolver agents legados com a interface BaseAgent.
+ * Isso permite que todos os agents ganhem benefícios imediatos sem modificar código legado.
  */
 
 const AgentRouter = require('./AgentRouter');
+const AgentAdapter = require('./AgentAdapter');
 
-// Importar todos os agents
+// Importar todos os agents legados
 const biografiasAgent = require('../agents/biografiasAgent');
 const epocaDetalhadaAgent = require('../agents/epocaDetalhadaAgent');
 const estatisticasAgent = require('../agents/estatisticasAgent');
@@ -22,33 +26,128 @@ const epocasAgent = require('../agents/epocasAgent');
 
 /**
  * Cria e configura o roteador de agents
- * @returns {AgentRouter} Router configurado com todos os agents
+ * @returns {AgentRouter} Router configurado com todos os agents adaptados
  */
 function createRouter() {
   const router = new AgentRouter();
 
   // Registar agents com suas prioridades
   // Agentes mais específicos têm maior prioridade
+  // PADRÃO ADAPTER: Cada agent legado é envolvido com AgentAdapter
 
   // PRIORIDADE CRÍTICA (10) - Padrões temporais com formatos específicos
-  // Estes detectam épocas (ex: 1989/90, 89/90) e devem ser processados primeiro
-  router.register(epocaDetalhadaAgent, 10);
+  router.register(
+    new AgentAdapter(epocaDetalhadaAgent, {
+      name: 'EpocaDetalhadaAgent',
+      priority: 10,
+      keywords: epocaDetalhadaAgent.keywords || ['época', 'temporada', 'época', 'resultado'],
+      enabled: true
+    }),
+    10
+  );
 
   // PRIORIDADE ALTA (9-8) - Agentes muito específicos com palavras-chave únicas
-  router.register(estatisticasAgent, 9);
-  router.register(livroConteudoAgent, 9);
-  router.register(resultadosAgent, 8);
-  router.register(classificacoesAgent, 8);
+  router.register(
+    new AgentAdapter(estatisticasAgent, {
+      name: 'EstatisticasAgent',
+      priority: 9,
+      keywords: estatisticasAgent.keywords || ['ranking', 'recordes', 'estatísticas', 'melhor'],
+      enabled: true
+    }),
+    9
+  );
+
+  router.register(
+    new AgentAdapter(livroConteudoAgent, {
+      name: 'LivroConteudoAgent',
+      priority: 9,
+      keywords: livroConteudoAgent.keywords || ['livro', 'segundo', 'diz'],
+      enabled: true
+    }),
+    9
+  );
+
+  router.register(
+    new AgentAdapter(resultadosAgent, {
+      name: 'ResultadosAgent',
+      priority: 8,
+      keywords: resultadosAgent.keywords || ['resultado', 'golo', 'vitória', 'derrota', 'empate'],
+      enabled: true
+    }),
+    8
+  );
+
+  router.register(
+    new AgentAdapter(classificacoesAgent, {
+      name: 'ClassificacoesAgent',
+      priority: 8,
+      keywords: classificacoesAgent.keywords || ['classificação', 'tabela', 'liga', 'divisão'],
+      enabled: true
+    }),
+    8
+  );
 
   // PRIORIDADE MÉDIA (6-7) - Agentes padrão
-  router.register(biografiasAgent, 7);
-  router.register(presidentesAgent, 6);
-  router.register(fundacaoAgent, 6);
-  router.register(jogadoresAgent, 6);
-  router.register(epocasAgent, 6);
+  router.register(
+    new AgentAdapter(biografiasAgent, {
+      name: 'BiografiasAgent',
+      priority: 7,
+      keywords: biografiasAgent.keywords || ['quem foi', 'biografia', 'vida', 'nasceu'],
+      enabled: true
+    }),
+    7
+  );
+
+  router.register(
+    new AgentAdapter(presidentesAgent, {
+      name: 'PresidentesAgent',
+      priority: 6,
+      keywords: presidentesAgent.keywords || ['presidente', 'liderou', 'presidência'],
+      enabled: true
+    }),
+    6
+  );
+
+  router.register(
+    new AgentAdapter(fundacaoAgent, {
+      name: 'FundacaoAgent',
+      priority: 6,
+      keywords: fundacaoAgent.keywords || ['fundação', '1910', 'origem', 'história', 'fundado'],
+      enabled: true
+    }),
+    6
+  );
+
+  router.register(
+    new AgentAdapter(jogadoresAgent, {
+      name: 'JogadoresAgent',
+      priority: 6,
+      keywords: jogadoresAgent.keywords || ['plantel', 'equipa', 'jogador', 'número'],
+      enabled: true
+    }),
+    6
+  );
+
+  router.register(
+    new AgentAdapter(epocasAgent, {
+      name: 'EpocasAgent',
+      priority: 6,
+      keywords: epocasAgent.keywords || ['época', 'ano', 'temporada', 'campeonato'],
+      enabled: true
+    }),
+    6
+  );
 
   // PRIORIDADE BAIXA (5) - Agentes genéricos
-  router.register(livrosAgent, 5);
+  router.register(
+    new AgentAdapter(livrosAgent, {
+      name: 'LivrosAgent',
+      priority: 5,
+      keywords: livrosAgent.keywords || ['livro', 'livros', 'biblioteca', 'bibliográfico'],
+      enabled: true
+    }),
+    5
+  );
 
   return router;
 }
