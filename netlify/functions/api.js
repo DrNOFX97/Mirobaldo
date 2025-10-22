@@ -1,0 +1,176 @@
+const http = require('http');
+const path = require('path');
+const fs = require('fs');
+require('dotenv').config({ path: path.join(__dirname, '../../config/.env') });
+
+// Importar agents
+const biografiasAgent = require('../../src/agents/biografiasAgent');
+const epocaDetalhadaAgent = require('../../src/agents/epocaDetalhadaAgent');
+const estatisticasAgent = require('../../src/agents/estatisticasAgent');
+const classificacoesAgent = require('../../src/agents/classificacoesAgent');
+const resultadosAgent = require('../../src/agents/resultadosAgent');
+const livrosAgent = require('../../src/agents/livrosAgent');
+const livroConteudoAgent = require('../../src/agents/livroConteudoAgent');
+const jogadoresAgent = require('../../src/agents/jogadoresAgent');
+const presidentesAgent = require('../../src/agents/presidentesAgent');
+const fundacaoAgent = require('../../src/agents/fundacaoAgent');
+const epocasAgent = require('../../src/agents/epocasAgent');
+
+// Importar utils
+const { injectImagesIntoBios } = require('../../src/utils/injectImages');
+
+// Inicializar OpenAI
+const { OpenAI } = require('openai');
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+// Função principal Netlify
+exports.handler = async (event, context) => {
+  // CORS headers
+  const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Content-Type': 'application/json',
+  };
+
+  // OPTIONS request (preflight)
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+    };
+  }
+
+  // POST /api/chat
+  if (event.httpMethod === 'POST' && event.path === '/.netlify/functions/api/chat') {
+    try {
+      const body = JSON.parse(event.body);
+      const userMessage = body.message || '';
+
+      if (!userMessage) {
+        return {
+          statusCode: 400,
+          headers,
+          body: JSON.stringify({ error: 'Mensagem vazia' }),
+        };
+      }
+
+      // Converter agentes para formato esperado
+      const agents = [
+        {
+          name: 'epocaDetalhadaAgent',
+          context: epocaDetalhadaAgent.context,
+          process: async (msg) => {
+            const match = msg.match(/(\d{1,2})\/(\d{1,2})|(\d{4})-(\d{2})/);
+            if (match) {
+              let year1 = parseInt(match[1] || match[3]);
+              let year2 = parseInt(match[2] || match[4]);
+
+              if (year1 < 100 && year2 < 100) {
+                year1 = year1 > 30 ? 1900 + year1 : 2000 + year1;
+                year2 = year2 > 30 ? 1900 + year2 : 2000 + year2;
+              }
+
+              return epocaDetalhadaAgent.generateReport(`${year1}/${year2}`);
+            }
+            return null;
+          },
+        },
+        {
+          name: 'estatisticasAgent',
+          context: estatisticasAgent.context,
+          process: async (msg) => {
+            if (
+              msg.toLowerCase().includes('estatística') ||
+              msg.toLowerCase().includes('ranking') ||
+              msg.toLowerCase().includes('recordes')
+            ) {
+              return await estatisticasAgent.generateStatistics(msg);
+            }
+            return null;
+          },
+        },
+        {
+          name: 'biografiasAgent',
+          context: biografiasAgent.context,
+          process: async (msg) => {
+            const results = await biografiasAgent.searchBiografias(msg);
+            if (results.length > 0) {
+              return results[0].content;
+            }
+            return null;
+          },
+        },
+      ];
+
+      let selectedAgent = null;
+      let agentResponse = null;
+
+      // Tentar cada agent
+      for (const agent of agents) {
+        agentResponse = await agent.process(userMessage);
+        if (agentResponse) {
+          selectedAgent = agent;
+          break;
+        }
+      }
+
+      // Se nenhum agent processou, usar GPT genérico
+      let finalResponse;
+      if (selectedAgent) {
+        finalResponse = agentResponse;
+      } else {
+        const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
+You have extensive knowledge about the club's history, players, competitions, and achievements.
+Answer in Portuguese (Portugal variant).
+Be concise but informative.
+NEVER invent information. Use only the data you know about Farense.`;
+
+        const completion = await openai.chat.completions.create({
+          model: 'gpt-4o-mini',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userMessage },
+          ],
+          temperature: 0.1,
+          max_tokens: 1000,
+          top_p: 0.3,
+        });
+
+        finalResponse = completion.choices[0].message.content;
+      }
+
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          reply: finalResponse,
+          chatId: body.chatId || `chat_${Date.now()}`,
+        }),
+      };
+    } catch (error) {
+      console.error('[ERROR]', error);
+      return {
+        statusCode: 500,
+        headers,
+        body: JSON.stringify({ error: error.message }),
+      };
+    }
+  }
+
+  // GET /api/history (stub)
+  if (event.httpMethod === 'GET' && event.path === '/.netlify/functions/api/history') {
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify([]),
+    };
+  }
+
+  return {
+    statusCode: 404,
+    headers,
+    body: JSON.stringify({ error: 'Not found' }),
+  };
+};
