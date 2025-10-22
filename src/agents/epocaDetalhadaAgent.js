@@ -137,6 +137,11 @@ class EpocaDetalhadaAgent extends BaseAgent {
     }
   }
 
+  // Expose getEpocaDetalhada as a method on this agent
+  getEpocaDetalhada(epoca) {
+    return getEpocaDetalhada(epoca);
+  }
+
   getContext() {
     return `
 # Assistente de Épocas Detalhadas do Sporting Clube Farense

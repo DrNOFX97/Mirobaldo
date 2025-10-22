@@ -1,8 +1,13 @@
+// Load environment variables
+// For local development: load from config/.env
+// For Netlify: uses environment variables set in dashboard
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../config/.env') });
+// Also try to load from root .env if it exists (for other environments)
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const path = require('path');
 const { OpenAI } = require('openai');
 
 // Configuração OpenAI
