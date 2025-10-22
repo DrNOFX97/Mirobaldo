@@ -36,15 +36,8 @@ function createRouter() {
   // PADRÃO ADAPTER: Cada agent legado é envolvido com AgentAdapter
 
   // PRIORIDADE CRÍTICA (10) - Padrões temporais com formatos específicos
-  router.register(
-    new AgentAdapter(epocaDetalhadaAgent, {
-      name: 'EpocaDetalhadaAgent',
-      priority: 10,
-      keywords: epocaDetalhadaAgent.keywords || ['época', 'temporada', 'época', 'resultado'],
-      enabled: true
-    }),
-    10
-  );
+  // EpocaDetalhadaAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(epocaDetalhadaAgent, 10);
 
   // PRIORIDADE ALTA (9-8) - Agentes muito específicos com palavras-chave únicas
   // EstatisticasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
