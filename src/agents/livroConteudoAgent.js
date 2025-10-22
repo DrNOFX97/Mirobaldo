@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const BaseAgent = require('../core/BaseAgent');
 
 function getLivroConteudo() {
   try {
@@ -32,9 +33,25 @@ function getLivroConteudo() {
   }
 }
 
-module.exports = {
-  context: `
-    # Assistente Especializado no Livro "50 Anos de História do Futebol em Faro (1900-1950)"
+class LivroConteudoAgent extends BaseAgent {
+  constructor() {
+    super({
+      name: 'LivroConteudoAgent',
+      priority: 9,
+      keywords: ['livro', 'segundo', 'diz', 'raminhos', 'bispo', 'história', 'futebol', 'faro', '1900', '1950', 'vieguinhas'],
+      enabled: true
+    });
+  }
+
+  async process(message) {
+    // LivroConteudoAgent primarily provides context for GPT
+    // Returns null to allow fallback to GPT with context
+    return null;
+  }
+
+  getContext() {
+    return `
+# Assistente Especializado no Livro "50 Anos de História do Futebol em Faro (1900-1950)"
 
 ## Identidade e Missão
 És um especialista no conteúdo do livro "50 Anos de História do Futebol em Faro (1900-1950)" de Raminhos Bispo. A tua função é fornecer informação precisa baseada exclusivamente no conteúdo deste livro.
@@ -145,5 +162,8 @@ Quando perguntarem sobre conteúdo do livro:
 ## CONTEÚDO COMPLETO DO LIVRO
 
 ${getLivroConteudo()}
-  `
-};
+    `;
+  }
+}
+
+module.exports = new LivroConteudoAgent();

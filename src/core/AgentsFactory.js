@@ -50,15 +50,8 @@ function createRouter() {
   // EstatisticasAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
   router.register(estatisticasAgent, 9);
 
-  router.register(
-    new AgentAdapter(livroConteudoAgent, {
-      name: 'LivroConteudoAgent',
-      priority: 9,
-      keywords: livroConteudoAgent.keywords || ['livro', 'segundo', 'diz'],
-      enabled: true
-    }),
-    9
-  );
+  // LivroConteudoAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
+  router.register(livroConteudoAgent, 9);
 
   // ResultadosAgent foi refatorado para estender BaseAgent diretamente (Phase 2b)
   router.register(resultadosAgent, 8);
