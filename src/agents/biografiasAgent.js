@@ -322,6 +322,11 @@ Quando perguntarem sobre alguém não documentado na base de dados:
     ${getBiografiasData()}
     `;
   }
+
+  // Expose searchBiografias as a method on this agent
+  searchBiografias(query) {
+    return searchBiografias(query);
+  }
 }
 
 module.exports = new BiografiasAgent();
