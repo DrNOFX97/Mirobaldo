@@ -26,6 +26,12 @@ const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
+
+// Debug: Log API key status (remove before production)
+if (!process.env.OPENAI_API_KEY) {
+  console.warn('⚠️ WARNING: OPENAI_API_KEY not found in environment variables');
+}
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
