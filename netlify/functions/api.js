@@ -52,13 +52,13 @@ exports.handler = async (event, context) => {
   console.log(`[NETLIFY DEBUG] Method: ${event.httpMethod}, Path: ${event.path}, Resource: ${event.resource}`);
 
   // Debug endpoint to check if data is loaded
-  if (event.httpMethod === 'GET' && event.path && event.path.includes('/debug')) {
+  if (event.httpMethod === 'GET' && event.path && (event.path.includes('/debug') || event.path === '/api/debug')) {
     return {
       statusCode: 200,
       headers,
       body: JSON.stringify({
         biografiasLoaded: Object.keys(biografiasDataLoader.biografiasData).length,
-        testSearch: biografiasDataLoader.searchBiografias('hassan nader'),
+        testSearch: biografiasDataLoader.searchBiografias('hassan nader').map(b => ({ name: b.name, contentLength: b.content.length })),
       }),
     };
   }
