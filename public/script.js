@@ -32,58 +32,22 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
     }
 
-    // Função para adicionar mensagem com streaming (efeito de digitação)
-    function addStreamingMessage(sender, text) {
+    // Função para adicionar mensagem (renderização direta)
+    function addBotMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
 
-        // Temporariamente adiciona um elemento vazio
-        chatMessages.appendChild(messageElement);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-
+        // Renderizar HTML/Markdown diretamente
         if (sender === 'bot') {
-            // Para mensagens do bot, mostrar com efeito de streaming (1 linha por segundo)
-            const lines = text.split('\n');
-            let displayedLines = [];
-            let lineIndex = 0;
-
-            // Velocidade: 1 segundo (1000ms) por linha
-            const streamSpeed = 1000;
-
-            function typeNextLine() {
-                if (lineIndex < lines.length) {
-                    displayedLines.push(lines[lineIndex]);
-                    lineIndex++;
-
-                    const displayedText = displayedLines.join('\n');
-
-                    // Renderizar markdown progressivamente
-                    if (typeof marked !== 'undefined') {
-                        messageElement.innerHTML = marked.parse(displayedText);
-                    } else {
-                        messageElement.textContent = displayedText;
-                    }
-
-                    // Scroll automático enquanto digita
-                    chatMessages.scrollTop = chatMessages.scrollHeight;
-
-                    // Próxima linha
-                    setTimeout(typeNextLine, streamSpeed);
-                } else {
-                    // Renderização final para garantir que markdown está correto
-                    if (typeof marked !== 'undefined') {
-                        messageElement.innerHTML = marked.parse(text);
-                    }
-                }
-            }
-
-            // Inicia o streaming
-            typeNextLine();
+            // Use innerHTML para renderizar HTML (biografia com imagens)
+            messageElement.innerHTML = text;
         } else {
-            // Para mensagens do usuário, adiciona diretamente
             messageElement.textContent = text;
         }
+
+        chatMessages.appendChild(messageElement);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
     }
 
     // Quick Actions - Adicionar event listeners
@@ -157,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             console.log('Resposta completa da API:', data); // Adicionado para depuração
             console.log('Resposta do bot (data.reply):', data.reply); // Adicionado para depuração
-            addStreamingMessage('bot', data.reply); // Usar streaming em vez de addMessage
+            addBotMessage('bot', data.reply); // Renderizar imediatamente sem efeito de digitação
 
             // Se for uma nova conversa, atualiza o histórico
             if (!currentChatId) {
