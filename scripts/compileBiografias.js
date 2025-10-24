@@ -27,10 +27,11 @@ subfolders.forEach(subfolder => {
         let content = fs.readFileSync(filePath, 'utf-8');
 
         // Convert relative image paths to absolute URLs for production
-        // Replace /fotografias/ paths with full CDN/static URLs
+        // Use environment variable if available, otherwise default to mirobaldo.pt
+        const imageBaseUrl = process.env.IMAGE_BASE_URL || 'https://mirobaldo.pt';
         content = content.replace(
           /src="\/fotografias\//g,
-          'src="https://mirobaldo.netlify.app/fotografias/'
+          `src="${imageBaseUrl}/fotografias/`
         );
 
         const nameFromFile = file
