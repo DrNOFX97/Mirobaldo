@@ -24,11 +24,12 @@ const epocasAgent = require('../../src/agents/epocasAgent');
 // Importar utils
 const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 
-// Importar dados de biografias pré-carregados
-const biografiasDataLoader = require('./biografiasData');
+// Importar dados de biografias pré-carregados (from compiled JSON)
+const biografiasDataLoader = require('./biografiasLoader');
 
 // Log at startup to confirm data loading
-console.log(`[API_INIT] Biografias loader initialized with ${Object.keys(biografiasDataLoader.biografiasData).length} entries`);
+const stats = biografiasDataLoader.getDataStats();
+console.log(`[API_INIT] Biografias loader initialized with ${stats.totalBiographies} entries`);
 
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
