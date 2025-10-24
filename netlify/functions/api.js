@@ -51,18 +51,6 @@ exports.handler = async (event, context) => {
   // Debug: Log the incoming request
   console.log(`[NETLIFY DEBUG] Method: ${event.httpMethod}, Path: ${event.path}, Resource: ${event.resource}`);
 
-  // Debug endpoint to check if data is loaded
-  if (event.httpMethod === 'GET' && event.path && (event.path.includes('/debug') || event.path === '/api/debug')) {
-    return {
-      statusCode: 200,
-      headers,
-      body: JSON.stringify({
-        biografiasLoaded: Object.keys(biografiasDataLoader.biografiasData).length,
-        testSearch: biografiasDataLoader.searchBiografias('hassan nader').map(b => ({ name: b.name, contentLength: b.content.length })),
-      }),
-    };
-  }
-
   // OPTIONS request (preflight)
   if (event.httpMethod === 'OPTIONS') {
     return {
@@ -92,18 +80,25 @@ exports.handler = async (event, context) => {
           lowerMsg.includes('tavares bello') || lowerMsg.includes('bello') ||
           lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes')) {
 
-        console.log('[NETLIFY] Detected biography query');
-        const bioResults = biografiasDataLoader.searchBiografias(userMessage);
-        if (bioResults.length > 0) {
-          console.log('[NETLIFY] Found biography:', bioResults[0].name);
-          return {
-            statusCode: 200,
-            headers,
-            body: JSON.stringify({
-              reply: bioResults[0].content,
-              chatId: body.chatId || `chat_${Date.now()}`,
-            }),
-          };
+        console.log('[NETLIFY] Detected biography query:', userMessage);
+        try {
+          const bioResults = biografiasDataLoader.searchBiografias(userMessage);
+          console.log('[NETLIFY] Biography search results:', bioResults.length);
+          if (bioResults.length > 0) {
+            console.log('[NETLIFY] Found biography:', bioResults[0].name, 'Length:', bioResults[0].content.length);
+            return {
+              statusCode: 200,
+              headers,
+              body: JSON.stringify({
+                reply: bioResults[0].content,
+                chatId: body.chatId || `chat_${Date.now()}`,
+              }),
+            };
+          } else {
+            console.log('[NETLIFY] No biography results found');
+          }
+        } catch (bioErr) {
+          console.log('[NETLIFY] Biography search error:', bioErr.message);
         }
       }
 
