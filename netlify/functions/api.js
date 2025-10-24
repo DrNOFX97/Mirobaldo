@@ -45,6 +45,9 @@ exports.handler = async (event, context) => {
     'Content-Type': 'application/json',
   };
 
+  // Debug: Log the incoming request
+  console.log(`[NETLIFY DEBUG] Method: ${event.httpMethod}, Path: ${event.path}, Resource: ${event.resource}`);
+
   // OPTIONS request (preflight)
   if (event.httpMethod === 'OPTIONS') {
     return {
@@ -53,8 +56,8 @@ exports.handler = async (event, context) => {
     };
   }
 
-  // POST /api/chat
-  if (event.httpMethod === 'POST' && (event.path === '/.netlify/functions/api/chat' || event.path === '/api/chat')) {
+  // POST /api/chat - Check for any path that ends with /chat
+  if (event.httpMethod === 'POST' && event.path && event.path.includes('/chat')) {
     try {
       const body = JSON.parse(event.body);
       const userMessage = body.message || '';
@@ -171,7 +174,7 @@ NEVER invent information. Use only the data you know about Farense.`;
   }
 
   // GET /api/history (stub)
-  if (event.httpMethod === 'GET' && (event.path === '/.netlify/functions/api/history' || event.path === '/api/history')) {
+  if (event.httpMethod === 'GET' && event.path && event.path.includes('/history')) {
     return {
       statusCode: 200,
       headers,
@@ -182,6 +185,6 @@ NEVER invent information. Use only the data you know about Farense.`;
   return {
     statusCode: 404,
     headers,
-    body: JSON.stringify({ error: 'Not found' }),
+    body: JSON.stringify({ error: 'Not found', debug: { method: event.httpMethod, path: event.path } }),
   };
 };
