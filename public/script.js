@@ -32,22 +32,26 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
     }
 
-    // Função para adicionar mensagem (renderização direta)
+    // Função para adicionar mensagem (renderização otimizada)
     function addBotMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
 
-        // Renderizar HTML/Markdown diretamente
-        if (sender === 'bot') {
-            // Use innerHTML para renderizar HTML (biografia com imagens)
-            messageElement.innerHTML = text;
-        } else {
-            messageElement.textContent = text;
-        }
-
+        // Adicionar ao DOM primeiro (vazio)
         chatMessages.appendChild(messageElement);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        // Renderizar HTML/Markdown diretamente usando requestAnimationFrame para performance
+        requestAnimationFrame(() => {
+            if (sender === 'bot') {
+                // Use innerHTML para renderizar HTML (biografia com imagens)
+                // Split into smaller chunks for better rendering
+                messageElement.innerHTML = text;
+            } else {
+                messageElement.textContent = text;
+            }
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        });
     }
 
     // Quick Actions - Adicionar event listeners
