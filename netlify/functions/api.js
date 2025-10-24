@@ -24,6 +24,9 @@ const epocasAgent = require('../../src/agents/epocasAgent');
 // Importar utils
 const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 
+// Importar dados de biografias pré-carregados
+const biografiasDataLoader = require('./biografiasData');
+
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
 
@@ -109,10 +112,23 @@ exports.handler = async (event, context) => {
           name: 'biografiasAgent',
           context: biografiasAgent.context,
           process: async (msg) => {
-            const results = await biografiasAgent.searchBiografias(msg);
+            // Try to use the pre-loaded data first
+            const results = biografiasDataLoader.searchBiografias(msg);
             if (results.length > 0) {
+              console.log('[NETLIFY] Found biography:', results[0].name);
               return results[0].content;
             }
+
+            // Fallback to original agent (if available)
+            try {
+              const backupResults = await biografiasAgent.searchBiografias(msg);
+              if (backupResults.length > 0) {
+                return backupResults[0].content;
+              }
+            } catch (err) {
+              console.log('[NETLIFY] Backup agent failed:', err.message);
+            }
+
             return null;
           },
         },
