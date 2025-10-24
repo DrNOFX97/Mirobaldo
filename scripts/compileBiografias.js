@@ -24,7 +24,14 @@ subfolders.forEach(subfolder => {
     mdFiles.forEach(file => {
       try {
         const filePath = path.join(folderPath, file);
-        const content = fs.readFileSync(filePath, 'utf-8');
+        let content = fs.readFileSync(filePath, 'utf-8');
+
+        // Convert relative image paths to absolute URLs for production
+        // Replace /fotografias/ paths with full CDN/static URLs
+        content = content.replace(
+          /src="\/fotografias\//g,
+          'src="https://mirobaldo.netlify.app/fotografias/'
+        );
 
         const nameFromFile = file
           .replace(/^historia_/, '')
