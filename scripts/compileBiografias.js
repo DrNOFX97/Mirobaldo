@@ -1,10 +1,12 @@
 /**
  * Script para compilar todas as biografias num único arquivo JSON
  * Este arquivo é incluído no bundle Netlify e está garantido estar disponível
+ * Converts Markdown to HTML to ensure instant rendering without progressive display
  */
 
 const fs = require('fs');
 const path = require('path');
+const marked = require('marked');
 
 const biografiasRootDir = path.join(__dirname, '../dados/biografias');
 const outputFile = path.join(__dirname, '../netlify/functions/biografiasCompiled.json');
@@ -41,6 +43,15 @@ subfolders.forEach(subfolder => {
           /src="https?:\/\/[^"]*\/fotografias\/([^"]*\.png)"/g,
           (match, filepath) => `src="${imageBaseUrl}/fotografias/${filepath.replace(/\.png$/, '.webp')}"`
         );
+
+        // Convert Markdown to HTML for instant rendering without progressive display
+        // This ensures the entire response appears at once, not in blocks
+        try {
+          content = marked.parse(content);
+        } catch (parseErr) {
+          console.error(`[COMPILE] Warning: Could not parse markdown for ${file}:`, parseErr.message);
+          // Fall back to original content if parsing fails
+        }
 
         const nameFromFile = file
           .replace(/^historia_/, '')
