@@ -73,41 +73,30 @@ exports.handler = async (event, context) => {
         };
       }
 
-      // Converter agentes para formato esperado
+      // Check if it's a biography query FIRST (before generic agents)
+      const lowerMsg = userMessage.toLowerCase();
+      if (lowerMsg.includes('quem foi') || lowerMsg.includes('quem é') ||
+          lowerMsg.includes('hassan') || lowerMsg.includes('nader') ||
+          lowerMsg.includes('tavares bello') || lowerMsg.includes('bello') ||
+          lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes')) {
+
+        console.log('[NETLIFY] Detected biography query');
+        const bioResults = biografiasDataLoader.searchBiografias(userMessage);
+        if (bioResults.length > 0) {
+          console.log('[NETLIFY] Found biography:', bioResults[0].name);
+          return {
+            statusCode: 200,
+            headers,
+            body: JSON.stringify({
+              reply: bioResults[0].content,
+              chatId: body.chatId || `chat_${Date.now()}`,
+            }),
+          };
+        }
+      }
+
+      // Converter agentes para formato esperado (simplified)
       const agents = [
-        {
-          name: 'epocaDetalhadaAgent',
-          context: epocaDetalhadaAgent.context,
-          process: async (msg) => {
-            const match = msg.match(/(\d{1,2})\/(\d{1,2})|(\d{4})-(\d{2})/);
-            if (match) {
-              let year1 = parseInt(match[1] || match[3]);
-              let year2 = parseInt(match[2] || match[4]);
-
-              if (year1 < 100 && year2 < 100) {
-                year1 = year1 > 30 ? 1900 + year1 : 2000 + year1;
-                year2 = year2 > 30 ? 1900 + year2 : 2000 + year2;
-              }
-
-              return epocaDetalhadaAgent.getEpocaDetalhada(`${year1}/${year2}`);
-            }
-            return null;
-          },
-        },
-        {
-          name: 'estatisticasAgent',
-          context: estatisticasAgent.context,
-          process: async (msg) => {
-            if (
-              msg.toLowerCase().includes('estatística') ||
-              msg.toLowerCase().includes('ranking') ||
-              msg.toLowerCase().includes('recordes')
-            ) {
-              return await estatisticasAgent.generateStatistics(msg);
-            }
-            return null;
-          },
-        },
         {
           name: 'biografiasAgent',
           context: biografiasAgent.context,
@@ -118,17 +107,6 @@ exports.handler = async (event, context) => {
               console.log('[NETLIFY] Found biography:', results[0].name);
               return results[0].content;
             }
-
-            // Fallback to original agent (if available)
-            try {
-              const backupResults = await biografiasAgent.searchBiografias(msg);
-              if (backupResults.length > 0) {
-                return backupResults[0].content;
-              }
-            } catch (err) {
-              console.log('[NETLIFY] Backup agent failed:', err.message);
-            }
-
             return null;
           },
         },
