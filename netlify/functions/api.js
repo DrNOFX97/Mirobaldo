@@ -137,20 +137,27 @@ exports.handler = async (event, context) => {
       let selectedAgent = null;
       let agentResponse = null;
 
+      console.log('[NETLIFY] Processing message:', userMessage.substring(0, 50));
+
       // Tentar cada agent
       for (const agent of agents) {
+        console.log(`[NETLIFY] Trying agent: ${agent.name}`);
         agentResponse = await agent.process(userMessage);
         if (agentResponse) {
+          console.log(`[NETLIFY] Agent ${agent.name} found response`);
           selectedAgent = agent;
           break;
         }
+        console.log(`[NETLIFY] Agent ${agent.name} returned no response`);
       }
 
       // Se nenhum agent processou, usar GPT genérico
       let finalResponse;
       if (selectedAgent) {
+        console.log(`[NETLIFY] Using agent: ${selectedAgent.name}`);
         finalResponse = agentResponse;
       } else {
+        console.log('[NETLIFY] No agent matched, using GPT fallback');
         const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
 You have extensive knowledge about the club's history, players, competitions, and achievements.
 Answer in Portuguese (Portugal variant).
