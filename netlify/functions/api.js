@@ -54,7 +54,7 @@ exports.handler = async (event, context) => {
   }
 
   // POST /api/chat
-  if (event.httpMethod === 'POST' && event.path === '/.netlify/functions/api/chat') {
+  if (event.httpMethod === 'POST' && (event.path === '/.netlify/functions/api/chat' || event.path === '/api/chat')) {
     try {
       const body = JSON.parse(event.body);
       const userMessage = body.message || '';
@@ -171,7 +171,7 @@ NEVER invent information. Use only the data you know about Farense.`;
   }
 
   // GET /api/history (stub)
-  if (event.httpMethod === 'GET' && event.path === '/.netlify/functions/api/history') {
+  if (event.httpMethod === 'GET' && (event.path === '/.netlify/functions/api/history' || event.path === '/api/history')) {
     return {
       statusCode: 200,
       headers,
