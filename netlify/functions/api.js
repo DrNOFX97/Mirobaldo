@@ -27,6 +27,9 @@ const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 // Importar dados de biografias pré-carregados
 const biografiasDataLoader = require('./biografiasData');
 
+// Log at startup to confirm data loading
+console.log(`[API_INIT] Biografias loader initialized with ${Object.keys(biografiasDataLoader.biografiasData).length} entries`);
+
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
 
