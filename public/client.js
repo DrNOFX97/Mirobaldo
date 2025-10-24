@@ -89,25 +89,27 @@ function addUserMessage(message) {
 function addBotMessage(message) {
   const messageElement = document.createElement('div');
   messageElement.className = 'message chatbot';
-  
+
   const avatarElement = document.createElement('div');
   avatarElement.className = 'avatar';
-  
+
   const avatarImg = document.createElement('img');
   avatarImg.src = 'mirobaldo_chatbot.png';
   avatarImg.alt = 'Chatbot Farense';
-  
+
   avatarElement.appendChild(avatarImg);
-  
+
   const contentElement = document.createElement('div');
   contentElement.className = 'content';
-  contentElement.textContent = message;
-  
+  // Use innerHTML to render Markdown/HTML content (biography content)
+  // This allows images and formatted text to display properly
+  contentElement.innerHTML = message;
+
   messageElement.appendChild(avatarElement);
   messageElement.appendChild(contentElement);
-  
+
   chatWindow.appendChild(messageElement);
-  
+
   // Scroll para o fundo do chat
   scrollToBottom();
 }
