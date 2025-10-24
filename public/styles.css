@@ -740,7 +740,7 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .message {
-    animation: fadeIn var(--transition-base) ease-out;
+    /* Removed animation for instant message display */
 }
 
 /* ===================================
