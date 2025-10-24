@@ -29,9 +29,17 @@ subfolders.forEach(subfolder => {
         // Convert relative image paths to absolute URLs for production
         // Use environment variable if available, otherwise default to mirobaldo.pt
         const imageBaseUrl = process.env.IMAGE_BASE_URL || 'https://mirobaldo.pt';
+
+        // Replace relative paths with absolute URLs and convert .png to .webp for smaller file sizes
         content = content.replace(
-          /src="\/fotografias\//g,
-          `src="${imageBaseUrl}/fotografias/`
+          /src="\/fotografias\/([^"]*\.png)"/g,
+          (match, filepath) => `src="${imageBaseUrl}/fotografias/${filepath.replace(/\.png$/, '.webp')}"`
+        );
+
+        // Also handle absolute URLs that still have .png
+        content = content.replace(
+          /src="https?:\/\/[^"]*\/fotografias\/([^"]*\.png)"/g,
+          (match, filepath) => `src="${imageBaseUrl}/fotografias/${filepath.replace(/\.png$/, '.webp')}"`
         );
 
         const nameFromFile = file
