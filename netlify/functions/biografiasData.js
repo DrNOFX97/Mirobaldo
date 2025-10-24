@@ -64,15 +64,39 @@ const biografiasData = loadBiografiasData();
 function searchBiografias(query) {
   const searchTerm = query.toLowerCase().trim();
 
+  // Extract key terms from query (remove common words)
+  const cleanQuery = searchTerm
+    .replace(/quem (foi|é|era)/gi, '')
+    .replace(/fala(-me| me)? sobre/gi, '')
+    .replace(/quero saber sobre/gi, '')
+    .replace(/conta(-me| me)? (sobre|de|da)?/gi, '')
+    .replace(/biografia de/gi, '')
+    .replace(/historia de/gi, '')
+    .replace(/história de/gi, '')
+    .replace(/informação sobre/gi, '')
+    .replace(/info sobre/gi, '')
+    .replace(/detalhes sobre/gi, '')
+    .replace(/[?!.]/g, '')
+    .trim();
+
   // Direct exact match
-  if (biografiasData[searchTerm]) {
-    return [biografiasData[searchTerm]];
+  if (biografiasData[cleanQuery]) {
+    return [biografiasData[cleanQuery]];
   }
 
-  // Partial matching
+  // Partial matching with all key terms
   const results = [];
+  const searchParts = cleanQuery.split(/\s+/).filter(p => p.length > 0);
+
   Object.entries(biografiasData).forEach(([key, value]) => {
-    if (key.includes(searchTerm) || value.name.includes(query)) {
+    // Check if key contains most of the search parts
+    let matchCount = 0;
+    searchParts.forEach(part => {
+      if (key.includes(part)) matchCount++;
+    });
+
+    // At least 50% of search parts must match
+    if (matchCount >= searchParts.length * 0.5) {
       results.push(value);
     }
   });
