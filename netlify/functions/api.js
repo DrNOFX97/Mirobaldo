@@ -51,6 +51,18 @@ exports.handler = async (event, context) => {
   // Debug: Log the incoming request
   console.log(`[NETLIFY DEBUG] Method: ${event.httpMethod}, Path: ${event.path}, Resource: ${event.resource}`);
 
+  // Debug endpoint to check if data is loaded
+  if (event.httpMethod === 'GET' && event.path && event.path.includes('/debug')) {
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({
+        biografiasLoaded: Object.keys(biografiasDataLoader.biografiasData).length,
+        testSearch: biografiasDataLoader.searchBiografias('hassan nader'),
+      }),
+    };
+  }
+
   // OPTIONS request (preflight)
   if (event.httpMethod === 'OPTIONS') {
     return {
