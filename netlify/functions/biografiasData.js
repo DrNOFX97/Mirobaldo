@@ -10,12 +10,32 @@ function loadBiografiasData() {
   const biografiasData = {};
 
   try {
-    const publicDataDir = path.join(__dirname, '../../public/data/biografias');
+    // Try multiple possible paths
+    let publicDataDir = path.join(__dirname, '../../public/data/biografias');
 
     if (!fs.existsSync(publicDataDir)) {
-      console.warn('[BIOGRAFIAS] Public data directory not found');
+      console.log('[BIOGRAFIAS] Path 1 not found:', publicDataDir);
+      // Try from /var/task (Netlify Functions working directory)
+      publicDataDir = path.join(__dirname, '../public/data/biografias');
+    }
+
+    if (!fs.existsSync(publicDataDir)) {
+      console.log('[BIOGRAFIAS] Path 2 not found:', publicDataDir);
+      // Try from root
+      publicDataDir = path.join(__dirname, './../../public/data/biografias');
+    }
+
+    if (!fs.existsSync(publicDataDir)) {
+      console.warn('[BIOGRAFIAS] No data directory found. Tried:', {
+        path1: path.join(__dirname, '../../public/data/biografias'),
+        path2: path.join(__dirname, '../public/data/biografias'),
+        path3: path.join(__dirname, './../../public/data/biografias'),
+        dirname: __dirname,
+      });
       return biografiasData;
     }
+
+    console.log('[BIOGRAFIAS] Found data directory:', publicDataDir);
 
     const subfolders = ['jogadores', 'presidentes', 'treinadores', 'outras_figuras'];
 
