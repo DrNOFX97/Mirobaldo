@@ -89,9 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const chat = await response.json();
 
             chat.messages.forEach(msg => {
-                // Usar streaming apenas para mensagens do bot
+                // Renderizar imediatamente sem efeito de digitação
                 if (msg.sender === 'bot') {
-                    addStreamingMessage(msg.sender, msg.text);
+                    addBotMessage(msg.sender, msg.text);
                 } else {
                     addMessage(msg.sender, msg.text);
                 }
