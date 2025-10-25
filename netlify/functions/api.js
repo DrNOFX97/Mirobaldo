@@ -26,6 +26,7 @@ const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 
 // Importar dados de biografias pré-carregados (from compiled JSON)
 const biografiasDataLoader = require('./biografiasLoader');
+const biographyScorer = require('./biographyScorer');
 
 // Log at startup to confirm data loading
 const stats = biografiasDataLoader.getDataStats();
@@ -90,38 +91,39 @@ exports.handler = async (event, context) => {
           const bioResults = biografiasDataLoader.searchBiografias(userMessage);
           console.log('[NETLIFY] Biography search results:', bioResults.length);
           if (bioResults.length > 0) {
-            // If we have multiple results (like for "10 personalities" query), use GPT to select and format
+            // If we have multiple results (like for "10 personalities" query), use scorer to select based on criteria
             if (bioResults.length > 1 && userMessage.toLowerCase().includes('mais importante')) {
-              console.log('[NETLIFY] Multiple biographies found, using GPT to select most important');
+              console.log('[NETLIFY] Multiple biographies found, using scorer to select most important');
 
-              // Create a list of biography names and brief summaries
-              const bioSummary = bioResults.slice(0, 50).map(bio => bio.name).join(', ');
-
-              const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
-You have extensive knowledge about the club's history, players, competitions, and achievements.
-Answer in Portuguese (Portugal variant).
-Be concise but informative.
-
-Here is a list of personalities in the Farense archive: ${bioSummary}
-
-Select the 10 most important personalities based on their historical significance to the club.`;
-
-              const completion = await openai.chat.completions.create({
-                model: 'gpt-4o-mini',
-                messages: [
-                  { role: 'system', content: systemPrompt },
-                  { role: 'user', content: userMessage },
-                ],
-                temperature: 0.1,
-                max_tokens: 1500,
-                top_p: 0.3,
+              // Convert bioResults array to the format expected by scorer
+              const biographiasDataForScoring = {};
+              bioResults.forEach(bio => {
+                biographiasDataForScoring[bio.name.toLowerCase()] = bio;
               });
+
+              // Get top 10 personalities based on scoring criteria
+              const topPersonalities = biographyScorer.getTopPersonalities(biographiasDataForScoring, 10);
+
+              // Format response with detailed information
+              let response = '# As 10 Personalidades Mais Importantes da História do Sporting Clube Farense\n\n';
+              response += 'Baseado em critérios de tempo como sénior, número de jogos e importância biográfica:\n\n';
+
+              topPersonalities.forEach((person, idx) => {
+                response += `## ${idx + 1}. ${person.name}\n`;
+                response += `**Score:** ${person.score}/100\n`;
+                response += `- **Anos de Serviço:** ${person.yearsOfService} anos\n`;
+                response += `- **Jogos pelo Clube:** ${person.numberOfGames}\n`;
+                response += `- **Importância Biográfica:** ${person.biographicImportance}/100\n`;
+                response += `- **Tipo:** ${person.subfolder}\n\n`;
+              });
+
+              console.log('[NETLIFY] Generated top 10 list with scorer');
 
               return {
                 statusCode: 200,
                 headers,
                 body: JSON.stringify({
-                  reply: completion.choices[0].message.content,
+                  reply: response,
                   chatId: body.chatId || `chat_${Date.now()}`,
                 }),
               };
