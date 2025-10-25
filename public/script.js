@@ -37,19 +37,29 @@ document.addEventListener('DOMContentLoaded', () => {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
-        chatMessages.appendChild(messageElement);
 
         if (sender === 'bot') {
-            // Renderizar como textContent (texto puro) para máxima velocidade
-            // Markdown é renderizado instantaneamente sem processamento
-            messageElement.textContent = text;
-            messageElement.style.whiteSpace = 'pre-wrap';
-            messageElement.style.wordWrap = 'break-word';
+            // Use innerHTML with marked for better rendering of markdown
+            // This allows proper formatting without progressive rendering
+            if (typeof marked !== 'undefined') {
+                messageElement.innerHTML = marked.parse(text);
+            } else {
+                messageElement.textContent = text;
+                messageElement.style.whiteSpace = 'pre-wrap';
+                messageElement.style.wordWrap = 'break-word';
+            }
         } else {
             messageElement.textContent = text;
         }
 
-        chatMessages.scrollTop = chatMessages.scrollHeight;
+        // Batch DOM operations - add to document only once
+        // This prevents layout thrashing
+        chatMessages.appendChild(messageElement);
+
+        // Use requestAnimationFrame to defer scroll to next paint
+        requestAnimationFrame(() => {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        });
     }
 
     // Quick Actions - Adicionar event listeners
