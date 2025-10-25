@@ -36,9 +36,6 @@ console.log(`[API_INIT] Biografias loader initialized with ${stats.totalBiograph
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
 
-// Para renderizar Markdown no servidor
-const marked = require('marked');
-
 // Debug: Log API key status (remove before production)
 if (!process.env.OPENAI_API_KEY) {
   console.warn('⚠️ WARNING: OPENAI_API_KEY not found in environment variables');
@@ -47,24 +44,6 @@ if (!process.env.OPENAI_API_KEY) {
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-
-// Função para renderizar Markdown em HTML no servidor (mais rápido que no cliente)
-function renderMarkdownToHtml(markdownText) {
-  try {
-    // Usar marked com configuração otimizada
-    marked.setOptions({
-      breaks: true,
-      gfm: true,
-      pedantic: false,
-      smartLists: true,
-      smartypants: false
-    });
-    return marked.parse(markdownText);
-  } catch (err) {
-    console.error('[RENDER] Error parsing markdown:', err.message);
-    return markdownText;
-  }
-}
 
 // Função principal Netlify
 exports.handler = async (event, context) => {
