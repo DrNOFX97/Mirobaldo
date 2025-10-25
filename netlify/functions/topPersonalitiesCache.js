@@ -171,7 +171,6 @@ module.exports = {
       "subfolder": "jogadores"
     }
   ],
-  "generatedAt": new Date().toISOString(),
   "getFormattedResponse": function() {
     // Retorna HTML pré-renderizado para máxima velocidade
     // Não precisa fazer parsing no cliente
