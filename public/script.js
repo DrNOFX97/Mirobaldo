@@ -32,26 +32,53 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
     }
 
-    // Função para adicionar mensagem (renderização otimizada)
+    // Função para adicionar mensagem (renderização por chunks para melhor UX)
     function addBotMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
-
-        // Adicionar ao DOM primeiro (vazio)
         chatMessages.appendChild(messageElement);
 
-        // Renderizar HTML/Markdown diretamente usando requestAnimationFrame para performance
-        requestAnimationFrame(() => {
-            if (sender === 'bot') {
-                // Use innerHTML para renderizar HTML (biografia com imagens)
-                // Split into smaller chunks for better rendering
-                messageElement.innerHTML = text;
-            } else {
-                messageElement.textContent = text;
+        if (sender === 'bot') {
+            // Para bot: renderizar HTML em chunks pequenos (~2KB) para evitar travamento
+            // Split HTML by major block elements (</p>, </h1-h3>, </li>, </blockquote>, </pre>)
+            const chunkSize = 2000;
+            let currentIndex = 0;
+            let htmlContent = '';
+
+            function renderNextChunk() {
+                if (currentIndex < text.length) {
+                    // Encontra o próximo ponto de corte seguro (fim de elemento)
+                    let nextChunkEnd = Math.min(currentIndex + chunkSize, text.length);
+
+                    // Se não é o fim do texto, procura o próximo </tag> seguro
+                    if (nextChunkEnd < text.length) {
+                        const searchText = text.substring(nextChunkEnd, Math.min(nextChunkEnd + 100, text.length));
+                        const closingTagMatch = searchText.match(/^[^<]*?<\/(p|div|h[1-6]|li|blockquote|pre)>/);
+                        if (closingTagMatch) {
+                            nextChunkEnd += closingTagMatch[0].length;
+                        }
+                    }
+
+                    // Adiciona chunk ao HTML acumulado
+                    htmlContent += text.substring(currentIndex, nextChunkEnd);
+                    messageElement.innerHTML = htmlContent;
+                    currentIndex = nextChunkEnd;
+
+                    // Schedule próximo chunk rapidamente (não espera)
+                    setTimeout(renderNextChunk, 10);
+                } else {
+                    // Render final completo
+                    messageElement.innerHTML = text;
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
             }
+
+            renderNextChunk();
+        } else {
+            messageElement.textContent = text;
             chatMessages.scrollTop = chatMessages.scrollHeight;
-        });
+        }
     }
 
     // Quick Actions - Adicionar event listeners
