@@ -28,6 +28,7 @@ const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 const biografiasDataLoader = require('./biografiasLoader');
 const biographyScorer = require('./biographyScorer');
 const topPersonalitiesCache = require('./topPersonalitiesCache');
+const topPlayersCache = require('./topPlayersCache');
 
 // Log at startup to confirm data loading
 const stats = biografiasDataLoader.getDataStats();
@@ -79,8 +80,27 @@ exports.handler = async (event, context) => {
         };
       }
 
-      // Check if it's a biography query FIRST (before generic agents)
+      // Check if it's a special query (top 20 players, top personalities, etc)
       const lowerMsg = userMessage.toLowerCase();
+
+      // Top 20 players query
+      if (lowerMsg.includes('top 20 jogadores') || lowerMsg.includes('top 20 players') ||
+          lowerMsg.includes('melhores jogadores') || lowerMsg.includes('20 melhores jogadores') ||
+          (lowerMsg.includes('top 20') && lowerMsg.includes('jogadores'))) {
+        console.log('[NETLIFY] Detected top 20 players query');
+        const response = topPlayersCache.getFormattedResponse();
+
+        return {
+          statusCode: 200,
+          headers,
+          body: JSON.stringify({
+            reply: response,
+            chatId: body.chatId || `chat_${Date.now()}`,
+          }),
+        };
+      }
+
+      // Check if it's a biography query FIRST (before generic agents)
       if (lowerMsg.includes('quem foi') || lowerMsg.includes('quem é') || lowerMsg.includes('quem são') ||
           lowerMsg.includes('hassan') || lowerMsg.includes('nader') ||
           lowerMsg.includes('tavares bello') || lowerMsg.includes('bello') ||
