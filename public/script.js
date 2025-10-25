@@ -32,28 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
     }
 
-    // Função para adicionar mensagem (renderização de texto puro instantânea)
+    // Função para adicionar mensagem (renderização rápida de HTML pré-renderizado no servidor)
     function addBotMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
 
         if (sender === 'bot') {
-            // Use innerHTML with marked for better rendering of markdown
-            // This allows proper formatting without progressive rendering
-            if (typeof marked !== 'undefined') {
-                messageElement.innerHTML = marked.parse(text);
-            } else {
-                messageElement.textContent = text;
-                messageElement.style.whiteSpace = 'pre-wrap';
-                messageElement.style.wordWrap = 'break-word';
-            }
+            // Servidor já envia HTML renderizado, basta colocar direto
+            // Isso é muito mais rápido que fazer parsing no cliente
+            messageElement.innerHTML = text;
         } else {
             messageElement.textContent = text;
         }
 
         // Batch DOM operations - add to document only once
-        // This prevents layout thrashing
         chatMessages.appendChild(messageElement);
 
         // Use requestAnimationFrame to defer scroll to next paint

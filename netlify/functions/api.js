@@ -27,6 +27,7 @@ const { injectImagesIntoBios } = require('../../src/utils/injectImages');
 // Importar dados de biografias pré-carregados (from compiled JSON)
 const biografiasDataLoader = require('./biografiasLoader');
 const biographyScorer = require('./biographyScorer');
+const topPersonalitiesCache = require('./topPersonalitiesCache');
 
 // Log at startup to confirm data loading
 const stats = biografiasDataLoader.getDataStats();
@@ -34,6 +35,9 @@ console.log(`[API_INIT] Biografias loader initialized with ${stats.totalBiograph
 
 // Inicializar OpenAI
 const { OpenAI } = require('openai');
+
+// Para renderizar Markdown no servidor
+const marked = require('marked');
 
 // Debug: Log API key status (remove before production)
 if (!process.env.OPENAI_API_KEY) {
@@ -43,6 +47,24 @@ if (!process.env.OPENAI_API_KEY) {
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+
+// Função para renderizar Markdown em HTML no servidor (mais rápido que no cliente)
+function renderMarkdownToHtml(markdownText) {
+  try {
+    // Usar marked com configuração otimizada
+    marked.setOptions({
+      breaks: true,
+      gfm: true,
+      pedantic: false,
+      smartLists: true,
+      smartypants: false
+    });
+    return marked.parse(markdownText);
+  } catch (err) {
+    console.error('[RENDER] Error parsing markdown:', err.message);
+    return markdownText;
+  }
+}
 
 // Função principal Netlify
 exports.handler = async (event, context) => {
@@ -91,33 +113,14 @@ exports.handler = async (event, context) => {
           const bioResults = biografiasDataLoader.searchBiografias(userMessage);
           console.log('[NETLIFY] Biography search results:', bioResults.length);
           if (bioResults.length > 0) {
-            // If we have multiple results (like for "10 personalities" query), use scorer to select based on criteria
+            // If we have multiple results (like for "10 personalities" query), use cached results
             if (bioResults.length > 1 && userMessage.toLowerCase().includes('mais importante')) {
-              console.log('[NETLIFY] Multiple biographies found, using scorer to select most important');
+              console.log('[NETLIFY] Multiple biographies found, using cached top 10 personalities');
 
-              // Convert bioResults array to the format expected by scorer
-              const biographiasDataForScoring = {};
-              bioResults.forEach(bio => {
-                biographiasDataForScoring[bio.name.toLowerCase()] = bio;
-              });
+              // Use pre-cached response for instant delivery
+              const response = topPersonalitiesCache.getFormattedResponse();
 
-              // Get top 10 personalities based on scoring criteria
-              const topPersonalities = biographyScorer.getTopPersonalities(biographiasDataForScoring, 10);
-
-              // Format response with detailed information
-              let response = '# As 10 Personalidades Mais Importantes da História do Sporting Clube Farense\n\n';
-              response += 'Baseado em critérios de tempo como sénior, número de jogos e importância biográfica:\n\n';
-
-              topPersonalities.forEach((person, idx) => {
-                response += `## ${idx + 1}. ${person.name}\n`;
-                response += `**Score:** ${person.score}/100\n`;
-                response += `- **Anos de Serviço:** ${person.yearsOfService} anos\n`;
-                response += `- **Jogos pelo Clube:** ${person.numberOfGames}\n`;
-                response += `- **Importância Biográfica:** ${person.biographicImportance}/100\n`;
-                response += `- **Tipo:** ${person.subfolder}\n\n`;
-              });
-
-              console.log('[NETLIFY] Generated top 10 list with scorer');
+              console.log('[NETLIFY] Returning cached top 10 list');
 
               return {
                 statusCode: 200,
