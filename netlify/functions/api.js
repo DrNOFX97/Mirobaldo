@@ -79,25 +79,64 @@ exports.handler = async (event, context) => {
 
       // Check if it's a biography query FIRST (before generic agents)
       const lowerMsg = userMessage.toLowerCase();
-      if (lowerMsg.includes('quem foi') || lowerMsg.includes('quem é') ||
+      if (lowerMsg.includes('quem foi') || lowerMsg.includes('quem é') || lowerMsg.includes('quem são') ||
           lowerMsg.includes('hassan') || lowerMsg.includes('nader') ||
           lowerMsg.includes('tavares bello') || lowerMsg.includes('bello') ||
-          lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes')) {
+          lowerMsg.includes('paco fortes') || lowerMsg.includes('fortes') ||
+          lowerMsg.includes('personalidades') || lowerMsg.includes('personalidade')) {
 
         console.log('[NETLIFY] Detected biography query:', userMessage);
         try {
           const bioResults = biografiasDataLoader.searchBiografias(userMessage);
           console.log('[NETLIFY] Biography search results:', bioResults.length);
           if (bioResults.length > 0) {
-            console.log('[NETLIFY] Found biography:', bioResults[0].name, 'Length:', bioResults[0].content.length);
-            return {
-              statusCode: 200,
-              headers,
-              body: JSON.stringify({
-                reply: bioResults[0].content,
-                chatId: body.chatId || `chat_${Date.now()}`,
-              }),
-            };
+            // If we have multiple results (like for "10 personalities" query), use GPT to select and format
+            if (bioResults.length > 1 && userMessage.toLowerCase().includes('mais importante')) {
+              console.log('[NETLIFY] Multiple biographies found, using GPT to select most important');
+
+              // Create a list of biography names and brief summaries
+              const bioSummary = bioResults.slice(0, 50).map(bio => bio.name).join(', ');
+
+              const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
+You have extensive knowledge about the club's history, players, competitions, and achievements.
+Answer in Portuguese (Portugal variant).
+Be concise but informative.
+
+Here is a list of personalities in the Farense archive: ${bioSummary}
+
+Select the 10 most important personalities based on their historical significance to the club.`;
+
+              const completion = await openai.chat.completions.create({
+                model: 'gpt-4o-mini',
+                messages: [
+                  { role: 'system', content: systemPrompt },
+                  { role: 'user', content: userMessage },
+                ],
+                temperature: 0.1,
+                max_tokens: 1500,
+                top_p: 0.3,
+              });
+
+              return {
+                statusCode: 200,
+                headers,
+                body: JSON.stringify({
+                  reply: completion.choices[0].message.content,
+                  chatId: body.chatId || `chat_${Date.now()}`,
+                }),
+              };
+            } else if (bioResults.length === 1) {
+              // Single biography result
+              console.log('[NETLIFY] Found biography:', bioResults[0].name, 'Length:', bioResults[0].content.length);
+              return {
+                statusCode: 200,
+                headers,
+                body: JSON.stringify({
+                  reply: bioResults[0].content,
+                  chatId: body.chatId || `chat_${Date.now()}`,
+                }),
+              };
+            }
           } else {
             console.log('[NETLIFY] No biography results found');
           }

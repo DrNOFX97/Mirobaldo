@@ -23,9 +23,17 @@ try {
 function searchBiografias(query) {
   const searchTerm = query.toLowerCase().trim();
 
+  // Check if this is a "top personalities" or "important personalities" query
+  if (searchTerm.includes('mais importantes') || searchTerm.includes('importante personalidade') ||
+      searchTerm.includes('10 personalidades') || searchTerm.includes('principais personalidades')) {
+    console.log(`[SEARCH] Detected important personalities query`);
+    // Return all biographies so GPT can select the most important ones
+    return Object.values(biografiasData);
+  }
+
   // Extract key terms from query (remove common words)
   const cleanQuery = searchTerm
-    .replace(/quem (foi|é|era)/gi, '')
+    .replace(/quem (foi|é|era|são)/gi, '')
     .replace(/fala(-me| me)? sobre/gi, '')
     .replace(/quero saber sobre/gi, '')
     .replace(/conta(-me| me)? (sobre|de|da)?/gi, '')
