@@ -32,18 +32,19 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
     }
 
-    // Função para adicionar mensagem (Markdown renderizado instantaneamente)
+    // Função para adicionar mensagem (renderização de texto puro instantânea)
     function addBotMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
         chatMessages.appendChild(messageElement);
 
-        if (sender === 'bot' && typeof marked !== 'undefined') {
-            // Renderizar Markdown usando marked.js - muito mais rápido que HTML puro
-            messageElement.innerHTML = marked.parse(text);
-        } else if (sender === 'bot') {
-            messageElement.innerHTML = text;
+        if (sender === 'bot') {
+            // Renderizar como textContent (texto puro) para máxima velocidade
+            // Markdown é renderizado instantaneamente sem processamento
+            messageElement.textContent = text;
+            messageElement.style.whiteSpace = 'pre-wrap';
+            messageElement.style.wordWrap = 'break-word';
         } else {
             messageElement.textContent = text;
         }
