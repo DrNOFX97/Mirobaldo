@@ -44,14 +44,9 @@ subfolders.forEach(subfolder => {
           (match, filepath) => `src="${imageBaseUrl}/fotografias/${filepath.replace(/\.png$/, '.webp')}"`
         );
 
-        // Convert Markdown to HTML for instant rendering without progressive display
-        // This ensures the entire response appears at once, not in blocks
-        try {
-          content = marked.parse(content);
-        } catch (parseErr) {
-          console.error(`[COMPILE] Warning: Could not parse markdown for ${file}:`, parseErr.message);
-          // Fall back to original content if parsing fails
-        }
+        // Keep Markdown format - it renders much faster in the browser with marked.js
+        // HTML rendering was causing slow progressive display issues
+        // Markdown is lighter and renders instantly when parsed on client side
 
         const nameFromFile = file
           .replace(/^historia_/, '')
