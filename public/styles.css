@@ -472,7 +472,6 @@ main::-webkit-scrollbar-thumb:hover {
 /* Markdown Styling inside Messages */
 .message p {
     margin-bottom: var(--spacing-sm);
-    content-visibility: auto;
 }
 
 .message p:last-child {
@@ -742,9 +741,7 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .message {
-    /* Optimize rendering performance */
-    contain: content;
-    will-change: contents;
+    /* Removed complex CSS that could cause reflows */
 }
 
 /* ===================================

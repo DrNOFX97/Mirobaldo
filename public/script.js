@@ -120,7 +120,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: JSON.stringify({ message: text, chatId: currentChatId }),
             });
 
-            const data = await response.json();
+            // Parse JSON de forma assíncrona para não bloquear o thread
+            const responseText = await response.text();
+            const data = JSON.parse(responseText);
+
             console.log('Resposta completa da API:', data); // Adicionado para depuração
             console.log('Resposta do bot (data.reply):', data.reply); // Adicionado para depuração
             addBotMessage('bot', data.reply); // Renderizar imediatamente sem efeito de digitação
