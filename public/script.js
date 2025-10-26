@@ -15,25 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Função para adicionar mensagem ao chat
-    function addMessage(sender, text) {
-        hideWelcomeScreen();
-        const messageElement = document.createElement('div');
-        messageElement.classList.add('message', sender);
-
-        // Se for mensagem do bot, renderizar Markdown
-        if (sender === 'bot' && typeof marked !== 'undefined') {
-            messageElement.innerHTML = marked.parse(text);
-        } else {
-            messageElement.textContent = text;
-        }
-
-        chatMessages.appendChild(messageElement);
-        chatMessages.scrollTop = chatMessages.scrollHeight; // Rolagem automática para a mensagem mais recente
-    }
-
     // Função para adicionar mensagem (renderização rápida de HTML pré-renderizado no servidor)
-    function addBotMessage(sender, text) {
+    function addMessage(sender, text) {
         hideWelcomeScreen();
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
@@ -94,12 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const chat = await response.json();
 
             chat.messages.forEach(msg => {
-                // Renderizar imediatamente sem efeito de digitação
-                if (msg.sender === 'bot') {
-                    addBotMessage(msg.sender, msg.text);
-                } else {
-                    addMessage(msg.sender, msg.text);
-                }
+                addMessage(msg.sender, msg.text);
             });
         } catch (error) {
             console.error(`Erro ao carregar chat ${chatId}:`, error);
@@ -129,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             console.log('Resposta completa da API:', data); // Adicionado para depuração
             console.log('Resposta do bot (data.reply):', data.reply); // Adicionado para depuração
-            addBotMessage('bot', data.reply); // Renderizar imediatamente sem efeito de digitação
+            addMessage('bot', data.reply); // Renderizar imediatamente sem efeito de digitação
 
             // Se for uma nova conversa, atualiza o histórico
             if (!currentChatId) {
