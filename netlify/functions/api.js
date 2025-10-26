@@ -29,6 +29,7 @@ const biografiasDataLoader = require('./biografiasLoader');
 const biographyScorer = require('./biographyScorer');
 const topPersonalitiesCache = require('./topPersonalitiesCache');
 const topPlayersCache = require('./topPlayersCache');
+const topPlayersDetailedCache = require('./topPlayersDetailedCache');
 
 // Log at startup to confirm data loading
 const stats = biografiasDataLoader.getDataStats();
@@ -83,7 +84,25 @@ exports.handler = async (event, context) => {
       // Check if it's a special query (top 20 players, top personalities, etc)
       const lowerMsg = userMessage.toLowerCase();
 
-      // Top 20 players query
+      // Top 20 players with suplentes (detailed explanation) query
+      if ((lowerMsg.includes('top 20') || lowerMsg.includes('20 melhores')) &&
+          (lowerMsg.includes('suplente') || lowerMsg.includes('explica') ||
+           lowerMsg.includes('razão') || lowerMsg.includes('motivo') ||
+           lowerMsg.includes('porquê'))) {
+        console.log('[NETLIFY] Detected top 20 players detailed query');
+        const response = topPlayersDetailedCache.getFormattedResponse();
+
+        return {
+          statusCode: 200,
+          headers,
+          body: JSON.stringify({
+            reply: response,
+            chatId: body.chatId || `chat_${Date.now()}`,
+          }),
+        };
+      }
+
+      // Top 20 players query (simple)
       if (lowerMsg.includes('top 20 jogadores') || lowerMsg.includes('top 20 players') ||
           lowerMsg.includes('melhores jogadores') || lowerMsg.includes('20 melhores jogadores') ||
           (lowerMsg.includes('top 20') && lowerMsg.includes('jogadores'))) {
