@@ -57,21 +57,23 @@ class ResultadosAgent extends BaseAgent {
 
       try {
         // Try complete data first (has detailed info), then fall back to para_agente (minimal info)
-        let dataPath = path.join(__dirname, '../../netlify/data/resultados/resultados_completos.md');
-        console.log(`[RESULTADOS AGENT] Trying path: ${dataPath}`);
+        // On Netlify, __dirname is the function directory, so we need different paths
+        let dataPath = path.join(__dirname, '../data/resultados/resultados_completos.md');
+        console.log(`[RESULTADOS AGENT] Trying netlify path: ${dataPath}`);
 
         if (!fs.existsSync(dataPath)) {
+          // Fallback for local development
           dataPath = path.join(__dirname, '../../dados/resultados/resultados_completos.md');
-          console.log(`[RESULTADOS AGENT] First path not found, trying: ${dataPath}`);
+          console.log(`[RESULTADOS AGENT] Netlify path not found, trying local: ${dataPath}`);
         }
 
         // Fallback to para_agente if completos not available
         if (!fs.existsSync(dataPath)) {
-          dataPath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
-          console.log(`[RESULTADOS AGENT] Completos not found, trying para_agente: ${dataPath}`);
+          dataPath = path.join(__dirname, '../data/resultados/resultados_para_agente.md');
+          console.log(`[RESULTADOS AGENT] Completos not found, trying netlify para_agente: ${dataPath}`);
           if (!fs.existsSync(dataPath)) {
             dataPath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
-            console.log(`[RESULTADOS AGENT] Para_agente netlify not found, trying: ${dataPath}`);
+            console.log(`[RESULTADOS AGENT] Netlify para_agente not found, trying local: ${dataPath}`);
           }
         }
 
