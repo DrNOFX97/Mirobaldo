@@ -5,48 +5,27 @@ const BaseAgent = require('../core/BaseAgent');
 function getResultadosData() {
   try {
     // Try netlify/data first (for Netlify deployment)
-    let resultadosPath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
-    let resultadosTxtPath = path.join(__dirname, '../../netlify/data/resultados/resultados.txt');
+    let completosPath = path.join(__dirname, '../../netlify/data/resultados/resultados_completos.md');
 
     // Fallback to dados directory (for local development)
-    if (!fs.existsSync(resultadosPath)) {
-      resultadosPath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
-      resultadosTxtPath = path.join(__dirname, '../../dados/resultados/resultados.txt');
+    if (!fs.existsSync(completosPath)) {
+      completosPath = path.join(__dirname, '../../dados/resultados/resultados_completos.md');
     }
 
     let data = '';
 
-    // Ler o ficheiro principal de resultados
-    if (fs.existsSync(resultadosPath)) {
-      data += fs.readFileSync(resultadosPath, 'utf-8');
-      data += '\n\n';
+    // Ler o ficheiro completo de resultados
+    if (fs.existsSync(completosPath)) {
+      data += fs.readFileSync(completosPath, 'utf-8');
     } else {
-      console.warn('[RESULTADOS AGENT] Main results file not found at:', resultadosPath);
-    }
-
-    // Extrair apenas resumos da Taça de Portugal para economizar tokens
-    if (fs.existsSync(resultadosTxtPath)) {
-      const resultadosTxt = fs.readFileSync(resultadosTxtPath, 'utf-8');
-
-      // Extrair seções da Taça de Portugal
-      const tacaSections = resultadosTxt.match(/Taça de Portugal \d{4}\/\d{4}[\s\S]*?(?=(?:Taça de Portugal \d{4}\/\d{4}|I Divisão|II Divisão|$))/g);
-
-      if (tacaSections && tacaSections.length > 0) {
-        data += '\n\nResumo da Taça de Portugal por época:\n';
-        tacaSections.forEach(section => {
-          // Extrair apenas o ano e os jogos importantes (QF, MF, F)
-          const year = section.match(/Taça de Portugal (\d{4}\/\d{4})/)?.[1];
-          const importantGames = section.match(/.*(?:QF|MF|F)[\s\S]*?$/gm);
-
-          if (year) {
-            data += `\n${year}:\n`;
-            if (importantGames) {
-              importantGames.forEach(game => {
-                data += game + '\n';
-              });
-            }
-          }
-        });
+      console.warn('[RESULTADOS AGENT] Complete results file not found at:', completosPath);
+      // Fallback to para_agente version if completos not available
+      let paraAgentePath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
+      if (!fs.existsSync(paraAgentePath)) {
+        paraAgentePath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
+      }
+      if (fs.existsSync(paraAgentePath)) {
+        data += fs.readFileSync(paraAgentePath, 'utf-8');
       }
     }
 
