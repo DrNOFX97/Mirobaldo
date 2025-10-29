@@ -47,23 +47,13 @@ class ResultadosAgent extends BaseAgent {
   }
 
   async process(message) {
-    // Try to extract season from message (e.g., "resultados de 1991-92" -> "1991/92" or "ÉPOCA 1991/92")
+    // Try to extract season from message (e.g., "resultados de 1991-92" -> "1991/92")
     const msg = message.toLowerCase();
     const seasonMatch = msg.match(/(\d{4})[.-]?(\d{2})/);
 
     if (seasonMatch) {
       const year1 = seasonMatch[1];
       const year2 = seasonMatch[2];
-      const seasonPatterns = [
-        `ÉPOCA ${year1}/${year2}`,
-        `Época ${year1}/${year2}`,
-        `# ÉPOCA ${year1}/${year2}`,
-        `## ÉPOCA ${year1}/${year2}`,
-        `### ÉPOCA ${year1}/${year2}`,
-        `ÉPOCA ${year1}-${year2}`,
-        `Época ${year1}-${year2}`,
-        `${year1}/${year2}`
-      ];
 
       try {
         // Read the para_agente data file which has modern detailed data
@@ -75,30 +65,35 @@ class ResultadosAgent extends BaseAgent {
         if (fs.existsSync(paraAgentePath)) {
           const data = fs.readFileSync(paraAgentePath, 'utf-8');
 
-          // Search for the season in the file
-          for (const pattern of seasonPatterns) {
-            // Find the position of this pattern
-            const upperPattern = pattern.toUpperCase();
-            const lowerData = data.toUpperCase();
-            const idx = lowerData.indexOf(upperPattern);
+          // Search patterns for the season
+          const searchPatterns = [
+            `## Temporada ${year1}/${year2}`,
+            `## Época ${year1}/${year2}`,
+            `### Época ${year1}/${year2}`,
+            `## Temporada ${year1}-${year2}`,
+            `### Época ${year1}-${year2}`
+          ];
 
-            if (idx !== -1) {
-              // Found the pattern, extract the section
-              const startIdx = idx;
-              const afterPattern = data.substring(idx + pattern.length);
+          for (const pattern of searchPatterns) {
+            const patternIndex = data.indexOf(pattern);
 
-              // Find the next section starting with ## or #
-              const nextSectionRegex = /^#{1,3}\s+/m;
-              const nextMatch = afterPattern.match(nextSectionRegex);
-              let endIdx = data.length;
+            if (patternIndex !== -1) {
+              // Found the pattern - extract everything until the next top-level section
+              const afterSection = data.substring(patternIndex);
 
-              if (nextMatch) {
-                endIdx = idx + pattern.length + afterPattern.indexOf(nextMatch[0]);
+              // Find next section (starting with ## or higher level)
+              const nextSectionMatch = afterSection.substring(pattern.length).match(/\n## /);
+              let endIndex;
+
+              if (nextSectionMatch) {
+                endIndex = patternIndex + pattern.length + afterSection.substring(pattern.length).indexOf(nextSectionMatch[0]);
+              } else {
+                endIndex = data.length;
               }
 
-              const seasonData = data.substring(startIdx, endIdx).trim();
-              if (seasonData.length > 100) {
-                // Found detailed season data, return it
+              const seasonData = data.substring(patternIndex, endIndex).trim();
+
+              if (seasonData.length > 50) {
                 console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2}`);
                 return seasonData;
               }
@@ -110,8 +105,10 @@ class ResultadosAgent extends BaseAgent {
       }
     }
 
-    // No season found or season not in data
-    return null;
+    // No season found or year not extracted - return specific message instead of null
+    const year1 = seasonMatch ? seasonMatch[1] : '?';
+    const year2 = seasonMatch ? seasonMatch[2] : '?';
+    return `Não tenho dados sobre a época ${year1}/${year2}.`;
   }
 
   getContext() {
