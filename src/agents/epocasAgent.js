@@ -188,7 +188,7 @@ class EpocasAgent extends BaseAgent {
     if (!analise) return null;
 
     // Check if asking about best season
-    if (msg.includes('melhor') && (msg.includes('época') || msg.includes('season'))) {
+    if (msg.includes('melhor') && (msg.includes('época') || msg.includes('temporada') || msg.includes('season'))) {
       // Find the best season(s)
       const melhorPosicao = Math.min(...epocasParsed.map(e => e.posicao));
       const melhoresEpocas = epocasParsed.filter(e => e.posicao === melhorPosicao);
@@ -214,7 +214,7 @@ Esta foi a melhor classificação da história do Sporting Clube Farense! 🏆`;
     }
 
     // Check if asking about worst season
-    if (msg.includes('pior') && (msg.includes('época') || msg.includes('season'))) {
+    if (msg.includes('pior') && (msg.includes('época') || msg.includes('temporada') || msg.includes('season'))) {
       const piorPosicao = Math.max(...epocasParsed.map(e => e.posicao));
       const pioresEpocas = epocasParsed.filter(e => e.posicao === piorPosicao);
 
