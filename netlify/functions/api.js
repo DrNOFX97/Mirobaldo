@@ -23,6 +23,7 @@ const epocasAgent = require('../../src/agents/epocasAgent');
 
 // Importar utils
 const { injectImagesIntoBios } = require('../../src/utils/injectImages');
+const { marked } = require('marked');
 
 // Importar dados de biografias pré-carregados (from compiled JSON)
 const biografiasDataLoader = require('./biografiasLoader');
@@ -46,6 +47,30 @@ if (!process.env.OPENAI_API_KEY) {
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+
+// Configurar marked para renderizar com mais segurança
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+  pedantic: false
+});
+
+// Função helper para converter markdown em HTML com classes CSS
+function renderMarkdown(markdown) {
+  if (!markdown || typeof markdown !== 'string') return '';
+  let html = marked(markdown);
+  // Adicionar classes CSS para melhor estilo
+  html = html.replace(/<h1>/g, '<h1 class="markdown-h1">');
+  html = html.replace(/<h2>/g, '<h2 class="markdown-h2">');
+  html = html.replace(/<h3>/g, '<h3 class="markdown-h3">');
+  html = html.replace(/<p>/g, '<p class="markdown-p">');
+  html = html.replace(/<ul>/g, '<ul class="markdown-ul">');
+  html = html.replace(/<ol>/g, '<ol class="markdown-ol">');
+  html = html.replace(/<li>/g, '<li class="markdown-li">');
+  html = html.replace(/<code>/g, '<code class="markdown-code">');
+  html = html.replace(/<blockquote>/g, '<blockquote class="markdown-blockquote">');
+  return html;
+}
 
 // Função principal Netlify
 exports.handler = async (event, context) => {
@@ -96,7 +121,7 @@ exports.handler = async (event, context) => {
           statusCode: 200,
           headers,
           body: JSON.stringify({
-            reply: response,
+            reply: renderMarkdown(response),
             chatId: body.chatId || `chat_${Date.now()}`,
           }),
         };
@@ -113,7 +138,7 @@ exports.handler = async (event, context) => {
           statusCode: 200,
           headers,
           body: JSON.stringify({
-            reply: response,
+            reply: renderMarkdown(response),
             chatId: body.chatId || `chat_${Date.now()}`,
           }),
         };
@@ -144,7 +169,7 @@ exports.handler = async (event, context) => {
                 statusCode: 200,
                 headers,
                 body: JSON.stringify({
-                  reply: response,
+                  reply: renderMarkdown(response),
                   chatId: body.chatId || `chat_${Date.now()}`,
                 }),
               };
@@ -155,7 +180,7 @@ exports.handler = async (event, context) => {
                 statusCode: 200,
                 headers,
                 body: JSON.stringify({
-                  reply: bioResults[0].content,
+                  reply: renderMarkdown(bioResults[0].content),
                   chatId: body.chatId || `chat_${Date.now()}`,
                 }),
               };
@@ -233,7 +258,7 @@ NEVER invent information. Use only the data you know about Farense.`;
         statusCode: 200,
         headers,
         body: JSON.stringify({
-          reply: finalResponse,
+          reply: renderMarkdown(finalResponse),
           chatId: body.chatId || `chat_${Date.now()}`,
         }),
       };
