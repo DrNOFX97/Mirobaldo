@@ -264,8 +264,10 @@ exports.handler = async (event, context) => {
             const epochKeywords = ['época', 'ano', 'temporada', 'campeonato', 'melhor', 'pior', 'season', 'classificação', 'posição', 'melhor época'];
             const hasEpochKeyword = epochKeywords.some(keyword => msg.toLowerCase().includes(keyword));
 
+            console.log('[NETLIFY] Épocas agent checking message:', msg.substring(0, 50), 'Has keyword:', hasEpochKeyword);
+
             if (hasEpochKeyword) {
-              console.log('[NETLIFY] Épocas agent triggered for message:', msg.substring(0, 50));
+              console.log('[NETLIFY] Épocas agent triggered! Returning context of length:', epocasAgent.getContext().length);
               // Return the agent context to be used by GPT
               return epocasAgent.getContext();
             }
