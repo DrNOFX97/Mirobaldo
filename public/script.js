@@ -1,9 +1,20 @@
+console.log('🚀 script.js loaded and executing');
+
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('✅ DOMContentLoaded event fired');
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
     const chatMessages = document.getElementById('chat-messages');
     const chatHistory = document.getElementById('chat-history');
     const quickActionBtns = document.querySelectorAll('.quick-action-btn');
+
+    console.log('📋 Elements loaded:', {
+        userInput: !!userInput,
+        sendButton: !!sendButton,
+        chatMessages: !!chatMessages,
+        chatHistory: !!chatHistory,
+        quickActionBtns: quickActionBtns.length
+    });
 
     let currentChatId = null; // ID da conversa atual
 
@@ -132,4 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carrega o histórico de conversas ao iniciar
     loadChatHistory();
+    console.log('✅ All event listeners attached and chat history loaded');
 });
+
+console.log('✅ script.js execution complete - waiting for DOM');
