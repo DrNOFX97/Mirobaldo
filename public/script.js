@@ -25,8 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Servidor já envia HTML renderizado, basta colocar direto
             // Isso é muito mais rápido que fazer parsing no cliente
             messageElement.innerHTML = text;
+            console.log('✅ Bot message inserted as HTML');
+            console.log('HTML content:', text.substring(0, 200));
         } else {
             messageElement.textContent = text;
+            console.log('✅ User message inserted as text');
         }
 
         // Batch DOM operations - add to document only once
