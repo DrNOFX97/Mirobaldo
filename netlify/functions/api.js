@@ -258,16 +258,10 @@ exports.handler = async (event, context) => {
         {
           name: 'epocasAgent',
           keywords: ['época', 'ano', 'temporada', 'campeonato', 'melhor', 'pior'],
-          process: async (msg) => {
-            // Check if message contains epoch-related keywords
-            const epochKeywords = ['época', 'ano', 'temporada', 'campeonato', 'melhor', 'pior', 'season', 'classificação', 'posição'];
-            const hasEpochKeyword = epochKeywords.some(keyword => msg.toLowerCase().includes(keyword));
-
-            if (hasEpochKeyword) {
-              // Return the agent context to be used by GPT
-              return epocasAgent.getContext();
-            }
-            return null;
+          process: (msg) => {
+            // Use the real épocas agent to process the message
+            // It will return markdown directly if it finds what it's looking for
+            return epocasAgent.process(msg);
           },
         },
       ];
