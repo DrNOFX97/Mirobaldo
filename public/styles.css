@@ -768,6 +768,8 @@ main::-webkit-scrollbar-thumb:hover {
     color: var(--gray-950);
     border-bottom: 2px solid var(--accent-highlight);
     padding-bottom: 8px;
+    display: block;
+    width: 100%;
 }
 
 .markdown-h2 {
@@ -775,6 +777,8 @@ main::-webkit-scrollbar-thumb:hover {
     font-weight: 700;
     margin: 20px 0 12px 0;
     color: var(--gray-900);
+    display: block;
+    width: 100%;
 }
 
 .markdown-h3 {
@@ -782,23 +786,32 @@ main::-webkit-scrollbar-thumb:hover {
     font-weight: 600;
     margin: 16px 0 8px 0;
     color: var(--gray-800);
+    display: block;
+    width: 100%;
 }
 
 .markdown-p {
     margin: 12px 0;
     line-height: 1.6;
     color: var(--gray-900);
+    display: block;
+    width: 100%;
+    font-family: inherit;
 }
 
 .markdown-ul,
 .markdown-ol {
     margin: 12px 0 12px 24px;
     color: var(--gray-900);
+    display: block;
+    width: 100%;
 }
 
 .markdown-li {
     margin: 8px 0;
     line-height: 1.5;
+    display: list-item;
+    font-family: inherit;
 }
 
 .markdown-code {
@@ -808,6 +821,7 @@ main::-webkit-scrollbar-thumb:hover {
     border-radius: var(--radius-sm);
     font-family: var(--font-mono);
     font-size: 14px;
+    display: inline;
 }
 
 .markdown-blockquote {
@@ -819,6 +833,8 @@ main::-webkit-scrollbar-thumb:hover {
     background-color: var(--gray-50);
     padding: 12px 16px;
     border-radius: var(--radius-sm);
+    display: block;
+    width: 100%;
 }
 
 .markdown-strong {
@@ -829,4 +845,24 @@ main::-webkit-scrollbar-thumb:hover {
 .message.bot strong {
     font-weight: 700;
     color: var(--accent-highlight);
+}
+
+/* Ensure markdown elements inside bot messages are rendered properly */
+.message.bot h1,
+.message.bot h2,
+.message.bot h3,
+.message.bot p,
+.message.bot ul,
+.message.bot ol,
+.message.bot li {
+    display: block;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.message.bot img {
+    max-width: 100%;
+    height: auto;
+    margin: 12px 0;
 }
