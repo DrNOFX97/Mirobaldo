@@ -47,56 +47,60 @@ class ResultadosAgent extends BaseAgent {
   }
 
   async process(message) {
-    // Try to extract season from message (e.g., "resultados de 1991-92" -> "1991/92")
+    // Try to extract season from message (e.g., "resultados de 1991-92" -> "1991/92" or "ÉPOCA 1991/92")
     const msg = message.toLowerCase();
     const seasonMatch = msg.match(/(\d{4})[.-]?(\d{2})/);
 
     if (seasonMatch) {
       const year1 = seasonMatch[1];
       const year2 = seasonMatch[2];
-      const seasons = [
-        `${year1}/${year2}`,
-        `${year1}-${year2}`,
+      const seasonPatterns = [
+        `ÉPOCA ${year1}/${year2}`,
         `Época ${year1}/${year2}`,
-        `Temporada ${year1}/${year2}`
+        `# ÉPOCA ${year1}/${year2}`,
+        `## ÉPOCA ${year1}/${year2}`,
+        `### ÉPOCA ${year1}/${year2}`,
+        `ÉPOCA ${year1}-${year2}`,
+        `Época ${year1}-${year2}`,
+        `${year1}/${year2}`
       ];
 
       try {
-        // Read the complete data file
-        let completosPath = path.join(__dirname, '../../netlify/data/resultados/resultados_completos.md');
-        if (!fs.existsSync(completosPath)) {
-          completosPath = path.join(__dirname, '../../dados/resultados/resultados_completos.md');
+        // Read the para_agente data file which has modern detailed data
+        let paraAgentePath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
+        if (!fs.existsSync(paraAgentePath)) {
+          paraAgentePath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
         }
 
-        if (fs.existsSync(completosPath)) {
-          const data = fs.readFileSync(completosPath, 'utf-8');
+        if (fs.existsSync(paraAgentePath)) {
+          const data = fs.readFileSync(paraAgentePath, 'utf-8');
 
           // Search for the season in the file
-          for (const season of seasons) {
-            // Look for sections with this season (case-insensitive)
-            const regex = new RegExp(`^(#{1,4})\\s+.*?${season.replace(/\//g, '\\/')}.*?$`, 'gmi');
-            const match = data.match(regex);
+          for (const pattern of seasonPatterns) {
+            // Find the position of this pattern
+            const upperPattern = pattern.toUpperCase();
+            const lowerData = data.toUpperCase();
+            const idx = lowerData.indexOf(upperPattern);
 
-            if (match) {
-              // Extract the section for this season
-              const startIdx = data.indexOf(match[0]);
-              if (startIdx !== -1) {
-                // Find the next section at the same or higher level
-                const sectionLevel = match[0].match(/^#+/)[0].length;
-                const endRegex = new RegExp(`^#{1,${sectionLevel}}\\s+`, 'gm');
-                const remaining = data.substring(startIdx + match[0].length);
-                const nextSectionMatch = remaining.match(endRegex);
+            if (idx !== -1) {
+              // Found the pattern, extract the section
+              const startIdx = idx;
+              const afterPattern = data.substring(idx + pattern.length);
 
-                let endIdx = data.length;
-                if (nextSectionMatch) {
-                  endIdx = startIdx + match[0].length + remaining.indexOf(nextSectionMatch[0]);
-                }
+              // Find the next section starting with ## or #
+              const nextSectionRegex = /^#{1,3}\s+/m;
+              const nextMatch = afterPattern.match(nextSectionRegex);
+              let endIdx = data.length;
 
-                const seasonData = data.substring(startIdx, endIdx).trim();
-                if (seasonData.length > 50) {
-                  // Found detailed season data, return it
-                  return seasonData;
-                }
+              if (nextMatch) {
+                endIdx = idx + pattern.length + afterPattern.indexOf(nextMatch[0]);
+              }
+
+              const seasonData = data.substring(startIdx, endIdx).trim();
+              if (seasonData.length > 100) {
+                // Found detailed season data, return it
+                console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2}`);
+                return seasonData;
               }
             }
           }
