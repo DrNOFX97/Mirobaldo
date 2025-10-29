@@ -1,0 +1,122 @@
+{
+  "epoch": 3,
+  "step": 7239,
+  "best_loss": Infinity,
+  "start_time": "2025-10-28T17:42:58.999611",
+  "checkpoints": [
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step200",
+      "epoch": 0,
+      "step": 200,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step400",
+      "epoch": 0,
+      "step": 400,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step600",
+      "epoch": 0,
+      "step": 600,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step800",
+      "epoch": 0,
+      "step": 800,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step1000",
+      "epoch": 0,
+      "step": 1000,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_step1200",
+      "epoch": 0,
+      "step": 1200,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch0_stepbest",
+      "epoch": 0,
+      "step": "best",
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step200",
+      "epoch": 1,
+      "step": 200,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step400",
+      "epoch": 1,
+      "step": 400,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step600",
+      "epoch": 1,
+      "step": 600,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step800",
+      "epoch": 1,
+      "step": 800,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step1000",
+      "epoch": 1,
+      "step": 1000,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch1_step1200",
+      "epoch": 1,
+      "step": 1200,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step200",
+      "epoch": 2,
+      "step": 200,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step400",
+      "epoch": 2,
+      "step": 400,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step600",
+      "epoch": 2,
+      "step": 600,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step800",
+      "epoch": 2,
+      "step": 800,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step1000",
+      "epoch": 2,
+      "step": 1000,
+      "loss": 0
+    },
+    {
+      "path": "/Users/f.nuno/Desktop/chatbot_2.0/LLM_training/checkpoints/checkpoint_epoch2_step1200",
+      "epoch": 2,
+      "step": 1200,
+      "loss": 0
+    }
+  ]
+}
