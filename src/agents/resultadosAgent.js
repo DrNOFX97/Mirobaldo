@@ -47,8 +47,66 @@ class ResultadosAgent extends BaseAgent {
   }
 
   async process(message) {
-    // ResultadosAgent primarily provides context for GPT
-    // Returns null to allow fallback to GPT with context
+    // Try to extract season from message (e.g., "resultados de 1991-92" -> "1991/92")
+    const msg = message.toLowerCase();
+    const seasonMatch = msg.match(/(\d{4})[.-]?(\d{2})/);
+
+    if (seasonMatch) {
+      const year1 = seasonMatch[1];
+      const year2 = seasonMatch[2];
+      const seasons = [
+        `${year1}/${year2}`,
+        `${year1}-${year2}`,
+        `Época ${year1}/${year2}`,
+        `Temporada ${year1}/${year2}`
+      ];
+
+      try {
+        // Read the complete data file
+        let completosPath = path.join(__dirname, '../../netlify/data/resultados/resultados_completos.md');
+        if (!fs.existsSync(completosPath)) {
+          completosPath = path.join(__dirname, '../../dados/resultados/resultados_completos.md');
+        }
+
+        if (fs.existsSync(completosPath)) {
+          const data = fs.readFileSync(completosPath, 'utf-8');
+
+          // Search for the season in the file
+          for (const season of seasons) {
+            // Look for sections with this season (case-insensitive)
+            const regex = new RegExp(`^(#{1,4})\\s+.*?${season.replace(/\//g, '\\/')}.*?$`, 'gmi');
+            const match = data.match(regex);
+
+            if (match) {
+              // Extract the section for this season
+              const startIdx = data.indexOf(match[0]);
+              if (startIdx !== -1) {
+                // Find the next section at the same or higher level
+                const sectionLevel = match[0].match(/^#+/)[0].length;
+                const endRegex = new RegExp(`^#{1,${sectionLevel}}\\s+`, 'gm');
+                const remaining = data.substring(startIdx + match[0].length);
+                const nextSectionMatch = remaining.match(endRegex);
+
+                let endIdx = data.length;
+                if (nextSectionMatch) {
+                  endIdx = startIdx + match[0].length + remaining.indexOf(nextSectionMatch[0]);
+                }
+
+                const seasonData = data.substring(startIdx, endIdx).trim();
+                if (seasonData.length > 50) {
+                  // Found detailed season data, return it
+                  return seasonData;
+                }
+              }
+            }
+          }
+        }
+      } catch (error) {
+        console.error('[RESULTADOS AGENT] Error processing message:', error.message);
+      }
+    }
+
+    // No season found or season not in data
     return null;
   }
 
