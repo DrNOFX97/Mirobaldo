@@ -92,6 +92,8 @@ class ResultadosAgent extends BaseAgent {
             `### Época ${year1}/${year2}`,
             `### I Divisão ${year1}/${year2}`,
             `### I Divisão ${year1}/${nextYear}`,
+            `### Liga Portuguesa ${year1}/${year2}`,
+            `### Liga Portuguesa ${year1}/${nextYear}`,
             `## Temporada ${year1}/${nextYear}`,
             `### Época ${year1}/${nextYear}`,
             `## Temporada ${year1}-${year2}`,
