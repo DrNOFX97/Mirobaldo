@@ -995,38 +995,38 @@ OAF 2-0 D 1/32
 1968 -12-08  Casa  Ferroviários  2-0 V 1/128  
 1968 -10-20  Casa  SC Salgueiros  2-1 V 1E 
  
-II Divisão Fase Final 1969/1970  
-Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+II Divisão Zona Sul 1969/1970
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+1969 -09-07  Fora  Sesimbra  2-2 E J1
+1969 -09-14  Casa  Montijo  5-0 V J2
+1969 -09-21  Fora  Torreense  5-2 D J3
+1969 -09-28 00:00  Casa  Luso FC  2-0 V J4
+1969 -10-19  Fora  Atlético CP  0-0 E J5
+1969 -10-26 15:00  Casa  Lusit. Évora  5-1 V J6
+1969 -11-09  Casa  U. Santarém  6-1 V J7
+1969 -11-16  Fora  Seixal FC  0-0 E J8
+1969 -11-23  Casa  Portimonense  1-1 E J9
+1969 -11-30  Fora  Peniche  1-0 D J10
+1969 -12-14  Casa  Sintrense  4-0 V J11
+1969 -12-21  Fora  Oriental  0-2 V J12
+-  Casa  Tramagal  5-0 V J13
+-  Casa  Sesimbra  1-0 V J14
+-  Fora  Montijo  3-0 D J15
+-  Casa  Torreense  1-0 V J16
+-  Fora  Luso FC  3-2 D J17
+-  Casa  Atlético CP  0-0 E J18
+1970 -02-22 15:00  Fora  Lusit. Évora  0-1 V J19
+1970 -03-01  Fora  U. Santarém  0-1 V J20
+-  Casa  Seixal FC  1-1 E J21
+-  Fora  Portimonense  0-3 V J22
+-  Fora  Peniche  2-0 D J23
+-  Fora  Sintrense  1-1 E J24
+-  Casa  Oriental  0-0 E J25
+-  Fora  Tramagal  1-0 D J26
+
+II Divisão Fase Final 1969/1970
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1970 -06-10  Fora  Tirsense  2-0 D F 
- 
-II Divisão Zona Sul 69/70  
-Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
-1970 -03-01  Fora  U. Santarém  0-1 V J20 
-1970 -02-22 15:00  Fora  Lusit. Évora  0-1 V J19 
-1969 -12-21  Fora  Oriental  0-2 V J12 
-1969 -12-14  Casa  Sintrense  4-0 V J11 
-1969 -11-30  Fora  Peniche  1-0 D J10 
-1969 -11-23  Casa  Portimonense  1-1 E J9 
-1969 -11-16  Fora  Seixal FC  0-0 E J8 
-1969 -11-09  Casa  U. Santarém  6-1 V J7 
-1969 -10-26 15:00  Casa  Lusit. Évora  5-1 V J6 
-1969 -10-19  Fora  Atlético CP  0-0 E J5 
-1969 -09-28 00:00  Casa  Luso FC  2-0 V J4 
-1969 -09-21  Fora  Torreense  5-2 D J3 
-1969 -09-14  Casa  Montijo  5-0 V J2 
-1969 -09-07  Fora  Sesimbra  2-2 E J1 
--  Fora  Sintrense  1-1 E J24 
--  Fora  Luso FC  3-2 D J17 
--  Fora  Montijo  3-0 D J15 
--  Fora  Tramagal  1-0 D J26 
--  Fora  Portimonense  0-3 V J22 
--  Casa  Atlético CP  0-0 E J18 
--  Casa  Peniche  2-0 V J23 
--  Casa  Seixal FC  1-1 E J21 
--  Casa  Oriental  0-0 E J25 
--  Casa  Tramagal  5-0 V J13 
--  Casa  Sesimbra  1-0 V J14 
--  Casa  Torreense  1-0 V J16 
  
 Taça de Portugal 1969/1970  
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
