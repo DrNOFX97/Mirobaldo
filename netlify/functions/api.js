@@ -284,7 +284,7 @@ exports.handler = async (event, context) => {
         console.log(`[NETLIFY] Trying agent: ${agent.name}`);
         agentResponse = await agent.process(userMessage);
         if (agentResponse) {
-          console.log(`[NETLIFY] Agent ${agent.name} found response`);
+          console.log(`[NETLIFY] Agent ${agent.name} found response (length: ${agentResponse.substring ? agentResponse.substring(0, 50) : 'N/A'})`);
           selectedAgent = agent;
           break;
         }
@@ -308,9 +308,12 @@ exports.handler = async (event, context) => {
 
 ${agentContext}
 
-Answer in Portuguese (Portugal variant).
-Be concise but informative.
-NEVER invent information. Use only the data provided above.`;
+CRITICAL INSTRUCTIONS:
+- Answer ONLY based on the data and analysis provided above.
+- Do NOT invent, guess, or use external knowledge.
+- If information is not in the data above, say exactly: "Não tenho informação sobre isso"
+- Answer in Portuguese (Portugal variant).
+- Be concise but informative.`;
 
           const completion = await openai.chat.completions.create({
             model: 'gpt-4o-mini',
