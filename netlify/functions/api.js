@@ -226,19 +226,6 @@ exports.handler = async (event, context) => {
       // Converter agentes para formato esperado (simplified)
       const agents = [
         {
-          name: 'biografiasAgent',
-          context: biografiasAgent.context,
-          process: async (msg) => {
-            // Try to use the pre-loaded data first
-            const results = biografiasDataLoader.searchBiografias(msg);
-            if (results.length > 0) {
-              console.log('[NETLIFY] Found biography:', results[0].name);
-              return results[0].content;
-            }
-            return null;
-          },
-        },
-        {
           name: 'resultadosAgent',
           context: resultadosAgent.getContext(),
           keywords: ['resultado', 'golo', 'vitória', 'derrota', 'empate', 'jogo', 'taça', 'liga', 'competição'],
@@ -262,6 +249,19 @@ exports.handler = async (event, context) => {
             // Use the real épocas agent to process the message
             // It will return markdown directly if it finds what it's looking for
             return await epocasAgent.process(msg);
+          },
+        },
+        {
+          name: 'biografiasAgent',
+          context: biografiasAgent.context,
+          process: async (msg) => {
+            // Try to use the pre-loaded data first
+            const results = biografiasDataLoader.searchBiografias(msg);
+            if (results.length > 0) {
+              console.log('[NETLIFY] Found biography:', results[0].name);
+              return results[0].content;
+            }
+            return null;
           },
         },
       ];
