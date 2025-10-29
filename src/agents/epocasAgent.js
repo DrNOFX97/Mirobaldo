@@ -177,7 +177,65 @@ class EpocasAgent extends BaseAgent {
   }
 
   async process(message) {
-    // Agent acts as context provider for GPT
+    // Check if message is asking about best/worst season
+    const msg = message.toLowerCase();
+
+    // Get the analysis
+    const dadosCompletos = getEpocasCompletas();
+    const epocasParsed = parseClassificacoes(dadosCompletos);
+    const analise = analisarEpocas(epocasParsed);
+
+    if (!analise) return null;
+
+    // Check if asking about best season
+    if (msg.includes('melhor') && (msg.includes('época') || msg.includes('season'))) {
+      // Find the best season(s)
+      const melhorPosicao = Math.min(...epocasParsed.map(e => e.posicao));
+      const melhoresEpocas = epocasParsed.filter(e => e.posicao === melhorPosicao);
+
+      if (melhoresEpocas.length > 0) {
+        const melhor = melhoresEpocas[0];
+        return `# A Melhor Época do Sporting Clube Farense
+
+**${melhor.epoca}** - ${melhor.competicao}
+
+## Resultados
+- **Classificação**: ${melhor.posicao}º lugar
+- **Pontos**: ${melhor.pontos}
+- **Jogos**: ${melhor.jogos}
+- **Vitórias**: ${melhor.vitorias}
+- **Empates**: ${melhor.empates}
+- **Derrotas**: ${melhor.derrotas}
+- **Golos Marcados**: ${melhor.golosMarcados}
+- **Golos Sofridos**: ${melhor.golosSofridos}
+
+Esta foi a melhor classificação da história do Sporting Clube Farense! 🏆`;
+      }
+    }
+
+    // Check if asking about worst season
+    if (msg.includes('pior') && (msg.includes('época') || msg.includes('season'))) {
+      const piorPosicao = Math.max(...epocasParsed.map(e => e.posicao));
+      const pioresEpocas = epocasParsed.filter(e => e.posicao === piorPosicao);
+
+      if (pioresEpocas.length > 0) {
+        const pior = pioresEpocas[0];
+        return `# A Pior Época do Sporting Clube Farense
+
+**${pior.epoca}** - ${pior.competicao}
+
+## Resultados
+- **Classificação**: ${pior.posicao}º lugar
+- **Pontos**: ${pior.pontos}
+- **Jogos**: ${pior.jogos}
+- **Vitórias**: ${pior.vitorias}
+- **Empates**: ${pior.empates}
+- **Derrotas**: ${pior.derrotas}
+- **Golos Marcados**: ${pior.golosMarcados}
+- **Golos Sofridos**: ${pior.golosSofridos}`;
+      }
+    }
+
     return null;
   }
 
