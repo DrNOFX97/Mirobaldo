@@ -1,0 +1,3510 @@
+
+
+Data	Hora	Local	Equipa	Resultado	V-E-D
+05-10-1913		Casa	Sporting Clube Farense vs. Vitória Futebol Clube	4-1	V
+17-11-1913		Casa	Sporting Farense vs. Grupo Desportivo Sambrazense	5-0	V
+01-12-1913		Fora	Associação Académica Farense vs. Sporting Clube Farense	1-1	E
+05-04-1914		Casa	Sporting Clube Farense vs. Vitória Futebol Clube	2-1	V
+23-08-1914		Casa	Sporting Farense vs. Misto de Faro	6-0	V
+04-10-1914		Fora	Sporting Clube Farense vs. Sporting Clube Olhanense	3-0	V
+20-12-1914		Casa	Sporting Farense vs. Associação Académica Farense	1-0	V
+30-12-1914		Casa	Sporting Clube Farense vs. Sport Lisboa e Faro	3-0	V
+30-01-1916		Casa	Sporting Clube Farense vs. Grupo Misto	2-2	E
+06-02-1916		Casa	Sporting Farense vs. Associação Académica	1-2	D
+21-05-1916		Casa	Sporting Farense vs. Associação Académica	3-2	V  
+
+Data	Hora	Local	Equipa	Resultado	V-E-D
+Data	Hora	Local	Equipa Adversária	Resultado	V-E-D
+1920
+04-07-1920		Fora	Sporting Clube Louletano	0-0	E
+11-07-1920		Fora	União Portimonense	4-2	V
+18-07-1920		Casa	União Portimonense	1-0	V
+05-09-1920		Fora	Misto de Faro	1-1	E
+26-09-1920		Casa	Misto de Faro	7-1	V
+30-09-1920		Fora	Sporting Clube Louletano	2-1	V
+1921
+Data	Hora	Local	Equipa Adversária	Resultado	V-E-D
+15-10-1921		Casa	Sporting Clube Olhanense	2-2	E
+21-10-1921		Casa	Casa Pia de Lisboa	1-3	D
+23-10-1921		Casa	Sporting Olhanense (Segundas Categorias)	2-0	V
+04-12-1921		Casa	Sporting Clube Olhanense	3-0	V
+31-12-1921		Casa	Sporting Clube Olhanense (Segundas Categorias)	0-1	D
+1922
+Data	Hora	Local	Equipa Adversária	Resultado	V-E-D
+29-01-1922			Campeonato Regional (início)		
+10-04-1922		Fora	Sport Lisboa e Faro	1-1	E
+16-04-1922		Casa	Sporting de Portugal	2-2	E
+29-04-1922		Casa	Vitória de Setúbal	2-1	V
+30-04-1922		Casa	Vitória de Setúbal (Segundas Categorias)		
+28-05-1922		Casa	Sporting Clube Olhanense	3-2	V
+10-06-1922		Casa	Sport Lisboa e Faro		
+1923
+Data	Hora	Local	Equipa Adversária	Resultado	V-E-D
+01-04-1923		Casa	Pupilos do Exército	3-2	V
+02-04-1923		Casa	União de Lisboa	2-2	E
+Meados de Abril			Participação no Campeonato do Algarve 1922/23		
+15-04-1923		Casa	Luso Futebol Clube de Beja	1-0	V
+15-04-1923		Fora	Carcavelinhos Futebol Clube	1-11	D
+16-04-1923		Fora	Carcavelinhos	0-8	D
+17-04-1923		Fora	Carcavelinhos	1-1	E
+22-04-1923		Casa	Lusitano F. Clube (Vila Real de Santo António)	0-1	D
+29-04-1923		Fora	Associação Académica de Coimbra	1-2	D
+01-05-1923		Fora	Associação Académica de Coimbra	2-3	D
+02-05-1923		Fora	Associação Académica de Coimbra	2-3	D
+Fim de Maio		Casa	Sport Lisboa e Faro (Final da Taça Sagres)	2-0	V
+
+1925
+
+
+1928		Casa	Sporting Farense vs. Sporting Olhanense	2-8	D
+1928		Casa	Sporting Farense vs. Esperança de Lagos	2-2	E
+1928		Casa	Sporting Farense vs. Estoril Praia	Não especificado	
+1928		Casa	Sporting Farense vs. Vitória de Setúbal	Não especificado	
+1929		Casa	Sporting Farense vs. Louletano	2-1	V
+1929		Casa	Sporting Farense vs. Olhanense	0-8	D
+1929		Casa	Sporting Farense vs. União Futebol Clube Farense	2-2	E
+
+
+
+Caderno de resultados  
+1935 -2024  Calendário de Jogos  
+
+Campeonato do Algarve 1933/34  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1934 -07-01 18:00  Casa  Portimonense  4-1 V F 
+ 
+Camp. II Div. ZD 1ªF G8 34/35  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1935 -03-24  Casa  Luso Beja  1-0 V J10 
+1935 -03-17  Fora  Olhanense  4-2 D J9 
+1935 -03-10 15:00  Casa  Lusit. Évora  2-2 E J8 
+1935 -02-24  Fora  Lusitano VRSA  3-2 D J6 
+1935 -02-17  Fora  Luso Beja  2-0 D J5 
+1935 -02-10  Casa  Olhanense  1-3 D J4 
+1935 -02-03 15:00  Fora  Lusit. Évora  2-2 E J3 
+1935 -01-20  Casa  Lusitano VRSA  2-2 E J1 
+ 
+II Div. ZD 1ªF Grupo 2 35/36  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1936 -03-29  Fora  Olhanense  4-2 D J9 
+1936 -03-22  Casa  SL Beja  2-2 E J8 
+1936 -03-15  Fora  Portimonense  2-0 D J7 
+1936 -03-08  Casa  Juventude 
+Évora  8-0 V J6 
+1936 -02-09  Casa  Olhanense  1-0 V J4 
+1936 -02-02  Fora  Juventude 
+Évora  2-1 D J1 
+1936 -02-02  Fora  SL Beja  2-3 V J3 
+1936 -01-19  Casa  Portimonense  8-0 V J2 
+ 
+Campeonato II Divisão 1ªF S10 36/37  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1937 -03-14  Fora  Olhanense  5-1 D J6 
+1937 -03-07  Fora  Nacional Silves  2-5 V J5 
+1937 -02-28  Casa  Portimonense  1-1 E J4 
+1937 -02-21  Casa  Olhanense  2-9 D J3 
+1937 -02-14  Casa  Nacional Silves  1-0 V J2 
+1937 -02-07  Fora  Portimonense  1-4 V J1 
+ 
+II Divisão Série 10 1937/38  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Fora  Luso Beja  1-2 V J1 
+-  Fora  Portimonense  2-0 D J1 
+-  Fora  Olhanense  2-1 D J1 
+-  Casa  Olhanense  0-0 E J1 -  Casa  Portimonense  2-0 V J1 
+-  Casa  Luso Beja  5-0 V J1 
+ 
+Taça de Portugal 1938/1939  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1939 -05-21 00:00  Casa  Sporting  1-2 D 1/8 
+1939 -05-14 00:00  Fora  Sporting  7-0 D 1/8 
+ 
+II Divisão Série Algarve 1938/39  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Fora  Olhanense  2-1 D J1 
+-  Fora  Portimonense  1-2 V J1 
+-  Fora  Nacional Silves  1-3 V J1 
+-  Fora  SL Faro  2-7 V J1 
+-  Fora  Lusitano VRSA  2-1 D J1 
+-  Casa  Nacional Silves  14-0 V J1 
+-  Casa  Lusitano VRSA  1-0 V J1 
+-  Casa  SL Faro  4-1 V J1 
+-  Casa  Olhanense  1-0 V J1 
+-  Casa  Portimonense  4-0 V J1 
+ 
+II Divisão Ap. Campeões Zona 38/39  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Casa  Luso Beja  3-0 V F 
+ 
+II Divisão Fase Final 38/39  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Fora  Carcavelinhos  3-0 D MF 
+ 
+Taça de Portugal 1939/1940  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1940 -06-02 00:00  Fora  Sporting  9-0 D 1/8 
+1940 -05-26 00:00  Casa  Sporting  0-6 D 1/8 
+ 
+II Divisão Fase Final 1939/40  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Casa  Boavista  3-2 V F 
+-  Casa  Casa Pia AC  4-0 V MF 
+-  Casa  Luso Beja  4-0 V QF 
+ II Divisão Série Algarve 1939/40  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Fora  SL Faro  0-3 V J1 
+-  Fora  Lusitano VRSA  0-0 E J1 
+-  Fora  Olhanense  2-1 D J1 
+-  Casa  Lusitano VRSA  6-0 V J1 
+-  Casa  SL Faro  3-1 V J1 
+-  Casa  Olhanense  1-0 V J1 
+ 
+II Divisão Algarve 1940/41  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1940 -01-19  Fora  Lusitano VRSA  6-0 D J5 
+1940 -01-19  Fora  Olhanense  2-1 D J6 
+1940 -01-19  Fora  Faro e Benfica  3-0 D J1 
+1940 -01-19  Casa  Faro e Benfica  3-2 V J4 
+1940 -01-19  Casa  Olhanense  1-2 D J3 
+1940 -01-19  Casa  Lusitano VRSA  2-0 V J2 
+ 
+II Divisão Grupo D Série 11 1941/42  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1942 -04-12  Casa  Lusitano VRSA  2-1 V J6 
+1942 -04-05  Fora  Olhanense 
+Reservas  0-1 V J5 
+1942 -03-22  Casa  Faro e Benfica  1-1 E J4 
+1942 -03-01  Fora  Lusitano VRSA  0-3 V J3 
+1942 -02-15  Casa  Olhanense 
+Reservas  2-1 V J2 
+1942 -02-08  Fora  Faro e Benfica  0-0 E J1 
+ 
+II Divisão Grupo D Série 13 1942/43  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1943 -10-01  Fora  Glória FC  1-1 E J5 
+1943 -10-01  Fora  Lusitano VRSA  1-1 E J6 
+1943 -10-01  Fora  Faro e Benfica  0-1 V J8 
+1943 -10-01  Fora  Olhanense 
+Reservas  1-0 D J9 
+1943 -10-01  Fora  Louletano  1-5 V J2 
+1943 -10-01  Casa  Glória FC  7-0 V J10 
+1943 -10-01  Casa  Faro e Benfica  4-0 V J3 
+1943 -10-01  Casa  Olhanense 
+Reservas  0-2 D J4 
+1943 -10-01  Casa  Louletano  8-3 V J7 
+1943 -10-01  Casa  Lusitano VRSA  2-0 V J1 
+ 
+II Divisão Fase Final 1943/44  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1944 -04-09  Fora  Luso Beja  1-0 D QF  
+II Divisão Grupo D Série 13 Sub -Série 3 1943/44  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1943 -12-12  Fora  Lusitano VRSA  5-2 D J4 
+1943 -12-12  Fora  Faro e Benfica  0-5 V J7 
+1943 -12-12  Fora  Glória FC  3-2 D J10 
+1943 -12-12  Fora  Louletano  0-3 V J1 
+1943 -12-12  Casa  Faro e Benfica  4-1 V J2 
+1943 -12-12  Casa  Louletano  6-0 V J6 
+1943 -12-12  Casa  Lusitano VRSA  2-1 V J9 
+1943 -12-12  Casa  Glória FC  5-0 V J5 
+ 
+II Divisão Grupo D Série 16 1944/45  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+0000 -00-00  Fora  Louletano  0-1 V J4 
+0000 -00-00  Fora  Lusitano VRSA  4-2 D J6 
+0000 -00-00  Fora  Portimonense  0-0 E J2 
+0000 -00-00  Casa  Portimonense  2-0 V J5 
+0000 -00-00  Casa  Lusitano VRSA  4-2 V J3 
+0000 -00-00  Casa  Louletano  3-1 V J1 
+ 
+II Divisão Grupo D Série 16 1945/46  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1946 -01-06  Fora  Faro e Benfica  1-2 V J5 
+1946 -01-06  Fora  Boa Esperança 
+Portimonense  1-2 V J7 
+1946 -01-06  Fora  Lusitano VRSA  4-0 D J9 
+1946 -01-06  Fora  Portimonense  2-1 D J1 
+1946 -01-06  Casa  Faro e Benfica  3-0 V J10 
+1946 -01-06  Casa  Lusitano VRSA  1-3 D J4 
+1946 -01-06  Casa  Portimonense  0-1 D J6 
+1946 -01-06  Casa  Boa Esperança 
+Portimonense  1-1 E J2 
+ 
+II Divisão Grupo D Série 16 1946/47  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1947 -01-06  Fora  Louletano  - - J3 
+1947 -01-06  Fora  Portimonense  5-0 D J7 
+1947 -01-06  Fora  Lusitano VRSA  7-2 D J9 
+1947 -01-06  Fora  Boa Esperança 
+Portimonense  2-3 V J1 
+1947 -01-06  Casa  Louletano  - - J8 
+1947 -01-06  Casa  Lusitano VRSA  2-3 D J4 
+1947 -01-06  Casa  Boa Esperança 
+Portimonense  3-0 V J6 
+1947 -01-06  Casa  Portimonense  2-2 E J2 
+ III Divisão Jogos de Passagem 1947/48  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1948 -09-20 15:00  Casa  Lusit. Évora  1-0 V 1/8 
+ 
+Taça de Portugal 1947/1948  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1948 -06-06  Fora  O Elvas  13-0 D 1/16  
+ 
+III Divisão Jogos de Passagem Divisão 1947/48  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1948 -05-30 16:00   Lusit. Évora  0-2 V  
+ 
+III Divisão 47/48  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Casa  CD Cova 
+Piedade  1-1 E MF 
+-  Fora  CD Cova 
+Piedade  5-1 D MF 
+-  Fora  Est. Portalegre  2-2 E QF 
+-  Casa  Est. Portalegre  0-0 E QF 
+-  Fora  Est. Portalegre  0-1 V QF 
+-  Fora  Serpa  2-2 E 1E 
+-  Casa  Serpa  5-0 V 1E 
+ 
+II Divisão Zona D 1948/49  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1948 -11-21 15:00  Casa  Grupo União 
+Sport  1-1 E J1 
+1948 -10-03 15:00  Fora  Grupo União 
+Sport  2-3 V J1 
+1948 -09-01  Fora  Campomaiorense  0-5 V J1 
+1948 -09-01  Fora  Desp. Beja  4-1 D J1 
+1948 -09-01  Fora  Boa Esperança 
+Portimonense  2-2 E J1 
+1948 -09-01  Fora  GD Portalegrense  1-3 V J1 
+1948 -09-01  Fora  Portimonense  4-0 D J1 
+1948 -09-01  Fora  Moura  1-3 V J1 
+1948 -09-01  Casa  Desp. Beja  2-2 E J1 
+1948 -09-01  Casa  Boa Esperança 
+Portimonense  1-2 D J1 
+1948 -09-01  Casa  Portimonense  3-3 E J1 
+1948 -09-01  Casa  GD Portalegrense  1-0 V J1 
+1948 -09-01  Casa  Moura  3-0 V J1 
+1948 -09-01  Casa  Campomaiorense  1-2 D J1 
+ II Divisão II Fase Zona D 1949/50  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1950 -03-12  Casa  Grupo União 
+Sport  0-6 D J1 
+1950 -03-05  Casa  Portimonense  1-3 D J1 
+1950 -02-26  Fora  GD 
+Portalegrense  3-2 D J1 
+1950 -02-19  Fora  Grupo União 
+Sport  2-1 D J1 
+1950 -02-12  Fora  Portimonense  2-1 D J1 
+1950 -02-05  Casa  GD 
+Portalegrense  2-6 D J1 
+ 
+II Divisão Zona D Série 8 1949/50  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1950 -01-15  Fora  Aljustrelense  1-6 V J1 
+1950 -01-08  Fora  Silves  1-2 V J1 
+1950 -01-01  Fora  Portimonense  0-1 V J1 
+1949 -12-18  Fora  Moura  1-2 V J1 
+1949 -12-11  Fora  Desp. Beja  1-2 V J1 
+1949 -12-04  Fora  Faro e Benfica  0-10 V J1 
+1949 -11-27  Casa  Boa Esperança 
+Portimonense  2-2 E J1 
+1949 -11-20  Casa  Aljustrelense  1-4 D J1 
+1949 -11-13  Casa  Silves  3-1 V J1 
+1949 -11-06  Casa  Portimonense  1-4 D J1 
+1949 -10-30  Casa  Moura  4-1 V J1 
+1949 -10-23  Casa  Desp. Beja  0-2 D J1 
+1949 -10-16  Casa  Faro e Benfica  6-0 V J1 
+1949 -10-09  Fora  Boa Esperança 
+Portimonense  2-4 V J1 
+ 
+II Divisão Zona D 1950/51  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1951 -03-18 15:00  Casa  Lusit. Évora  1-5 D J1 
+1951 -01-28 15:00  Fora  O Elvas  3-0 D J1 
+1951 -01-14 15:00  Fora  Lusit. Évora  7-2 D J1 
+1950 -12-30 15:00  Casa  Grupo União 
+Sport  1-1 E J1 
+1950 -11-19 15:00  Casa  O Elvas  4-2 V J1 
+1950 -09-01  Fora  Campomaiorense  3-0 D J1 
+1950 -09-01  Fora  Desp. Beja  2-1 D J1 
+1950 -09-01  Fora  Portimonense  5-0 D J1 
+1950 -09-01  Fora  Grupo União 
+Sport  2-1 D J1 
+1950 -09-01  Fora  Aljustrelense  3-2 D J1 
+1950 -09-01  Casa  Campomaiorense  3-0 V J1 
+1950 -09-01  Casa  Aljustrelense  3-0 V J1 
+1950 -09-01  Casa  Desp. Beja  4-1 V J1 
+1950 -09-01  Casa  Portimonense  2-0 V J1 
+1950 -09-01  Casa  Lusitano VRSA  0-3 D J1 
+1950 -09-01  Fora  Lusitano VRSA  0-3 V J1
+ 
+II Divisão Grupo Sul Zona D 51/52  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1952 -01-13  Fora  Lusit. Évora  1-0 D J14 
+1951 -11-11 15:00  Casa  Lusit. Évora  3-6 D J5 
+1951 -09-01  Fora  Portimonense  0-2 V J6 
+1951 -09-01  Fora  GD 
+Portalegrense  4-1 D J4 
+1951 -09-01  Fora  São Domingos 
+Mértola  1-4 V J8 
+1951 -09-01  Fora  Desp. Beja  3-0 D J10 
+1951 -09-01  Fora  Juventude 
+Évora  4-1 D J18 
+1951 -09-01  Fora  Olhanense  1-2 V J16 
+1951 -09-01  Fora  Grupo União 
+Sport  2-0 D J12 
+1951 -09-01  Fora  O Elvas  2-0 D J2 
+1951 -09-01  Casa  São Domingos 
+Mértola  1-0 V J17 
+1951 -09-01  Casa  Grupo União 
+Sport  2-5 D J3 
+1951 -09-01  Casa  Desp. Beja  3-2 V J1 
+1951 -09-01  Casa  Olhanense  0-6 D J7 
+1951 -09-01  Casa  Juventude 
+Évora  0-3 D J9 
+1951 -09-01  Casa  GD 
+Portalegrense  1-1 E J13 
+1951 -09-01  Casa  O Elvas  1-2 D J11 
+1951 -09-01  Casa  Portimonense  3-1 V J15 
+ 
+III Divisão Fase Final 1952/53  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1953 -05-21  Fora  Operário 
+Lisboa  5-1 D MF 
+1953 -05-14  Casa  Operário 
+Lisboa  3-1 V MF 
+1953 -05-07  Casa  Est. Portalegre  5-0 V QF 
+1953 -05-01  Fora  Est. Portalegre  4-2 D QF 
+ 
+III Divisão Grupo Sul Zona D Série 7 52/53  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1952 -09-01  Fora  Esp. Lagos  3-8 V  
+1952 -09-01  Fora  Moura  2-1 D  
+1952 -09-01  Fora  Despertar SC  2-1 D  
+1952 -09-01  Fora  Silves  1-1 E  
+1952 -09-01  Fora  Aljustrelense  1-1 E  
+1952 -09-01  Casa  Esp. Lagos  4-1 V  
+1952 -09-01  Casa  Moura  3-3 E  1952 -09-01  Casa  Silves  2-1 V  
+1952 -09-01  Casa  Despertar SC  4-1 V  
+1952 -09-01  Casa  Aljustrelense  4-1 V  
+ 
+II Divisão Zona C 1953/1954  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1954 -02-07 15:00  Fora  Juventude 
+Évora  1-0 D J19 
+1954 -01-10 15:00  Casa  Grupo União 
+Sport  3-0 V J15 
+1953 -12-20  Casa  Luso FC  4-2 V J13 
+1953 -12-13  Fora  Lusitano VRSA  1-0 D J12 
+1953 -12-06  Fora  Almada AC  6-1 D J11 
+1953 -11-22  Casa  Olhanense  0-3 D J10 
+1953 -11-15  Fora  Portimonense  1-1 E J9 
+1953 -11-08  Casa  Juventude 
+Évora  1-1 E J8 
+1953 -11-01  Fora  São Domingos 
+Mértola  0-1 V J7 
+1953 -10-25  Casa  Montijo  1-0 V J6 
+1953 -10-18  Fora  CUF 6-2 D J5 
+1953 -10-11 15:00  Fora  Grupo União 
+Sport  5-0 D J4 
+1953 -10-04  Casa  Desp. Beja  3-1 V J3 
+-  Fora  Desp. Beja  1-1 E J14 
+-  Fora  Olhanense  4-2 D J21 
+-  Fora  Montijo  0-0 E J17 
+-  Fora  Luso FC  2-2 E J2 
+-  Casa  Almada AC  5-2 V J22 
+-  Casa  Lusitano VRSA  2-1 V J1 
+-  Casa  CUF 1-1 E J16 
+-  Casa  São Domingos 
+Mértola  9-1 V J18 
+-  Casa  Portimonense  4-1 V J20 
+ 
+Taça de Portugal 1954/1955  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1955 -06-05 00:00  Fora  Sporting  4-1 D MF 
+1955 -05-29  Casa  Nacional  3-1 V QF 
+1955 -05-15  Casa  Tirsense  2-0 V 1/8 
+1955 -05-08  Casa  GD 
+Portalegrense  4-2 V 1/16  
+ 
+II Divisão Zona Sul 1954/1955  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1954 -12-12  Casa  Grupo União 
+Sport  2-2 E J15 
+1954 -12-05  Fora  GD 
+Portalegrense  0-2 V J14 
+1954 -11-28  Fora  SL Olivais  2-3 V J13
+1954 -11-21  Casa  Almada AC  5-2 V J12 
+1954 -11-14  Fora  Olhanense  0-3 V J11 
+1954 -11-07  Casa  Desp. Beja  4-1 V J10 
+1954 -10-24  Casa  Montijo  3-2 V J8 
+1954 -10-17  Fora  Coruchense  0-0 E J7 
+1954 -10-10  Casa  Estoril Praia  0-1 D J6 
+1954 -10-03 00:00  Fora  Juventude 
+Évora  1-3 V J5 
+1954 -09-26 00:00  Fora  Arroios  3-1 D J4 
+1954 -09-19  Casa  Oriental  2-2 E J3 
+1954 -09-12  Fora  Grupo União 
+Sport  1-1 E J2 
+1954 -09-05 00:00  Casa  GD 
+Portalegrense  3-1 V J1 
+-  Fora  Oriental  3-2 D J16 
+-  Fora  Estoril Praia  3-0 D J19 
+-  Fora  Montijo  4-1 D J21 
+-  Fora  Almada AC  2-3 V J25 
+-  Fora  Desp. Beja  1-0 D J23 
+-  Fora  Portimonense  2-1 D J9 
+-  Casa  Juventude 
+Évora  1-1 E J18 
+-  Casa  Portimonense  2-0 V J22 
+-  Casa  Olhanense  1-0 V J24 
+-  Casa  SL Olivais  1-0 V J26 
+-  Casa  Arroios  1-2 D J17 
+-  Casa  Coruchense  3-2 V J20 
+ 
+II Divisão Zona Sul 1955/1956  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1956 -10-16  Fora  Olhanense  2-0 D J7 
+1955 -12-04  Casa  Portimonense  3-1 V J14 
+1955 -11-27  Fora  Montijo  1-0 D J13 
+1955 -11-20  Casa  Arroios  4-2 V J12 
+1955 -11-13  Fora  GD 
+Portalegrense  4-0 D J11 
+1955 -11-06  Casa  O Elvas  2-0 V J10 
+1955 -10-30  Fora  Coruchense  5-2 D J9 
+1955 -10-23  Casa  Estoril Praia  3-1 V J8 
+1955 -10-09 00:00  Casa  SL Olivais  4-3 V J6 
+1955 -10-02 00:00  Fora  Juventude 
+Évora  0-2 V J5 
+1955 -09-25 00:00  Casa  Grupo União 
+Sport  2-2 E J4 
+1955 -09-18 17:00  Fora  Desp. Beja  2-2 E J3 
+1955 -09-11 00:00  Casa  Oriental  3-3 E J2 
+1955 -09-04 00:00  Fora  Portimonense  2-2 E J1 
+-  Fora  Arroios  4-3 D J25 
+-  Fora  Grupo União 
+Sport  4-1 D J17 
+-  Fora  Oriental  5-1 D J15 
+-  Fora  SL Olivais  2-2 E J19 
+-  Fora  O Elvas  5-2 D J23 -  Fora  Estoril Praia  2-1 D J21 
+-  Casa  Desp. Beja  3-1 V J16 
+-  Casa  Juventude 
+Évora  4-1 V J18 
+-  Casa  Olhanense  4-3 V J20 
+-  Casa  Coruchense  2-2 E J22 
+-  Casa  GD 
+Portalegrense  3-3 E J24 
+-  Casa  Montijo  1-1 E J26 
+ 
+Taça de Portugal 1955/1956  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1956 -05-02  Casa  Benfica  0-4 D 1/16  
+ 
+II Divisão Fase Final 1956/1957  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1957 -05-12 00:00  Casa  Vitória SC  2-2 E J10 
+1957 -04-07  Casa  SC Braga  1-3 D J6 
+1957 -03-31  Fora  Vitória SC  3-0 D J5 
+1957 -03-03  Fora  SC Braga  5-2 D J1 
+-  Fora  SC Salgueiros  5-1 D J3 
+-  Fora  Montijo  2-1 D J9 
+-  Fora  Coruchense  1-2 V J7 
+-  Casa  Montijo  2-0 V J4 
+-  Casa  SC Salgueiros  2-3 D J8 
+-  Casa  Coruchense  3-3 E J2 
+ 
+II Divisão Zona Sul 1956/57  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1956 -12-09  Casa  Almada AC  3-2 V J15 
+1956 -12-02  Fora  Juventude 
+Évora  2-3 V J14 
+1956 -11-25  Fora  SL Olivais  0-2 V J13 
+1956 -11-18  Casa  Coruchense  1-0 V J12 
+1956 -11-11  Fora  Portimonense  1-4 V J11 
+1956 -11-04  Casa  GD 
+Portalegrense  3-1 V J10 
+1956 -10-28  Fora  Olhanense  0-2 V J9 
+1956 -10-21  Casa  Grupo União 
+Sport  7-1 V J8 
+1956 -10-14  Fora  Montijo  4-2 D J7 
+1956 -10-07 00:00  Casa  Leões 
+Santarém  2-0 V J6 
+1956 -09-30 00:00  Fora  Desp. Beja  0-1 V J5 
+1956 -09-23 00:00  Casa  Arroios  5-5 E J4 
+1956 -09-16  Fora  Estoril Praia  1-1 E J3 
+1956 -09-09  Fora  Almada AC  2-2 E J2 
+1956 -09-02  Casa  Juventude 
+Évora  1-0 V J1 -  Fora  GD 
+Portalegrense  1-1 E J23 
+-  Casa  Estoril Praia  3-1 V J16 
+-  Casa  SL Olivais  4-1 V J26 
+-  Casa  Portimonense  0-0 E J24 
+-  Fora  Grupo União 
+Sport  0-2 V J21 
+-  Fora  Arroios  4-2 D J17 
+-  Casa  Olhanense  3-0 V J22 
+-  Casa  Montijo  1-1 E J20 
+-  Casa  Desp. Beja  1-0 V J18 
+-  Fora  Coruchense  3-2 D J25 
+-  Fora  Leões 
+Santarém  2-0 D J19 
+ 
+II Divisão Fase Final 1957/58  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1958 -05-18 00:00  Fora  Boavista  0-2 V  
+1958 -04-20  Casa  Vitória SC  1-2 D  
+1958 -03-09  Fora  Vitória SC  3-1 D  
+-  Fora  Olhanense  2-1 D  
+-  Fora  Atlético CP  7-2 D  
+-  Fora  SC Covilhã  1-1 E  
+-  Casa  Boavista  2-1 V  
+-  Casa  Atlético CP  6-2 V  
+-  Casa  Olhanense  2-0 V  
+-  Casa  SC Covilhã  0-0 E  
+ 
+II Divisão ZS 57/58  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1958 -02-16 15:00  Casa  Juventude 
+Évora  4-0 V J24 
+1957 -12-08  Fora  Montijo  0-1 V J14 
+1957 -12-01  Fora  Coruchense  1-2 V J13 
+1957 -11-24  Casa  Atlético CP  5-0 V J12 
+1957 -11-17  Fora  Juventude 
+Évora  2-1 D J11 
+1957 -11-10  Casa  Grupo União 
+Sport  4-1 V J10 
+1957 -11-03  Fora  Desp. Beja  3-1 D J9 
+1957 -10-27  Fora  GD 
+Portalegrense  0-1 V J8 
+1957 -10-20  Casa  Estoril Praia  3-1 V J7 
+1957 -10-13 00:00  Fora  Arroios  1-2 V J6 
+1957 -10-06 00:00  Casa  Portimonense  2-1 V J5 
+1957 -09-29 00:00  Fora  Serpa  0-3 V J4 
+1957 -09-22  Casa  Almada AC  3-0 V J3 
+1957 -09-15 00:00  Fora  Olhanense  2-0 D J2 
+1957 -09-08 00:00  Casa  Montijo  2-1 V J1 
+-  Fora  Grupo União 
+Sport  1-5 V J23 
+-  Casa  Serpa  3-2 V J17 -  Casa  Coruchense  5-1 V J26 
+-  Fora  Estoril Praia  1-1 E J20 
+-  Casa  Olhanense  3-2 V J15 
+-  Fora  Atlético CP  3-1 D J25 
+-  Casa  Desp. Beja  5-1 V J22 
+-  Casa  GD 
+Portalegrense  6-1 V J21 
+-  Casa  Arroios  1-3 D J19 
+-  Fora  Almada AC  2-2 E J16 
+-  Fora  Portimonense  1-1 E J18 
+ 
+Liguilha I/II Div. 58/59  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1959 -07-05 00:00  Fora  CUF 3-1 D J10 
+1959 -06-28 00:00  Casa  Boavista  3-2 V J9 
+1959 -06-21 00:00  Fora  Olhanense  3-1 D J8 
+1959 -05-31 00:00  Casa  Barreirense  1-0 V J7 
+1959 -05-24 00:00  Fora  SC Salgueiros  2-0 D J6 
+1959 -05-10 00:00  Casa  CUF 0-0 E J5 
+1959 -05-03 00:00  Fora  Boavista  6-0 D J4 
+1959 -04-19 00:00  Casa  Olhanense  2-0 V J3 
+1959 -04-12  Fora  Barreirense  3-1 D J2 
+1959 -04-05 00:00  Casa  SC Salgueiros  4-1 V J1 
+ 
+II Divisão Zona Sul 1958/59  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1958 -12-21  Casa  Portimonense  2-0 V J16 
+1958 -12-14  Fora  Olhanense  1-1 E J15 
+1958 -12-07  Casa  Estoril Praia  4-1 V J14 
+1958 -11-30  Casa  Montijo  3-1 V J13 
+1958 -11-23 15:00  Fora  Desp. Beja  1-1 E J12 
+1958 -11-16  Casa  Almada AC  4-1 V J11 
+1958 -11-09  Fora  Sacavenense  2-1 D J10 
+1958 -11-02  Casa  Arroios  8-1 V J9 
+1958 -10-26  Casa  Atlético CP  2-2 E J8 
+1958 -10-19  Fora  Oriental  1-0 D J7 
+1958 -10-12  Casa  Coruchense  0-1 D J6 
+1958 -10-05 00:00  Fora  Serpa  3-5 V J5 
+1958 -09-28 00:00  Casa  Juventude 
+Évora  4-0 V J4 
+1958 -09-21 16:00  Fora  Portimonense  2-1 D J3 
+1958 -09-14  Casa  Olhanense  0-2 D J2 
+1958 -09-07 00:00  Fora  Estoril Praia  1-0 D J1 
+-  Fora  Atlético CP  3-1 D J21 
+-  Fora  Almada AC  2-2 E J24 
+-  Fora  Montijo  3-1 D J26 
+-  Fora  Coruchense  0-3 V J19 
+-  Fora  Arroios  1-1 E J22 
+-  Casa  Desp. Beja  2-1 V J25 
+-  Casa  Serpa  4-1 V J18 
+-  Casa  Oriental  4-2 V J20 -  Casa  Sacavenense  7-0 V J23 
+-  Fora  Juventude 
+Évora  0-2 V J17 
+ 
+II Divisão ZS 59/60  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1960 -05-29 00:00  Fora  Almada AC  3-2 D J26 
+1959 -12-20  Fora  Olhanense  1-0 D J12 
+1959 -12-13  Fora  Barreirense  1-0 D J11 
+1959 -12-06  Casa  Montijo  7-0 V J10 
+1959 -11-22  Fora  Lusitano VRSA  1-1 E J9 
+1959 -11-15  Casa  Arroios  3-0 V J8 
+1959 -11-01  Fora  Desp. Beja  0-2 V J7 
+1959 -10-25  Casa  Juventude 
+Évora  2-2 E J6 
+1959 -10-18  Fora  Portimonense  2-1 D J5 
+1959 -10-11  Casa  Oriental  0-2 D J4 
+1959 -10-04 00:00  Fora  Estoril Praia  1-4 V J3 
+1959 -09-27 00:00  Casa  SL Olivais  2-1 V J2 
+1959 -09-20 00:00  Fora  Serpa  1-1 E J1 
+-  Fora  Juventude 
+Évora  1-3 V J19 
+-  Fora  SL Olivais  4-2 D J15 
+-  Fora  Montijo  2-0 D J23 
+-  Fora  Arroios  0-1 V J21 
+-  Fora  Oriental  2-1 D J17 
+-  Casa  Estoril Praia  3-2 V J16 
+-  Casa  Desp. Beja  6-1 V J20 
+-  Casa  Portimonense  1-0 V J18 
+-  Casa  Lusitano VRSA  1-1 E J22 
+-  Casa  Barreirense  3-1 V J24 
+-  Casa  Almada AC  2-0 V J13 
+-  Casa  Olhanense  1-0 V J25 
+-  Casa  Serpa  2-0 V J14 
+ 
+Taça de Portugal 1959/1960  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1960 -04-24 00:00  Casa  Sporting  4-3 V 1/8 
+1960 -03-27 00:00  Fora  Sporting  6-0 D 1/8 
+1959 -12-27  Fora  Peniche  3-2 D 1/32  
+1959 -11-29  Casa  Peniche  3-1 V 1/32  
+ 
+Liguilha I/II Divisão 1960/61  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1961 -07-09 00:00  Fora  UD Oliveirense  2-0 D J6 
+1961 -07-02 17:30  Casa  Lusit. Évora  1-0 V J5 
+1961 -06-25 00:00  Fora  SC Salgueiros  3-1 D J4 
+1961 -06-18  Casa  UD Oliveirense  2-2 E J3 
+1961 -06-11 00:00  Fora  Lusit. Évora  2-1 D J2 
+1961 -06-04 00:00  Casa  SC Salgueiros  1-3 D J1
+ 
+Taça de Portugal 1960/1961  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1961 -04-16  Casa  Sacavenense  2-3 D 1/16  
+1961 -03-26  Fora  Sacavenense  3-1 D 1/16  
+1961 -02-26  Casa  Marinhense  3-1 V 1/32  
+1961 -01-29  Fora  Marinhense  2-1 D 1/32  
+ 
+II Divisão ZS 60/61  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+-  Fora  Juventude 
+Évora  2-3 V J5 
+-  Fora  Portimonense  0-2 V J7 
+-  Fora  Oriental  1-0 D J4 
+-  Fora  Lusitano VRSA  0-2 V J13 
+-  Fora  Grupo União 
+Sport  1-3 V J21 
+-  Fora  Sacavenense  2-1 D J23 
+-  Fora  Alhandra  0-1 V J25 
+-  Fora  SL Olivais  3-1 D J19 
+-  Fora  Montijo  1-0 D J16 
+-  Fora  Olhanense  1-1 E J11 
+-  Fora  Desp. Beja  1-3 V J2 
+-  Fora  Estoril Praia  3-4 V J14 
+-  Fora  Vitória FC  4-0 D J9 
+-  Casa  Lusitano VRSA  2-1 V J26 
+-  Casa  Grupo União 
+Sport  2-0 V J8 
+-  Casa  Sacavenense  3-0 V J10 
+-  Casa  SL Olivais  2-1 V J6 
+-  Casa  Montijo  2-0 V J3 
+-  Casa  Estoril Praia  3-1 V J1 
+-  Casa  Alhandra  2-0 V J12 
+-  Casa  Desp. Beja  2-0 V J15 
+-  Casa  Vitória FC  2-1 V J22 
+-  Casa  Portimonense  1-0 V J20 
+-  Casa  Juventude 
+Évora  6-0 V J18 
+-  Casa  Oriental  2-0 V J17 
+-  Casa  Olhanense  0-0 E J24 
+ 
+II Divisão Zona Sul 1961/62  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1962 -05-27 00:00  Casa  Campomaiorense  7-1 V J26 
+1962 -05-20 00:00  Fora  Vitória FC  3-0 D J25 
+1962 -05-13 00:00  Casa  Sacavenense  1-0 V J24 
+1961 -12-10  Fora  Lusitano VRSA  2-1 D J9 
+1961 -12-03  Casa  Seixal FC  2-3 D J8 
+1961 -11-19  Fora  Barreirense  4-0 D J7
+1961 -11-12  Casa  Montijo  4-1 V J6 
+1961 -11-05  Fora  SL Olivais  1-2 V J5 
+1961 -10-29  Casa  Oriental  2-0 V J4 
+1961 -10-15  Fora  CD Cova Piedade  3-0 D J3 
+1961 -10-01 00:00  Casa  Portimonense  3-0 V J2 
+1961 -09-24 00:00  Fora  Desp. Beja  1-4 V J1 
+-  Fora  Portimonense  1-2 V J15 
+-  Fora  Montijo  1-2 V J19 
+-  Fora  Seixal FC  2-2 E J21 
+-  Fora  Oriental  1-2 V J17 
+-  Fora  Alhandra  3-2 D J23 
+-  Fora  Campomaiorense  1-1 E J13 
+-  Fora  Sacavenense  1-1 E J11 
+-  Casa  Barreirense  2-1 V J20 
+-  Casa  Alhandra  3-2 V J10 
+-  Casa  Lusitano VRSA  0-0 E J22 
+-  Casa  Vitória FC  2-2 E J12 
+-  Casa  Desp. Beja  3-0 V J14 
+-  Casa  CD Cova Piedade  1-1 E J16 
+-  Casa  SL Olivais  6-1 V J18 
+ 
+Taça de Portugal 1961/1962  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1962 -02-25 00:00  Casa  Académica 
+OAF 2-1 V 1/16  
+1962 -01-28 00:00  Fora  Académica 
+OAF 3-1 D 1/16  
+1961 -12-31  Casa  Boavista  4-2 V 1/32  
+1961 -11-26  Fora  Boavista  3-2 D 1/32  
+ 
+II Divisão Zona Sul 62/63  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1963 -05-12 15:00  Casa  Montijo  3-1 V J26 
+1963 -05-05 15:00  Fora  Lusitano VRSA  4-1 D J25 
+1963 -04-28 15:00  Casa  Alhandra  0-0 E J24 
+1963 -04-07 15:00  Fora  Seixal FC  5-2 D J23 
+1963 -03-31 15:00  Casa  Sacavenense  3-0 V J22 
+1963 -03-24 15:00  Fora  Portimonense  3-0 D J21 
+1963 -03-17 15:00  Casa  Oriental  1-0 V J20 
+1963 -03-10 15:00  Fora  GD 
+Portalegrense  3-0 D J19 
+1963 -03-03 15:00  Casa  Luso FC  1-1 E J18 
+1963 -02-24 15:00  Fora  Peniche  2-2 E J17 
+1963 -02-17 15:00  Casa  Torreense  1-0 V J16 
+1963 -02-10 15:00  Casa  Silves  2-1 V J15 
+1963 -02-03 15:00  Fora  CD Cova 
+Piedade  2-0 D J14 
+1963 -01-27 15:00  Fora  Montijo  2-1 D J13 
+1963 -01-20 15:00  Casa  Lusitano VRSA  3-2 V J12 
+1963 -01-13 15:00  Fora  Alhandra  1-1 E J11 
+1963 -01-06 15:00  Casa  Seixal FC  1-1 E J10
+1962 -12-30 15:00  Fora  Sacavenense  4-0 D J9 
+1962 -12-23 15:00  Casa  Portimonense  0-1 D J8 
+1962 -12-09 15:00  Fora  Oriental  1-3 V J7 
+1962 -12-02 15:00  Casa  GD 
+Portalegrense  5-0 V J6 
+1962 -11-25 15:00  Fora  Luso FC  2-1 D J5 
+1962 -11-18 15:00  Casa  Peniche  1-0 V J4 
+1962 -11-11 15:00  Fora  Torreense  1-0 D J3 
+1962 -10-28 15:00  Fora  Silves  1-4 V J2 
+1962 -10-21 15:00  Casa  CD Cova 
+Piedade  0-0 E J1 
+ 
+Taça de Portugal 1962/1963  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1962 -09-30  Casa  Beira -Mar 0-1 D 1/32  
+1962 -09-23  Fora  Beira -Mar 4-2 D 1/32  
+ 
+II Divisão Zona Sul 63/64  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1964 -04-19  Fora  Lusitano VRSA  2-0 D J26 
+1964 -04-12  Casa  Leões 
+Santarém  2-0 V J25 
+1964 -04-05  Fora  Torreense  5-1 D J24 
+1964 -03-22  Casa  Alhandra  4-1 V J23 
+1964 -03-15  Fora  Desp. Beja  3-0 D J22 
+1964 -03-08  Casa  Oriental  1-0 V J21 
+1964 -03-01  Fora  Peniche  4-1 D J20 
+1964 -02-23  Casa  CD Cova 
+Piedade  4-0 V J19 
+1964 -02-16  Fora  Atlético CP  3-3 E J18 
+1964 -02-09  Casa  Portimonense  1-2 D J17 
+1964 -02-02  Fora  Luso FC  1-1 E J16 
+1964 -01-26  Casa  Montijo  1-1 E J15 
+1964 -01-19  Fora  Sacavenense  2-0 D J14 
+1964 -01-12  Casa  Lusitano VRSA  3-2 V J13 
+1964 -01-05  Fora  Leões 
+Santarém  2-1 D J12 
+1963 -12-29  Casa  Torreense  3-2 V J11 
+1963 -12-22  Fora  Alhandra  3-1 D J10 
+1963 -12-15  Casa  Desp. Beja  1-2 D J9 
+1963 -12-08  Fora  Oriental  1-0 D J8 
+1963 -12-01  Casa  Peniche  4-1 V J7 
+1963 -11-24  Fora  CD Cova 
+Piedade  0-0 E J6 
+1963 -11-17  Casa  Atlético CP  1-0 V J5 
+1963 -11-10  Fora  Portimonense  0-1 V J4 
+1963 -11-03  Casa  Luso FC  2-0 V J3 
+1963 -10-27  Fora  Montijo  6-2 D J2 
+1963 -10-20  Casa  Sacavenense  4-1 V J1 
+ Taça de Portugal 1963/1964  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1963 -10-13  Casa  SC Salgueiros  1-1 E 1/16  
+1963 -10-06  Fora  SC Salgueiros  4-1 D 1/16  
+1963 -09-29  Casa  UD Oliveirense  4-0 V 1/32  
+1963 -09-22  Fora  UD Oliveirense  1-1 E 1/32  
+ 
+II Divisão Zona Sul 64/65  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1965 -05-02  Casa  Desp. Beja  3-1 V J26 
+1965 -04-25  Fora  Oriental  1-1 E J25 
+1965 -04-04  Casa  Montijo  2-2 E J24 
+1965 -03-28  Casa  Almada AC  1-1 E J23 
+1965 -03-21  Fora  Atlético CP  3-1 D J22 
+1965 -03-14  Casa  Leões 
+Santarém  2-3 D J21 
+1965 -03-07  Fora  Barreirense  4-0 D J20 
+1965 -02-28  Casa  Luso FC  1-2 D J19 
+1965 -02-21  Fora  Sintrense  5-1 D J18 
+1965 -02-14  Casa  Olhanense  1-2 D J17 
+1965 -02-07  Fora  CD Cova 
+Piedade  8-1 D J16 
+1965 -01-31  Casa  Alhandra  1-0 V J15 
+1965 -01-17  Fora  Portimonense  2-0 D J14 
+1965 -01-10  Fora  Desp. Beja  0-1 V J13 
+1965 -01-03  Casa  Oriental  2-0 V J12 
+1964 -12-27  Fora  Montijo  3-1 D J11 
+1964 -12-20  Fora  Almada AC  1-1 E J10 
+1964 -12-13  Casa  Atlético CP  1-0 V J9 
+1964 -12-06  Fora  Leões 
+Santarém  1-0 D J8 
+1964 -11-29  Casa  Barreirense  1-0 V J7 
+1964 -11-22  Fora  Luso FC  2-1 D J6 
+1964 -11-08  Casa  Sintrense  0-2 D J5 
+1964 -11-01  Fora  Olhanense  2-1 D J4 
+1964 -10-25  Casa  CD Cova 
+Piedade  2-0 V J3 
+1964 -10-18  Fora  Alhandra  5-1 D J2 
+1964 -10-11  Casa  Portimonense  2-1 V J1 
+ 
+Taça de Portugal 1964/1965  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1964 -10-04  Fora  AD 
+Sanjoanense  3-0 D 1/16  
+1964 -09-27  Casa  AD 
+Sanjoanense  2-1 V 1/16  
+1964 -09-20  Casa  CD Cova 
+Piedade  2-0 V 1/32  
+1964 -09-13  Fora  CD Cova 
+Piedade  2-1 D 1/32  
+ III Divisão Zona D Série 8 65/66  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1965 -09-01  Fora  SC 
+Santaclarense  1-4 V J1 
+1965 -09-01  Fora  Est. Portalegre  2-3 V J1 
+1965 -09-01  Fora  Serpa  3-2 D J1 
+1965 -09-01  Fora  Juventude 
+Évora  1-0 D J1 
+1965 -09-01  Fora  Moura  1-0 D J1 
+1965 -09-01  Casa  Est. Portalegre  6-1 V J1 
+1965 -09-01  Casa  Juventude 
+Évora  3-1 V J1 
+1965 -09-01  Casa  Moura  10-1 V J1 
+1965 -09-01  Casa  SC 
+Santaclarense  5-0 V J1 
+1965 -09-01  Casa  Serpa  10-0 V J1 
+ 
+III Divisão Fase Final 1966/67  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1967 -05-08  Casa  Sesimbra  2-0 V QF 
+1967 -05-01  Fora  Sesimbra  1-0 D QF 
+1967 -05-01  Fora  Sesimbra  2-0 D QF 
+ 
+III Divisão Zona Sul Série 8 66/67  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1966 -09-01  Fora  Grupo União 
+Sport  0-1 V J1 
+1966 -09-01  Fora  Desp. Beja  0-0 E J1 
+1966 -09-01  Fora  Juventude 
+Évora  2-2 E J1 
+1966 -09-01  Fora  Lusitano VRSA  1-1 E J1 
+1966 -09-01  Fora  Aljustrelense  0-1 V J1 
+1966 -09-01  Casa  Desp. Beja  3-1 V J1 
+1966 -09-01  Casa  Aljustrelense  7-1 V J1 
+1966 -09-01  Casa  Grupo União 
+Sport  5-0 V J1 
+1966 -09-01  Casa  Juventude 
+Évora  3-0 V J1 
+1966 -09-01  Casa  Lusitano VRSA  2-0 V J1 
+ 
+III Divisão Fase Final 1967/68  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1968 -05-08  Casa  Seixal FC  1-1 E QF 
+1968 -05-01  Fora  Seixal FC  2-1 D QF 
+ 
+III Divisão Zona D Série 8 67/68  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1967 -09-01  Fora  Aljustrelense  1-2 V J1 
+1967 -09-01  Fora  Desp. Beja  0-1 V J1 
+1967 -09-01  Fora  Vasco da Gama 
+Sines  1-1 E J1 
+1967 -09-01  Fora  Lusitano VRSA  2-0 D J1 
+1967 -09-01  Fora  Faro e Benfica  0-7 V J1 
+1967 -09-01  Casa  Desp. Beja  5-2 V J1 
+1967 -09-01  Casa  Lusitano VRSA  3-0 V J1 
+1967 -09-01  Casa  Vasco da Gama 
+Sines  3-0 V J1 
+1967 -09-01  Casa  Faro e Benfica  6-0 V J1 
+1967 -09-01  Casa  Aljustrelense  6-0 V J1 
+ 
+III Divisão Fase Final 1968/69  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1969 -05-22   U. Lamas  1-0 D F 
+1969 -05-15  Casa  U. Lamas  1-1 E F 
+1969 -05-08  Casa  Marinhense  1-0 V MF 
+1969 -05-01  Fora  Marinhense  0-0 E MF 
+ 
+III Divisão Zona D 68/69  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1969 -02-16 15:00  Fora  1º de Maio 
+Sarilhense  0-8 V J1 
+1969 -02-02 15:00  Casa  Juventude 
+Évora  3-0 V J1 
+1968 -09-01  Fora  Juventude 
+Évora  0-4 V J1 
+1968 -09-01  Fora  Faro e Benfica  0-4 V J1 
+1968 -09-01  Fora  Desp. Beja  1-2 V J1 
+1968 -09-01  Fora  Lusitano VRSA  0-1 V J1 
+1968 -09-01  Fora  Grupo União 
+Sport  1-2 V J1 
+1968 -09-01  Fora  Aljustrelense  0-1 V J1 
+1968 -09-01  Fora  CD Cova 
+Piedade  0-1 V J1 
+1968 -09-01  Fora  Olhanense  1-0 D J1 
+1968 -09-01  Fora  Desp. 
+Grandolense  2-1 D J1 
+1968 -09-01  Fora  Vasco da Gama 
+Sines  2-2 E J1 
+1968 -09-01  Casa  Olhanense  0-0 E J1 
+1968 -09-01  Casa  1º de Maio 
+Sarilhense  8-0 V J1 
+1968 -09-01  Casa  CD Cova 
+Piedade  4-0 V J1 
+1968 -09-01  Casa  Desp. Beja  3-0 V J1 
+1968 -09-01  Casa  Aljustrelense  2-0 V J1 
+1968 -09-01  Casa  Lusitano VRSA  2-0 V J1 
+1968 -09-01  Casa  Faro e Benfica  5-0 V J1 
+1968 -09-01  Casa  Desp. 
+Grandolense  0-0 E J1 1968 -09-01  Casa  Grupo União 
+Sport  2-1 V J1 
+1968 -09-01  Casa  Vasco da Gama 
+Sines  3-0 V J1 
+ 
+Taça de Portugal 1968/1969  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1969 -02-09  Fora  Académica 
+OAF 2-0 D 1/32  
+1968 -12-08  Casa  Ferroviários  2-0 V 1/128  
+1968 -10-20  Casa  SC Salgueiros  2-1 V 1E 
+ 
+II Divisão Fase Final 1969/1970  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1970 -06-10  Fora  Tirsense  2-0 D F 
+ 
+II Divisão Zona Sul 69/70  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1970 -03-01  Fora  U. Santarém  0-1 V J20 
+1970 -02-22 15:00  Fora  Lusit. Évora  0-1 V J19 
+1969 -12-21  Fora  Oriental  0-2 V J12 
+1969 -12-14  Casa  Sintrense  4-0 V J11 
+1969 -11-30  Fora  Peniche  1-0 D J10 
+1969 -11-23  Casa  Portimonense  1-1 E J9 
+1969 -11-16  Fora  Seixal FC  0-0 E J8 
+1969 -11-09  Casa  U. Santarém  6-1 V J7 
+1969 -10-26 15:00  Casa  Lusit. Évora  5-1 V J6 
+1969 -10-19  Fora  Atlético CP  0-0 E J5 
+1969 -09-28 00:00  Casa  Luso FC  2-0 V J4 
+1969 -09-21  Fora  Torreense  5-2 D J3 
+1969 -09-14  Casa  Montijo  5-0 V J2 
+1969 -09-07  Fora  Sesimbra  2-2 E J1 
+-  Fora  Sintrense  1-1 E J24 
+-  Fora  Luso FC  3-2 D J17 
+-  Fora  Montijo  3-0 D J15 
+-  Fora  Tramagal  1-0 D J26 
+-  Fora  Portimonense  0-3 V J22 
+-  Casa  Atlético CP  0-0 E J18 
+-  Casa  Peniche  2-0 V J23 
+-  Casa  Seixal FC  1-1 E J21 
+-  Casa  Oriental  0-0 E J25 
+-  Casa  Tramagal  5-0 V J13 
+-  Casa  Sesimbra  1-0 V J14 
+-  Casa  Torreense  1-0 V J16 
+ 
+Taça de Portugal 1969/1970  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1970 -01-11  Fora  Nazarenos  3-1 D 1/32  
+1969 -12-07  Casa  Naval  1-0 V 1/64  
+1969 -10-05  Casa  Seixal FC  3-1 V 1/128  
+ 
+Taça de Portugal 1970/1971  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1971 -05-16  Fora  U. Coimbra  2-0 D 1/16  
+ 
+I Divisão 1970/71  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1971 -05-02 00:00  Casa  Vitória FC  0-0 E J26 
+1971 -04-25 00:00  Fora  Vitória SC  1-0 D J25 
+1971 -04-04 00:00  Fora  Leixões  1-0 D J24 
+1971 -03-28 00:00  Casa  Boavista  0-0 E J23 
+1971 -03-21 00:00  Fora  Benfica  5-0 D J22 
+1971 -02-28 00:00  Casa  Sporting  1-2 D J21 
+1971 -02-21 00:00  Fora  Barreirense  1-0 D J20 
+1971 -02-07 00:00  Casa  CUF 1-1 E J19 
+1971 -01-31 00:00  Fora  Tirsense  2-0 D J18 
+1971 -01-24 00:00  Casa  Académica 
+OAF 2-2 E J17 
+1971 -01-03 00:00  Fora  Belenenses  1-0 D J16 
+1970 -12-27 00:00  Casa  Varzim  0-0 E J15 
+1970 -12-20  Fora  FC Porto  3-0 D J14 
+1970 -12-13  Fora  Vitória FC  6-1 D J13 
+1970 -12-06 15:00  Casa  Vitória SC  2-0 V J12 
+1970 -11-29  Casa  Leixões  1-0 V J11 
+1970 -11-21  Fora  Boavista  0-1 V J10 
+1970 -11-15  Casa  Benfica  1-0 V J9 
+1970 -11-08 00:00  Fora  Sporting  1-0 D J8 
+1970 -11-01 00:00  Casa  Barreirense  1-1 E J7 
+1970 -10-25 15:00  Fora  CUF 2-0 D J6 
+1970 -10-18  Casa  Tirsense  1-0 V J5 
+1970 -10-04 15:00  Fora  Académica 
+OAF 3-1 D J4 
+1970 -09-27 00:00  Casa  Belenenses  1-0 V J3 
+1970 -09-20 16:00  Fora  Varzim  1-0 D J2 
+1970 -09-13 00:00  Casa  FC Porto  1-0 V J1 
+ 
+I Divisão 1971/72  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1972 -05-28 00:00  Casa  Benfica  2-5 D J30 
+1972 -05-21 00:00  Fora  Tirsense  2-0 D J29 
+1972 -05-14 00:00  Casa  Beira -Mar 2-0 V J28 
+1972 -05-07 00:00  Fora  Vitória FC  4-0 D J27 
+1972 -04-16 00:00  Casa  CUF 2-2 E J26 
+1972 -04-09 00:00  Fora  FC Porto  2-0 D J25 
+1972 -03-26 00:00  Casa  Belenenses  3-1 V J24 
+1972 -03-19 00:00  Casa  Sporting  1-1 E J23 
+1972 -03-12 00:00  Fora  Vitória SC  5-1 D J22
+1972 -02-27 00:00  Casa  Académica 
+OAF 4-2 V J21 
+1972 -02-20 00:00  Fora  Leixões  1-0 D J20 
+1972 -02-13 00:00  Casa  Atlético CP  3-1 V J19 
+1972 -02-06 00:00  Fora  Barreirense  3-1 D J18 
+1972 -01-30 00:00  Casa  Boavista  1-1 E J17 
+1972 -01-23 00:00  Fora  U. Tomar  0-0 E J16 
+1972 -01-05 00:00  Fora  Benfica  2-0 D J15 
+1972 -01-02 00:00  Casa  Tirsense  2-0 V J14 
+1971 -12-26 00:00  Fora  Beira -Mar 1-1 E J13 
+1971 -12-19 15:00  Casa  Vitória FC  0-2 D J12 
+1971 -12-11 15:30  Fora  CUF 2-1 D J11 
+1971 -12-05 15:00  Casa  FC Porto  0-0 E J10 
+1971 -11-28 00:00  Fora  Belenenses  2-1 D J9 
+1971 -11-07 15:00  Fora  Sporting  2-0 D J8 
+1971 -10-31 00:00  Casa  Vitória SC  1-0 V J7 
+1971 -10-24 00:00  Fora  Académica 
+OAF 0-0 E J6 
+1971 -10-17 00:00  Casa  Leixões  4-3 V J5 
+1971 -10-03 00:00  Fora  Atlético CP  3-2 D J4 
+1971 -09-26 00:00  Casa  Barreirense  1-0 V J3 
+1971 -09-19 16:00  Fora  Boavista  1-0 D J2 
+1971 -09-12 00:00  Casa  U. Tomar  1-0 V J1 
+ 
+Taça de Portugal 1971/1972  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1972 -04-02 00:00  Fora  FC Porto  3-1 D 1/8 
+1972 -03-05  Fora  U. Tomar  0-3 V 1/16  
+ 
+I Divisão 1972/73  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1973 -06-10 00:00  Casa  Boavista  2-0 V J30 
+1973 -06-03 00:00  Fora  Leixões  1-1 E J29 
+1973 -05-20 00:00  Casa  Montijo  2-1 V J28 
+1973 -05-13 00:00  Fora  Atlético CP  2-1 D J27 
+1973 -04-22 00:00  Casa  Benfica  0-5 D J26 
+1973 -04-15 00:00  Fora  Vitória SC  1-0 D J25 
+1973 -04-01 00:00  Casa  CUF 1-0 V J24 
+1973 -03-11 00:00  Casa  U. Tomar  2-0 V J23 
+1973 -02-25 00:00  Fora  FC Porto  4-1 D J22 
+1973 -02-18 00:00  Casa  Vitória FC  0-3 D J21 
+1973 -01-28 00:00  Fora  Belenenses  0-0 E J20 
+1973 -01-21 00:00  Casa  Barreirense  2-1 V J19 
+1973 -01-14 00:00  Fora  Sporting  4-0 D J18 
+1973 -01-07 00:00  Casa  U. Coimbra  2-0 V J17 
+1972 -12-31 00:00  Fora  Beira -Mar 1-1 E J16 
+1972 -12-16  Fora  Boavista  2-0 D J15 
+1972 -12-10 00:00  Casa  Leixões  1-0 V J14 
+1972 -12-03 00:00  Fora  Montijo  2-0 D J13 
+1972 -11-26 00:00  Casa  Atlético CP  1-1 E J12 
+1972 -11-19 00:00  Fora  Benfica  3-0 D J11 
+1972 -11-12 00:00  Casa  Vitória SC  2-2 E J10 
+1972 -11-05 00:00  Fora  CUF 1-1 E J9 
+1972 -10-29 00:00  Fora  U. Tomar  3-1 D J8 
+1972 -10-22 00:00  Casa  FC Porto  1-1 E J7 
+1972 -10-15 00:00  Fora  Vitória FC  5-0 D J6 
+1972 -10-08 00:00  Casa  Belenenses  0-0 E J5 
+1972 -10-01 00:00  Fora  Barreirense  4-1 D J4 
+1972 -09-23 00:00  Casa  Sporting  1-3 D J3 
+1972 -09-17 16:00  Fora  U. Coimbra  1-0 D J2 
+1972 -09-10 00:00  Casa  Beira -Mar 3-2 V J1 
+ 
+Taça de Portugal 1972/1973  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1973 -05-27  Casa  Vitória FC  0-1 D MF 
+1973 -05-06 00:00  Casa  FC Porto  1-0 V QF 
+1973 -04-08  Fora  Montijo  0-1 V 1/8 
+1973 -03-18  Casa  União Bissau  6-0 V 1/16  
+ 
+Taça de Portugal 1973/1974  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1974 -05-25  Casa  Benfica  0-4 D QF 
+1974 -04-30  Casa  Atlético CP  3-1 V 1/8 
+1974 -04-27  Fora  Atlético CP  1-1(a.p.)  E 1/8 
+1974 -04-06  Casa  Lusitânia de 
+Lourosa  5-1 V 5E 
+ 
+I Divisão 1973/74  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1974 -05-19 00:00  Fora  Beira -Mar 3-1 D J30 
+1974 -05-12 00:00  Casa  Oriental  2-1 V J29 
+1974 -05-05 00:00  Fora  Belenenses  3-1 D J28 
+1974 -04-21 00:00  Casa  Leixões  2-0 V J27 
+1974 -03-31 00:00  Fora  Boavista  1-0 D J26 
+1974 -03-24 00:00  Casa  Vitória FC  0-2 D J25 
+1974 -03-17 00:00  Fora  Barreirense  2-1 D J24 
+1974 -03-10 00:00  Casa  Olhanense  3-1 V J23 
+1974 -03-03 15:00  Fora  Académica 
+OAF 1-0 D J22 
+1974 -02-24 00:00  Casa  Sporting  0-2 D J21 
+1974 -02-17 00:00  Fora  Benfica  1-0 D J20 
+1974 -01-27 00:00  Casa  Vitória SC  2-2 E J19 
+1974 -01-20 00:00  Fora  FC Porto  1-0 D J18 
+1974 -01-13 00:00  Casa  Montijo  3-2 V J17 
+1974 -01-06 00:00  Fora  CUF 0-1 V J16 
+1973 -12-30 00:00  Casa  Beira -Mar 1-1 E J15 
+1973 -12-23 00:00  Fora  Oriental  1-0 D J14 
+1973 -12-16 00:00  Casa  Belenenses  2-1 V J13 
+1973 -12-09 00:00  Fora  Leixões  0-0 E J12 
+1973 -12-02 00:00  Casa  Boavista  4-1 V J11 
+1973 -11-25 00:00  Fora  Vitória FC  1-0 D J10 
+1973 -11-18 00:00  Casa  Barreirense  1-1 E J9 
+1973 -11-04 00:00  Fora  Olhanense  1-0 D J8 
+1973 -10-28 00:00  Casa  Académica 
+OAF 4-1 V J7 
+1973 -10-20 00:00  Fora  Sporting  3-0 D J6 
+1973 -10-07 00:00  Casa  Benfica  0-0 E J5 
+1973 -09-30 00:00  Fora  Vitória SC  1-1 E J4 
+1973 -09-23 00:00  Casa  FC Porto  2-2 E J3 
+1973 -09-16 16:00  Fora  Montijo  0-2 V J2 
+1973 -09-09 16:00  Casa  CUF 2-2 E J1 
+ 
+Taça de Portugal 1974/1975  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1975 -05-18  Fora  SC Braga  1-0 D 1/8 
+ 
+I Divisão 1974/75  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1975 -05-11 00:00  Fora  Atlético CP  2-1 D J30 
+1975 -05-04 00:00  Casa  Vitória FC  0-1 D J29 
+1975 -04-20  Casa  Belenenses  1-3 D J9 
+1975 -04-13 00:00  Fora  Vitória SC  3-0 D J28 
+1975 -03-30 00:00  Casa  FC Porto  1-6 D J27 
+1975 -03-23 00:00  Fora  Académica 
+OAF 2-0 D J26 
+1975 -03-16 16:00  Casa  Olhanense  2-1 V J25 
+1975 -03-02 00:00  Fora  Belenenses  1-0 D J24 
+1975 -02-23 00:00  Casa  Sporting  1-2 D J23 
+1975 -02-16 00:00  Fora  Oriental  1-1 E J22 
+1975 -02-09 00:00  Casa  CUF 1-0 V J21 
+1975 -02-02 00:00  Fora  SC Espinho  1-0 D J20 
+1975 -01-26 00:00  Casa  Boavista  1-0 V J19 
+1975 -01-19 15:00  Fora  Leixões  3-0 D J18 
+1975 -01-12 00:00  Fora  Benfica  4-0 D J17 
+1975 -01-05 00:00  Casa  U. Tomar  5-2 V J16 
+1974 -12-29 00:00  Casa  Atlético CP  4-1 V J15 
+1974 -12-22 00:00  Fora  Vitória FC  1-2 V J14 
+1974 -12-15 00:00  Casa  Vitória SC  2-5 D J13 
+1974 -12-08 00:00  Fora  FC Porto  2-0 D J12 
+1974 -12-01 00:00  Casa  Académica 
+OAF 3-0 V J11 
+1974 -11-24 15:00  Fora  Olhanense  1-1 E J10 
+1974 -10-27 00:00  Fora  Sporting  3-0 D J8 
+1974 -10-20 00:00  Casa  Oriental  1-0 V J7 
+1974 -10-13 00:00  Fora  CUF 1-0 D J6 
+1974 -10-05 17:00  Casa  SC Espinho  5-0 V J5 
+1974 -09-29 00:00  Fora  Boavista  1-1 E J4 
+1974 -09-22 16:00  Casa  Leixões  2-1 V J3 
+1974 -09-15 16:00  Casa  Benfica  0-4 D J2 
+1974 -09-08 16:00  Fora  U. Tomar  0-3 V J1  
+I Divisão 1975/76  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1976 -05-30 00:00  Fora  Atlético CP  3-1 D J30 
+1976 -05-23 00:00  Casa  Beira -Mar 2-0 V J29 
+1976 -05-09 00:00  Fora  Leixões  0-1 V J28 
+1976 -04-11 00:00  Casa  Boavista  1-4 D J27 
+1976 -04-03 00:00  Fora  Sporting  4-1 D J26 
+1976 -03-21 00:00  Casa  CUF 2-0 V J25 
+1976 -03-13 00:00  Fora  SC Braga  2-0 D J24 
+1976 -03-07 00:00  Fora  Benfica  3-0 D J23 
+1976 -02-22 00:00  Casa  Belenenses  1-3 D J22 
+1976 -02-15 00:00  Fora  Académica 
+OAF 4-0 D J21 
+1976 -02-08 00:00  Casa  U. Tomar  2-0 V J20 
+1976 -02-01 00:00  Fora  FC Porto  6-1 D J19 
+1976 -01-25 00:00  Casa  Vitória FC  0-0 E J18 
+1976 -01-18 00:00  Fora  Vitória SC  3-0 D J17 
+1976 -01-11 00:00  Casa  Estoril Praia  1-1 E J16 
+1976 -01-04 00:00  Casa  Atlético CP  3-4 D J15 
+1975 -12-28 00:00  Fora  Beira -Mar 2-0 D J14 
+1975 -12-21 15:00  Casa  Leixões  3-2 V J13 
+1975 -12-14  Fora  Boavista  3-0 D J12 
+1975 -12-07 00:00  Casa  Sporting  0-3 D J11 
+1975 -11-23 15:00  Fora  CUF 1-0 D J10 
+1975 -11-02 15:00  Casa  SC Braga  5-1 V J9 
+1975 -10-26 00:00  Casa  Benfica  1-4 D J8 
+1975 -10-19 00:00  Fora  Belenenses  2-1 D J7 
+1975 -10-12 00:00  Casa  Académica OAF 3-0 V J6 
+1975 -10-05 00:00  Fora  U. Tomar  2-2 E J5 
+1975 -09-28 00:00  Casa  FC Porto  1-0 V J4 
+1975 -09-21 00:00  Fora  Vitória FC  3-1 D J3 
+1975 -09-14 16:00  Casa  Vitória SC  0-3 D J2 
+1975 -09-07 16:00  Fora  Estoril Praia  2-0 D J1 
+ 
+Taça de Portugal 1975/1976  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1976 -03-28  Fora  Estoril Praia  4-1 D 5E 
+ 
+Taça de Portugal 1976/1977  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1977 -04-09  Fora  Gil Vicente  2-0 D QF 
+1977 -03-16  Casa  Paços de Ferreira  2-2(4-2 g.p.)  E 1/8 
+1977 -03-12  Fora  Paços de Ferreira  1-1(a.p.)  E 1/8 
+1977 -02-21  Fora  AD Sanjoanense  0-1 V 1/16  
+1976 -12-29 15:00  Fora  Viseu e Benfica  0-1 V 1/32  
+1976 -11-28 15:00  Casa  Torreense  2-0 V 1/64  
+1976 -10-10  Fora  Olhanense  0-1 V 1E 
+ 
+II Divisão Zona Sul 76/77  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1977 -01-23 15:00  Casa  Lusit. Évora  0-0 E J17 
+1976 -09-12 15:00  Fora  Lusit. Évora  2-0 D J2 
+-  Fora  Almada AC  3-1 D J22 
+-  Fora  Marítimo  1-0 D J8 
+-  Fora  Alcochetense  0-0 E J15 
+-  Fora  Sintrense  0-1 V J6 
+-  Fora  Esp. Lagos  1-2 V J13 
+-  Fora  Grupo União Sport  0-3 V J29 
+-  Fora  Sesimbra  1-0 D J16 
+-  Fora  Vasco da Gama Sines  1-0 D J24 
+-  Fora  Odivelas  3-0 D J4 
+-  Fora  Oriental  0-2 V J12 
+-  Fora  CUF 4-0 D J26 
+-  Fora  Barreirense  0-0 E J18 
+-  Fora  Juventude Évora  4-0 D J10 
+-  Fora  Olhanense  2-0 D J20 
+-  Casa  Almada AC  1-1 E J7 
+-  Casa  Barreirense  1-2 D J3 
+-  Casa  CUF 2-0 V J11 
+-  Casa  Juventude Évora  1-0 V J25 
+-  Casa  Vasco da Gama Sines  1-2 D J9 
+-  Casa  Sesimbra  3-0 V J1 
+-  Casa  Odivelas  2-0 V J19 
+-  Casa  Oriental  5-0 V J27 
+-  Casa  Esp. Lagos  1-0 V J28 
+-  Casa  Sintrense  1-2 D J21 
+-  Casa  Olhanense  1-0 V J5 
+-  Casa  Grupo União Sport  4-0 V J14 
+-  Casa  Alcochetense  3-0 V J30 
+-  Casa  Marítimo  0-0 E J23 
+ 
+II Divisão Zona Sul 77/78  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1978 -04-30  Casa  Amora FC  1-3 D J24 
+1978 -03-12 15:00  Casa  Lusit. Évora  0-0 E J19 
+1977 -11-27 15:00  Fora  Amora FC  1-1 E J9 
+1977 -10-16 16:00  Fora  Lusit. Évora  1-2 V J4 
+-  Fora  Nacional  0-0 E J18 
+-  Fora  Luso FC  2-2 E J20 
+-  Fora  CD Cova Piedade  2-1 D J2 
+-  Fora  Atlético CP  3-1 D J16 
+-  Fora  Odivelas  1-1 E J15 
+-  Fora  Almada AC  2-1 D J25 
+-  Fora  Barreirense  3-0 D J27 
+-  Fora  Vasco da Gama Sines  2-1 D J13 
+-  Fora  Juventude Évora  2-1 D J11 
+-  Fora  Olhanense  4-0 D J29 
+-  Fora  Montijo  3-1 D J7 
+-  Fora  Sesimbra  2-0 D J23 
+-  Fora  CUF 0-0 E J6 
+-  Casa  Almada AC  5-0 V J10 
+-  Casa  CD Cova Piedade  4-1 V J17 
+-  Casa  Nacional  3-1 V J3 
+-  Casa  Atlético CP  0-0 E J1 
+-  Casa  Odivelas  1-1 E J30 
+-  Casa  Olhanense  2-0 V J14 
+-  Casa  Luso FC  1-1 E J5 
+-  Casa  CUF 2-1 V J21 
+-  Casa  Barreirense  1-1 E J12 
+-  Casa  Juventude Évora  4-2 V J26 
+-  Casa  Sesimbra  1-0 V J8 
+-  Casa  Montijo  3-2 V J22 
+-  Casa  Vasco da Gama Sines  0-2 D J28 
+ 
+Taça de Portugal 1977/1978  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1978 -03-05  Casa  SC Braga  1-3 D QF 
+1978 -02-05  Casa  Vila Real  1-0 V 1/8 
+1978 -01-08  Casa  Caldas SC  2-1 V 1/16  
+1977 -12-01  Casa  SL Cartaxo  6-0 V 1/32  
+1977 -11-13  Casa  Desp. Beja  7-1 V 1/64  
+1977 -09-11  Casa  Esp. Lagos  3-1 V 1E 
+ 
+II Divisão Zona Sul 78/79  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1979 -05-13 16:00  Fora  Amora FC  1-1 E J28 
+1978 -12-17 15:00  Casa  Amora FC  2-2 E J13 
+-  Fora  CD Cova 
+Piedade  1-0 D J1 
+-  Fora  Portimonense  2-1 D J17 
+-  Fora  Sacavenense  1-1 E J30 
+-  Fora  Olhanense  1-0 D J3 
+-  Fora  GD Quimigal  3-0 D J25 
+-  Fora  Odivelas  0-1 V J14 
+-  Fora  O Elvas  1-0 D J26 
+-  Fora  Almada AC  0-3 V J7 
+-  Fora  Atlético CP  3-1 D J23 
+-  Fora  Montijo  0-0 E J12 
+-  Fora  Juventude Évora  3-1 D J21 
+-  Fora  1º de Maio Sarilhense  3-1 D J19 
+-  Fora  Seixal FC  2-1 D J5 
+-  Fora  Nacional  2-2 E J9 
+-  Casa  Nacional  1-1 E J24 
+-  Casa  Olhanense  3-1 V J18 
+-  Casa  O Elvas  2-0 V J11 
+-  Casa  Portimonense  0-3 D J2 
+-  Casa  CD Cova Piedade  3-1 V J16 
+-  Casa  Sacavenense  0-1 D J15 
+-  Casa  1º de Maio Sarilhense  4-0 V J4 
+-  Casa  Seixal FC  0-1 D J20 
+-  Casa  Atlético CP  3-1 V J8 
+-  Casa  Odivelas  7-0 V J29 
+-  Casa  Almada AC  4-1 V J22 
+-  Casa  Montijo  3-1 V J27 
+-  Casa  Juventude Évora  1-1 E J6 
+-  Casa  GD Quimigal  1-0 V J10 
+ 
+Taça de Portugal 1978/1979  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1979 -02-04  Fora  Belenenses  3-0 D 1/32  
+1979 -01-14  Fora  Mirandela  0-1 V 1/64  
+1978 -09-24  Casa  Os Bucelenses  3-0 V 1E 
+ 
+II Divisão Zona Sul 79/80  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1980 -04-20 16:00  Fora  Lusit. Évora  2-0 D J21 
+1980 -04-13 00:00  Casa  Amora FC  3-6 D J20 
+1979 -11-11 15:00  Casa  Lusit. Évora  1-1 E J6 
+1979 -10-28 00:00  Fora  Amora FC  3-0 D J5 
+-  Fora  Seixal FC  0-0 E J12 
+-  Fora  GD Quimigal  3-0 D J10 
+-  Fora  Barreirense  1-1 E J14 
+-  Fora  Sacavenense  0-0 E J23 
+-  Fora  CD Cova 
+Piedade  1-0 D J30 
+-  Fora  Juventude 
+Évora  2-3 V J1 
+-  Fora  Olhanense  1-1 E J3 
+-  Fora  Oriental  4-1 D J28 
+-  Fora  Desp. Beja  1-1 E J26 
+-  Fora  Atlético CP  3-2 D J19 
+-  Fora  Nacional  1-1 E J7 -  Fora  Est. Amadora  1-0 D J24 
+-  Fora  Montijo  0-2 V J17 
+-  Casa  Atlético CP  0-1 D J4 
+-  Casa  Oriental  1-3 D J13 
+-  Casa  CD Cova 
+Piedade  4-1 V J15 
+-  Casa  Desp. Beja  1-0 V J11 
+-  Casa  Est. Amadora  2-0 V J9 
+-  Casa  Sacavenense  2-1 V J8 
+-  Casa  Juventude 
+Évora  2-2 E J16 
+-  Casa  Olhanense  3-1 V J18 
+-  Casa  Barreirense  2-1 V J29 
+-  Casa  Seixal FC  3-1 V J27 
+-  Casa  GD Quimigal  1-1 E J25 
+-  Casa  Nacional  1-0 V J22 
+-  Casa  Montijo  5-3 V J2 
+ 
+Taça de Portugal 1979/1980  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1980 -02-16  Fora  Beira -Mar 2-0 D 1/8 
+1980 -01-13  Casa  Mirandela  4-0 V 1/16  
+1980 -01-09  Fora  U. Santarém  0-0(5-6 g.p.)  E 1/32  
+1979 -12-23  Casa  U. Santarém  0-0(a.p.)  E 1/32  
+1979 -12-02  Casa  FC Alverca  2-1 V 1/64  
+1979 -10-06  Fora  Alcochetense  0-5 V 1E 
+ 
+II Divisão Zona Sul 80/81  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1981 -05-31 00:00  Casa  Desp. Beja  2-0 V J30 
+1981 -05-24 00:00  Fora  Montijo  0-2 V J29 
+1981 -05-17 00:00  Casa  Lusitânia dos 
+Açores  1-2 D J28 
+1981 -05-10 00:00  Fora  Odivelas  1-1 E J27 
+1981 -05-03 16:00  Casa  Estoril Praia  0-3 D J26 
+1981 -04-26 00:00  Fora  Nacional  1-0 D J25 
+1981 -04-12 00:00  Casa  Juventude 
+Évora  0-1 D J24 
+1981 -04-05 00:00  Fora  Sacavenense  1-1 E J23 
+1981 -03-22 00:00  Casa  CD Cova 
+Piedade  1-2 D J22 
+1981 -03-14 00:00  Fora  Silves  1-1 E J21 
+1981 -03-08 00:00  Casa  Vasco da Gama 
+Sines  1-1 E J20 
+1981 -02-22 00:00  Casa  Est. Amadora  1-0 V J19 
+1981 -02-15 00:00  Fora  Oriental  1-0 D J18 
+1981 -02-08 00:00  Casa  GD Quimigal  3-0 V J17 
+1981 -01-25 15:00  Fora  Lusit. Évora  4-1 D J16 
+1981 -01-18 00:00  Fora  Desp. Beja  0-0 E J15 
+1981 -01-11 00:00  Casa  Montijo  0-0 E J14 
+1980 -12-28 00:00  Fora  Lusitânia dos 
+Açores  1-1 E J13 
+1980 -12-13 00:00  Casa  Odivelas  1-1 E J12
+1980 -12-08 00:00  Fora  Estoril Praia  1-1 E J11 
+1980 -11-30 00:00  Casa  Nacional  1-0 V J10 
+1980 -11-16 00:00  Fora  Juventude 
+Évora  2-0 D J9 
+1980 -11-09 00:00  Casa  Sacavenense  2-0 V J8 
+1980 -11-02 00:00  Fora  CD Cova 
+Piedade  0-0 E J7 
+1980 -10-18 00:00  Casa  Silves  3-0 V J6 
+1980 -10-12 00:00  Fora  Vasco da Gama 
+Sines  1-1 E J5 
+1980 -10-04 00:00  Fora  Est. Amadora  2-1 D J4 
+1980 -09-19 00:00  Casa  Oriental  1-1 E J3 
+1980 -09-14 00:00  Fora  GD Quimigal  2-1 D J2 
+1980 -09-07 17:00  Casa  Lusit. Évora  1-0 V J1 
+ 
+Taça de Portugal 1980/1981  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1981 -03-01 00:00  Casa  FC Porto  0-2 D 1/16  
+1981 -02-01 15:00  Casa  Lusit. Évora  2-0 V 1/32  
+1981 -01-04 00:00  Casa  GD 
+Portalegrense  3-0 V 1/64  
+1980 -09-28 00:00  Fora  Machico  0-2 V 1/128  
+ 
+Liguilha I/II Divisão 1981/82  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1982 -09-05 18:00  Casa  FC Penafiel  0-0 E J6 
+1982 -09-01 18:30  Casa  Académica 
+OAF 6-0 V J5 
+1982 -08-29 18:00  Fora  SC Salgueiros  3-1 D J4 
+1982 -08-22 18:00  Fora  Académica 
+OAF 2-1 D J2 
+1982 -06-16  Fora  FC Penafiel  3-0 D J3 
+1982 -06-10  Casa  SC Salgueiros  4-1 V J1 
+ 
+II Divisão Zona Sul 81/82  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1982 -06-06 00:00  Fora  Montijo  2-2 E J30 
+1982 -05-30 00:00  Casa  União Madeira  3-0 V J29 
+1982 -05-23 00:00  Fora  O Elvas  1-0 D J28 
+1982 -05-16 00:00  Casa  Lusitânia dos 
+Açores  2-2 E J27 
+1982 -05-09 00:00  Fora  Sacavenense  2-0 D J26 
+1982 -05-02 15:00  Casa  Lusit. Évora  0-1 D J25 
+1982 -04-25 00:00  Fora  Barreirense  0-1 V J24 
+1982 -04-18 00:00  Casa  Marítimo  2-0 V J23 
+1982 -04-04 00:00  Fora  CD Cova 
+Piedade  1-0 D J22 
+1982 -03-28 00:00  Fora  Juventude 1-0 D J21 Évora  
+1982 -03-21 00:00  Casa  Est. Amadora  1-0 V J20 
+1982 -03-07 00:00  Fora  Esp. Lagos  0-2 V J19 
+1982 -02-28 00:00  Casa  Nacional  1-0 V J18 
+1982 -02-14 00:00  Fora  GD Quimigal  0-0 E J17 
+1982 -02-07 00:00  Casa  Vasco da Gama 
+Sines  5-1 V J16 
+1982 -01-30 00:00  Casa  Montijo  2-1 V J15 
+1982 -01-24 00:00  Fora  União Madeira  2-0 D J14 
+1982 -01-17 00:00  Casa  O Elvas  2-1 V J13 
+1982 -01-03 00:00  Fora  Lusitânia dos 
+Açores  0-1 V J12 
+1981 -12-27 00:00  Casa  Sacavenense  3-2 V J11 
+1981 -12-13 15:00  Fora  Lusit. Évora  2-0 D J10 
+1981 -12-06 00:00  Casa  Barreirense  4-1 V J9 
+1981 -11-14 00:00  Fora  Marítimo  1-2 V J8 
+1981 -11-08 00:00  Casa  CD Cova 
+Piedade  4-1 V J7 
+1981 -11-01 15:00  Casa  Juventude 
+Évora  3-0 V J6 
+1981 -10-18 00:00  Fora  Est. Amadora  1-1 E J5 
+1981 -10-11 00:00  Casa  Esp. Lagos  1-1 E J4 
+1981 -10-04 00:00  Fora  Nacional  0-0 E J3 
+1981 -09-27 00:00  Casa  GD Quimigal  3-0 V J2 
+1981 -09-20 00:00  Fora  Vasco da Gama 
+Sines  1-1 E J1 
+ 
+Taça de Portugal 1981/1982  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1982 -01-10 00:00  Fora  Ginásio de 
+Alcobaça  1-0 D 1/16  
+1981 -12-20 00:00  Casa  Amarante FC  3-0 V 1/32  
+1981 -11-22 00:00  Casa  SL Olivais  1-0 V 1/64  
+ 
+II Divisão Fase Final 1982/83  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1983 -06-29  Casa  FC Penafiel  2-1 V  
+1983 -06-26  Casa  RD Águeda  4-1 V  
+1983 -06-19  Fora  FC Penafiel  2-1 D  
+1983 -06-15  Fora  RD Águeda  0-2 V  
+ 
+II Divisão Zona Sul 82/83  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1983 -06-05 00:00  Fora  CD Cova 
+Piedade  0-1 V J30 
+1983 -05-29 15:00  Casa  Lusit. Évora  7-1 V J29 
+1983 -05-22 00:00  Fora  Nacional  1-2 V J28 
+1983 -05-15 00:00  Casa  Belenenses  1-0 V J27 
+1983 -05-01 00:00  Fora  O Elvas  1-1 E J26 
+1983 -04-24 00:00  Casa  Olhanense  3-3 E J25
+1983 -04-17 00:00  Fora  Barreirense  2-2 E J24 
+1983 -04-10 00:00  Casa  Sacavenense  1-1 E J23 
+1983 -03-26 00:00  Fora  Odivelas  2-2 E J22 
+1983 -03-20 00:00  Casa  Juventude 
+Évora  4-0 V J21 
+1983 -03-12 00:00  Fora  União Madeira  0-3 V J20 
+1983 -03-06 00:00  Casa  Atlético CP  4-0 V J19 
+1983 -02-27 00:00  Fora  Vasco da Gama 
+Sines  1-2 V J18 
+1983 -02-12 00:00  Fora  Sesimbra  0-3 V J17 
+1983 -02-06 00:00  Casa  GD Quimigal  4-0 V J16 
+1983 -01-30 00:00  Casa  CD Cova 
+Piedade  4-0 V J15 
+1983 -01-16 00:00  Fora  Lusit. Évora  0-1 V J14 
+1983 -01-09 00:00  Casa  Nacional  4-1 V J13 
+1982 -12-31 00:00  Fora  Belenenses  1-0 D J12 
+1982 -12-19 00:00  Casa  O Elvas  4-0 V J11 
+1982 -12-05 00:00  Fora  Olhanense  0-2 V J10 
+1982 -11-28 00:00  Casa  Barreirense  1-0 V J9 
+1982 -11-21 00:00  Fora  Sacavenense  0-1 V J8 
+1982 -11-14 00:00  Casa  Odivelas  1-3 D J7 
+1982 -10-31 00:00  Fora  Juventude 
+Évora  0-5 V J6 
+1982 -10-24 00:00  Casa  União Madeira  2-2 E J5 
+1982 -10-17 00:00  Fora  Atlético CP  0-0 E J4 
+1982 -10-03 00:00  Casa  Vasco da Gama 
+Sines  3-0 V J3 
+1982 -09-25 00:00  Casa  Sesimbra  6-0 V J2 
+1982 -09-19 00:00  Fora  GD Quimigal  0-1 V J1 
+ 
+Taça de Portugal 1982/1983  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1983 -02-20  Casa  Sporting  0-1 D 1/8 
+1983 -01-22 00:00  Fora  AR São 
+Martinho  1-3 V 1/16  
+1982 -12-11 00:00  Casa  Oriental  3-0 V 1/32  
+1982 -11-07 00:00  Casa  USC Paredes  2-0 V 1/64  
+ 
+I Divisão 1983/84  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1984 -05-14 00:00  Fora  Sporting  4-0 D J30 
+1984 -05-06 00:00  Casa  Vitória SC  1-0 V J29 
+1984 -04-29 00:00  Fora  SC Espinho  5-2 D J28 
+1984 -04-21 00:00  Casa  SC Salgueiros  1-1 E J27 
+1984 -04-14 00:00  Fora  Boavista  3-0 D J26 
+1984 -04-08 00:00  Casa  Varzim  1-1 E J25 
+1984 -03-31  Fora  FC Penafiel  0-0 E J24 
+1984 -03-25 00:00  Fora  FC Porto  7-1 D J23 
+1984 -03-17 00:00  Casa  Benfica  2-7 D J22 
+1984 -03-11 00:00  Fora  SC Braga  1-0 D J21 
+1984 -03-04 00:00  Casa  RD Águeda  0-1 D J20
+1984 -02-26 00:00  Fora  Estoril Praia  0-0 E J19 
+1984 -02-19 00:00  Casa  Rio Ave  0-0 E J18 
+1984 -02-12 00:00  Fora  Vitória FC  1-1 E J17 
+1984 -02-05 00:00  Casa  Portimonense  0-0 E J16 
+1984 -01-22 00:00  Casa  Sporting  1-2 D J15 
+1984 -01-15 00:00  Fora  Vitória SC  2-1 D J14 
+1984 -01-07 00:00  Casa  SC Espinho  3-0 V J13 
+1983 -12-18 15:00  Fora  SC Salgueiros  1-0 D J12 
+1983 -12-11 15:00  Casa  Boavista  0-0 E J11 
+1983 -12-04 15:00  Fora  Varzim  2-0 D J10 
+1983 -11-27 15:00  Casa  FC Penafiel  4-1 V J9 
+1983 -11-20 15:00  Casa  FC Porto  0-2 D J8 
+1983 -10-15 00:00  Fora  Benfica  6-2 D J7 
+1983 -10-09 00:00  Casa  SC Braga  1-1 E J6 
+1983 -10-01 00:00  Fora  RD Águeda  1-1 E J5 
+1983 -09-25 00:00  Casa  Estoril Praia  3-1 V J4 
+1983 -09-11 00:00  Fora  Rio Ave  1-0 D J3 
+1983 -09-03 16:00  Casa  Vitória FC  2-1 V J2 
+1983 -08-28 16:00  Fora  Portimonense  2-2 E J1 
+ 
+Taça de Portugal 1983/1984  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1983 -12-31  Fora  Paços de 
+Ferreira  3-1 D 1/16  
+1983 -12-01  Fora  CDR 
+Alferrarede  0-1 V 1/32  
+1983 -11-06  Casa  Odivelas  5-1 V 1/64  
+ 
+I Divisão 1984/85  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1985 -06-02 00:00  Fora  SC Salgueiros  3-1 D J30 
+1985 -05-26 00:00  Casa  Portimonense  0-0 E J29 
+1985 -05-19 00:00  Casa  Académica OAF  0-2 D J28 
+1985 -05-12 00:00  Fora  Vitória SC  4-0 D J27 
+1985 -04-28 00:00  Casa  Vitória FC  3-1 V J26 
+1985 -04-21 00:00  Fora  Benfica  6-0 D J25 
+1985 -04-14 00:00  Casa  Boavista  0-1 D J24 
+1985 -03-31 00:00  Fora  Rio Ave  2-1 D J23 
+1985 -03-24 00:00  Casa  FC Porto  1-2 D J22 
+1985 -03-10 00:00  Fora  SC Braga  3-1 D J21 
+1985 -03-03 00:00  Casa  FC Vizela  1-0 V J20 
+1985 -02-16 00:00  Fora  Belenenses  2-1 D J19 
+1985 -01-27 00:00  Casa  Sporting  1-1 E J18 
+1985 -01-20 00:00  Fora  FC Penafiel  0-0 E J17 
+1985 -01-13 00:00  Casa  Varzim  1-1 E J16 
+1984 -12-30 00:00  Casa  SC Salgueiros  1-1 E J15 
+1984 -12-23 00:00  Fora  Portimonense  3-1 D J14 
+1984 -12-16 00:00  Fora  Académica OAF  2-0 D J13 
+1984 -12-02 15:00  Casa  Vitória SC  3-1 V J12 
+1984 -11-25 15:00  Fora  Vitória FC  3-0 D J11 
+1984 -11-18 15:00  Casa  Benfica  1-0 V J10
+1984 -11-03 15:00  Fora  Boavista  3-0 D J9 
+1984 -10-28 00:00  Casa  Rio Ave  2-1 V J8 
+1984 -10-21 00:00  Fora  FC Porto  5-0 D J7 
+1984 -10-07 00:00  Casa  SC Braga  0-0 E J6 
+1984 -09-30 00:00  Fora  FC Vizela  0-0 E J5 
+1984 -09-23 00:00  Casa  Belenenses  1-0 V J4 
+1984 -09-15 21:00  Fora  Sporting  2-0 D J3 
+1984 -09-02 00:00  Casa  FC Penafiel  1-0 V J2 
+1984 -08-25 17:00  Fora  Varzim  0-0 E J1 
+ 
+Taça de Portugal 1984/1985  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1985 -01-06 00:00  Casa  FC Porto  0-1 D 1/32  
+1984 -12-09  Casa  U. Santarém  3-0 V 1/64  
+ 
+II Divisão Fase Final 1985/1986  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1986 -06-10  Fora  O Elvas  3-2 D  
+1986 -06-08  Fora  Rio Ave  1-1 E  
+1986 -06-01  Casa  O Elvas  4-0 V  
+1986 -05-11  Casa  Rio Ave  2-2 E  
+ 
+II Divisão Zona Sul 85/86  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1986 -05-04  Fora  Montijo  1-1 E J30 
+1986 -04-27  Casa  Silves  2-1 V J29 
+1986 -04-20  Fora  Torralta  3-2 D J28 
+1986 -04-13  Fora  Sacavenense  1-2 V J27 
+1986 -04-06 15:00  Casa  Lusit. Évora  3-0 V J26 
+1986 -03-30  Fora  União Madeira  1-0 D J25 
+1986 -03-23  Casa  Estoril Praia  1-0 V J24 
+1986 -03-16  Fora  Atlético CP  1-2 V J23 
+1986 -03-09  Casa  Barreirense  1-0 V J22 
+1986 -03-02  Fora  CD Cova 
+Piedade  0-1 V J21 
+1986 -02-23  Casa  Olhanense  2-1 V J20 
+1986 -02-15  Fora  Juventude 
+Évora  0-0 E J19 
+1986 -02-09  Casa  Nacional  3-1 V J18 
+1986 -01-26  Fora  Est. Amadora  2-1 D J17 
+1986 -01-19  Casa  Oriental  6-0 V J16 
+1986 -01-12  Casa  Montijo  2-0 V J15 
+1986 -01-05  Fora  Silves  1-2 V J14 
+1985 -12-29  Casa  Torralta  5-0 V J13 
+1985 -12-22  Casa  Sacavenense  1-0 V J12 
+1985 -12-08 15:00  Fora  Lusit. Évora  1-3 V J11 
+1985 -12-01  Casa  União Madeira  2-1 V J10 
+1985 -11-24  Fora  Estoril Praia  2-2 E J9 
+1985 -11-10  Casa  Atlético CP  3-0 V J8
+1985 -11-03  Fora  Barreirense  1-0 D J7 
+1985 -10-27  Casa  CD Cova 
+Piedade  2-0 V J6 
+1985 -10-20  Fora  Olhanense  2-2 E J5 
+1985 -10-05  Casa  Juventude 
+Évora  4-1 V J4 
+1985 -09-29  Fora  Nacional  0-2 V J3 
+1985 -09-22  Casa  Est. Amadora  0-0 E J2 
+1985 -09-15  Fora  Oriental  1-2 V J1 
+ 
+Taça de Portugal 1985/1986  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1986 -01-25  Fora  Varzim  2-1 D 1/16  
+1985 -12-14  Casa  Atlético CP  3-1 V 1/32  
+1985 -11-17  Casa  Fafe  3-1 V 1/64  
+ 
+I Divisão 1986/87  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1987 -05-31 00:00  Fora  Varzim  3-2 D J30 
+1987 -05-24 00:00  Casa  FC Porto  1-0 V J29 
+1987 -05-17 00:00  Fora  SC Braga  3-0 D J28 
+1987 -05-03 00:00  Casa  Sporting  2-1 V J27 
+1987 -04-26 00:00  Fora  Belenenses  3-1 D J26 
+1987 -04-12 00:00  Casa  Portimonense  4-0 V J25 
+1987 -04-05 00:00  Fora  Académica OAF  1-0 D J24 
+1987 -03-22 00:00  Casa  SC Salgueiros  0-0 E J23 
+1987 -03-15 00:00  Fora  Rio Ave  2-0 D J22 
+1987 -03-01 00:00  Casa  GD Chaves  4-0 V J21 
+1987 -02-22 00:00  Fora  Vitória SC  0-0 E J20 
+1987 -02-01 00:00  Casa  Benfica  0-2 D J19 
+1987 -01-25 00:00  Fora  O Elvas  1-2 V J18 
+1987 -01-10 00:00  Fora  Boavista  0-0 E J17 
+1987 -01-04 15:00  Casa  Marítimo  2-0 V J16 
+1986 -12-28 00:00  Casa  Varzim  1-2 D J15 
+1986 -12-13 21:00  Fora  FC Porto  8-3 D J14 
+1986 -12-07 15:00  Casa  SC Braga  1-0 V J13 
+1986 -11-29 15:30  Fora  Sporting  1-0 D J12 
+1986 -11-16 15:00  Casa  Belenenses  0-0 E J11 
+1986 -11-09 15:00  Fora  Portimonense  3-2 D J10 
+1986 -11-02 15:00  Casa  Académica OAF  1-2 D J9 
+1986 -10-19 16:00  Fora  SC Salgueiros  2-0 D J8 
+1986 -10-05 15:00  Casa  Rio Ave  2-2 E J7 
+1986 -09-28 15:00  Fora  GD Chaves  3-2 D J6 
+1986 -09-21 17:00  Casa  Vitória SC  1-4 D J5 
+1986 -09-13 21:00  Fora  Benfica  1-0 D J4 
+1986 -09-07 17:00  Casa  O Elvas  1-1 E J3 
+1986 -08-31 17:00  Casa  Boavista  1-1 E J2 
+1986 -08-24 17:00  Fora  Marítimo  1-0 D J1 
+ Taça de Portugal 1986/1987  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1987 -04-18 16:00  Fora  Portimonense  3-1 D QF 
+1987 -03-08  Casa  Rio Ave  1-0 V 1/8 
+1987 -01-18  Casa  FC Famalicão  3-1 V 1/16  
+1986 -12-21  Fora  Tirsense  0-0 E 1/32  
+1986 -11-23  Casa  Est. Amadora  1-0(a.p.)  V 1/64  
+-  Casa  Tirsense  3-0 V 1/32  
+ 
+I Divisão 1987/88  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1988 -06-05 00:00  Fora  Vitória FC  0-0 E J38 
+1988 -06-02 00:00  Casa  SC Covilhã  7-0 V J37 
+1988 -05-29 00:00  Fora  FC Porto  4-0 D J36 
+1988 -05-22 00:00  Casa  Varzim  1-0 V J35 
+1988 -05-15 00:00  Fora  Boavista  2-0 D J34 
+1988 -05-08 00:00  Casa  Vitória SC  2-1 V J33 
+1988 -04-30 00:00  Fora  Belenenses  4-1 D J32 
+1988 -04-24 00:00  Casa  Benfica  1-0 V J31 
+1988 -04-17 00:00  Fora  Académica OAF  2-0 D J30 
+1988 -04-09 00:00  Fora  SC Braga  2-1 D J29 
+1988 -04-02 00:00  Casa  SC Espinho  1-1 E J28 
+1988 -03-26 00:00  Fora  Rio Ave  2-1 D J27 
+1988 -03-20 00:00  Casa  FC Penafiel  2-0 V J26 
+1988 -03-13 00:00  Fora  SC Salgueiros  0-1 V J25 
+1988 -03-06 00:00  Casa  GD Chaves  1-0 V J24 
+1988 -02-28 00:00  Fora  O Elvas  0-0 E J23 
+1988 -02-20 15:30  Casa  Sporting  0-2 D J22 
+1988 -02-13 00:00  Fora  Marítimo  1-1 E J21 
+1988 -02-07 15:30  Casa  Portimonense  2-0 V J20 
+1988 -01-31 00:00  Casa  Vitória FC  0-0 E J19 
+1988 -01-24 00:00  Fora  SC Covilhã  3-1 D J18 
+1988 -01-17 00:00  Casa  FC Porto  0-1 D J17 
+1988 -01-10 00:00  Fora  Varzim  0-0 E J16 
+1988 -01-03 00:00  Casa  Boavista  0-0 E J15 
+1987 -12-27 00:00  Fora  Vitória SC  3-0 D J14 
+1987 -12-13 15:00  Casa  Belenenses  1-0 V J13 
+1987 -12-06 15:00  Casa  Académica OAF  2-0 V J11 
+1987 -11-27 21:00  Fora  Benfica  2-2 E J12 
+1987 -11-01 00:00  Casa  SC Braga  1-0 V J10 
+1987 -10-25 00:00  Fora  SC Espinho  1-0 D J9 
+1987 -10-18 00:00  Casa  Rio Ave  0-0 E J8 
+1987 -10-11 00:00  Fora  FC Penafiel  3-2 D J7 
+1987 -10-04 00:00  Casa  SC Salgueiros  2-1 V J6 
+1987 -09-26 00:00  Fora  GD Chaves  6-1 D J5 
+1987 -09-13 00:00  Casa  O Elvas  1-3 D J4 
+1987 -09-06 17:00  Fora  Sporting  2-0 D J3 
+1987 -08-30 17:00  Casa  Marítimo  1-1 E J2 
+1987 -08-22 21:00  Fora  Portimonense  3-0 D J1 
+ Taça de Portugal 1987/1988  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1988 -02-16  Fora  UD Leiria  3-2 D 4E 
+1987 -11-22 15:00  Casa  Sporting  1-0 V 3E 
+ 
+I Divisão 1988/89  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1989 -05-21 17:00  Casa  SC Espinho  1-3 D J38 
+1989 -05-14 17:00  Fora  FC Penafiel  0-1 V J37 
+1989 -05-07 17:30  Casa  Boavista  1-1 E J36 
+1989 -04-30 16:00  Fora  Sporting  1-0 D J35 
+1989 -04-16 16:00  Casa  Est. Amadora  2-0 V J34 
+1989 -04-09 16:00  Fora  Vitória FC  0-2 V J33 
+1989 -04-01 16:00  Casa  Nacional  5-0 V J32 
+1989 -03-25 15:00  Fora  GD Chaves  0-0 E J31 
+1989 -03-19 15:00  Casa  SC Braga  1-2 D J30 
+1989 -03-12 15:00  Fora  Beira -Mar 2-2 E J29 
+1989 -03-05 15:00  Casa  Leixões  3-1 V J28 
+1989 -02-26 15:00  Fora  FC Porto  5-0 D J27 
+1989 -02-19 15:30  Casa  Benfica  0-2 D J26 
+1989 -02-07 15:00  Fora  Belenenses  2-0 D J25 
+1989 -02-04 15:30  Casa  Fafe  1-1 E J24 
+1989 -01-29 15:30  Casa  Marítimo  0-0 E J23 
+1989 -01-22 15:00  Fora  Académico de 
+Viseu  3-1 D J22 
+1989 -01-15 15:00  Casa  Portimonense  0-0 E J21 
+1989 -01-08 15:00  Fora  Vitória SC  3-0 D J20 
+1988 -12-31 15:00  Fora  SC Espinho  3-1 D J19 
+1988 -12-18 15:00  Casa  FC Penafiel  0-0 E J18 
+1988 -12-11 15:00  Fora  Boavista  1-1 E J17 
+1988 -12-04 15:30  Casa  Sporting  1-0 V J16 
+1988 -12-01 15:00  Fora  Est. Amadora  1-0 D J15 
+1988 -11-27 15:30  Casa  Vitória FC  2-1 V J14 
+1988 -11-20 16:00  Fora  Nacional  3-0 D J13 
+1988 -11-06 15:00  Casa  GD Chaves  0-2 D J12 
+1988 -10-29 15:00  Fora  SC Braga  4-2 D J11 
+1988 -10-23 15:30  Casa  Beira -Mar 1-1 E J10 
+1988 -10-16 15:00  Fora  Leixões  1-0 D J9 
+1988 -10-09 15:30  Casa  FC Porto  1-1 E J8 
+1988 -10-01 21:00  Fora  Benfica  3-0 D J7 
+1988 -09-24 21:00  Casa  Belenenses  2-1 V J6 
+1988 -09-18 17:00  Fora  Fafe  1-0 D J5 
+1988 -09-11 17:00  Fora  Marítimo  2-1 D J4 
+1988 -09-04 18:00  Casa  Académico de 
+Viseu  1-0 V J3 
+1988 -08-27 21:30  Fora  Portimonense  0-0 E J2 
+1988 -08-21 17:00  Casa  Vitória SC  1-0 V J1 
+ 
+Taça de Portugal 1988/1989  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1988 -12-21  Fora  FC Vizela  1-0 D 1/32  1988 -11-01  Casa  Santa Maria 
+FC 3-0 V 1/64  
+ 
+II Divisão II Fase 1989/90  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1990 -06-28  Casa  SC Salgueiros  2-2 E  
+1990 -06-24  Casa  Gil Vicente  0-0 E  
+1990 -06-17  Fora  SC Salgueiros  1-0 D  
+1990 -06-14  Fora  Gil Vicente  0-0 E  
+ 
+II Divisão Zona Sul 1989/1990  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1990 -06-06  Casa  Juventude 
+Évora  4-1 V J34 
+1990 -05-30  Fora  GD 
+Portalegrense  2-0 D J33 
+1990 -05-20 00:00  Casa  Sintrense  4-1 V J32 
+1990 -05-13 00:00  Fora  Desportivo O. 
+Moscavide  1-3 V J31 
+1990 -05-06 00:00  Casa  Estoril Praia  3-0 V J30 
+1990 -04-29 00:00  Fora  Silves  1-2 V J29 
+1990 -04-25 00:00  Casa  Olhanense  0-1 D J28 
+1990 -04-22  Fora  Louletano  2-0 D J27 
+1990 -04-15 15:00  Casa  Lusit. Évora  6-0 V J26 
+1990 -04-08  Fora  Samora Correia  0-1 V J25 
+1990 -04-01  Casa  Barreirense  2-0 V J24 
+1990 -03-25  Fora  Atlético CP  1-1 E J23 
+1990 -03-17 15:30  Casa  Seixal FC  5-1 V J22 
+1990 -03-11  Fora  FC Alverca  2-1 D J21 
+1990 -03-04  Casa  O Elvas  2-0 V J20 
+1990 -02-25  Casa  Lusitano VRSA  1-0 V J19 
+1990 -02-18  Fora  Torreense  1-1 E J18 
+1990 -02-11  Fora  Juventude 
+Évora  0-2 V J17 
+1990 -01-28  Casa  GD 
+Portalegrense  6-0 V J16 
+1990 -01-21  Fora  Sintrense  0-1 V J15 
+1990 -01-14  Casa  Desportivo O. 
+Moscavide  3-1 V J14 
+1990 -01-07  Fora  Estoril Praia  1-1 E J13 
+1989 -12-31  Casa  Silves  2-1 V J12 
+1989 -12-23  Fora  Olhanense  0-4 V J11 
+1989 -12-16  Casa  Louletano  2-1 V J10 
+1989 -12-03 15:00  Fora  Lusit. Évora  1-2 V J9 
+1989 -11-26  Casa  Samora Correia  5-0 V J8 
+1989 -11-19  Fora  Barreirense  0-0 E J7 
+ 
+Taça de Portugal 1989/1990  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  1990 -06-03 16:00  Fora  Est. Amadora  2-0 D F 
+1990 -05-27 16:00  Fora  Est. Amadora  1-1(a.p.)  E F 
+1990 -05-10 16:00  Fora  Belenenses  1-2(a.p.)  V MF 
+1990 -03-28 16:00  Casa  UD 
+Valonguense  4-0 V QF 
+1990 -03-20  Casa  União Madeira  2-0 V 1/8 
+1990 -02-27 15:00  Fora  União Madeira  0-0(a.p.)  E 1/8 
+1990 -02-04 15:00  Casa  Esp. Lagos  7-0 V 1/16  
+1989 -12-10 15:00  Fora  Odivelas  1-9 V 1/32  
+ 
+I Divisão 1990/91  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1991 -05-26 00:00  Casa  Marítimo  1-2 D J38 
+1991 -05-19 00:00  Fora  União Madeira  0-0 E J37 
+1991 -05-12 00:00  Fora  Benfica  2-0 D J36 
+1991 -05-05 00:00  Casa  Est. Amadora  3-0 V J35 
+1991 -04-28 00:00  Fora  Sporting  0-1 V J34 
+1991 -04-21 00:00  Casa  Belenenses  0-0 E J33 
+1991 -04-14 00:00  Fora  FC Porto  1-0 D J32 
+1991 -04-07 00:00  Casa  Boavista  1-2 D J31 
+1991 -04-03 00:00  Fora  Tirsense  3-2 D J30 
+1991 -03-30 00:00  Casa  SC Salgueiros  5-0 V J29 
+1991 -03-24 00:00  Fora  GD Chaves  4-2 D J28 
+1991 -03-17 00:00  Casa  FC Penafiel  2-0 V J27 
+1991 -03-10 00:00  Fora  SC Braga  4-2 D J26 
+1991 -03-03 00:00  Casa  Vitória SC  2-0 V J25 
+1991 -02-23 00:00  Fora  FC Famalicão  2-3 V J24 
+1991 -02-02 00:00  Casa  Gil Vicente  2-0 V J23 
+1991 -01-27 00:00  Fora  Vitória FC  2-1 D J22 
+1991 -01-12 00:00  Casa  Beira -Mar 3-2 V J21 
+1991 -01-06 00:00  Fora  Nacional  3-1 D J20 
+1990 -12-23 15:00  Casa  União Madeira  0-0 E J18 
+1990 -12-15 00:00  Casa  Benfica  2-2 E J17 
+1990 -12-09 15:00  Fora  Est. Amadora  0-1 V J16 
+1990 -12-02  Casa  Sporting  0-1 D J15 
+1990 -11-25 15:30  Fora  Belenenses  1-0 D J14 
+1990 -11-18  Casa  FC Porto  0-1 D J13 
+1990 -11-14 15:00  Fora  Boavista  2-0 D J12 
+1990 -11-10 15:00  Casa  Tirsense  2-0 V J11 
+1990 -11-04  Fora  SC Salgueiros  1-0 D J10 
+1990 -10-28 15:00  Casa  GD Chaves  2-0 V J9 
+1990 -10-21  Fora  FC Penafiel  4-1 D J8 
+1990 -10-13  Fora  Marítimo  3-1 D J19 
+1990 -10-07  Casa  SC Braga  0-0 E J7 
+1990 -09-29 17:00  Fora  Vitória SC  2-0 D J6 
+1990 -09-23 17:00  Casa  FC Famalicão  1-0 V J5 
+1990 -09-16 17:00  Fora  Gil Vicente  2-1 D J4 
+1990 -09-02  Casa  Vitória FC  2-0 V J3 
+1990 -08-26 17:00  Fora  Beira -Mar 0-0 E J2 
+1990 -08-19 17:00  Casa  Nacional  2-1 V J1 
+ Taça de Portugal 1990/1991  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1991 -02-27  Fora  Sporting  2-0 D 1/16  
+1991 -01-30  Casa  Belenenses  3-2 V 1/32  
+ 
+I Divisão 1991/92  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1992 -05-17 00:00  Casa  União Madeira  1-0 V J34 
+1992 -05-09 00:00  Fora  Torreense  1-1 E J33 
+1992 -05-02 00:00  Fora  Beira -Mar 1-0 D J32 
+1992 -04-25 00:00  Casa  Estoril Praia  2-0 V J31 
+1992 -04-18 00:00  Fora  Benfica  1-1 E J30 
+1992 -04-11 00:00  Casa  Sporting  0-2 D J29 
+1992 -04-05  Fora  SC Braga  4-1 D J28 
+1992 -03-22  Casa  Vitória SC  3-0 V J27 
+1992 -03-15 00:00  Fora  FC Famalicão  0-1 V J26 
+1992 -03-08 00:00  Casa  Gil Vicente  1-0 V J25 
+1992 -02-29 00:00  Fora  FC Porto  2-0 D J24 
+1992 -02-23 00:00  Casa  Boavista  0-0 E J23 
+1992 -02-16 00:00  Fora  GD Chaves  0-0 E J22 
+1992 -02-09 00:00  Casa  SC Salgueiros  1-1 E J21 
+1992 -02-02 00:00  Fora  Paços de 
+Ferreira  1-0 D J20 
+1992 -01-26 00:00  Casa  FC Penafiel  4-1 V J19 
+1992 -01-19 00:00  Fora  Marítimo  1-1 E J18 
+1992 -01-11 00:00  Casa  FC Porto  0-0 E J7 
+1992 -01-05 00:00  Fora  União Madeira  0-2 V J17 
+1991 -12-29 00:00  Casa  Torreense  1-0 V J16 
+1991 -12-22 00:00  Casa  Beira -Mar 0-0 E J15 
+1991 -12-08 00:00  Fora  Estoril Praia  3-1 D J14 
+1991 -12-01 00:00  Casa  Benfica  2-2 E J13 
+1991 -11-24 00:00  Fora  Sporting  2-1 D J12 
+1991 -11-10 00:00  Casa  SC Braga  3-1 V J11 
+1991 -11-03 00:00  Fora  Vitória SC  3-1 D J10 
+1991 -10-27 00:00  Casa  FC Famalicão  1-0 V J9 
+1991 -10-20 00:00  Fora  Gil Vicente  0-0 E J8 
+1991 -09-29 00:00  Fora  Boavista  2-0 D J6 
+1991 -09-22 00:00  Casa  GD Chaves  1-1 E J5 
+1991 -09-15 00:00  Fora  SC Salgueiros  2-1 D J4 
+1991 -09-01 00:00  Casa  Paços de 
+Ferreira  1-0 V J3 
+1991 -08-24 00:00  Fora  FC Penafiel  1-0 D J2 
+1991 -08-18 00:00  Casa  Marítimo  3-1 V J1 
+ 
+Taça de Portugal 1991/1992  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1992 -04-08  Casa  Beira -Mar 1-2 D 5E 
+1992 -01-12  Fora  Beira -Mar 0-0(a.p.)  E 5E 
+1991 -12-15  Casa  Arsenal Braga  4-0 V 4E 
+ Liga Portuguesa 1992/93  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1993 -06-06 00:00  Casa  Tirsense  1-0 V J34 
+1993 -05-30 00:00  Fora  Paços de 
+Ferreira  4-1 D J33 
+1993 -05-23 00:00  Casa  Belenenses  1-1 E J32 
+1993 -05-19 00:00  Casa  FC Porto  1-0 V J26 
+1993 -05-16 00:00  Fora  Estoril Praia  1-0 D J31 
+1993 -05-09 00:00  Casa  Marítimo  2-2 E J30 
+1993 -05-02 00:00  Fora  Beira -Mar 1-1 E J29 
+1993 -04-18 00:00  Casa  Vitória SC  4-1 V J28 
+1993 -04-10 00:00  Fora  GD Chaves  2-2 E J27 
+1993 -03-21 16:00  Fora  Boavista  3-1 D J25 
+1993 -03-13 00:00  Casa  Benfica  0-0 E J24 
+1993 -03-06 00:00  Fora  Sporting  2-0 D J23 
+1993 -02-28 00:00  Casa  Gil Vicente  3-1 V J22 
+1993 -02-14 00:00  Casa  SC Espinho  4-1 V J21 
+1993 -02-07 00:00  Fora  SC Braga  0-1 V J20 
+1993 -01-31 00:00  Casa  FC Famalicão  3-0 V J19 
+1993 -01-10 00:00  Fora  SC Salgueiros  0-0 E J18 
+1993 -01-03 00:00  Fora  Tirsense  0-0 E J17 
+1992 -12-20  Casa  Paços de 
+Ferreira  2-0 V J16 
+1992 -12-13  Fora  Belenenses  1-1 E J15 
+1992 -12-06 15:00  Casa  Estoril Praia  1-1 E J14 
+1992 -11-22 00:00  Fora  Marítimo  2-1 D J13 
+1992 -11-15 00:00  Casa  Beira -Mar 2-2 E J12 
+1992 -11-07 00:00  Fora  Vitória SC  2-0 D J11 
+1992 -11-01 00:00  Casa  GD Chaves  3-0 V J10 
+1992 -10-25 00:00  Fora  FC Porto  3-0 D J9 
+1992 -10-17 00:00  Casa  Boavista  1-1 E J8 
+1992 -10-04 00:00  Fora  Benfica  1-0 D J7 
+1992 -09-26 00:00  Casa  Sporting  0-0 E J6 
+1992 -09-20 00:00  Fora  Gil Vicente  2-1 D J5 
+1992 -09-13 00:00  Fora  SC Espinho  1-1 E J4 
+1992 -09-06 00:00  Casa  SC Braga  1-0 V J3 
+1992 -08-30 00:00  Fora  FC Famalicão  1-0 D J2 
+1992 -08-22 00:00  Casa  SC Salgueiros  2-0 V J1 
+ 
+Taça de Portugal 1992/1993  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1992 -12-27  Fora  Est. Amadora  2-0 D 5E 
+1992 -11-29  Casa  Marítimo  1-0 V 4E 
+ 
+Liga Portuguesa 1993/94  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1994 -06-02 00:00  Casa  Estoril Praia  1-2 D J34 
+1994 -05-29 00:00  Fora  Vitória FC  2-0 D J33 
+1994 -05-25 00:00  Fora  FC Porto  1-0 D J32 
+1994 -05-22 00:00  Casa  SC Salgueiros  4-1 V J31 
+1994 -05-15 00:00  Fora  Boavista  0-1 V J30 1994 -05-08 00:00  Casa  Paços de 
+Ferreira  3-0 V J29 
+1994 -04-30 00:00  Fora  Vitória SC  2-2 E J28 
+1994 -04-24 00:00  Casa  SC Braga  0-0 E J27 
+1994 -04-10 00:00  Fora  Gil Vicente  0-0 E J26 
+1994 -03-27 00:00  Casa  FC Famalicão  5-0 V J25 
+1994 -03-24 00:00  Fora  União Madeira  0-0 E J24 
+1994 -03-13 00:00  Casa  Marítimo  0-0 E J23 
+1994 -03-06 00:00  Fora  Sporting  3-1 D J22 
+1994 -02-26 00:00  Casa  Benfica  0-0 E J21 
+1994 -02-20 00:00  Fora  Est. Amadora  1-2 V J20 
+1994 -02-12 00:00  Casa  Beira -Mar 2-2 E J19 
+1994 -02-06 00:00  Fora  Belenenses  4-2 D J18 
+1994 -01-23 00:00  Fora  Estoril Praia  0-1 V J17 
+1994 -01-16 00:00  Casa  Vitória FC  2-1 V J16 
+1994 -01-09 00:00  Casa  FC Porto  1-0 V J15 
+1993 -12-30 00:00  Fora  SC Salgueiros  3-2 D J14 
+1993 -12-19 00:00  Casa  Boavista  1-0 V J13 
+1993 -12-12  Fora  Paços de 
+Ferreira  1-0 D J12 
+1993 -11-28  Casa  Vitória SC  0-1 D J11 
+1993 -11-21 00:00  Fora  SC Braga  4-0 D J10 
+1993 -10-31 00:00  Casa  Gil Vicente  4-2 V J9 
+1993 -10-24 00:00  Fora  FC Famalicão  2-1 D J8 
+1993 -10-17 00:00  Casa  União Madeira  4-1 V J7 
+1993 -10-03 00:00  Fora  Marítimo  5-2 D J6 
+1993 -09-26 00:00  Casa  Sporting  0-1 D J5 
+1993 -09-19 00:00  Fora  Benfica  4-1 D J4 
+1993 -09-12 00:00  Casa  Est. Amadora  1-0 V J3 
+1993 -08-29 00:00  Fora  Beira -Mar 3-0 D J2 
+1993 -08-22 00:00  Casa  Belenenses  1-0 V J1 
+ 
+Taça de Portugal 1993/1994  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1993 -12-05  Fora  Vitória SC  1-0 D 4E 
+ 
+Liga Portuguesa 1994/95  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1995 -05-28 00:00  Casa  Est. Amadora  2-0 V J34 
+1995 -05-21 00:00  Fora  Belenenses  1-0 D J33 
+1995 -05-14 00:00  Casa  Marítimo  4-0 V J32 
+1995 -05-07 00:00  Casa  Vitória SC  3-0 V J31 
+1995 -04-30 00:00  Fora  GD Chaves  1-2 V J30 
+1995 -04-15 00:00  Casa  Gil Vicente  2-0 V J29 
+1995 -04-09 00:00  Fora  FC Porto  2-0 D J28 
+1995 -04-01 00:00  Casa  Benfica  4-1 V J27 
+1995 -03-26 00:00  Fora  UD Leiria  5-0 D J26 
+1995 -03-19 00:00  Casa  Vitória FC  2-0 V J25 
+1995 -03-12 00:00  Fora  União Madeira  3-0 D J24 
+1995 -03-04 00:00  Casa  Beira -Mar 3-0 V J23 
+1995 -02-25 00:00  Fora  SC Braga  0-0 E J22 
+1995 -02-19 00:00  Casa  Tirsense  1-0 V J21
+1995 -02-12 00:00  Fora  SC Salgueiros  0-3 V J20 
+1995 -02-04 00:00  Casa  Boavista  1-0 V J19 
+1995 -01-21 00:00  Fora  Sporting  1-1 E J18 
+1995 -01-15 00:00  Fora  Est. Amadora  2-1 D J17 
+1995 -01-08 00:00  Casa  Belenenses  1-0 V J16 
+1994 -12-17 00:00  Fora  Marítimo  2-1 D J15 
+1994 -12-11 00:00  Fora  Vitória SC  2-0 D J14 
+1994 -12-01 00:00  Casa  GD Chaves  2-0 V J13 
+1994 -11-27 00:00  Fora  Gil Vicente  1-1 E J12 
+1994 -11-20 00:00  Casa  FC Porto  0-3 D J11 
+1994 -11-06 00:00  Fora  Benfica  2-1 D J10 
+1994 -10-30 00:00  Casa  UD Leiria  1-1 E J9 
+1994 -10-23 00:00  Fora  Vitória FC  1-1 E J8 
+1994 -10-16 00:00  Casa  União Madeira  2-1 V J7 
+1994 -10-01 00:00  Fora  Beira -Mar 1-3 V J6 
+1994 -09-25 00:00  Casa  SC Braga  0-1 D J5 
+1994 -09-18 00:00  Fora  Tirsense  3-0 D J4 
+1994 -09-11 00:00  Casa  SC Salgueiros  1-0 V J3 
+1994 -08-28 00:00  Fora  Boavista  2-1 D J2 
+1994 -08-20 00:00  Casa  Sporting  0-2 D J1 
+ 
+Taça de Portugal 1994/1995  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1995 -02-15  Fora  Leça FC  1-0 D 1/8 
+1994 -12-23  Casa  FC Felgueiras 
+(Extinto)  3-1 V 5E 
+1994 -12-08  Casa  Est. Amadora  2-1 V 4E 
+1994 -12-04  Fora  Est. Amadora  0-0(a.p.)  E 4E 
+ 
+Liga Portuguesa 1995/96  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1996 -05-12 17:00  Casa  SC Salgueiros  4-1 V J34 
+1996 -05-05 17:00  Fora  Marítimo  0-0 E J33 
+1996 -04-28 17:00  Casa  UD Leiria  1-1 E J32 
+1996 -04-21 20:45  Fora  Benfica  0-1 V J31 
+1996 -04-14 17:00  Casa  FC Felgueiras 
+(Extinto)  0-0 E J30 
+1996 -04-06 17:00  Casa  Campomaiorense  3-1 V J29 
+1996 -03-31 17:00  Fora  SC Braga  3-2 D J28 
+1996 -03-24 16:00  Casa  Boavista  2-0 V J27 
+1996 -03-17 00:00  Fora  FC Porto  2-0 D J26 
+1996 -03-10 16:00  Casa  Leça FC  2-0 V J25 
+1996 -03-03 15:00  Fora  GD Chaves  2-1 D J24 
+1996 -02-18 16:00  Casa  Gil Vicente  5-0 V J23 
+1996 -02-10 15:00  Fora  Sporting  5-0 D J22 
+1996 -02-04 16:00  Casa  Belenenses  1-3 D J21 
+1996 -01-28 15:00  Fora  Est. Amadora  1-1 E J20 
+1996 -01-21 20:45  Casa  Vitória SC  0-1 D J19 
+1996 -01-13 15:00  Fora  Tirsense  2-1 D J18 
+1996 -01-07 15:00  Fora  SC Salgueiros  1-0 D J17 
+1995 -12-30 15:00  Casa  Marítimo  2-0 V J16
+1995 -12-23 15:00  Fora  UD Leiria  1-0 D J15 
+1995 -12-16 20:45  Casa  Benfica  1-3 D J14 
+1995 -12-10 15:00  Fora  FC Felgueiras 
+(Extinto)  3-1 D J13 
+1995 -11-26 15:00  Fora  Campomaiorense  1-0 D J12 
+1995 -11-19 15:30  Casa  SC Braga  1-0 V J11 
+1995 -11-05 15:00  Fora  Boavista  3-0 D J10 
+1995 -10-28 00:00  Casa  FC Porto  0-2 D J9 
+1995 -10-22 15:00  Fora  Leça FC  2-1 D J8 
+1995 -10-15 15:30  Casa  GD Chaves  0-0 E J7 
+1995 -10-01 15:00  Fora  Gil Vicente  2-2 E J6 
+1995 -09-23 20:45  Casa  Sporting  0-1 D J5 
+1995 -09-17 17:00  Fora  Belenenses  2-1 D J4 
+1995 -09-09 18:00  Casa  Est. Amadora  1-0 V J3 
+1995 -08-27 17:00  Fora  Vitória SC  1-0 D J2 
+ 
+Taça de Portugal 1995/1996  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1996 -02-14 00:00  Fora  Benfica  3-0 D 1/8 
+1996 -01-31  Casa  Benfica  1-1(a.p.)  E 1/8 
+1996 -01-17  Fora  Feirense  2-2(a.p.)  E 5E 
+1996 -01-09  Casa  Feirense  2-2(a.p.)  E 5E 
+1995 -12-01  Casa  Varzim  3-2 V 4E 
+ 
+Taça UEFA 1995/1996  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1995 -09-26 00:00  Fora  Lyon  1-0 D 1R 
+1995 -09-13 17:00  Casa  Lyon  0-1 D 1R 
+ 
+Liga Portuguesa 1996/97  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1997 -06-15 17:00  Casa  SC Salgueiros  1-1 E J34 
+1997 -06-01 17:00  Fora  GD Chaves  1-1 E J33 
+1997 -05-25 17:00  Casa  UD Leiria  4-0 V J32 
+1997 -05-18 18:00  Fora  Vitória FC  0-1 V J31 
+1997 -05-11 17:00  Casa  Gil Vicente  2-1 V J30 
+1997 -05-04 17:00  Fora  SC Braga  2-1 D J29 
+1997 -04-26 21:30  Casa  Benfica  1-2 D J28 
+1997 -04-20 16:00  Fora  Vitória SC  3-2 D J27 
+1997 -04-11 00:00  Casa  FC Porto  1-2 D J26 
+1997 -04-06 16:00  Fora  Leça FC  0-0 E J25 
+1997 -03-23 16:00  Casa  Marítimo  1-0 V J24 
+1997 -03-16 15:30  Fora  Rio Ave  0-0 E J23 
+1997 -03-02 15:00  Casa  Belenenses  0-2 D J22 
+1997 -02-23 15:00  Casa  SC Espinho  3-1 V J21 
+1997 -02-16 15:00  Fora  Boavista  1-1 E J20 
+1997 -02-08 21:30  Casa  Sporting  0-0 E J19 
+1997 -02-02 15:00  Fora  Est. Amadora  2-1 D J18 
+1997 -01-26 15:00  Fora  SC Salgueiros  2-1 D J17
+1997 -01-19 15:00  Casa  GD Chaves  0-2 D J16 
+1997 -01-12 16:00  Fora  UD Leiria  0-0 E J15 
+1997 -01-05 15:00  Casa  Vitória FC  1-1 E J14 
+1996 -12-22 15:00  Fora  Gil Vicente  1-1 E J13 
+1996 -12-01 15:00  Casa  SC Braga  2-2 E J12 
+1996 -11-24 15:00  Fora  Benfica  2-1 D J11 
+1996 -11-17 15:00  Casa  Vitória SC  1-0 V J10 
+1996 -11-03 00:00  Fora  FC Porto  2-0 D J9 
+1996 -10-27 16:00  Casa  Leça FC  0-0 E J8 
+1996 -10-20 16:00  Fora  Marítimo  1-0 D J7 
+1996 -10-13 16:00  Casa  Rio Ave  2-1 V J6 
+1996 -09-29 16:00  Fora  Belenenses  1-2 V J5 
+1996 -09-22 16:00  Fora  SC Espinho  1-0 D J4 
+1996 -09-15 21:00  Casa  Boavista  2-0 V J3 
+1996 -09-06 21:00  Fora  Sporting  0-0 E J2 
+1996 -09-01 21:00  Casa  Est. Amadora  1-0 V J1 
+ 
+Taça de Portugal 1996/1997  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1996 -12-11  Fora  Est. Amadora  1-0 D 4E 
+1996 -12-08  Casa  Est. Amadora  1-1(a.p.)  E 4E 
+ 
+Liga Portuguesa 1997/98  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1998 -05-17 17:00  Casa  Rio Ave  1-0 V J34 
+1998 -05-10 17:00  Fora  Académica OAF  1-0 D J33 
+1998 -05-03 17:00  Casa  Vitória FC  2-0 V J32 
+1998 -04-26 16:00  Fora  Campomaiorense  5-2 D J31 
+1998 -04-19 17:00  Casa  Leça FC  1-1 E J30 
+1998 -04-11 17:00  Fora  Est. Amadora  2-1 D J29 
+1998 -04-03 00:00  Casa  FC Porto  1-2 D J28 
+1998 -03-29 18:00  Fora  Varzim  1-0 D J27 
+1998 -03-22 15:00  Casa  Marítimo  0-2 D J26 
+1998 -03-15 15:00  Fora  SC Salgueiros  4-1 D J25 
+1998 -03-08 21:00  Casa  Benfica  1-1 E J24 
+1998 -03-01 16:00  Fora  Boavista  2-2 E J23 
+1998 -02-21 15:30  Casa  Vitória SC  2-0 V J22 
+1998 -02-15 15:00  Fora  GD Chaves  2-2 E J21 
+1998 -02-08 15:30  Casa  Belenenses  3-1 V J20 
+1998 -01-31 15:30  Casa  SC Braga  1-1 E J19 
+1998 -01-25 15:00  Fora  Sporting  3-2 D J18 
+1998 -01-18 16:00  Fora  Rio Ave  0-3 V J17 
+1998 -01-11 15:00  Casa  Académica OAF  0-0 E J16 
+1998 -01-04 16:00  Fora  Vitória FC  4-1 D J15 
+1997 -12-21 15:00  Casa  Campomaiorense  2-2 E J14 
+1997 -12-13 15:00  Fora  Leça FC  2-1 D J13 
+1997 -12-07 15:00  Casa  Est. Amadora  1-1 E J12 
+1997 -12-01 00:00  Fora  FC Porto  5-2 D J11 
+1997 -11-23 15:00  Casa  Varzim  1-0 V J10 
+1997 -11-09 16:00  Fora  Marítimo  1-1 E J9 
+1997 -11-02 15:00  Casa  SC Salgueiros  0-0 E J8
+1997 -10-19 16:00  Fora  Benfica  3-1 D J7 
+1997 -10-06 15:00  Casa  Boavista  0-0 E J6 
+1997 -09-26 15:00  Fora  Vitória SC  2-0 D J5 
+1997 -09-20 15:00  Casa  GD Chaves  1-0 V J4 
+1997 -09-14 17:00  Fora  Belenenses  0-3 V J3 
+1997 -08-31 17:00  Fora  SC Braga  2-2 E J2 
+1997 -08-23 15:00  Casa  Sporting  0-0 E J1 
+ 
+Taça de Portugal 1997/1998  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1997 -10-26  Fora  Benfica  4-2 D 4E 
+ 
+Liga Portuguesa 1998/99  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1999 -05-30  Fora  UD Leiria  2-1 D J34 
+1999 -05-22  Casa  Boavista  2-2 E J33 
+1999 -05-16  Fora  FC Alverca  1-3 V J32 
+1999 -05-08  Casa  Vitória SC  1-2 D J31 
+1999 -05-02  Fora  Marítimo  1-3 V J30 
+1999 -04-25  Fora  Campomaiorense  3-1 D J29 
+1999 -04-17  Casa  Beira -Mar 2-1 V J28 
+1999 -04-03  Fora  Rio Ave 2-2 E J27 
+1999 -03-21  Casa  Est. Amadora  1-1 E J26 
+1999 -03-12  Fora  Sporting  1-0 D J25 
+1999 -02-28  Casa  Académica OAF  2-0 V J24 
+1999 -02-21  Fora  GD Chaves  4-4 E J23 
+1999 -02-13  Casa  Vitória FC  1-1 E J22 
+1999 -02-05  Fora  Benfica  5-0 D J21 
+1999 -01-30 00:00  Casa  FC Porto  0-3 D J20 
+1999 -01-25  Fora  SC Braga  0-0 E J19 
+1999 -01-17  Casa  SC Salgueiros  2-1 V J18 
+1999 -01-03 00:00  Casa  UD Leiria  1-1 E J17 
+1998 -12-18  Fora  Boavista  3-0 D J16 
+1998 -12-13 15:00  Casa  FC Alverca  1-0 V J15 
+1998 -12-06  Fora  Vitória SC  1-0 D J14 
+1998 -11-29  Casa  Marítimo  0-0 E J13 
+1998 -11-22  Casa  Campomaiorense  2-1 V J12 
+1998 -11-15  Fora  Beira -Mar 0-1 V J11 
+1998 -11-07  Casa  Rio Ave  0-1 D J10 
+1998 -11-01  Fora  Est. Amadora  2-1 D J9 
+1998 -10-24 21:30  Casa  Sporting  1-3 D J8 
+1998 -10-18  Fora  Académica OAF  2-1 D J7 
+1998 -10-04  Casa  GD Chaves  2-1 V J6 
+1998 -09-28  Fora  Vitória FC  1-1 E J5 
+1998 -09-21 21:00  Casa  Benfica  1-0 V J4 
+1998 -09-12 21:30  Fora  FC Porto  2-0 D J3 
+1998 -08-30 21:00  Casa  SC Braga  0-2 D J2 
+1998 -08-23  Fora  SC Salgueiros  4-2 D J1 
+ Taça de Portugal 1998/1999  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+1999 -02-16 00:00  Fora  Boavista  2-1 D 5E 
+1999 -01-20  Casa  Est. Amadora  3-2(a.p.)  V 4E 
+1999 -01-10  Fora  Est. Amadora  0-0(a.p.)  E 4E 
+ 
+Liga Portuguesa 1999/00  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2000 -05-14 19:00  Casa  Belenenses  2-1 V J34 
+2000 -05-07  Fora  Campomaiorense  1-0 D J33 
+2000 -04-29 00:00  Casa  FC Porto  3-3 E J32 
+2000 -04-22  Fora  SC Braga  1-0 D J31 
+2000 -04-14  Casa  FC Alverca  1-2 D J30 
+2000 -04-10  Fora  Boavista  2-1 D J29 
+2000 -04-03  Casa  Gil Vicente  0-3 D J28 
+2000 -03-26  Fora  Est. Amadora  1-1 E J27 
+2000 -03-19  Casa  Rio Ave  4-0 V J26 
+2000 -03-12  Casa  Vitória FC  0-0 E J25 
+2000 -03-04  Fora  Santa Clara  1-2 V J24 
+2000 -02-27  Casa  SC Salgueiros  3-2 V J23 
+2000 -02-20  Fora  Benfica  6-2 D J22 
+2000 -02-13  Casa  Marítimo  1-0 V J21 
+2000 -02-05  Fora  Sporting  3-1 D J20 
+2000 -01-29  Casa  Vitória SC  2-1 V J19 
+2000 -01-23  Fora  UD Leiria  2-0 D J18 
+2000 -01-16  Fora  Belenenses  1-1 E J17 
+2000 -01-08  Casa  Campomaiorense  2-2 E J16 
+1999 -12-20  Fora  FC Porto  5-0 D J15 
+1999 -12-12  Casa  SC Braga  1-1 E J14 
+1999 -12-05  Fora  FC Alverca  0-1 V J13 
+1999 -11-28  Casa  Boavista  0-2 D J12 
+1999 -11-21  Fora  Gil Vicente  4-0 D J11 
+1999 -11-07  Casa  Est. Amadora  1-1 E J10 
+1999 -10-31  Fora  Rio Ave  1-1 E J9 
+1999 -10-22  Fora  Vitória FC  1-1 E J8 
+1999 -10-17  Casa  Santa Clara  2-2 E J7 
+1999 -10-03  Fora  SC Salgueiros  0-0 E J6 
+1999 -09-25 00:00  Casa  Benfica  0-1 D J5 
+1999 -09-19  Fora  Marítimo  3-0 D J4 
+1999 -09-12  Casa  Sporting  0-3 D J3 
+1999 -08-27  Fora  Vitória SC  3-0 D J2 
+1999 -08-22 18:00  Casa  UD Leiria  2-1 V J1 
+ 
+Taça de Portugal 1999/2000  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2000 -01-11  Casa  Est. Amadora  2-3 D 5E 
+1999 -11-14  Casa  Belenenses  3-1 V 4E 
+ Liga Portuguesa 2000/01  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2001 -05-27 00:00  Fora  Vitória SC  1-0 D J34 
+2001 -05-20 16:00  Casa  SC Braga  1-0 V J33 
+2001 -05-13 00:00  Casa  Marítimo  1-2 D J32 
+2001 -05-06 00:00  Fora  Campomaiorense  1-0 D J31 
+2001 -04-29 00:00  Casa  Paços de Ferreira  2-4 D J30 
+2001 -04-23 00:00  Fora  Belenenses  4-2 D J29 
+2001 -04-13 00:00  Casa  Benfica  2-2 E J28 
+2001 -04-08 00:00  Fora  Boavista  1-0 D J27 
+2001 -04-01 00:00  Casa  Est. Amadora  2-0 V J26 
+2001 -03-18 00:00  Fora  UD Leiria  2-0 D J25 
+2001 -03-11 16:00  Casa  Beira -Mar 1-2 D J24 
+2001 -03-04 00:00  Fora  FC Porto  2-0 D J23 
+2001 -02-25 16:00  Casa  CD Aves  1-0 V J22 
+2001 -02-18 16:00  Fora  SC Salgueiros  0-0 E J21 
+2001 -02-04 00:00  Casa  Gil Vicente  1-1 E J20 
+2001 -01-28 00:00  Fora  FC Alverca  0-1 V J19 
+2001 -01-21 00:00  Casa  Sporting  2-1 V J18 
+2001 -01-13 00:00  Casa  Vitória SC  1-1 E J17 
+2001 -01-07 00:00  Fora  SC Braga  3-0 D J16 
+2000 -12-17 00:00  Fora  Marítimo  1-1 E J15 
+2000 -12-10 00:00  Casa  Campomaiorense  1-3 D J14 
+2000 -12-03 00:00  Fora  Paços de Ferreira  1-1 E J13 
+2000 -11-17 00:00  Casa  Belenenses  3-1 V J12 
+2000 -11-12 16:00  Fora  Benfica  2-1 D J11 
+2000 -11-04 15:30  Casa  Boavista  2-2 E J10 
+2000 -10-29 16:00  Fora  Est. Amadora  1-2 V J9 
+2000 -10-22 00:00  Casa  UD Leiria  1-1 E J8 
+2000 -10-15 00:00  Fora  Beira -Mar 0-2 V J7 
+2000 -10-02 00:00  Casa  FC Porto  1-3 D J6 
+2000 -09-24 00:00  Fora  CD Aves  3-1 D J5 
+2000 -09-17 00:00  Casa  SC Salgueiros  2-1 V J4 
+2000 -09-10 00:00  Fora  Gil Vicente  0-0 E J3 
+2000 -08-27 00:00  Casa  FC Alverca  2-0 V J2 
+2000 -08-20 00:00  Fora  Sporting  1-0 D J1 
+ 
+Taça de Portugal 2000/2001  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2001 -01-17 15:00  Casa  Marítimo  0-1(a.p.)  D 1/8 
+2001 -01-03 15:00  Casa  Leça FC  4-2 V 5E 
+2000 -12-23 15:00  Fora  Leça FC  0-0(a.p.)  E 5E 
+2000 -11-26  Casa  Imortal  2-1 V 4E 
+ 
+Liga Portuguesa 2001/02  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2002 -05-05 16:00  Casa  Gil Vicente  3-2 V J34 
+2002 -04-28 16:00  Fora  UD Leiria  4-1 D J33 
+2002 -04-21 16:00  Casa  FC Alverca  2-1 V J32 
+2002 -04-14 15:00  Fora  Belenenses  4-0 D J31 
+2002 -04-06 00:00  Casa  FC Porto  0-3 D J30 
+2002 -03-30 16:00  Fora  Beira -Mar 2-1 D J29
+2002 -03-24 16:00  Casa  Vitória FC  2-2 E J28 
+2002 -03-18 20:30  Fora  Benfica  5-0 D J27 
+2002 -03-10 16:00  Casa  Varzim  1-1 E J26 
+2002 -03-03 16:00  Fora  Marítimo  1-0 D J25 
+2002 -02-23 17:00  Casa  Boavista  1-2 D J24 
+2002 -02-17 18:00  Fora  Sporting  1-0 D J23 
+2002 -02-10 16:00  Casa  Paços de 
+Ferreira  1-1 E J22 
+2002 -02-03 16:00  Fora  Santa Clara  2-0 D J21 
+2002 -01-26 16:00  Casa  SC Braga  2-2 E J20 
+2002 -01-18 21:00  Fora  Vitória SC  3-1 D J19 
+2002 -01-12 15:00  Casa  SC Salgueiros  2-1 V J18 
+2002 -01-06 15:00  Fora  Gil Vicente  3-1 D J17 
+2001 -12-22 15:00  Casa  UD Leiria  0-1 D J16 
+2001 -12-15 17:00  Fora  FC Alverca  1-0 D J15 
+2001 -12-09 21:00  Casa  Belenenses  2-2 E J14 
+2001 -11-30 00:00  Fora  FC Porto  2-0 D J13 
+2001 -11-25 00:00  Casa  Beira -Mar 1-0 V J12 
+2001 -11-03 00:00  Fora  Vitória FC  2-0 D J11 
+2001 -10-26 00:00  Casa  Benfica  0-2 D J10 
+2001 -10-21 00:00  Fora  Varzim  2-0 D J9 
+2001 -10-14 00:00  Casa  Marítimo  2-1 V J8 
+2001 -09-30 00:00  Fora  Boavista  1-1 E J7 
+2001 -09-23 00:00  Casa  Sporting  1-3 D J6 
+2001 -09-16 00:00  Fora  Paços de 
+Ferreira  1-1 E J5 
+2001 -09-09 00:00  Casa  Santa Clara  1-0 V J4 
+2001 -08-26 00:00  Fora  SC Braga  4-0 D J3 
+2001 -08-20 00:00  Casa  Vitória SC  0-1 D J2 
+2001 -08-12 16:00  Fora  SC Salgueiros  0-2 V J1 
+ 
+Taça de Portugal 2001/2002  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2001 -12-12  Fora  Sporting  4-1 D 5E 
+2001 -11-18  Fora  Est. Portalegre  1-5 V 4E 
+ 
+II Liga 2002/2003  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2003 -06-01 00:00  Fora  Leça FC  1-0 D J34 
+2003 -05-25 00:00  Casa  FC Marco  4-0 V J33 
+2003 -05-18 00:00  Fora  Rio Ave  1-0 D J32 
+2003 -05-11 00:00  Casa  Ovarense  1-0 V J31 
+2003 -05-04 00:00  Fora  SC Covilhã  0-0 E J30 
+2003 -04-27 00:00  Casa  CD Aves  1-1 E J29 
+2003 -04-19 00:00  Fora  FC Alverca  2-1 D J28 
+2003 -04-06 00:00  Casa  Naval  0-0 E J27 
+2003 -03-23 00:00  Fora  GD Chaves  1-0 D J26 
+2003 -03-16 00:00  Fora  União Madeira  3-1 D J25 
+2003 -03-01 00:00  Casa  SC Salgueiros  4-0 V J24 
+2003 -02-23 00:00  Fora  Est. Amadora  1-1 E J23 
+2003 -02-16 00:00  Casa  U. Lamas  1-0 V J22
+2003 -02-09 00:00  Fora  Maia  2-0 D J21 
+2003 -02-02 00:00  Casa  FC Felgueiras 
+(Extinto)  0-1 D J20 
+2003 -01-26 00:00  Fora  Portimonense  1-2 V J19 
+2003 -01-19 00:00  Casa  FC Penafiel  1-0 V J18 
+2003 -01-12 00:00  Casa  Leça FC  2-1 V J17 
+2003 -01-05 00:00  Fora  FC Marco  1-1 E J16 
+2002 -12-22 00:00  Casa  Rio Ave  0-1 D J15 
+2002 -12-15 00:00  Fora  Ovarense  3-1 D J14 
+2002 -12-08 00:00  Casa  SC Covilhã  1-1 E J13 
+2002 -12-01 00:00  Fora  CD Aves  1-0 D J12 
+2002 -11-17 00:00  Casa  FC Alverca  1-1 E J11 
+2002 -11-10 00:00  Fora  Naval  0-0 E J10 
+2002 -11-03 00:00  Casa  GD Chaves  2-1 V J9 
+2002 -10-20 00:00  Casa  União Madeira  1-1 E J8 
+2002 -10-12 00:00  Fora  SC Salgueiros  2-0 D J7 
+2002 -10-05 00:00  Casa  Est. Amadora  1-0 V J6 
+2002 -09-29 00:00  Fora  U. Lamas  0-1 V J5 
+2002 -09-22 00:00  Casa  Maia  2-2 E J4 
+2002 -09-15 00:00  Fora  FC Felgueiras 
+(Extinto)  2-0 D J3 
+2002 -09-01 00:00  Casa  Portimonense  0-0 E J2 
+2002 -08-25 00:00  Fora  FC Penafiel  1-2 V J1 
+ 
+Taça de Portugal 2002/2003  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2002 -11-24  Fora  Varzim  4-1 D 4E 
+2002 -10-30  Fora  Fiães SC  1-2 V 3E 
+ 
+II Divisão B Zona Sul 03/04  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2004 -05-15  Casa  Pinhalnovense  2-0 V J38 
+2004 -05-09  Fora  Sintrense  1-1 E J37 
+2004 -05-02  Casa  Olivais e 
+Moscavide  1-2 D J36 
+2004 -04-25  Casa  Odivelas  1-0 V J35 
+2004 -04-18  Fora  Pontassolense  1-2 V J34 
+2004 -04-14  Casa  Barreirense  2-4 D J33 
+2004 -04-10  Fora  Sporting B  3-2 D J32 
+2004 -04-04  Casa  CD Mafra  2-2 E J31 
+2004 -03-28  Fora  CD Santo 
+António  0-0 E J30 
+2004 -03-21  Casa  Lusitânia dos 
+Açores  2-1 V J29 
+2004 -03-14  Fora  Camacha  1-1 E J28 
+2004 -03-07  Casa  Louletano  2-1 V J27 
+2004 -02-29  Fora  Olhanense  2-1 D J26 
+2004 -02-22  Casa  Estrela FC  4-1 V J25 
+2004 -02-15  Fora  Ribeira Brava  1-0 D J24 
+2004 -02-08  Casa  Amora FC  3-0 V J23 
+2004 -02-01  Fora  Oriental  0-1 V J22
+2004 -01-25  Casa  Marítimo B  1-2 D J21 
+2004 -01-18  Fora  União 
+Micaelense  2-0 D J20 
+2004 -01-11  Fora  Pinhalnovense  1-0 D J19 
+2004 -01-04  Casa  Sintrense  0-0 E J18 
+2003 -12-28  Fora  Olivais e 
+Moscavide  1-0 D J17 
+2003 -12-21  Fora  Odivelas  2-1 D J16 
+2003 -12-14  Casa  Pontassolense  2-0 V J15 
+2003 -12-07  Fora  Barreirense  2-0 D J14 
+2003 -11-30  Casa  Sporting B  0-1 D J13 
+2003 -11-16  Fora  CD Mafra  1-1 E J12 
+2003 -11-09  Casa  CD Santo 
+António  4-1 V J11 
+2003 -11-02  Fora  Lusitânia dos 
+Açores  1-0 D J10 
+2003 -10-26  Casa  Camacha  1-2 D J9 
+2003 -10-19  Fora  Louletano  0-0 E J8 
+2003 -10-05  Casa  Olhanense  0-1 D J7 
+2003 -09-21  Fora  Estrela FC  0-1 V J6 
+2003 -09-14  Casa  Ribeira Brava  1-1 E J5 
+2003 -09-07  Fora  Amora FC  4-1 D J4 
+2003 -08-31  Casa  Oriental  0-6 D J3 
+2003 -08-24  Fora  Marítimo B  6-0 D J2 
+2003 -08-17  Casa  União 
+Micaelense  0-3 D J1 
+ 
+Taça de Portugal 2003/2004  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2003 -10-12  Fora  Ovarense  2-0 D 3E 
+2003 -09-28  Casa  SC Praiense  3-0 V 2E 
+ 
+III Série F 04/05  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2005 -05-22 15:00  Fora  U. Santiago  2-3 V J34 
+2005 -05-15 00:00  Casa  Desp. Beja  0-0 E J33 
+2005 -05-08 15:00  Fora  Beira -Mar 
+M.Gordo  1-0 D J32 
+2005 -04-30 15:00  Casa  Lusit. Évora  1-2 D J31 
+2005 -04-24 15:00  Fora  Messinense  1-0 D J30 
+2005 -04-17 00:00  Casa  Aljustrelense  1-0 V J29 
+2005 -04-10 15:00  Fora  Imortal  0-1 V J28 
+2005 -04-03 15:00  Casa  Sesimbra  2-1 V J27 
+2005 -03-20 15:00  Fora  Seixal FC  2-1 D J26 
+2005 -03-13 15:00  Casa  Moura  3-0 V J25 
+2005 -03-06 00:00  Fora  Montijo  3-3 E J24 
+2005 -02-27 15:00  Casa  Lusitano VRSA  3-1 V J23 
+2005 -02-19 15:00  Fora  Juventude 
+Évora  1-0 D J22 
+2005 -02-13 15:00  Casa  Silves  0-1 D J21 
+2005 -02-06 00:00  Fora  GD Lagoa  0-1 V J20 
+2005 -01-30 00:00  Casa  Almancilense  2-2 E J19
+2005 -01-23 00:00  Fora  Almada AC  1-2 V J18 
+2005 -01-15 15:00  Casa  U. Santiago  1-1 E J17 
+2005 -01-09 00:00  Fora  Desp. Beja  3-1 D J16 
+2004 -12-19 15:00  Casa  Beira -Mar 
+M.Gordo  2-2 E J15 
+2004 -12-12 15:00  Fora  Lusit. Évora  1-0 D J14 
+2004 -12-05 00:00  Casa  Messinense  1-1 E J13 
+2004 -11-28 00:00  Fora  Aljustrelense  0-0 E J12 
+2004 -11-21 15:00  Casa  Imortal  2-1 V J11 
+2004 -11-13 00:00  Fora  Sesimbra  1-0 D J10 
+2004 -11-07 16:00  Casa  Seixal FC  2-1 V J9 
+2004 -10-31 00:00  Fora  Moura  0-2 V J8 
+2004 -10-24 00:00  Casa  Montijo  1-1 E J7 
+2004 -10-17 16:00  Fora  Lusitano VRSA  2-0 D J6 
+2004 -10-10 00:00  Casa  Juventude 
+Évora  1-2 D J5 
+2004 -10-02 00:00  Fora  Silves  4-0 D J4 
+2004 -09-26 00:00  Casa  GD Lagoa  2-3 D J3 
+2004 -09-12 00:00  Fora  Almancilense  6-2 D J2 
+2004 -09-08 16:00  Casa  Almada AC  1-2 D J1 
+ 
+Taça de Portugal 2004/2005  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2004 -09-05 16:00  Casa  Lusit. Évora  1-5 D 1E 
+ 
+Taça 05/06  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2005 -09-04 16:00  Fora  Atlético CP  6-0 D 1E 
+ 
+Algarve 2ª 06/07  
+Data  Hora  Casa/Fora  Adversário  Resultado  V-E-D Jornada  
+07/10/06  15:00  Fora  Inter Alman  0-2 V 1 
+14/10/06  15:00  Casa  Quarteira  1-2 D 2 
+21/10/06  15:00  Fora  Odeceixe  1-4 V 3 
+28/10/06  15:00  Casa  Paderne  2-0 V 4 
+04/11/06  15:00  Fora  Ferreiras B  1-2 V 5 
+11/11/06  15:00  Casa  Monchique B  9-0 V 6 
+18/11/06  15:00  Fora  Univ. Algarve  0-2 V 7 
+25/11/06  15:00  Casa  Odeáxere  4-0 V 8 
+02/12/06  15:00  Fora  Gin. Tavira  0-2 V 9 
+09/12/06  15:00  Casa  Estombar  1-0 V 10 
+16/12/06  15:00  Fora  Sambrazense B  0-2 V 11 
+06/01/07  15:00  Casa  Machados  2-1 V 12 
+13/01/07  15:00  Casa  Vila Bispo  Jogo ND  ND 13 
+20/01/07  15:00  Fora  Safol  2-2 E 14 
+27/01/07  15:00  Casa  Moncarapacho  4-2 V 15 
+03/02/07  15:00  Fora  11 Esperanças  0-1 V 16 
+10/02/07  15:00  Casa  Santa Luzia  1-1 E 17 
+17/02/07  15:00  Casa  Inter Alman  1-0 V 18 
+24/02/07  15:00  Fora  Quarteira  1-1 E 19 
+03/03/07  15:00  Casa  Odeceixe  5-1 V 20 
+10/03/07  15:00  Fora  Paderne  0-1 V 21 
+17/03/07  15:00  Casa  Ferreiras B  4-1 V 22 
+24/03/07  15:00  Fora  Monchique B  0-7 V 23 
+31/03/07  15:00  Casa  Univ. Algarve  4-1 V 24 
+07/04/07  15:00  Fora  Odeáxere  0-4 V 25 
+14/04/07  15:00  Casa  Gin. Tavira  2-0 V 26 
+21/04/07  15:00  Fora  Estombar  1-2 V 27 
+28/04/07  15:00  Casa  Sambrazense B  2-0 V 28 
+05/05/07  15:00  Fora  Machados  1-2 V 29 
+12/05/07  15:00  Fora  Vila Bispo  Jogo ND  ND 30 
+19/05/07  15:00  Casa  Safol  2-0 V 31 
+26/05/07  15:00  Fora  Moncarapacho  2-4 V 32 
+02/06/07  15:00  Casa  11 Esperanças  2-0 V 33 
+09/06/07  15:00  Fora  Santa Luzia  0-1 V 34 
+
+Algarve 1ª 07/08  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2008 -05-24 16:00  Casa  ACR Alvorense  5-0 V J30 
+2008 -05-17  Fora  Guia  1-1 E J29 
+2008 -05-10 16:00  Casa  Salir  1-1 E J28 
+2008 -05-03 16:00  Fora  Machados  0-1 V J27 
+2008 -04-19 16:00  Casa  Esp. Lagos  3-0 V J26 
+2008 -04-12 17:00  Fora  Culatrense  2-3 V J25 
+2008 -04-05 16:00  Casa  Faro e Benfica  3-0 V J24 
+2008 -03-29 16:00  Fora  Castromarinense  1-0 D J23 
+2008 -03-15 15:00  Casa  Aljezurense  8-1 V J22 
+2008 -03-08 15:00  Fora  Lusitano VRSA  0-1 V J21 
+2008 -03-01 15:00  Casa  Padernense Clube  4-0 V J20 
+2008 -02-23 15:00  Fora  Sambrasense  3-3 E J19 
+2008 -02-16 15:00  Casa  Serrano FC  3-0 V J18 
+2008 -02-09  Casa  Salgados  2-1 V J17 
+2008 -02-02  Fora  Armacenenses  1-0 D J16 
+2008 -01-26 15:00  Fora  ACR Alvorense  2-3 V J15 
+2008 -01-19 15:00  Casa  Guia  2-0 V J14 
+2008 -01-12 15:00  Fora  Salir  0-4 V J13 
+2008 -01-05 15:00  Casa  Machados  3-1 V J12 
+2007 -12-22 15:00  Casa  Culatrense  6-1 V J10
+2007 -12-15 15:00  Fora  Esp. Lagos  0-2 V J11 
+2007 -12-08 15:00  Fora  Faro e Benfica  2-5 V J9 
+2007 -12-01  Casa  Castromarinense  0-1 D J8 
+2007 -11-24 15:00  Fora  Aljezurense  0-2 V J7 
+2007 -11-17 15:00  Casa  Lusitano VRSA  1-2 D J6 
+2007 -11-10 15:00  Fora  Padernense Clube  0-2 V J5 
+2007 -10-27 15:00  Casa  Sambrasense  0-0 E J4 
+2007 -10-20 15:00  Fora  Serrano FC  0-1 V J3 
+2007 -10-13 15:00  Fora  Salgados  0-3 V J2 
+2007 -10-05 15:00  Casa  Armacenenses  1-0 V J1 
+ 
+III Série F 08/09  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2009 -06-07 16:00  Fora  At. Reguengos  6-1 D J10 
+2009 -05-31 16:00  Casa  Louletano  2-1 V J9 
+2009 -05-24 16:00  Casa  Juventude 
+Évora  2-2 E J8 
+2009 -05-17 16:00  Fora  CD Cova 
+Piedade  1-1 E J7 
+2009 -05-10 16:00  Casa  Pescadores  1-3 D J6 
+2009 -05-03 16:00  Casa  At. Reguengos  1-1 E J5 
+2009 -04-26 16:00  Fora  Louletano  0-0 E J4 
+2009 -04-19 16:00  Fora  Juventude 
+Évora  0-2 V J3 
+2009 -04-11 16:00  Casa  CD Cova 
+Piedade  3-1 V J2 
+2009 -04-05 16:00  Fora  Pescadores  0-0 E J1 
+2009 -03-22 15:00  Fora  Silves  0-2 V J26 
+2009 -03-15 15:00  Casa  Lusit. Évora  3-1 V J25 
+2009 -03-08 15:00  Fora  Fabril Barreiro  4-1 D J24 
+2009 -03-01 15:00  Casa  CD Cova 
+Piedade  2-1 V J23 
+2009 -02-22 15:00  Fora  Quarteirense  0-2 V J22 
+2009 -02-15 15:00  Casa  Pescadores  2-0 V J21 
+2009 -02-08 15:00  Fora  Louletano  2-2 E J20 
+2009 -02-01 15:00  Casa  Messinense  3-1 V J19 
+2009 -01-25 15:00  Fora  Juventude 
+Évora  3-1 D J18 
+2009 -01-18 15:00  Casa  Barreirense  1-2 D J17 
+2009 -01-11 15:00  Fora  At. Reguengos  2-2 E J16 
+2009 -01-04 15:00  Casa  Castrense  3-2 V J15 
+2008 -12-21 15:00  Fora  Juventude 
+Campinense  1-3 V J14 
+2008 -12-14 15:00  Casa  Silves  1-0 V J13 
+2008 -12-07 15:00  Fora  Lusit. Évora  2-0 D J12 
+2008 -11-30 15:00  Casa  Fabril Barreiro  1-1 E J11 
+2008 -11-23 15:00  Fora  CD Cova 
+Piedade  0-0 E J10 
+2008 -11-16 15:00  Casa  Quarteirense  1-1 E J9 
+2008 -11-02  Fora  Pescadores  3-2 D J8 
+2008 -10-26  Casa  Louletano  0-1 D J7 
+2008 -10-12 15:00  Fora  Messinense  0-1 V J6 2008 -10-05 15:00  Casa  Juventude 
+Évora  1-2 D J5 
+2008 -09-28 15:00  Fora  Barreirense  1-2 V J4 
+2008 -09-21 17:00  Casa  At. Reguengos  1-3 D J3 
+2008 -09-07  Fora  Castrense  0-1 V J2 
+2008 -08-24 17:00  Casa  Juventude 
+Campinense  2-2 E J1 
+ 
+Taça de Portugal 08/09  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2008 -08-31  Casa  Torre 
+Moncorvo  0-2 D 1E 
+ 
+III Série F 09/10  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2010 -05-30 00:00  Casa  CD Cova 
+Piedade  1-0 V J10 
+2010 -05-23  Fora  Beira -Mar 
+M.Gordo  1-1 E J9 
+2010 -05-15 16:00  Fora  Pescadores  0-0 E J8 
+2010 -05-09 16:00  Casa  Juventude 
+Évora  0-1 D J7 
+2010 -05-02 16:00  Fora  Esp. Lagos  2-3 V J6 
+2010 -04-25 16:00  Fora  CD Cova 
+Piedade  2-1 D J5 
+2010 -04-18 16:00  Casa  Beira -Mar 
+M.Gordo  1-0 V J4 
+2010 -04-10 00:00  Casa  Pescadores  1-0 V J3 
+2010 -04-03 16:00  Fora  Juventude 
+Évora  1-0 D J2 
+2010 -03-28 16:00  Casa  Esp. Lagos  1-0 V J1 
+2010 -03-14 15:00  Casa  Beira -Mar 
+M.Gordo  1-0 V J22 
+2010 -03-07 15:00  Fora  Lusit. Évora  2-2 E J21 
+2010 -02-28 15:00  Casa  CD Cova 
+Piedade  2-3 D J20 
+2010 -02-21 15:00  Casa  Esp. Lagos  0-1 D J19 
+2010 -02-14 15:00  Fora  Grupo União 
+Sport  1-1 E J18 
+2010 -02-07 15:00  Casa  Moura  1-1 E J17 
+2010 -01-31 15:00  Fora  Juventude 
+Évora  1-2 V J16 
+2010 -01-24 15:00  Casa  Pescadores  1-1 E J15 
+2010 -01-17 15:00  Fora  Quarteirense  0-0 E J14 
+2010 -01-10 15:00  Casa  Fabril Barreiro  2-0 V J13 
+2010 -01-03 15:00  Fora  Castrense  1-2 V J12 
+2009 -12-20 15:00  Fora  Beira -Mar 
+M.Gordo  2-1 D J11 
+2009 -12-13 15:00  Casa  Lusit. Évora  3-2 V J10 
+2009 -12-06 15:00  Fora  CD Cova 
+Piedade  1-1 E J9 
+2009 -11-15 15:00  Fora  Esp. Lagos  0-1 V J8 2009 -11-08 15:00  Casa  Grupo União 
+Sport  2-1 V J7 
+2009 -11-01 15:00  Fora  Moura  1-3 V J6 
+2009 -10-25 15:00  Casa  Juventude 
+Évora  1-1 E J5 
+2009 -10-11 15:00  Fora  Pescadores  1-0 D J4 
+2009 -09-26  Casa  Quarteirense  1-1 E J3 
+2009 -09-20  Fora  Fabril Barreiro  1-1 E J2 
+2009 -09-06 17:00  Casa  Castrense  3-0 V J1 
+ 
+Taça Portugal 09/10  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2009 -09-13 15:00  Fora  Alcains  3-0 D 2E 
+2009 -08-30 16:00  Casa  Vitória do 
+Pico 2-1 V 1E 
+ 
+II Série Sul 10/11  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2011 -04-30 16:00  Casa  At. Reguengos  1-2 D J30 
+2011 -04-23 16:00  Fora  CD Mafra  6-0 D J29 
+2011 -04-17 16:00  Casa  Casa Pia AC  2-1 V J28 
+2011 -04-10 16:00  Fora  Atlético CP  4-2 D J27 
+2011 -04-03 16:00  Casa  Carregado  2-0 V J26 
+2011 -03-27 16:00  Fora  Pinhalnovense  0-0 E J25 
+2011 -03-20 15:00  Casa  GD Lagoa  1-0 V J24 
+2011 -03-13 16:00  Fora  Operário Lagoa  0-1 V J23 
+2011 -03-06 15:00  Casa  SC Praiense  1-1 E J22 
+2011 -02-27 15:00  Casa  Torreense  1-0 V J21 
+2011 -02-20 15:00  Fora  Oriental  0-2 V J20 
+2011 -02-13 15:00  Casa  Juventude 
+Évora  0-1 D J19 
+2011 -02-06 15:00  Fora  Real SC  1-1 E J18 
+2011 -01-30 15:00  Casa  Madalena  1-0 V J17 
+2011 -01-22 15:00  Fora  Louletano  1-1 E J16 
+2011 -01-16 15:00  Fora  At. Reguengos  3-1 D J15 
+2011 -01-09 15:00  Casa  CD Mafra  2-2 E J14 
+2010 -12-19 15:00  Fora  Casa Pia AC  1-1 E J13 
+2010 -12-15 15:00  Casa  Atlético CP  1-2 D J12 
+2010 -12-08 15:00  Fora  Carregado  2-2 E J11 
+2010 -12-04 15:00  Casa  Pinhalnovense  0-1 D J10 
+2010 -11-28 15:00  Fora  GD Lagoa  1-0 D J9 
+2010 -11-14 15:00  Casa  Operário Lagoa  2-2 E J8 
+2010 -11-07 16:00  Fora  SC Praiense  0-0 E J7 
+2010 -10-31  Fora  Torreense  1-1 E J6 
+2010 -10-24 15:00  Casa  Oriental  1-1 E J5 
+2010 -10-10 15:00  Fora  Juventude 
+Évora  2-0 D J4 
+2010 -10-03 15:00  Casa  Real SC  1-0 V J3 
+2010 -09-26 15:00  Fora  Madalena  2-0 D J2 
+2010 -09-12 17:00  Casa  Louletano  0-0 E J1 
+ Taça Portugal 10/11  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2010 -10-17 15:00  Fora  Merelinense  2-1 D 3E 
+2010 -09-19 15:00  Fora  União da Serra  1-1(4-5 g.p.)  E 2E 
+2010 -09-05 17:00  Casa  UD Santana  3-0 V 1E 
+ 
+III Série F 11/12  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2012 -05-27 17:00  Casa  Aljustrelense  3-3 E J10 
+2012 -05-19 17:00  Fora  Quarteirense  1-1 E J9 
+2012 -05-13 17:00  Casa  Sesimbra  5-0 V J8 
+2012 -05-06 16:00  Fora  Esp. Lagos  1-2 V J7 
+2012 -04-29 16:00  Casa  Messinense  3-1 V J6 
+2012 -04-22 16:00  Fora  Aljustrelense  2-2 E J5 
+2012 -04-15 16:00  Casa  Quarteirense  0-3 D J4 
+2012 -04-07 16:00  Fora  Sesimbra  2-0 D J3 
+2012 -04-01 16:00  Casa  Esp. Lagos  1-0 V J2 
+2012 -03-25 15:00  Fora  Messinense  0-4 V J1 
+2012 -03-11 15:00  Casa  Pescadores  5-1 V J22 
+2012 -03-04 15:00  Fora  Grupo União 
+Sport  1-2 V J21 
+2012 -02-26 15:00  Casa  Fabril Barreiro  3-2 V J20 
+2012 -02-19 15:00  Casa  Messinense  3-2 V J19 
+2012 -02-12 15:00  Fora  Redondense  0-2 V J18 
+2012 -02-05 15:00  Casa  GD Lagoa  0-0 E J17 
+2012 -01-29 15:00  Fora  Aljustrelense  2-2 E J16 
+2012 -01-22 15:00  Casa  Sesimbra  2-0 V J15 
+2012 -01-15 15:00  Fora  Despertar SC  0-1 V J14 
+2012 -01-08 15:00  Casa  Esp. Lagos  5-0 V J13 
+2011 -12-18 15:00  Fora  Quarteirense  0-2 V J12 
+2011 -12-11 15:00  Fora  Pescadores  1-3 V J11 
+2011 -11-27 15:00  Casa  Grupo União 
+Sport  1-0 V J10 
+2011 -11-13 15:00  Fora  Fabril Barreiro  0-3 V J9 
+2011 -11-06 15:00  Fora  Messinense  1-4 V J8 
+2011 -10-30 15:00  Casa  Redondense  2-2 E J7 
+2011 -10-23 15:00  Fora  GD Lagoa  0-0 E J6 
+2011 -10-09 15:00  Casa  Aljustrelense  1-0 V J5 
+2011 -10-02 15:00  Fora  Sesimbra  2-2 E J4 
+2011 -09-25 15:00  Casa  Despertar SC  3-0 V J3 
+2011 -09-18 17:00  Fora  Esp. Lagos  2-3 V J2 
+2011 -09-04 17:00  Casa  Quarteirense  3-1 V J1 
+ 
+Taça Portugal 11/12  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2011 -08-28 16:00  Fora  Caldas SC  3-0 D 1E 
+ 
+II Divisão Fase Final 12/13  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  2013 -05-12 17:00   Académico de 
+Viseu  1-1 E J3 
+2013 -05-11 17:00  Fora  GD Chaves  2-2 E J2 
+ 
+II Zona Sul 12/13  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2013 -04-28 16:00  Casa  UD Leiria  2-1 V J30 
+2013 -04-21 16:00  Fora  Ribeira Brava  1-2 V J29 
+2013 -04-14 16:00  Casa  Casa Pia AC  1-0 V J28 
+2013 -04-07 16:00  Fora  Louletano  0-1 V J27 
+2013 -03-30 15:00  Casa  Sertanense  1-0 V J26 
+2013 -03-24 15:00  Fora  CD Fátima  1-2 V J25 
+2013 -03-17 15:00  Casa  CD Mafra  1-1 E J24 
+2013 -03-10 15:00  Fora  1º Dezembro  2-0 D J23 
+2013 -03-03 15:00  Casa  Carregado  2-1 V J22 
+2013 -02-24 15:00  Fora  Quarteirense  0-0 E J21 
+2013 -02-17 15:00  Casa  Oriental  2-0 V J20 
+2013 -02-10 15:00  Casa  Torreense  2-1 V J19 
+2013 -02-03 15:00  Fora  Oeiras  0-0 E J18 
+2013 -01-27 15:00  Casa  Pinhalnovense  1-0 V J17 
+2013 -01-20 15:00  Fora  Fut. Benfica  0-1 V J16 
+2013 -01-13 15:00  Fora  UD Leiria  1-0 D J15 
+2013 -01-06 15:00  Casa  Ribeira Brava  2-1 V J14 
+2012 -12-22 15:00  Casa  Louletano  2-2 E J12 
+2012 -12-16 15:00  Fora  Sertanense  1-2 V J11 
+2012 -12-09 15:00  Casa  CD Fátima  2-1 V J10 
+2012 -12-02 15:00  Fora  Casa Pia AC  1-0 D J13 
+2012 -11-25 15:00  Fora  CD Mafra  1-1 E J9 
+2012 -11-11 15:00  Casa  1º Dezembro  1-0 V J8 
+2012 -11-04 15:00  Fora  Carregado  1-2 V J7 
+2012 -10-28 15:00  Casa  Quarteirense  1-1 E J6 
+2012 -10-14 15:00  Fora  Oriental  0-2 V J5 
+2012 -10-07 15:00  Fora  Torreense  0-1 V J4 
+2012 -09-30 15:00  Casa  Oeiras  1-1 E J3 
+2012 -09-23 15:00  Fora  Pinhalnovense  1-2 V J2 
+2012 -09-02 17:00  Casa  Fut. Benfica  1-1 E J1 
+ 
+Taça Portugal 12/13  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2012 -11-17 17:00  Casa  Beira -Mar 1-1(4-5 g.p.)  E 4E 
+2012 -10-21 15:00  Fora  At. Reguengos  0-1 V 3E 
+2012 -09-16 15:00  Fora  Quarteirense  2-3 V 2E 
+2012 -08-26 16:00  Casa  CD Mafra  1-0(a.p.)  V 1E 
+ 
+Liga2 Cabovisão 13/14  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2014 -05-11 16:00  Fora  Beira -Mar 2-1 D J42 
+2014 -05-04 16:00  Casa  Trofense  1-0 V J41 
+2014 -04-26 16:00  Fora  Benfica B  0-2 V J40 
+2014 -04-19 16:00  Casa  Atlético CP  1-1 E J39
+2014 -04-13 16:00  Fora  Sporting B  3-3 E J38 
+2014 -04-06 15:00  Casa  FC Porto B  1-0 V J37 
+2014 -03-30 15:00  Casa  Feirense  1-2 D J36 
+2014 -03-23 16:00  Fora  UD Oliveirense  2-0 D J35 
+2014 -03-16 16:00  Casa  GD Chaves  1-2 D J34 
+2014 -03-09 15:00  Fora  SC Covilhã  0-1 V J33 
+2014 -03-02 15:00  Casa  União Madeira  1-1 E J32 
+2014 -02-23 15:00  Fora  CD Tondela  0-0 E J31 
+2014 -02-16 15:00  Casa  Marítimo B  2-1 V J30 
+2014 -02-10 15:00  Fora  SC Braga B  3-0 D J29 
+2014 -02-02 16:00  Casa  Moreirense  0-0 E J28 
+2014 -01-29 15:00  Fora  Académico de 
+Viseu  3-0 D J27 
+2014 -01-25 18:45  Casa  Santa Clara  3-1 V J26 
+2014 -01-18 15:00  Fora  CD Aves  2-0 D J25 
+2014 -01-12 15:00  Casa  Leixões  1-0 V J24 
+2014 -01-08 15:00  Fora  FC Penafiel  3-1 D J23 
+2013 -12-22 15:00  Casa  Portimonense  2-1 V J22 
+2013 -12-16 18:00  Casa  Beira -Mar 1-2 D J21 
+2013 -12-11 15:00  Fora  Trofense  1-0 D J20 
+2013 -12-07 18:00  Casa  Benfica B  3-1 V J19 
+2013 -12-01 15:00  Fora  Atlético CP  0-2 V J18 
+2013 -11-27 16:00  Casa  Sporting B  4-1 V J17 
+2013 -11-24 11:00  Fora  FC Porto B  1-1 E J16 
+2013 -11-16 19:00  Casa  UD Oliveirense  4-0 V J14 
+2013 -11-10 15:00  Fora  Feirense  0-1 V J15 
+2013 -11-03 15:00  Fora  GD Chaves  1-1 E J13 
+2013 -10-27 15:00  Casa  SC Covilhã  2-0 V J12 
+2013 -10-23 16:00  Fora  União Madeira  0-0 E J11 
+2013 -10-12 17:00  Casa  CD Tondela  0-0 E J10 
+2013 -10-02 16:00  Fora  Marítimo B  1-0 D J9 
+2013 -09-28 10:45  Casa  SC Braga B  2-0 V J8 
+2013 -09-15 11:15  Casa  Académico de 
+Viseu  1-1 E J6 
+ 
+Taça da Liga 2013/14  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2013 -10-30 16:00  Fora  Marítimo  0-0 E 1E 
+2013 -09-25 11:00  Casa  Marítimo  0-2 D 1E 
+ 
+Taça Portugal 13/14  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2013 -10-20 16:00  Fora  Feirense  2-2(5-3 g.p.)  E 3E 
+2013 -09-22 15:00  Casa  Lusitânia de 
+Lourosa  2-2(7-6 g.p.)  E 2E 
+ 
+Segunda Liga 14/15  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  2015 -05-24 17:00  Casa  Feirense  4-1 V J46 
+2015 -05-17 11:15  Fora  SC Covilhã  1-0 D J45 
+2015 -05-10 16:00  Casa  UD Oliveirense  3-3 E J44 
+2015 -05-06 16:00  Fora  Leixões  1-3 V J43 
+2015 -05-02 15:00  Casa  Académico de 
+Viseu  3-0 V J42 
+2015 -04-26 16:00  Fora  Marítimo B  0-1 V J41 
+2015 -04-19 16:00  Casa  CD Tondela  1-2 D J40 
+2015 -04-15 16:00  Fora  Trofense  0-1 V J39 
+2015 -04-11 16:00  Casa  Atlético CP  2-0 V J38 
+2015 -04-04 16:00  Fora  CD Aves  2-0 D J37 
+2015 -03-29 15:00  Fora  GD Chaves  1-0 D J35 
+2015 -03-22 15:00  Casa  Freamunde  2-1 V J36 
+2015 -03-15 15:30  Casa  Benfica B  0-3 D J34 
+2015 -03-11 15:00  Fora  Vitória SC B  2-0 D J33 
+2015 -03-07 16:00  Casa  Olhanense  2-2 E J32 
+2015 -03-01 15:00  Fora  Portimonense  1-1 E J31 
+2015 -02-25 15:00  Casa  Beira -Mar 1-0 V J30 
+2015 -02-22 16:00  Fora  FC Porto B  2-1 D J29 
+2015 -02-18 15:00  Fora  SC Braga B  0-0 E J28 
+2015 -02-14 15:00  Casa  Oriental  1-0 V J27 
+2015 -02-08 16:00  Fora  Santa Clara  1-1 E J26 
+2015 -02-01 15:00  Casa  União Madeira  0-5 D J25 
+2015 -01-25 14:00  Fora  Sporting B  5-3 D J24 
+2015 -01-18 15:00  Fora  Feirense  1-1 E J23 
+2015 -01-10 15:00  Casa  SC Covilhã  1-0 V J22 
+2015 -01-04 15:00  Fora  UD Oliveirense  2-2 E J21 
+2014 -12-21 15:00  Casa  Leixões  3-0 V J20 
+2014 -12-14 15:00  Fora  Académico de 
+Viseu  1-0 D J19 
+2014 -12-07 15:00  Casa  Marítimo B  1-1 E J18 
+2014 -11-30 15:00  Casa  Trofense  1-1 E J16 
+2014 -11-23 15:00  Fora  CD Tondela  1-0 D J17 
+2014 -11-16 16:00  Casa  CD Aves  2-2 E J14 
+2014 -11-09 15:00  Fora  Atlético CP  1-1 E J15 
+2014 -11-02 15:00  Fora  Freamunde  0-0 E J13 
+2014 -10-26 17:45  Casa  GD Chaves  0-1 D J12 
+2014 -10-19 16:00  Fora  Benfica B  2-0 D J11 
+2014 -10-05 19:00  Casa  Vitória SC B  1-1 E J10 
+2014 -10-01 20:30  Fora  Olhanense  1-3 V J9 
+2014 -09-21 16:00  Casa  Portimonense  1-0 V J8 
+ 
+Taça Portugal 14/15  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2014 -09-28 15:00  Fora  Oriental  3-2(a.p.)  D 2E 
+ 
+Ledman LigaPro 15/16  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2016 -05-14 15:00  Fora  Gil Vicente  2-3 V J46 
+2016 -05-08 16:00  Casa  CD Aves  2-1 V J45 
+2016 -04-30 16:00  Fora  GD Chaves  1-1 E J44 
+2016 -04-24 16:00  Casa  Atlético CP  2-1 V J43
+2016 -04-17 16:00  Fora  Olhanense  1-0 D J42 
+2016 -04-13 17:00  Casa  FC Porto B  1-2 D J41 
+2016 -04-10 16:00  Fora  Varzim  2-2 E J40 
+2016 -04-06 17:00  Casa  FC Penafiel  0-0 E J39 
+2016 -04-03 15:00  Fora  Vitória SC B  2-1 D J38 
+2016 -03-20 15:00  Casa  Leixões  3-0 V J37 
+2016 -03-16 16:00  Fora  Benfica B  DA D J36 
+2016 -03-13 15:00  Casa  FC Famalicão  2-2 E J35 
+2016 -03-09 15:00  Fora  Freamunde  3-0 D J34 
+2016 -03-05 15:00  Casa  Oriental  1-0 V J33 
+2016 -02-27 15:00  Fora  Portimonense  1-0 D J32 
+2016 -02-21 15:00  Casa  Santa Clara  1-0 V J31 
+2016 -02-17 15:00  Fora  SC Braga B  2-1 D J30 
+2016 -02-13 15:00  Casa  SC Covilhã  0-2 D J29 
+2016 -02-07 15:00  Casa  CD Mafra  0-0 E J28 
+2016 -01-31 16:00  Fora  Feirense  1-0 D J27 
+2016 -01-23 15:00  Casa  Sporting B  3-0 V J26 
+2016 -01-17 15:00  Fora  UD Oliveirense  3-1 D J25 
+2016 -01-10 15:00  Casa  Académico de 
+Viseu  1-0 V J24 
+2016 -01-03 15:00  Casa  Gil Vicente  0-2 D J23 
+2015 -12-20 15:00  Fora  CD Aves  2-0 D J22 
+2015 -12-13 15:00  Casa  GD Chaves  1-1 E J21 
+2015 -12-09 15:00  Fora  Atlético CP  0-1 V J20 
+2015 -12-06 18:00  Casa  Olhanense  1-2 D J19 
+2015 -12-02 15:00  Fora  FC Porto B  4-3 D J18 
+2015 -11-29 16:00  Casa  Varzim  0-0 E J17 
+2015 -11-25 17:00  Fora  FC Penafiel  0-0 E J16 
+2015 -11-14 15:00  Fora  Leixões  1-1 E J14 
+2015 -11-08 15:00  Casa  Vitória SC B  2-0 V J15 
+2015 -10-31 18:00  Casa  Benfica B  1-0 V J13 
+2015 -10-25 16:00  Fora  FC Famalicão  2-1 D J12 
+2015 -10-21 16:00  Casa  Freamunde  0-1 D J11 
+2015 -10-03 17:00  Fora  Oriental  1-3 V J10 
+2015 -09-30 16:00  Casa  Portimonense  1-2 D J9 
+ 
+Taça Portugal 15/16  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2015 -11-22 18:00  Casa  SC Braga  0-1(a.p.)  D 4E 
+2015 -10-18 15:00  Casa  SC Rio Tinto  1-0 V 3E 
+ 
+Camp. Portugal Prio Subida Z. Sul 16/17  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2017 -05-14 15:30  Casa  SC Praiense  3-1 V J14 
+2017 -05-07 16:00  Fora  Sacavenense  2-1 D J13 
+2017 -04-30 16:00  Casa  Real SC  2-1 V J12 
+2017 -04-23 16:00  Casa  CD Fátima  3-1 V J11 
+2017 -04-15 16:00  Fora  Torreense  1-1 E J10 
+2017 -04-09 16:00  Casa  Operário Lagoa  4-1 V J9 
+2017 -04-02 15:00  Fora  Louletano  2-2 E J8 
+2017 -03-26 16:00  Fora  SC Praiense  2-2 E J7
+2017 -03-19 15:00  Casa  Sacavenense  0-0 E J6 
+2017 -03-12 15:00  Fora  Real SC  1-0 D J5 
+2017 -03-05 15:00  Fora  CD Fátima  0-2 V J4 
+2017 -02-26 15:00  Casa  Torreense  0-1 D J3 
+2017 -02-19 16:00  Fora  Operário Lagoa  1-1 E J2 
+2017 -02-12 15:00  Casa  Louletano  2-1 V J1 
+ 
+Campeonato de Portugal SH 2016/17  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2017 -01-29 15:00  Casa  Aljustrelense  2-0 V J18 
+2017 -01-22 15:00  Fora  Almancilense  1-6 V J17 
+2017 -01-15 15:00  Casa  Lusitano VRSA  1-1 E J16 
+2017 -01-08 15:00  Fora  Fabril Barreiro  0-2 V J15 
+2016 -12-18 15:00  Casa  Moura  1-0 V J14 
+2016 -12-11 15:00  Fora  Louletano  1-1 E J13 
+2016 -12-04 15:00  Casa  Sp. Viana  5-0 V J12 
+2016 -11-27 15:00  Casa  Pinhalnovense  0-1 D J11 
+2016 -11-13 15:00  Fora  Armacenenses  0-2 V J10 
+2016 -11-06 15:00  Fora  Aljustrelense  0-1 V J9 
+2016 -10-30 15:00  Casa  Almancilense  0-1 D J8 
+2016 -10-23 15:00  Fora  Lusitano VRSA  0-3 V J7 
+2016 -10-09 15:00  Casa  Fabril Barreiro  1-0 V J6 
+2016 -10-02 15:00  Fora  Moura  0-0 E J5 
+2016 -09-18 17:00  Casa  Louletano  1-0 V J4 
+2016 -09-11 17:00  Fora  Sp. Viana  1-4 V J3 
+2016 -08-28 17:00  Fora  Pinhalnovense  1-0 D J2 
+2016 -08-21 17:00  Casa  Armacenenses  1-0 V J1 
+ 
+Taça Portugal 16/17  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2016 -10-16 16:00  Fora  SC Praiense  3-1 D 3E 
+2016 -09-25 16:00  Fora  Angrense  0-2(a.p.)  V 2E 
+2016 -09-04 17:00  Fora  Lusit. Évora  0-2 V 1E 
+ 
+Camp. Nac. Seniores F.Final 17/18  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2018 -06-10 17:00   CD Mafra  1-2 D F 
+2018 -05-27 17:00  Fora  Vilafranquense  1-1 E MF 
+2018 -05-19 17:00  Casa  Vilafranquense  3-0 V MF 
+2018 -05-13 17:00  Casa  FC Felgueiras 
+1932  0-1 D QF 
+2018 -05-06 16:00  Fora  FC Felgueiras 
+1932  2-3 V QF 
+ 
+Campeonato de Portugal SE 2017/18  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  2018 -04-22 16:00  Fora  Operário Lagoa  2-3 V J30 
+2018 -04-15 16:00  Casa  Louletano  4-1 V J29 
+2018 -04-08 16:00  Fora  Almancilense  0-2 V J28 
+2018 -03-31 15:00  Casa  Olímpico Montijo  3-0 V J27 
+2018 -03-25 15:00  Fora  Armacenenses  1-1 E J26 
+2018 -03-18 15:00  Fora  Olhanense  1-2 V J25 
+2018 -03-11 15:00  Casa  Castrense  2-0 V J24 
+2018 -03-04 15:00  Fora  Oriental  0-3 V J23 
+2018 -02-25 15:00  Casa  Lusitano VRSA  2-0 V J22 
+2018 -02-18 16:00  Fora  SC Ideal  0-2 V J21 
+2018 -02-11 15:00  Casa  Estrela FC  4-1 V J20 
+2018 -02-04 15:00  Fora  Casa Pia AC  0-1 V J19 
+2018 -01-28 15:00  Casa  Pinhalnovense  1-1 E J18 
+2018 -01-21 15:00  Fora  Moncarapachense  1-3 V J17 
+2018 -01-14 15:00  Casa  Moura  1-0 V J16 
+2018 -01-07 15:00  Casa  Operário Lagoa  3-0 V J15 
+2017 -12-17 15:00  Fora  Louletano  0-1 V J14 
+2017 -12-09 15:00  Casa  Almancilense  4-1 V J13 
+2017 -12-03 15:00  Fora  Olímpico Montijo  0-0 E J12 
+2017 -11-26 15:00  Casa  Armacenenses  1-0 V J11 
+2017 -11-12 15:00  Casa  Olhanense  4-1 V J10 
+2017 -11-05 15:00  Fora  Castrense  0-1 V J9 
+2017 -10-29 15:00  Casa  Oriental  1-0 V J8 
+2017 -10-22 15:00  Fora  Lusitano VRSA  0-3 V J7 
+2017 -10-08 11:00  Casa  SC Ideal  5-0 V J6 
+2017 -09-30 15:00  Fora  Estrela FC  0-2 V J5 
+2017 -09-17 17:00  Casa  Casa Pia AC  1-2 D J4 
+2017 -09-10 17:00  Fora  Pinhalnovense  0-1 V J3 
+2017 -08-27 17:00  Casa  Moncarapachense  4-0 V J2 
+ 
+Taça Portugal 17/18  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2018 -01-10 18:00  Fora  Caldas SC  3-2(a.p.)  D QF 
+2017 -12-13 15:30  Fora  SC Praiense  0-1 V 1/8 
+2017 -11-19 15:00  Casa  Leixões  2-1 V 4E 
+2017 -10-15 15:00  Casa  Estoril Praia  1-0 V 3E 
+2017 -09-24 15:00  Fora  Amora FC  2-3 V 2E 
+2017 -09-03 17:00  Casa  Estrela FC  7-1 V 1E 
+ 
+Ledman LigaPro 18/19  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2019 -05-19 15:00  Casa  Académico de 
+Viseu  1-0 V J34 
+2019 -05-12 16:00  Fora  CD Mafra  0-1 V J33 
+2019 -05-05 16:00  Casa  FC Arouca  2-2 E J32 
+2019 -04-26 19:00  Fora  UD Oliveirense  2-1 D J31 
+2019 -04-19 18:00  Casa  FC Penafiel  1-1 E J30 
+2019 -04-14 11:15  Casa  Estoril Praia  3-1 V J29 
+2019 -04-05 19:00  Fora  Benfica B  3-1 D J28 
+2019 -03-31 16:00  Casa  SC Covilhã  1-0 V J27 
+2019 -03-17 17:00  Fora  Vitória SC B  1-0 D J26 
+2019 -03-10 15:00  Casa  Varzim  3-0 V J25
+2019 -03-03 15:00  Fora  CD Cova 
+Piedade  1-0 D J24 
+2019 -02-24 11:15  Casa  Paços de 
+Ferreira  1-2 D J23 
+2019 -02-17 15:00  Fora  Académica 
+OAF 1-0 D J22 
+2019 -02-09 15:00  Casa  Leixões  1-1 E J21 
+2019 -02-03 15:00  Fora  SC Braga B  1-0 D J20 
+2019 -01-29 15:00  Casa  FC Porto B  0-0 E J19 
+2019 -01-19 11:00  Fora  FC Famalicão  0-0 E J18 
+2019 -01-13 15:00  Fora  Académico de 
+Viseu  2-1 D J17 
+2019 -01-06 15:00  Fora  FC Arouca  3-3 E J15 
+2018 -12-30 15:00  Casa  UD Oliveirense  5-0 V J14 
+2018 -12-23 11:15  Fora  FC Penafiel  2-3 V J13 
+2018 -12-16 11:15  Fora  Estoril Praia  1-0 D J12 
+2018 -12-06 20:15  Casa  Benfica B  0-1 D J11 
+2018 -12-02 14:30  Fora  SC Covilhã  1-1 E J10 
+2018 -11-18 15:00  Casa  CD Mafra  1-0 V J16 
+2018 -11-10 15:00  Casa  Vitória SC B  2-2 E J9 
+2018 -11-04 15:00  Fora  Varzim  1-1 E J8 
+2018 -10-27 15:00  Casa  CD Cova 
+Piedade  1-0 V J7 
+2018 -10-06 16:00  Fora  Paços de 
+Ferreira  1-0 D J6 
+2018 -09-23 17:00  Casa  Académica 
+OAF 0-2 D J5 
+2018 -09-02 16:00  Fora  Leixões  2-1 D J4 
+2018 -08-26 18:00  Casa  SC Braga B  0-0 E J3 
+2018 -08-18 17:00  Fora  FC Porto B  1-3 V J2 
+2018 -08-11 17:00  Casa  FC Famalicão  1-0 V J1 
+ 
+Taça Portugal 18/19  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2018 -10-21 15:00  Casa  FC Arouca  1-3 D 3E 
+2018 -09-30 15:00  Fora  Portalegrense  0-3 V 2E 
+ 
+Allianz Cup 2018/19  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2018 -07-29 17:00  Casa  Estoril Praia  0-2 D 2F 
+2018 -07-21 19:45  Casa  FC Penafiel  0-0(5-4 g.p.)  E 1F 
+ 
+LigaPro 19/20  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2020 -03-09 19:45  Fora  Leixões  1-1 E J24 
+2020 -02-29 11:00  Casa  Académico de 
+Viseu  3-1 V J23 
+2020 -02-21 20:00  Fora  Vilafranquense  0-3 V J22 
+2020 -02-16 17:15  Casa  UD Oliveirense  3-1 V J21
+2020 -02-09 15:00  Fora  FC Porto B  1-1 E J20 
+2020 -02-01 11:15  Casa  Estoril Praia  0-2 D J19 
+2020 -01-26 15:00  Fora  Casa Pia AC  0-2 V J18 
+2020 -01-19 11:15  Casa  SC Covilhã  0-0 E J17 
+2020 -01-12 11:15  Fora  FC Penafiel  3-0 D J16 
+2020 -01-05 11:15  Casa  Benfica B  0-3 D J15 
+2019 -12-15 15:00  Casa  Feirense  1-0 V J13 
+2019 -12-07 15:00  Fora  Nacional  1-0 D J12 
+2019 -11-30 11:00  Casa  GD Chaves  1-0 V J11 
+2019 -11-16 15:00  Fora  Varzim  1-3 V J14 
+2019 -11-09 15:00  Fora  Académica OAF  1-2 V J10 
+2019 -11-03 11:15  Casa  CD Mafra  2-1 V J9 
+2019 -10-27 15:00  Casa  Leixões  1-0 V J7 
+2019 -10-13 15:00  Fora  CD Cova 
+Piedade  0-2 V J8 
+2019 -09-21 16:00  Fora  Académico de 
+Viseu  1-0 D J6 
+2019 -09-14 18:15  Casa  Vilafranquense  3-0 V J5 
+2019 -09-01 16:00  Fora  UD Oliveirense  0-1 V J4 
+2019 -08-25 11:15  Casa  FC Porto B  1-3 D J3 
+2019 -08-18 11:15  Fora  Estoril Praia  1-2 V J2 
+2019 -08-10 18:00  Casa  Casa Pia AC  3-1 V J1 
+ 
+Taça Portugal 19/20  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2019 -11-23 14:00  Fora  Sertanense  2-1(a.p.)  D 4E 
+2019 -10-19 17:00  Casa  CD Aves  5-2 V 3E 
+2019 -09-29 14:00  Fora  U. Santarém  1-2 V 2E 
+ 
+Allianz Cup 2019/20  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2019 -07-27 20:30  Fora  Académica 
+OAF 1-1(4-3 g.p.)  E 1F 
+ 
+Liga NOS 20/21  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2021 -05-19 20:00  Fora  Santa Clara  4-0 D J34 
+2021 -05-15 15:30  Casa  CD Tondela  1-0 V J33 
+2021 -05-10 20:15  Fora  FC Porto  5-1 D J32 
+2021 -05-06 20:30  Casa  Vitória SC  2-2 E J31 
+2021 -05-01 15:30  Fora  Gil Vicente  0-0 E J30 
+2021 -04-27 21:45  Casa  Portimonense  1-1 E J29 
+2021 -04-20 20:00  Fora  Paços de 
+Ferreira  0-2 V J28 
+2021 -04-16 21:00  Casa  Sporting  0-1 D J27 
+2021 -04-10 15:00  Fora  Marítimo  1-0 D J26 
+2021 -04-05 18:45  Casa  SC Braga  1-2 D J25 
+2021 -03-21 17:30  Fora  Boavista  0-1 V J24 
+2021 -03-13 15:30  Casa  B SAD  0-1 D J23
+2021 -03-07 20:00  Fora  Rio Ave  2-0 D J22 
+2021 -02-27 15:30  Fora  FC Famalicão  0-0 E J21 
+2021 -02-21 20:15  Casa  Benfica  0-0 E J20 
+2021 -02-17 21:45  Fora  Vitória SC  2-2 E J14 
+2021 -02-13 15:30  Fora  Nacional  2-3 V J19 
+2021 -02-08 17:00  Casa  Moreirense  1-2 D J18 
+2021 -02-04 15:00  Casa  Santa Clara  1-1 E J17 
+2021 -01-30 18:00  Fora  CD Tondela  2-0 D J16 
+2021 -01-25 20:15  Casa  FC Porto  0-1 D J15 
+2021 -01-10 15:00  Casa  Gil Vicente  3-1 V J13 
+2021 -01-04 21:15  Fora  Portimonense  2-0 D J12 
+2020 -12-27 17:30  Casa  Paços de 
+Ferreira  1-1 E J11 
+2020 -12-19 20:30  Fora  Sporting  1-0 D J10 
+2020 -12-07 20:15  Casa  Marítimo  2-1 V J9 
+2020 -11-29 20:00  Fora  SC Braga  1-0 D J8 
+2020 -11-08 15:00  Casa  Boavista  3-1 V J7 
+2020 -10-31 15:30  Fora  B SAD  1-1 E J6 
+2020 -10-25 15:00  Casa  Rio Ave  0-1 D J5 
+2020 -10-18 17:30  Casa  FC Famalicão  3-3 E J4 
+2020 -10-04 18:30  Fora  Benfica  3-2 D J3 
+2020 -09-27 15:30  Casa  Nacional  0-1 D J2 
+2020 -09-20 18:30  Fora  Moreirense  2-0 D J1 
+ 
+Taça Portugal 20/21  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2020 -12-03 14:30  Fora  Est. Amadora  2-0 D 3E 
+ 
+Liga 2 SABSEG 21/22  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2022 -05-14 11:00  Fora  Académica OAF  0-0 E J34 
+2022 -05-08 14:00  Casa  Varzim  0-1 D J33 
+2022 -04-30 11:00  Casa  GD Chaves  1-2 D J32 
+2022 -04-24 15:30  Fora  Nacional  3-2 D J31 
+2022 -04-16 11:00  Casa  CD Mafra  1-0 V J30 
+2022 -04-09 11:00  Fora  Casa Pia AC  1-0 D J29 
+2022 -04-03 14:00  Casa  SC Covilhã  1-0 V J28 
+2022 -03-19 14:00  Fora  FC Penafiel  1-3 V J27 
+2022 -03-13 11:00  Casa  FC Porto B  2-0 V J26 
+2022 -03-06 20:15  Fora  Trofense  1-1 E J25 
+2022 -02-27 15:30  Casa  Vilafranquense  1-0 V J24 
+2022 -02-21 18:00  Fora  Benfica B  3-0 D J23 
+2022 -02-17 15:30  Fora  Varzim  0-1 V J16 
+2022 -02-13 19:30  Casa  Académico de 
+Viseu  1-1 E J22 
+2022 -02-08 18:00  Fora  Feirense  4-1 D J21 
+2022 -02-03 20:15  Casa  Académica OAF  3-1 V J17 
+2022 -01-28 18:00  Casa  Est. Amadora  3-0 V J20 
+2022 -01-23 15:30  Fora  Rio Ave  2-1 D J19 
+2022 -01-17 18:00  Casa  Leixões  0-1 D J18 
+2021 -12-18 14:00  Fora  GD Chaves  2-1 D J15
+2021 -12-12 11:00  Casa  Nacional  2-2 E J14 
+2021 -12-05 20:30  Fora  CD Mafra  0-2 V J13 
+2021 -11-26 18:00  Casa  Casa Pia AC  0-1 D J12 
+2021 -11-13 11:00  Casa  Trofense  2-0 V J8 
+2021 -11-07 19:30  Fora  SC Covilhã  0-0 E J11 
+2021 -11-01 14:00  Casa  FC Penafiel  2-2 E J10 
+2021 -10-23 15:30  Fora  FC Porto B  0-0 E J9 
+2021 -10-03 19:30  Fora  Vilafranquense  2-2 E J7 
+2021 -09-19 11:00  Casa  Benfica B  2-2 E J6 
+2021 -09-13 19:30  Fora  Académico de 
+Viseu  2-2 E J5 
+2021 -08-29 19:30  Casa  Feirense  0-1 D J4 
+2021 -08-21 11:00  Fora  Est. Amadora  3-1 D J3 
+2021 -08-15 11:00  Casa  Rio Ave  1-1 E J2 
+2021 -08-10 18:00  Fora  Leixões  3-1 D J1 
+ 
+Taça Portugal 21/22  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2021 -11-19 16:00  Fora  Casa Pia AC  3-1 D 4E 
+2021 -10-17 15:00  Fora  CD Cinfães  0-4 V 3E 
+2021 -09-25 15:00  Fora  São Roque 
+(Açores)  0-3 V 2E 
+ 
+Allianz Cup 2021/22  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2021 -08-01 15:30  Casa  Santa Clara  0-0(0-3 g.p.)  E 2F 
+2021 -07-24 18:00  Fora  GD Chaves  1-2 V 1F 
+ 
+Liga Portugal SABSEG 22/23  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2023 -05-28 18:00  Casa  CD Tondela  3-1 V J34 
+2023 -05-19 18:00  Fora  Benfica B  0-1 V J33 
+2023 -05-14 11:00  Fora  Nacional  0-1 V J32 
+2023 -05-07 15:30  Casa  FC Porto B  2-0 V J31 
+2023 -04-29 11:00  Fora  Feirense  1-2 V J30 
+2023 -04-22 15:30  Casa  FC Penafiel  2-1 V J29 
+2023 -04-14 18:00  Fora  UD Oliveirense  1-2 V J28 
+2023 -04-07 14:00  Casa  Moreirense  3-1 V J27 
+2023 -04-01 11:00  Fora  Trofense  2-1 D J26 
+2023 -03-19 15:30  Casa  B SAD  4-0 V J25 
+2023 -03-11 11:00  Fora  Vilafranquense  1-1 E J24 
+2023 -03-05 11:00  Casa  Leixões  1-0 V J23 
+2023 -02-26 14:00  Fora  SC Covilhã  1-0 D J22 
+2023 -02-19 15:30  Casa  CD Mafra  1-0 V J21 
+2023 -02-12 14:00  Fora  Académico de 
+Viseu  2-0 D J20 
+2023 -02-03 20:15  Casa  Est. Amadora  2-2 E J19 
+2023 -01-29 11:00  Fora  Torreense  1-0 D J18 
+2023 -01-22 14:00  Fora  CD Tondela  1-0 D J17
+2023 -01-15 15:30  Casa  Benfica B  5-2 V J16 
+2023 -01-07 14:00  Casa  Nacional  1-0 V J15 
+2022 -12-28 17:00  Fora  FC Porto B  4-0 D J14 
+2022 -11-16 20:15  Casa  Trofense  3-1 V J9 
+2022 -11-12 14:00  Casa  Feirense  0-0 E J13 
+2022 -11-05 15:30  Fora  FC Penafiel  0-2 V J12 
+2022 -10-30 14:00  Casa  UD Oliveirense  2-0 V J11 
+2022 -10-23 15:30  Fora  Moreirense  3-2 D J10 
+2022 -10-07 18:00  Fora  B SAD  2-3 V J8 
+2022 -09-18 11:00  Casa  Vilafranquense  2-1 V J7 
+2022 -09-11 14:00  Fora  Leixões  0-1 V J6 
+2022 -09-04 15:30  Casa  SC Covilhã  2-2 E J5 
+2022 -08-29 18:00  Fora  CD Mafra  0-3 V J4 
+2022 -08-20 11:00  Casa  Académico de 
+Viseu  2-2 E J3 
+2022 -08-13 15:30  Fora  Est. Amadora  1-1 E J2 
+2022 -08-06 11:00  Casa  Torreense  2-1 V J1 
+ 
+Allianz Cup 2022/23  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2022 -12-13 20:45  Fora  Rio Ave  2-1 D B 
+2022 -12-07 18:30  Casa  Marítimo  2-0 V B 
+2022 -11-30 20:45  Fora  Sporting  6-0 D B 
+ 
+Taça Portugal 22/23  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2022 -11-09 15:00  Fora  Leixões  3-1 D 4E 
+2022 -10-15 15:30  Fora  Imortal DC  0-3 V 3E 
+2022 -10-01 11:00  Fora  Benf. Castelo 
+Branco  0-1 V 2E 
+ 
+Liga Portugal Betclic 23/24  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2024 -05-18 15:30  Casa  Portimonense  1-3 D J34 
+2024 -05-12 15:30  Fora  Gil Vicente  2-0 D J33 
+2024 -05-05 15:30  Casa  Estoril Praia  3-2 V J32 
+2024 -04-29 20:15  Fora  Est. Amadora  0-3 V J31 
+2024 -04-22 20:15  Casa  Benfica  1-3 D J30 
+2024 -04-13 15:30  Fora  Vitória SC  1-1 E J29 
+2024 -04-05 20:15  Casa  Boavista  2-0 V J28 
+2024 -03-30 15:30  Fora  FC Arouca  2-1 D J27 
+2024 -03-16 18:00  Casa  Rio Ave  1-1 E J26 
+2024 -03-09 15:30  Fora  FC Vizela  2-1 D J25 
+2024 -03-03 18:00  Fora  Sporting  3-2 D J24 
+2024 -02-24 15:30  Casa  Moreirense  0-1 D J23 
+2024 -02-18 20:30  Fora  SC Braga  2-1 D J22 
+2024 -02-10 15:30  Casa  FC Famalicão  1-1 E J21 
+2024 -02-04 15:30  Fora  GD Chaves  1-1 E J20 
+2024 -01-28 18:00  Casa  FC Porto  1-3 D J19
+2024 -01-20 18:00  Fora  Casa Pia AC  1-3 V J18 
+2024 -01-12 20:15  Fora  Portimonense  1-0 D J17 
+2024 -01-06 15:30  Casa  Gil Vicente  1-0 V J16 
+2023 -12-30 15:30  Fora  Estoril Praia  4-0 D J15 
+2023 -12-15 20:15  Casa  Est. Amadora  0-0 E J14 
+2023 -12-08 18:00  Fora  Benfica  1-1 E J13 
+2023 -12-02 15:30  Casa  Vitória SC  1-2 D J12 
+2023 -11-12 15:30  Fora  Boavista  1-3 V J11 
+2023 -11-06 20:15  Casa  FC Arouca  2-0 V J10 
+2023 -10-29 15:30  Fora  Rio Ave  3-4 V J9 
+2023 -10-07 15:30  Casa  FC Vizela  0-0 E J8 
+2023 -09-30 20:30  Casa  Sporting  2-3 D J7 
+2023 -09-23 15:30  Fora  Moreirense  1-0 D J6 
+2023 -09-16 18:00  Casa  SC Braga  3-1 V J5 
+2023 -09-02 18:00  Fora  FC Famalicão  1-0 D J4 
+2023 -08-26 18:00  Casa  GD Chaves  5-0 V J3 
+2023 -08-20 18:00  Fora  FC Porto  2-1 D J2 
+2023 -08-12 18:00  Casa  Casa Pia AC  0-3 D J1 
+ 
+Allianz Cup 2023/24  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2023 -11-02 20:15  Fora  Sporting  4-2 D C 
+2023 -09-27 19:00  Casa  CD Tondela  1-0 V C 
+2023 -07-29 18:00  Casa  UD Oliveirense  3-2 V 2E 
+2023 -07-23 15:30  Fora  Moreirense  1-1(3-4 g.p.)  E 1E 
+ 
+Taça Portugal 23/24  
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
+2023 -10-22 15:00  Fora  Länk 
+Vilaverdense  3-2 D 3E 
+ 
+LP Betclic 24/25
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+2024 -08-11 18:00  Casa  Moreirense  1-2 D J1
+2024 -08-17 15:30  Fora  Rio Ave  1-0 D J2
+2024 -08-23 20:15  Casa  Sporting  0-5 D J3
+2024 -09-01 15:30  Fora  Nacional  2-0 D J4
+2024 -09-15 15:30  Fora  FC Porto  2-1 D J5
+2024 -09-22 18:00  Casa  FC Arouca  0-1 D J6
+2024 -09-30 20:15  Fora  AFS  0-0 E J7
+2024 -10-06 15:30  Casa  Estoril Praia  1-0 V J8
+2024 -10-27 15:30  Fora  SC Braga  2-0 D J9
+2024 -11-02 18:00  Casa  Benfica  1-2 D J10
+2024 -11-09 15:30  Fora  Casa Pia AC  1-1 E J11
+2024 -11-29 20:15  Casa  Est. Amadora  1-0 V J12
+2024 -12-08 15:30  Fora  Boavista  1-1 E J13
+2024 -12-14 15:30  Casa  Gil Vicente  0-1 D J14
+2024 -12-21 15:30  Fora  FC Famalicão  1-2 V J15
+2024 -12-29 15:30  Casa  Vitória SC  2-2 E J16
+2025 -01-05 15:30  Fora  Santa Clara  0-0 E J17
+2025 -01-19 15:30  Fora  Moreirense  0-0 E J18
+2025 -01-25 15:30  Casa  Rio Ave  1-2 D J19
+2025 -02-02 18:00  Fora  Sporting  3-1 D J20
+2025 -02-09 15:30  Casa  Nacional  0-2 D J21
+2025 -02-16 18:00  Casa  FC Porto  0-1 D J22
+2025 -02-23 15:30  Fora  FC Arouca  2-2 E J23
+2025 -03-02 18:00  Casa  AFS  0-1 D J24
+2025 -03-08 18:00  Fora  Estoril Praia  2-2 E J25
+2025 -03-15 15:30  Casa  SC Braga  0-1 D J26
+2025 -04-02 20:15  Fora  Benfica  3-2 D J27
+2025 -04-07 18:45  Casa  Casa Pia AC  0-0 E J28
+2025 -04-13 15:30  Fora  Est. Amadora  0-1 V J29
+2025 -04-18 15:30  Casa  Boavista  0-1 D J30
+2025 -04-26 18:00  Fora  Gil Vicente  1-0 D J31
+2025 -05-03 15:30  Casa  FC Famalicão  2-1 V J32
+2025 -05-11 18:00  Fora  Vitória SC  1-2 V J33
+2025 -05-17 18:00  Casa  Santa Clara  1-2 D J34 
+ 
+Taça Portugal 24/25
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+2024 -10-20 14:00  Fora  AD Sanjoanense  2-4 V 3E
+2024 -11-23 15:00  Fora  FC Arouca  1-2 V 4E
+2025 -01-14 20:15  Casa  Benfica  1-3 D 1/8
+
+Liga Portugal 2 Meu Super 25/26
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+2025 -08-11 18:00  Fora  UD Oliveirense  1-1 E J1
+2025 -08-17 11:00  Casa  Torreense  0-3 D J2
+2025 -08-24 11:00  Fora  FC Porto B  0-2 V J3
+2025 -08-31 11:00  Casa  Marítimo  0-2 D J4
+2025 -09-13 15:30  Fora  Leixões  0-2 V J5
+2025 -09-28 14:00  Casa  GD Chaves  0-2 D J6
+2025 -10-04 11:00  Fora  Lusitânia de Lourosa  1-2 V J7
+2025 -10-26 11:00  Casa  FC Penafiel  - - J8
+2025 -11-02 15:30  Casa  Benfica B  - - J10
+2025 -11-09 15:30  Fora  Feirense  - - J11
+2025 -11-16 11:00  Fora  FC Felgueiras  - - J9
+2025 -11-30  Fora  Sporting B  - - J12
+2025 -12-07  Casa  FC Vizela  - - J13
+2025 -12-14  Fora  Académico  - - J14
+2025 -12-21  Casa  UD Leiria  - - J15
+2025 -12-28  Fora  Paços de Ferreira  - - J16
+2026 -01-04  Casa  Portimonense  - - J17
+2026 -01-18  Casa  UD Oliveirense  - - J18
+2026 -01-25  Fora  Torreense  - - J19
+2026 -02-01  Casa  FC Porto B  - - J20
+2026 -02-08  Fora  Marítimo  - - J21
+2026 -02-15  Casa  Leixões  - - J22
+2026 -02-22  Fora  GD Chaves  - - J23
+2026 -03-01  Casa  Lusitânia de Lourosa  - - J24
+2026 -03-08  Fora  FC Penafiel  - - J25
+2026 -03-15  Casa  FC Felgueiras  - - J26
+2026 -03-22  Fora  Benfica B  - - J27
+2026 -04-04  Casa  Feirense  - - J28
+2026 -04-12  Casa  Sporting B  - - J29
+2026 -04-19  Fora  FC Vizela  - - J30
+2026 -04-26  Casa  Académico  - - J31
+2026 -05-03  Fora  UD Leiria  - - J32
+2026 -05-10  Casa  Paços de Ferreira  - - J33
+2026 -05-17  Fora  Portimonense  - - J34
+
+Taça Portugal 25/26
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+2025 -09-20 16:00  Fora  Vidago  0-2 V 2E
+2025 -10-18 18:00  Fora  AD Marco 09  0-3 V 3E
+2025 -11-23  Casa  Silves  - - 4E

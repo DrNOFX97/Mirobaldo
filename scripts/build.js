@@ -13,6 +13,9 @@ const dataDir = path.join(__dirname, '../dados/biografias');
 const publicDataDir = path.join(__dirname, '../public/data/biografias');
 const fotografiasDir = path.join(__dirname, '../dados/fotografias');
 const publicFotografiasDir = path.join(__dirname, '../public/fotografias');
+const classificacoesDir = path.join(__dirname, '../dados/classificacoes');
+const resultadosDir = path.join(__dirname, '../dados/resultados');
+const netlifyDataDir = path.join(__dirname, '../netlify/data');
 
 console.log('[BUILD] Starting build process...');
 
@@ -102,6 +105,52 @@ try {
     });
   } else {
     console.warn('[BUILD] ⚠️  Fotografias directory not found');
+  }
+} catch (error) {
+  console.error('[BUILD] Error:', error.message);
+  process.exit(1);
+}
+
+// Step 4: Copy data directories to netlify/data for function access
+console.log('[BUILD] Step 4: Copying data directories for Netlify functions...');
+try {
+  // Create netlify/data directory if it doesn't exist
+  if (!fs.existsSync(netlifyDataDir)) {
+    fs.mkdirSync(netlifyDataDir, { recursive: true });
+  }
+
+  // Copy classificacoes
+  if (fs.existsSync(classificacoesDir)) {
+    const destClassificacoesDir = path.join(netlifyDataDir, 'classificacoes');
+    if (!fs.existsSync(destClassificacoesDir)) {
+      fs.mkdirSync(destClassificacoesDir, { recursive: true });
+    }
+    const classificacoesFiles = fs.readdirSync(classificacoesDir);
+    classificacoesFiles.forEach(file => {
+      const sourceFile = path.join(classificacoesDir, file);
+      const destFile = path.join(destClassificacoesDir, file);
+      if (fs.statSync(sourceFile).isFile()) {
+        fs.copyFileSync(sourceFile, destFile);
+      }
+    });
+    console.log(`[BUILD] ✓ Copied ${classificacoesFiles.length} classificações files`);
+  }
+
+  // Copy resultados
+  if (fs.existsSync(resultadosDir)) {
+    const destResultadosDir = path.join(netlifyDataDir, 'resultados');
+    if (!fs.existsSync(destResultadosDir)) {
+      fs.mkdirSync(destResultadosDir, { recursive: true });
+    }
+    const resultadosFiles = fs.readdirSync(resultadosDir);
+    resultadosFiles.forEach(file => {
+      const sourceFile = path.join(resultadosDir, file);
+      const destFile = path.join(destResultadosDir, file);
+      if (fs.statSync(sourceFile).isFile()) {
+        fs.copyFileSync(sourceFile, destFile);
+      }
+    });
+    console.log(`[BUILD] ✓ Copied ${resultadosFiles.length} resultados files`);
   }
 
   console.log('[BUILD] ✓ Build complete!');

@@ -4,8 +4,15 @@ const BaseAgent = require('../core/BaseAgent');
 
 function getResultadosData() {
   try {
-    const resultadosPath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
-    const resultadosTxtPath = path.join(__dirname, '../../dados/resultados/resultados.txt');
+    // Try netlify/data first (for Netlify deployment)
+    let resultadosPath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
+    let resultadosTxtPath = path.join(__dirname, '../../netlify/data/resultados/resultados.txt');
+
+    // Fallback to dados directory (for local development)
+    if (!fs.existsSync(resultadosPath)) {
+      resultadosPath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
+      resultadosTxtPath = path.join(__dirname, '../../dados/resultados/resultados.txt');
+    }
 
     let data = '';
 
@@ -13,6 +20,8 @@ function getResultadosData() {
     if (fs.existsSync(resultadosPath)) {
       data += fs.readFileSync(resultadosPath, 'utf-8');
       data += '\n\n';
+    } else {
+      console.warn('[RESULTADOS AGENT] Main results file not found at:', resultadosPath);
     }
 
     // Extrair apenas resumos da Taça de Portugal para economizar tokens

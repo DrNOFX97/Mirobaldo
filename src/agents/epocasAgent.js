@@ -4,11 +4,18 @@ const BaseAgent = require('../core/BaseAgent');
 
 function getEpocasCompletas() {
   try {
-    const completasPath = path.join(__dirname, '../../dados/classificacoes/classificacoes_completas.md');
+    // Try netlify/data first (for Netlify deployment)
+    let completasPath = path.join(__dirname, '../../netlify/data/classificacoes/classificacoes_completas.md');
+
+    // Fallback to dados directory (for local development)
+    if (!fs.existsSync(completasPath)) {
+      completasPath = path.join(__dirname, '../../dados/classificacoes/classificacoes_completas.md');
+    }
 
     if (fs.existsSync(completasPath)) {
       return fs.readFileSync(completasPath, 'utf-8');
     }
+    console.warn('[EPOCAS AGENT] Data file not found at:', completasPath);
     return '';
   } catch (error) {
     console.error('Erro ao ler classificações completas:', error);
