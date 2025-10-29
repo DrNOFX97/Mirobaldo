@@ -249,8 +249,8 @@ exports.handler = async (event, context) => {
 
             if (hasResultKeyword) {
               console.log('[NETLIFY] Resultados agent triggered for message:', msg.substring(0, 50));
-              // Return the agent context to be used by GPT
-              return resultadosAgent.getContext();
+              // Use the real resultados agent to process the message
+              return await resultadosAgent.process(msg);
             }
             return null;
           },
