@@ -65,11 +65,15 @@ class ResultadosAgent extends BaseAgent {
         if (fs.existsSync(paraAgentePath)) {
           const data = fs.readFileSync(paraAgentePath, 'utf-8');
 
-          // Search patterns for the season
+          // Search patterns for the season (try multiple formats)
+          // 1994/95 should also match 1994/1995
+          const nextYear = `${String(year1).substring(0, 2)}${year2}`;
           const searchPatterns = [
             `## Temporada ${year1}/${year2}`,
             `## Época ${year1}/${year2}`,
             `### Época ${year1}/${year2}`,
+            `## Temporada ${year1}/${nextYear}`,
+            `### Época ${year1}/${nextYear}`,
             `## Temporada ${year1}-${year2}`,
             `### Época ${year1}-${year2}`
           ];
@@ -78,11 +82,11 @@ class ResultadosAgent extends BaseAgent {
             const patternIndex = data.indexOf(pattern);
 
             if (patternIndex !== -1) {
-              // Found the pattern - extract everything until the next top-level section
+              // Found the pattern - extract everything until the next section
               const afterSection = data.substring(patternIndex);
 
-              // Find next section (starting with ## or higher level)
-              const nextSectionMatch = afterSection.substring(pattern.length).match(/\n## /);
+              // Find next section header (## or ###)
+              const nextSectionMatch = afterSection.substring(pattern.length).match(/\n(#{2,})\s/);
               let endIndex;
 
               if (nextSectionMatch) {
@@ -94,7 +98,7 @@ class ResultadosAgent extends BaseAgent {
               const seasonData = data.substring(patternIndex, endIndex).trim();
 
               if (seasonData.length > 50) {
-                console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2}`);
+                console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2} (length: ${seasonData.length})`);
                 return seasonData;
               }
             }
