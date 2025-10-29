@@ -9,6 +9,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { OpenAI } = require('openai');
+const { marked } = require('marked');
 
 // Configuração OpenAI
 const openai = new OpenAI({
@@ -30,6 +31,30 @@ const estatisticasAgent = require('./agents/estatisticasAgent');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
+
+// Configurar marked para renderizar com mais segurança
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+  pedantic: false
+});
+
+// Função helper para converter markdown em HTML com classes CSS
+function renderMarkdown(markdown) {
+  if (!markdown || typeof markdown !== 'string') return '';
+  let html = marked(markdown);
+  // Adicionar classes CSS para melhor estilo
+  html = html.replace(/<h1>/g, '<h1 class="markdown-h1">');
+  html = html.replace(/<h2>/g, '<h2 class="markdown-h2">');
+  html = html.replace(/<h3>/g, '<h3 class="markdown-h3">');
+  html = html.replace(/<p>/g, '<p class="markdown-p">');
+  html = html.replace(/<ul>/g, '<ul class="markdown-ul">');
+  html = html.replace(/<ol>/g, '<ol class="markdown-ol">');
+  html = html.replace(/<li>/g, '<li class="markdown-li">');
+  html = html.replace(/<code>/g, '<code class="markdown-code">');
+  html = html.replace(/<blockquote>/g, '<blockquote class="markdown-blockquote">');
+  return html;
+}
 
 // Servir ficheiros estáticos da pasta public
 app.use(express.static(path.join(__dirname, '../public')));
@@ -141,7 +166,7 @@ app.post('/api/chat', async (req, res) => {
       const relatorioEpoca = epocaDetalhadaAgent.getEpocaDetalhada(epocaMatch[0]);
       if (relatorioEpoca) {
         console.log('[DEBUG] Relatório de época gerado com sucesso');
-        return res.json({ reply: relatorioEpoca });
+        return res.json({ reply: renderMarkdown(relatorioEpoca) });
       }
       // Se não encontrou dados, continua para o fluxo normal
       console.log('[DEBUG] Nenhum dado encontrado para época:', epocaMatch[0]);
@@ -167,7 +192,7 @@ O Farense jogou na **II Divisão** (segundo escalão) e teve uma temporada fant�
 
 Foi uma época histórica: campeões da II Divisão e finalistas da Taça de Portugal, regressando ao escalão principal do futebol português! ⚽`;
 
-      return res.json({ reply: response1989 });
+      return res.json({ reply: renderMarkdown(response1989) });
     }
 
     // Base prompt EXTREMAMENTE RESTRITIVO - NUNCA INVENTAR
@@ -220,9 +245,9 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
         if (searchResults.length > 0) {
           console.log('[DEBUG] Primeira biografia:', searchResults[0].file);
           // RETORNAR DIRETAMENTE O MARKDOWN COMPLETO DA BIOGRAFIA
-          // Sem passar pelo GPT - resposta instantânea com todo o conteúdo
+          // Renderizado em HTML - resposta instantânea com todo o conteúdo
           const biografiaCompleta = searchResults[0].content;
-          return res.json({ reply: biografiaCompleta });
+          return res.json({ reply: renderMarkdown(biografiaCompleta) });
         }
       }
 
@@ -235,7 +260,7 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
 
         if (statsResponse && statsResponse.trim()) {
           console.log('[DEBUG] Estatísticas geradas com sucesso');
-          return res.json({ reply: statsResponse });
+          return res.json({ reply: renderMarkdown(statsResponse) });
         }
       }
 
@@ -260,7 +285,7 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
     });
 
     const chatbotReply = response.choices[0].message.content;
-    res.json({ reply: chatbotReply });
+    res.json({ reply: renderMarkdown(chatbotReply) });
   } catch (error) {
     console.error('Erro ao processar a mensagem:', error);
     
@@ -269,7 +294,7 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
     if (lowerMsg.includes('paco') || lowerMsg.includes('fortes')) {
       // Resposta de fallback para Paco Fortes
       const fallbackReply = "Paco Fortes foi um importante jogador e treinador do Sporting Clube Farense. Como treinador, levou os Leões de Faro à sua melhor classificação de sempre (5º lugar) na temporada 1994/95, qualificando o clube para a Taça UEFA pela primeira vez na sua história. Nascido em Barcelona, é considerado 'o catalão mais farense de que há memória'.";
-      return res.json({ reply: fallbackReply });
+      return res.json({ reply: renderMarkdown(fallbackReply) });
     }
     
     // Resposta de erro genérica
