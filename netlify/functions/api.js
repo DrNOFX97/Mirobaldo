@@ -23,7 +23,8 @@ const epocasAgent = require('../../src/agents/epocasAgent');
 
 // Importar utils
 const { injectImagesIntoBios } = require('../../src/utils/injectImages');
-const { marked } = require('marked');
+
+// marked will be imported dynamically to handle ES Module
 
 // Importar dados de biografias pré-carregados (from compiled JSON)
 const biografiasDataLoader = require('./biografiasLoader');
@@ -48,28 +49,53 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-// Configurar marked para renderizar com mais segurança
-marked.setOptions({
-  breaks: true,
-  gfm: true,
-  pedantic: false
-});
+// Global cache for marked instance
+let markedInstance = null;
+
+// Initialize marked dynamically (handles ES Module)
+async function initializeMarked() {
+  if (markedInstance) return markedInstance;
+  try {
+    const { marked } = await import('marked');
+    marked.setOptions({
+      breaks: true,
+      gfm: true,
+      pedantic: false
+    });
+    markedInstance = marked;
+    return marked;
+  } catch (error) {
+    console.warn('[WARN] Failed to import marked, using fallback markdown rendering');
+    return null;
+  }
+}
 
 // Função helper para converter markdown em HTML com classes CSS
-function renderMarkdown(markdown) {
+async function renderMarkdown(markdown) {
   if (!markdown || typeof markdown !== 'string') return '';
-  let html = marked(markdown);
-  // Adicionar classes CSS para melhor estilo
-  html = html.replace(/<h1>/g, '<h1 class="markdown-h1">');
-  html = html.replace(/<h2>/g, '<h2 class="markdown-h2">');
-  html = html.replace(/<h3>/g, '<h3 class="markdown-h3">');
-  html = html.replace(/<p>/g, '<p class="markdown-p">');
-  html = html.replace(/<ul>/g, '<ul class="markdown-ul">');
-  html = html.replace(/<ol>/g, '<ol class="markdown-ol">');
-  html = html.replace(/<li>/g, '<li class="markdown-li">');
-  html = html.replace(/<code>/g, '<code class="markdown-code">');
-  html = html.replace(/<blockquote>/g, '<blockquote class="markdown-blockquote">');
-  return html;
+
+  try {
+    const marked = await initializeMarked();
+    if (marked) {
+      let html = marked(markdown);
+      // Adicionar classes CSS para melhor estilo
+      html = html.replace(/<h1>/g, '<h1 class="markdown-h1">');
+      html = html.replace(/<h2>/g, '<h2 class="markdown-h2">');
+      html = html.replace(/<h3>/g, '<h3 class="markdown-h3">');
+      html = html.replace(/<p>/g, '<p class="markdown-p">');
+      html = html.replace(/<ul>/g, '<ul class="markdown-ul">');
+      html = html.replace(/<ol>/g, '<ol class="markdown-ol">');
+      html = html.replace(/<li>/g, '<li class="markdown-li">');
+      html = html.replace(/<code>/g, '<code class="markdown-code">');
+      html = html.replace(/<blockquote>/g, '<blockquote class="markdown-blockquote">');
+      return html;
+    }
+  } catch (error) {
+    console.warn('[WARN] Error rendering markdown:', error.message);
+  }
+
+  // Fallback: Return markdown as-is if marked fails
+  return markdown;
 }
 
 // Função principal Netlify
@@ -116,12 +142,13 @@ exports.handler = async (event, context) => {
            lowerMsg.includes('porquê'))) {
         console.log('[NETLIFY] Detected top 20 players detailed query');
         const response = topPlayersDetailedCache.getFormattedResponse();
+        const renderedReply = await renderMarkdown(response);
 
         return {
           statusCode: 200,
           headers,
           body: JSON.stringify({
-            reply: renderMarkdown(response),
+            reply: renderedReply,
             chatId: body.chatId || `chat_${Date.now()}`,
           }),
         };
@@ -133,12 +160,13 @@ exports.handler = async (event, context) => {
           (lowerMsg.includes('top 20') && lowerMsg.includes('jogadores'))) {
         console.log('[NETLIFY] Detected top 20 players query');
         const response = topPlayersCache.getFormattedResponse();
+        const renderedReply = await renderMarkdown(response);
 
         return {
           statusCode: 200,
           headers,
           body: JSON.stringify({
-            reply: renderMarkdown(response),
+            reply: renderedReply,
             chatId: body.chatId || `chat_${Date.now()}`,
           }),
         };
@@ -162,6 +190,7 @@ exports.handler = async (event, context) => {
 
               // Use pre-cached response for instant delivery
               const response = topPersonalitiesCache.getFormattedResponse();
+              const renderedReply = await renderMarkdown(response);
 
               console.log('[NETLIFY] Returning cached top 10 list');
 
@@ -169,18 +198,19 @@ exports.handler = async (event, context) => {
                 statusCode: 200,
                 headers,
                 body: JSON.stringify({
-                  reply: renderMarkdown(response),
+                  reply: renderedReply,
                   chatId: body.chatId || `chat_${Date.now()}`,
                 }),
               };
             } else if (bioResults.length === 1) {
               // Single biography result
               console.log('[NETLIFY] Found biography:', bioResults[0].name, 'Length:', bioResults[0].content.length);
+              const renderedBio = await renderMarkdown(bioResults[0].content);
               return {
                 statusCode: 200,
                 headers,
                 body: JSON.stringify({
-                  reply: renderMarkdown(bioResults[0].content),
+                  reply: renderedBio,
                   chatId: body.chatId || `chat_${Date.now()}`,
                 }),
               };
@@ -254,11 +284,12 @@ NEVER invent information. Use only the data you know about Farense.`;
         finalResponse = completion.choices[0].message.content;
       }
 
+      const renderedFinalReply = await renderMarkdown(finalResponse);
       return {
         statusCode: 200,
         headers,
         body: JSON.stringify({
-          reply: renderMarkdown(finalResponse),
+          reply: renderedFinalReply,
           chatId: body.chatId || `chat_${Date.now()}`,
         }),
       };
