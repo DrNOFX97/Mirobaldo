@@ -56,14 +56,22 @@ class ResultadosAgent extends BaseAgent {
       const year2 = seasonMatch[2];
 
       try {
-        // Read the para_agente data file which has modern detailed data
-        let paraAgentePath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
-        if (!fs.existsSync(paraAgentePath)) {
-          paraAgentePath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
+        // Try complete data first (has detailed info), then fall back to para_agente (minimal info)
+        let dataPath = path.join(__dirname, '../../netlify/data/resultados/resultados_completos.md');
+        if (!fs.existsSync(dataPath)) {
+          dataPath = path.join(__dirname, '../../dados/resultados/resultados_completos.md');
         }
 
-        if (fs.existsSync(paraAgentePath)) {
-          const data = fs.readFileSync(paraAgentePath, 'utf-8');
+        // Fallback to para_agente if completos not available
+        if (!fs.existsSync(dataPath)) {
+          dataPath = path.join(__dirname, '../../netlify/data/resultados/resultados_para_agente.md');
+          if (!fs.existsSync(dataPath)) {
+            dataPath = path.join(__dirname, '../../dados/resultados/resultados_para_agente.md');
+          }
+        }
+
+        if (fs.existsSync(dataPath)) {
+          const data = fs.readFileSync(dataPath, 'utf-8');
 
           // Search patterns for the season (try multiple formats)
           // 1994/95 should also match 1994/1995
