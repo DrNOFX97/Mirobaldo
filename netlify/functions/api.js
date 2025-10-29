@@ -238,6 +238,23 @@ exports.handler = async (event, context) => {
             return null;
           },
         },
+        {
+          name: 'resultadosAgent',
+          context: resultadosAgent.getContext(),
+          keywords: ['resultado', 'golo', 'vitória', 'derrota', 'empate', 'jogo', 'taça', 'liga', 'competição'],
+          process: async (msg) => {
+            // Check if message contains result-related keywords
+            const resultKeywords = ['resultado', 'golo', 'vitória', 'derrota', 'empate', 'jogo', 'taça', 'liga', 'competição', 'pontos', 'classificação'];
+            const hasResultKeyword = resultKeywords.some(keyword => msg.toLowerCase().includes(keyword));
+
+            if (hasResultKeyword) {
+              console.log('[NETLIFY] Resultados agent triggered for message:', msg.substring(0, 50));
+              // Return the agent context to be used by GPT
+              return resultadosAgent.getContext();
+            }
+            return null;
+          },
+        },
       ];
 
       let selectedAgent = null;
@@ -261,7 +278,36 @@ exports.handler = async (event, context) => {
       let finalResponse;
       if (selectedAgent) {
         console.log(`[NETLIFY] Using agent: ${selectedAgent.name}`);
-        finalResponse = agentResponse;
+
+        // For biografias, return the content directly
+        if (selectedAgent.name === 'biografiasAgent') {
+          finalResponse = agentResponse;
+        } else {
+          // For other agents (resultados, etc), use the context with GPT
+          console.log('[NETLIFY] Agent provided context, using GPT with agent context');
+          const agentContext = agentResponse; // This is the context from the agent
+
+          const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
+
+${agentContext}
+
+Answer in Portuguese (Portugal variant).
+Be concise but informative.
+NEVER invent information. Use only the data provided above.`;
+
+          const completion = await openai.chat.completions.create({
+            model: 'gpt-4o-mini',
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: userMessage },
+            ],
+            temperature: 0.1,
+            max_tokens: 1500,
+            top_p: 0.3,
+          });
+
+          finalResponse = completion.choices[0].message.content;
+        }
       } else {
         console.log('[NETLIFY] No agent matched, using GPT fallback');
         const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
