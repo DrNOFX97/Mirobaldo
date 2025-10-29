@@ -258,10 +258,10 @@ exports.handler = async (event, context) => {
         {
           name: 'epocasAgent',
           keywords: ['época', 'ano', 'temporada', 'campeonato', 'melhor', 'pior'],
-          process: (msg) => {
+          process: async (msg) => {
             // Use the real épocas agent to process the message
             // It will return markdown directly if it finds what it's looking for
-            return epocasAgent.process(msg);
+            return await epocasAgent.process(msg);
           },
         },
       ];
@@ -272,15 +272,16 @@ exports.handler = async (event, context) => {
       console.log('[NETLIFY] Processing message:', userMessage.substring(0, 50));
 
       // Tentar cada agent
+      console.log(`[NETLIFY] Testing ${agents.length} agents...`);
       for (const agent of agents) {
         console.log(`[NETLIFY] Trying agent: ${agent.name}`);
         agentResponse = await agent.process(userMessage);
         if (agentResponse) {
-          console.log(`[NETLIFY] Agent ${agent.name} found response (length: ${agentResponse.substring ? agentResponse.substring(0, 50) : 'N/A'})`);
+          console.log(`[NETLIFY] ✅ Agent ${agent.name} found response (type: ${typeof agentResponse}, length: ${agentResponse.substring ? agentResponse.substring(0, 50) : 'N/A'})`);
           selectedAgent = agent;
           break;
         }
-        console.log(`[NETLIFY] Agent ${agent.name} returned no response`);
+        console.log(`[NETLIFY] ❌ Agent ${agent.name} returned no response`);
       }
 
       // Se nenhum agent processou, usar GPT genérico
