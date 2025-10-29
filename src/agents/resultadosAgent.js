@@ -100,6 +100,7 @@ class ResultadosAgent extends BaseAgent {
             `### Época ${year1}-${year2}`
           ];
 
+          // Try exact pattern matches first
           for (const pattern of searchPatterns) {
             const patternIndex = data.indexOf(pattern);
 
@@ -120,9 +121,33 @@ class ResultadosAgent extends BaseAgent {
               const seasonData = data.substring(patternIndex, endIndex).trim();
 
               if (seasonData.length > 50) {
-                console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2} (length: ${seasonData.length})`);
+                console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2} (length: ${seasonData.length}) via pattern match`);
                 return seasonData;
               }
+            }
+          }
+
+          // If no exact pattern match, try a more flexible regex search for any heading with the year
+          const yearRegex = new RegExp(`^### .*${year1}.*${year2}|^### .*${year1}.*${nextYear}`, 'mi');
+          const regexMatch = yearRegex.exec(data);
+
+          if (regexMatch) {
+            const matchIndex = regexMatch.index;
+            const afterMatch = data.substring(matchIndex);
+            const nextSectionMatch = afterMatch.substring(regexMatch[0].length).match(/\n(#{2,})\s/);
+            let endIndex;
+
+            if (nextSectionMatch) {
+              endIndex = matchIndex + regexMatch[0].length + afterMatch.substring(regexMatch[0].length).indexOf(nextSectionMatch[0]);
+            } else {
+              endIndex = data.length;
+            }
+
+            const seasonData = data.substring(matchIndex, endIndex).trim();
+
+            if (seasonData.length > 50) {
+              console.log(`[RESULTADOS AGENT] Found season data for ${year1}/${year2} (length: ${seasonData.length}) via regex match`);
+              return seasonData;
             }
           }
         }
