@@ -65,24 +65,29 @@ class EpocasCompletoAgent extends BaseAgent {
       let consolidatedResponse = `# 📊 ÉPOCA ${searchPattern} - SPORTING CLUBE FARENSE\n\n`;
 
       // 1. Try to find classification/standings from classificacoes file
-      // Look for main season entry and all subsections (Série Algarve, Fase Final, etc)
-      const classifRegex = new RegExp(`###\\s+(?:.*\\s)?(?:${year1})[\\s/.-]?${year2}[^\\n]*[\\s\\S]*?(?=\\n###\\s+|$)`, 'gi');
+      // Look for sections with actual classification tables (containing |)
+      // Match both abbreviated (1939/40) and full (1939/1940) year formats
+      const classifRegex = new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|1${year2})[^\\n]*\\n[^\\n]*\\|[\\s\\S]*?(?=\\n###\\s+|$)`, 'gi');
       const classifMatches = classificacoesData.match(classifRegex);
 
       if (classifMatches && classifMatches.length > 0) {
         consolidatedResponse += `## 🏆 Classificação Final\n\n`;
-        // Include all classification entries for this season
+        // Include all actual classification tables found
         classifMatches.forEach(match => {
-          // Skip "Dados não disponíveis" entries, include actual tables
-          if (!match.includes('(Dados não disponíveis)') || match.includes('|')) {
-            consolidatedResponse += match + '\n\n';
-          }
+          consolidatedResponse += match + '\n\n';
         });
+      } else {
+        // No specific classification found, check if data is available
+        const noDataCheck = classificacoesData.match(new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|1${year2})[^\\n]*\\n\\(Dados não disponíveis\\)`, 'i'));
+        if (noDataCheck) {
+          consolidatedResponse += `## 🏆 Classificação Final\n(Dados não disponíveis para a época ${searchPattern})\n\n`;
+        }
       }
 
       // 2. Try to find all results for this season from resultados file
       // Look for all competitions in this season
-      const competitionRegex = new RegExp(`###\\s+[^\\n]*${year1}[^\\n]*${year2}[^\\n]*[\\s\\S]*?(?=\\n###\\s+[^\\n]*(?:19|20)\\d{2}|$)`, 'gmi');
+      // Match both abbreviated (1939/40) and full (1939/1940) year formats
+      const competitionRegex = new RegExp(`###\\s+[^\\n]*${year1}[^\\n]*(?:${year2}|1${year2})[^\\n]*[\\s\\S]*?(?=\\n###\\s+[^\\n]*(?:19|20)\\d{2}|$)`, 'gmi');
       const competitionMatches = resultadosData.match(competitionRegex);
 
       if (competitionMatches && competitionMatches.length > 0) {
