@@ -321,8 +321,8 @@ exports.handler = async (event, context) => {
       if (selectedAgent) {
         console.log(`[NETLIFY] Using agent: ${selectedAgent.name}`);
 
-        // For biografias, épocas, and resultados (which return direct content), return directly
-        if (selectedAgent.name === 'biografiasAgent' || selectedAgent.name === 'epocasAgent' || selectedAgent.name === 'resultadosAgent') {
+        // For biografias, épocas, epocasCompleto, classificacoes, and resultados (which return direct content), return directly
+        if (selectedAgent.name === 'biografiasAgent' || selectedAgent.name === 'epocasAgent' || selectedAgent.name === 'epocasCompletoAgent' || selectedAgent.name === 'classificacoesAgent' || selectedAgent.name === 'resultadosAgent') {
           finalResponse = agentResponse;
         } else {
           // For other agents (resultados context-based), use the context with GPT
