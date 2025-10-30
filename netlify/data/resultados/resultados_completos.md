@@ -2040,12 +2040,12 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### II Divisão II Fase 1989/90
 
-**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 0D • ⚽ 3 golos marcados • 🥅 2 golos sofridos • 📈 Saldo: +1
+**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 1D • ⚽ 2 golos marcados • 🥅 3 golos sofridos • 📈 Saldo: -1
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
-| D | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** |  |
 | - | 1990-06-14 | Gil Vicente 0 - **0 SC Farense** | ➖ |
+| - | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** | ❌ |
 | - | 1990-06-24 | **SC Farense 0** - 0 Gil Vicente | ➖ |
 | - | 1990-06-28 | **SC Farense 2** - 2 SC Salgueiros | ➖ |
 
