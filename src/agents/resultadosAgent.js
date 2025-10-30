@@ -86,6 +86,7 @@ class ResultadosAgent extends BaseAgent {
           // Search patterns for the season (try multiple formats)
           // 1994/95 should also match 1994/1995
           const nextYear = `${String(year1).substring(0, 2)}${year2}`;
+          const fullNextYear = `${String(year1).substring(0, 2)}${String(year2).substring(0, 2)}`;
           const searchPatterns = [
             `## Temporada ${year1}/${year2}`,
             `## Época ${year1}/${year2}`,
@@ -97,7 +98,12 @@ class ResultadosAgent extends BaseAgent {
             `## Temporada ${year1}/${nextYear}`,
             `### Época ${year1}/${nextYear}`,
             `## Temporada ${year1}-${year2}`,
-            `### Época ${year1}-${year2}`
+            `### Época ${year1}-${year2}`,
+            // Add full 4-digit year formats (e.g., 1939/1940)
+            `### II Divisão ${year1}/${fullNextYear}`,
+            `### II Divisão Fase Final ${year1}/${fullNextYear}`,
+            `### II Divisão Série Algarve ${year1}/${fullNextYear}`,
+            `### II Divisão Algarve ${year1}/${fullNextYear}`
           ];
 
           // Try exact pattern matches first
@@ -128,7 +134,8 @@ class ResultadosAgent extends BaseAgent {
           }
 
           // If no exact pattern match, try a more flexible regex search for any heading with the year
-          const yearRegex = new RegExp(`^### .*${year1}.*${year2}|^### .*${year1}.*${nextYear}`, 'mi');
+          // Match both abbreviated (1939/40) and full (1939/1940) year formats
+          const yearRegex = new RegExp(`^### .*${year1}.*(?:${year2}|${fullNextYear})`, 'mi');
           const regexMatch = yearRegex.exec(data);
 
           if (regexMatch) {
