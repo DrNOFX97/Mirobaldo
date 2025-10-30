@@ -96,7 +96,21 @@ class EpocasCompletoAgent extends BaseAgent {
 
       if (competitionMatches && competitionMatches.length > 0) {
         consolidatedResponse += `## 📋 Resultados Detalhados\n\n`;
-        consolidatedResponse += competitionMatches.join('\n\n');
+
+        // Sort matches by competition priority (League > Playoff > Cup)
+        const sortedMatches = competitionMatches.sort((a, b) => {
+          // Priority order: Série/Liga (1) > Fase Final (2) > Taça (3)
+          const getPriority = (match) => {
+            const lower = match.toLowerCase();
+            if (lower.includes('série') || lower.includes('algarve')) return 1;
+            if (lower.includes('fase final')) return 2;
+            if (lower.includes('taça')) return 3;
+            return 99;
+          };
+          return getPriority(a) - getPriority(b);
+        });
+
+        consolidatedResponse += sortedMatches.join('\n\n');
       }
 
       if (consolidatedResponse.length > 100) {
