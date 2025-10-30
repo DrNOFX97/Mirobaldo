@@ -3509,3 +3509,18 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 2025 -09-20 16:00  Fora  Vidago  0-2 V 2E
 2025 -10-18 18:00  Fora  AD Marco 09  0-3 V 3E
 2025 -11-23  Casa  Silves  - - 4E
+
+II Divisão Fase Final 1939/40
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+-  Casa  Luso Beja  4-0 V QF
+-  Casa  Casa Pia AC  4-0 V MF
+-  Casa  Boavista  3-2 V F
+
+II Divisão Série Algarve 1939/40
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+-  Fora  SL Faro  3-0 V J1
+-  Fora  Lusitano VRSA  0-0 E J2
+-  Fora  Olhanense  1-2 D J3
+-  Casa  Lusitano VRSA  6-0 V J4
+-  Casa  SL Faro  3-1 V J5
+-  Casa  Olhanense  1-0 V J6
