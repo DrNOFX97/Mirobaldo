@@ -2023,7 +2023,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### Taça de Portugal 1989/1990
 
-**📊 Resumo:** 9 jogos • ✅ 7V • ➖ 2E • ❌ 0D • ⚽ 22 golos marcados • 🥅 13 golos sofridos • 📈 Saldo: +9
+**📊 Resumo:** 10 jogos • ✅ 7V • ➖ 1E • ❌ 2D • ⚽ 22 golos marcados • 🥅 15 golos sofridos • 📈 Saldo: +7
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
@@ -2036,6 +2036,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | QF | 1990-03-28 | **SC Farense 4** - 0 UD Valonguense | ✅ |
 | MF | 1990-05-10 | Belenenses 1 - **2 SC Farense** | ✅ |
 | F | 1990-05-27 | Est. Amadora 1 - **1 SC Farense** | ➖ |
+| F (Replay) | 1990-06-03 | **Est. Amadora 2** - 0 SC Farense | ❌ |
 
 
 ### II Divisão II Fase 1989/90
