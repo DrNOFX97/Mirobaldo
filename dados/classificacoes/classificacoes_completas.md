@@ -1,9 +1,3 @@
-# 📊 Classificações Completas - Sporting Clube Farense
-
-## Histórico Completo: 1934/35 a 2023/24
-
-Este documento contém **todas as classificações** do Sporting Clube Farense desde a época 1934/35 até 2023/24.
-
 ### 📈 Estatísticas Gerais
 - **Total de épocas registadas**: 68+
 - **Títulos de Campeão**:
