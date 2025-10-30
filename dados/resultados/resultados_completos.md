@@ -2021,6 +2021,18 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J34 | 1990-06-06 | **SC Farense 4** - 1 Juventude Évora | ✅ |
 
 
+### II Divisão II Fase 1989/90
+
+**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 1D • ⚽ 2 golos marcados • 🥅 3 golos sofridos • 📈 Saldo: -1
+
+| Jornada | Data | Jogo | Resultado |
+|:-------:|:----:|:-----|:---------:|
+| - | 1990-06-14 | Gil Vicente 0 - **0 SC Farense** | ➖ |
+| - | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** | ❌ |
+| - | 1990-06-24 | **SC Farense 0** - 0 Gil Vicente | ➖ |
+| - | 1990-06-28 | **SC Farense 2** - 2 SC Salgueiros | ➖ |
+
+
 ### Taça de Portugal 1989/1990
 
 **📊 Resumo:** 10 jogos • ✅ 7V • ➖ 1E • ❌ 2D • ⚽ 22 golos marcados • 🥅 15 golos sofridos • 📈 Saldo: +7
@@ -2037,18 +2049,6 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | MF | 1990-05-10 | Belenenses 1 - **2 SC Farense** | ✅ |
 | F | 1990-05-27 | Est. Amadora 1 - **1 SC Farense** | ➖ |
 | FF | 1990-06-03 | **Est. Amadora 2** - 0 SC Farense | ❌ |
-
-
-### II Divisão II Fase 1989/90
-
-**📊 Resumo:** 4 jogos • ✅ 0V • ➖ 3E • ❌ 1D • ⚽ 2 golos marcados • 🥅 3 golos sofridos • 📈 Saldo: -1
-
-| Jornada | Data | Jogo | Resultado |
-|:-------:|:----:|:-----|:---------:|
-| - | 1990-06-14 | Gil Vicente 0 - **0 SC Farense** | ➖ |
-| - | 1990-06-17 | SC Salgueiros 1 - **0 SC Farense** | ❌ |
-| - | 1990-06-24 | **SC Farense 0** - 0 Gil Vicente | ➖ |
-| - | 1990-06-28 | **SC Farense 2** - 2 SC Salgueiros | ➖ |
 
 
 ### I Divisão 1990/91
