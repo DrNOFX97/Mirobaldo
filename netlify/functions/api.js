@@ -13,6 +13,7 @@ const biografiasAgent = require('../../src/agents/biografiasAgent');
 const epocaDetalhadaAgent = require('../../src/agents/epocaDetalhadaAgent');
 const estatisticasAgent = require('../../src/agents/estatisticasAgent');
 const classificacoesAgent = require('../../src/agents/classificacoesAgent');
+const epocasCompletoAgent = require('../../src/agents/epocasCompletoAgent');
 const resultadosAgent = require('../../src/agents/resultadosAgent');
 const livrosAgent = require('../../src/agents/livrosAgent');
 const livroConteudoAgent = require('../../src/agents/livroConteudoAgent');
@@ -225,6 +226,21 @@ exports.handler = async (event, context) => {
 
       // Converter agentes para formato esperado (simplified)
       const agents = [
+        {
+          name: 'epocasCompletoAgent',
+          keywords: ['época', 'temporada', 'season', 'resultados de', 'classificação de', 'campeonato'],
+          process: async (msg) => {
+            // Check if asking for season info (results + standings combined)
+            const seasonKeywords = ['época', 'temporada', 'resultados de', 'classificação de', 'campeonato', 'season'];
+            const hasSeasonKeyword = seasonKeywords.some(keyword => msg.toLowerCase().includes(keyword));
+
+            if (hasSeasonKeyword) {
+              console.log('[NETLIFY] Epocas Completo agent triggered for message:', msg.substring(0, 50));
+              return await epocasCompletoAgent.process(msg);
+            }
+            return null;
+          },
+        },
         {
           name: 'resultadosAgent',
           context: resultadosAgent.getContext(),
