@@ -402,7 +402,8 @@ class PlayerExtractor:
         logger.info(f"Falhados: {self.stats['failed']}")
         logger.info(f"Do cache: {self.stats['cached']}")
         logger.info(f"Tempo total: {duracao}")
-        logger.info(f"Tempo médio por jogador: {duracao / max(self.stats['total'], 1):.2f}s")
+        tempo_medio = duracao.total_seconds() / max(self.stats['total'], 1)
+        logger.info(f"Tempo médio por jogador: {tempo_medio:.2f}s")
         logger.info(f"{'='*60}\n")
 
     async def processar_multiplas_epocas(self, epocas: List[tuple]) -> None:
