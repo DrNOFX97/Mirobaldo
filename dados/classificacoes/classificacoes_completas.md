@@ -931,10 +931,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | GD Quimigal | 15 | 30 | 4 | 7 | 19 | 16 | 54 | - |
 
 
-### II Divisão 1982/83
-(Dados não disponíveis)
-
-
 ### II Divisão Fase Final 1982/83
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -1008,10 +1004,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Silves | 23 | 30 | 7 | 9 | 14 | 31 | 45 | - |
 | 15 | Lusit. Évora | 18 | 30 | 6 | 6 | 18 | 21 | 53 | - |
 | 16 | Juventude Évora | 17 | 30 | 3 | 11 | 16 | 23 | 51 | - |
-
-
-### II Divisão 1985/1986
-(Dados não disponíveis)
 
 
 ### II Divisão Fase Final 1985/1986
@@ -1118,10 +1110,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | GD Portalegrense | 23 | 34 | 6 | 11 | 17 | 31 | 73 | - |
 | 17 | Sintrense | 17 | 34 | 5 | 7 | 22 | 22 | 65 | - |
 | 18 | Samora Correia | 13 | 34 | 1 | 11 | 22 | 19 | 60 | - |
-
-
-### II Divisão 89/90
-(Dados não disponíveis)
 
 
 ### II Divisão II Fase 1989/90
@@ -1621,10 +1609,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Carregado | 24 | 30 | 5 | 9 | 16 | 34 | 51 | - |
 | 15 | Oeiras | 21 | 30 | 4 | 9 | 17 | 24 | 45 | - |
 | 16 | Ribeira Brava | 17 | 30 | 4 | 5 | 21 | 27 | 53 | - |
-
-
-### II Divisão 12/13
-(Dados não disponíveis)
 
 
 ### II Divisão Fase Final 2012/13
