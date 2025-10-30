@@ -2036,7 +2036,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | QF | 1990-03-28 | **SC Farense 4** - 0 UD Valonguense | ✅ |
 | MF | 1990-05-10 | Belenenses 1 - **2 SC Farense** | ✅ |
 | F | 1990-05-27 | Est. Amadora 1 - **1 SC Farense** | ➖ |
-| F (Replay) | 1990-06-03 | **Est. Amadora 2** - 0 SC Farense | ❌ |
+| FF | 1990-06-03 | **Est. Amadora 2** - 0 SC Farense | ❌ |
 
 
 ### II Divisão II Fase 1989/90
