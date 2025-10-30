@@ -243,6 +243,22 @@ exports.handler = async (event, context) => {
           },
         },
         {
+          name: 'classificacoesAgent',
+          keywords: ['classificação', 'classificacoes', 'posição', 'posicao', 'tabela', 'standings', 'ranking', 'pontos', 'campeão'],
+          process: async (msg) => {
+            // Check if message is about classifications
+            const classifKeywords = ['classificação', 'classificacoes', 'posição', 'posicao', 'tabela', 'standings', 'ranking', 'campeão', 'campeao'];
+            const hasClassifKeyword = classifKeywords.some(keyword => msg.toLowerCase().includes(keyword));
+
+            if (hasClassifKeyword) {
+              console.log('[NETLIFY] Classificacoes agent triggered for message:', msg.substring(0, 50));
+              // Use the real classificacoes agent to process the message
+              return await classificacoesAgent.process(msg);
+            }
+            return null;
+          },
+        },
+        {
           name: 'epocasAgent',
           keywords: ['época', 'ano', 'temporada', 'campeonato', 'melhor', 'pior'],
           process: async (msg) => {
