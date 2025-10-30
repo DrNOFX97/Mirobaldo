@@ -90,7 +90,8 @@ class EpocasCompletoAgent extends BaseAgent {
       // 2. Try to find all results for this season from resultados file
       // Look for all competitions in this season
       // Match both abbreviated (1939/40) and full (1939/1940) year formats
-      const competitionRegex = new RegExp(`###\\s+[^\\n]*${year1}[^\\n]*(?:${year2}|${fullNextYear})[^\\n]*[\\s\\S]*?(?=\\n###\\s+[^\\n]*(?:19|20)\\d{2}|$)`, 'gmi');
+      // Pattern: ### header line, then all following lines that don't start with ###
+      const competitionRegex = new RegExp(`###[^\\n]*${year1}[^\\n]*(?:${year2}|${fullNextYear})[^\\n]*(?:\\n(?!###)[^\\n]*)*`, 'gm');
       const competitionMatches = resultadosData.match(competitionRegex);
 
       if (competitionMatches && competitionMatches.length > 0) {
