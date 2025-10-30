@@ -163,7 +163,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### Campeonato II Divisão 1ªF S10 36/37
 
-**📊 Resumo:** 6 jogos • ✅ 3V • ➖ 1E • ❌ 2D • ⚽ 12 golos marcados • 🥅 20 golos sofridos • 📉 Saldo: -8
+**📊 Resumo:** 12 jogos • ✅ 7V • ➖ 2E • ❌ 3D • ⚽ 24 golos marcados • 🥅 23 golos sofridos • 📈 Saldo: +1
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
@@ -173,6 +173,12 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J4 | 1937-02-28 | **SC Farense 1** - 1 Portimonense | ➖ |
 | J5 | 1937-03-07 | Nacional Silves 2 - **5 SC Farense** | ✅ |
 | J6 | 1937-03-14 | Olhanense 5 - **1 SC Farense** | ❌ |
+| J7 | s/d | Luso Beja 2 - **1 SC Farense** | ❌ |
+| J8 | s/d | **SC Farense 2** - 0 Portimonense | ✅ |
+| J9 | s/d | **SC Farense 2** - 1 Olhanense | ✅ |
+| J10 | s/d | Olhanense 0 - **0 SC Farense** | ➖ |
+| J11 | s/d | **SC Farense 2** - 0 Portimonense | ✅ |
+| J12 | s/d | **SC Farense 5** - 0 Luso Beja | ✅ |
 
 
 ### Taça de Portugal 1938/1939
