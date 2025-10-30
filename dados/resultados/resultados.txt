@@ -106,13 +106,14 @@ Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
 1937 -02-14  Casa  Nacional Silves  1-0 V J2 
 1937 -02-07  Fora  Portimonense  1-4 V J1 
  
-II Divisão Série 10 1937/38  
-Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
--  Fora  Luso Beja  1-2 V J1 
--  Fora  Portimonense  2-0 D J1 
--  Fora  Olhanense  2-1 D J1 
--  Casa  Olhanense  0-0 E J1 -  Casa  Portimonense  2-0 V J1 
--  Casa  Luso Beja  5-0 V J1 
+II Divisão Série 10 1937/38
+Data  Hora  Local  Equipa  Resultado  V-E-D Jornada
+-  Fora  Luso Beja  1-2 D J7
+-  Fora  Portimonense  2-0 V J8
+-  Fora  Olhanense  2-1 V J9
+-  Casa  Olhanense  0-0 E J10
+-  Casa  Portimonense  2-0 V J11
+-  Casa  Luso Beja  5-0 V J12 
  
 Taça de Portugal 1938/1939  
 Data  Hora  Local  Equipa  Resultado  V-E-D Jornada  
