@@ -22,10 +22,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 ## 📋 Classificações por Época
 
 
-### II Liga 1935/36
-(Dados não disponíveis)
-
-
 ### II Divisão Zona D 1ªF Grupo 2 35/36
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -34,10 +30,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 3 | Juventude Évora | 7 | 7 | 3 | 1 | 3 | 10 | 21 | - |
 | 4 | Portimonense | 3 | 6 | 1 | 1 | 4 | 5 | 22 | - |
 | 5 | SL Beja | 1 | 4 | 0 | 1 | 3 | 7 | 11 | - |
-
-
-### II Liga 1936/37
-(Dados não disponíveis)
 
 
 ### II Divisão 1ªFase Série 10 36/37
@@ -49,10 +41,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | Nacional Silves | 0 | 6 | 0 | 0 | 6 | 6 | 23 | - |
 
 
-### II Liga 1937/38
-(Dados não disponíveis)
-
-
 ### II Divisão Série 10 1937/38
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -60,10 +48,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 2 | Portimonense | 8 | 6 | 4 | 0 | 2 | 14 | 13 | - |
 | **3** | **Farense** 🦁 | 7 | 6 | 3 | 1 | 2 | 10 | 5 | - |
 | 4 | Luso Beja | 1 | 6 | 0 | 1 | 5 | 5 | 16 | - |
-
-
-### II Divisão 1938/39
-(Dados não disponíveis)
 
 
 ### II Divisão Série Algarve 1938/39
@@ -77,10 +61,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 6 | Silves | 0 | 0 | 0 | 0 | 0 | 0 | 0 | - |
 
 
-### II Divisão 1939/40
-(Dados não disponíveis)
-
-
 ### II Divisão Série Algarve 1939/40
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -88,10 +68,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 2 | Olhanense | 7 | 6 | 3 | 1 | 2 | 10 | 7 | - |
 | 3 | SL Faro | 4 | 6 | 2 | 0 | 4 | 6 | 13 | - |
 | 4 | Lusitano VRSA | 4 | 6 | 1 | 2 | 3 | 5 | 12 | - |
-
-
-### II Divisão 1940/41
-(Dados não disponíveis)
 
 
 ### II Divisão Algarve 1940/41
@@ -103,10 +79,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | **4** | **Farense** 🦁 | 4 | 6 | 2 | 0 | 4 | 7 | 15 | - |
 
 
-### II Divisão 1941/42
-(Dados não disponíveis)
-
-
 ### II Divisão Grupo D Série 11 1941/42
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -114,10 +86,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 2 | SL Faro | 11 | 6 | 3 | 2 | 1 | 9 | 6 | - |
 | 3 | Lusitano VRSA | 9 | 6 | 3 | 0 | 3 | 11 | 7 | - |
 | 4 | Olhanense Reservas | 0 | 6 | 0 | 0 | 6 | 4 | 17 | - |
-
-
-### II Divisão 1942/43
-(Dados não disponíveis)
 
 
 ### II Divisão Grupo D Série 13 1942/43
@@ -131,10 +99,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 6 | Louletano | 4 | 10 | 1 | 2 | 7 | 17 | 33 | - |
 
 
-### II Divisão 1943/44
-(Dados não disponíveis)
-
-
 ### II Divisão Grupo D Série 13 Sub -Série 3 1943/44
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -145,10 +109,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 5 | Louletano | 1 | 7 | 0 | 1 | 6 | 4 | 25 | - |
 
 
-### II Divisão 1944/45
-(Dados não disponíveis)
-
-
 ### II Divisão Grupo D Série 16 1944/45
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -156,10 +116,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 2 | Lusitano VRSA | 8 | 6 | 3 | 2 | 1 | 17 | 14 | - |
 | 3 | Portimonense | 7 | 6 | 2 | 3 | 1 | 15 | 8 | - |
 | 4 | Louletano | 0 | 6 | 0 | 0 | 6 | 5 | 20 | - |
-
-
-### II Divisão 1945/46
-(Dados não disponíveis)
 
 
 ### II Divisão Grupo D Série 16 1945/46
@@ -173,10 +129,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 6 | SL Faro | 0 | 8 | 0 | 0 | 8 | 4 | 51 | - |
 
 
-### II Divisão 1946/47
-(Dados não disponíveis)
-
-
 ### II Divisão Grupo D Série 16 1946/47
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -185,10 +137,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 3 | CD Faro | 5 | 6 | 2 | 1 | 3 | 12 | 19 | - |
 | 4 | Louletano | 0 | 0 | 0 | 0 | 0 | 0 | 0 | - |
 | 5 | Boa Esperança Portimonense | 0 | 6 | 0 | 0 | 6 | 7 | 21 | - |
-
-
-### II Divisão 1948/49
-(Dados não disponíveis)
 
 
 ### II Divisão Zona D 1948/49
@@ -204,10 +152,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 8 | Moura | 2 | 14 | 0 | 2 | 12 | 10 | 45 | - |
 
 
-### II Divisão 1949/50
-(Dados não disponíveis)
-
-
 ### II Divisão Zona D Série 8 1949/50
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -219,10 +163,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 6 | Aljustrelense | 12 | 14 | 5 | 2 | 7 | 28 | 38 | - |
 | 7 | Moura | 10 | 14 | 5 | 0 | 9 | 18 | 34 | - |
 | 8 | SL Faro | 2 | 14 | 1 | 0 | 13 | 9 | 80 | - |
-
-
-### II Divisão 1950/51
-(Dados não disponíveis)
 
 
 ### II Divisão Zona D 1950/51
@@ -237,10 +177,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 7 | Campomaiorense | 11 | 16 | 4 | 3 | 9 | 19 | 43 | - |
 | 8 | Desp. Beja | 10 | 16 | 4 | 2 | 10 | 19 | 56 | - |
 | 9 | Aljustrelense | 9 | 16 | 3 | 3 | 10 | 14 | 46 | - |
-
-
-### II Divisão 1951/52
-(Dados não disponíveis)
 
 
 ### II Divisão Grupo Sul Zona D 1951/52
@@ -258,10 +194,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 10 | São Domingos Mértola | 4 | 18 | 1 | 2 | 15 | 13 | 84 | - |
 
 
-### III Divisão 52/53
-(Dados não disponíveis)
-
-
 ### III Divisão Grupo Sul Zona D Série 7 1952/53
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -271,10 +203,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | Silves | 10 | 10 | 4 | 2 | 4 | 19 | 12 | - |
 | 5 | Despertar SC | 10 | 10 | 3 | 4 | 3 | 15 | 17 | - |
 | 6 | Esp. Lagos | 3 | 10 | 1 | 1 | 8 | 11 | 32 | - |
-
-
-### II Divisão 1953/54
-(Dados não disponíveis)
 
 
 ### II Divisão Zona C 1953/1954
@@ -292,10 +220,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 10 | Lusitano VRSA | 16 | 22 | 7 | 2 | 13 | 30 | 43 | - |
 | 11 | Luso FC | 10 | 22 | 3 | 4 | 15 | 24 | 52 | - |
 | 12 | São Domingos Mértola | 6 | 22 | 2 | 2 | 18 | 15 | 82 | - |
-
-
-### II Divisão 1954/55
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1954/1955
@@ -317,10 +241,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Almada AC | 13 | 26 | 4 | 5 | 17 | 32 | 65 | - |
 
 
-### II Divisão 1955/56
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1955/1956
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -338,10 +258,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 12 | Arroios | 22 | 26 | 9 | 4 | 13 | 52 | 69 | - |
 | 13 | SL Olivais | 20 | 26 | 8 | 4 | 14 | 51 | 62 | - |
 | 14 | O Elvas | 13 | 26 | 3 | 7 | 16 | 33 | 70 | - |
-
-
-### II Divisão 1956/57
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1956/57
@@ -363,10 +279,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | SL Olivais | 20 | 26 | 9 | 2 | 15 | 50 | 54 | - |
 
 
-### II Divisão 1957/58
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1957/58
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -386,10 +298,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Grupo União Sport | 12 | 26 | 4 | 4 | 18 | 28 | 66 | - |
 
 
-### II Divisão 1958/59
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1958/59
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -407,10 +315,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 12 | Desp. Beja | 18 | 26 | 7 | 4 | 15 | 33 | 73 | - |
 | 13 | Coruchense | 17 | 26 | 6 | 5 | 15 | 49 | 59 | - |
 | 14 | Sacavenense | 16 | 26 | 4 | 8 | 14 | 28 | 60 | - |
-
-
-### II Divisão 1959/60
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1959/60
@@ -451,10 +355,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Grupo União Sport | 7 | 26 | 3 | 1 | 22 | 36 | 112 | - |
 
 
-### II Divisão 1961/62
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1961/62
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -472,10 +372,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 12 | Sacavenense | 16 | 26 | 5 | 6 | 15 | 38 | 59 | - |
 | 13 | Campomaiorense | 16 | 26 | 7 | 2 | 17 | 36 | 70 | - |
 | 14 | SL Olivais | 14 | 26 | 4 | 6 | 16 | 39 | 74 | - |
-
-
-### II Divisão 62/63
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1962/1963
@@ -497,10 +393,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Silves | 10 | 26 | 3 | 4 | 19 | 25 | 54 | - |
 
 
-### II Divisão 63/64
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1963/1964
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -518,10 +410,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 12 | Atlético CP | 22 | 26 | 8 | 6 | 12 | 43 | 38 | - |
 | 13 | Lusitano VRSA | 21 | 26 | 8 | 5 | 13 | 31 | 51 | - |
 | 14 | Sacavenense | 17 | 26 | 5 | 7 | 14 | 26 | 55 | - |
-
-
-### II Divisão 64/65
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1964/1965
@@ -543,10 +431,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | **14** | **Farense** 🦁 | 20 | 26 | 8 | 4 | 14 | 29 | 51 | - |
 
 
-### III Divisão 1965/66
-(Dados não disponíveis)
-
-
 ### III Divisão Zona D Série 8 1965/66
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -556,10 +440,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | Serpa | 10 | 10 | 5 | 0 | 5 | 15 | 34 | - |
 | 5 | Moura | 6 | 10 | 2 | 2 | 6 | 13 | 37 | - |
 | 6 | SC Santaclarense | 1 | 10 | 0 | 1 | 9 | 12 | 38 | - |
-
-
-### III Divisão 1966/67
-(Dados não disponíveis)
 
 
 ### III Divisão Zona Sul Série 8 1966/67
@@ -573,10 +453,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 6 | Grupo União Sport | 4 | 10 | 1 | 2 | 7 | 6 | 30 | - |
 
 
-### III Divisão 1967/68
-(Dados não disponíveis)
-
-
 ### III Divisão Zona D Série 8 1967/68
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -586,10 +462,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | Vasco da Gama Sines | 7 | 10 | 3 | 1 | 6 | 15 | 17 | - |
 | 5 | Faro e Benfica | 5 | 10 | 2 | 1 | 7 | 15 | 38 | - |
 | 6 | Aljustrelense | 4 | 10 | 1 | 2 | 7 | 9 | 29 | - |
-
-
-### III Divisão 1968/69
-(Dados não disponíveis)
 
 
 ### III Divisão Zona D 1968/69
@@ -607,10 +479,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 10 | Faro e Benfica | 17 | 22 | 5 | 7 | 10 | 22 | 35 | - |
 | 11 | Aljustrelense | 15 | 22 | 5 | 5 | 12 | 26 | 37 | - |
 | 12 | 1º de Maio Sarilhense | 5 | 22 | 2 | 1 | 19 | 14 | 70 | - |
-
-
-### II Divisão 1969/70
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 69/70
@@ -756,10 +624,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | CUF | 18 | 30 | 4 | 10 | 16 | 15 | 50 | - |
 
 
-### II Divisão 1976/77
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1976/1977
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -779,10 +643,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Esp. Lagos | 20 | 30 | 5 | 10 | 15 | 23 | 42 | - |
 | 15 | Grupo União Sport | 18 | 30 | 3 | 12 | 15 | 13 | 51 | - |
 | 16 | Oriental | 13 | 30 | 2 | 9 | 19 | 14 | 48 | - |
-
-
-### II Divisão 1977/78
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1977/1978
@@ -806,10 +666,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | Luso FC | 17 | 30 | 5 | 7 | 18 | 18 | 49 | - |
 
 
-### II Divisão 1978/79
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1978/1979
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -829,10 +685,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | 1º de Maio Sarilhense | 24 | 30 | 9 | 6 | 15 | 31 | 50 | - |
 | 15 | Almada AC | 23 | 30 | 8 | 7 | 15 | 27 | 53 | - |
 | 16 | Odivelas | 11 | 30 | 4 | 3 | 23 | 24 | 87 | - |
-
-
-### II Divisão 1979/80
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1979/1980
@@ -856,10 +708,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | Olhanense | 23 | 30 | 7 | 9 | 14 | 25 | 37 | - |
 
 
-### II Divisão 1980/81
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1980/1981
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -881,10 +729,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | Silves | 18 | 30 | 5 | 8 | 17 | 24 | 49 | - |
 
 
-### II Divisão 1981/82
-(Dados não disponíveis)
-
-
 ### II Divisão Zona Sul 1981/1982
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -904,10 +748,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 14 | Lusitânia dos Açores | 26 | 30 | 9 | 8 | 13 | 36 | 37 | - |
 | 15 | Esp. Lagos | 24 | 30 | 10 | 4 | 16 | 36 | 47 | - |
 | 16 | Montijo | 19 | 30 | 6 | 7 | 17 | 27 | 48 | - |
-
-
-### II Divisão 1982/83
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1982/1983
@@ -979,10 +819,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | **14** | **Farense** 🦁 | 22 | 30 | 7 | 8 | 15 | 21 | 49 | - |
 | 15 | Varzim | 17 | 30 | 2 | 13 | 15 | 23 | 49 | - |
 | 16 | FC Vizela | 15 | 30 | 4 | 7 | 19 | 31 | 71 | - |
-
-
-### II Divisão 1985/1986
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1985/86
@@ -1083,10 +919,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | **18** | **Farense** 🦁 | 31 | 38 | 10 | 11 | 17 | 34 | 51 | - |
 | 19 | Leixões | 28 | 38 | 7 | 14 | 17 | 29 | 46 | - |
 | 20 | Académico de Viseu | 19 | 38 | 5 | 9 | 24 | 20 | 70 | - |
-
-
-### II Divisão 89/90
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 1989/1990
@@ -1421,10 +1253,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 18 | U. Lamas | 19 | 34 | 4 | 7 | 23 | 21 | 60 | - |
 
 
-### II Divisão B 03/04
-(Dados não disponíveis)
-
-
 ### II Divisão B Zona Sul 2003/2004
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -1473,10 +1301,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 18 | Seixal FC | 24 | 34 | 5 | 9 | 20 | 27 | 60 | - |
 
 
-### AF Algarve 06/07
-(Dados não disponíveis)
-
-
 ### AF Algarve 2ª Divisão 2006/07
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -1497,10 +1321,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 15 | Sambrazense B | 27 | 7 | 6 | 19 | 30 | 67 | -37 | - |
 | 16 | Odeceixe | 21 | 6 | 3 | 23 | 28 | 90 | -62 | - |
 | 17 | Monchique B | 8 | 2 | 2 | 28 | 21 | 109 | -88 | - |
-
-
-### AF Algarve 07/08
-(Dados não disponíveis)
 
 
 ### AF Algarve 1ª Divisão 2007/08
@@ -1524,10 +1344,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 16 | Padernense Clube | 12 | 30 | 2 | 6 | 22 | 24 | 80 | - |
 
 
-### III Divisão 08/09
-(Dados não disponíveis)
-
-
 ### III Divisão Série F 2008/2009
 | Pos | Equipa | Pts | J | V | E | D | GM | GS | DG |
 |-----|--------|-----|---|---|---|---|----|----|-----|
@@ -1537,10 +1353,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | CD Cova Piedade | 34 | 10 | 0 | 7 | 3 | 7 | 11 | - |
 | 5 | Pescadores | 32 | 10 | 3 | 3 | 4 | 14 | 17 | - |
 | 6 | Juventude Évora | 30 | 10 | 2 | 3 | 5 | 12 | 16 | - |
-
-
-### III Divisão 09/10
-(Dados não disponíveis)
 
 
 ### III Divisão Série F 2009/2010
@@ -1584,10 +1396,6 @@ Este documento contém **todas as classificações** do Sporting Clube Farense d
 | 4 | Aljustrelense | 30 | 10 | 3 | 4 | 3 | 14 | 13 | - |
 | 5 | Sesimbra | 29 | 10 | 3 | 2 | 5 | 6 | 13 | - |
 | 6 | Messinense | 22 | 10 | 1 | 2 | 7 | 9 | 23 | - |
-
-
-### II Divisão 12/13
-(Dados não disponíveis)
 
 
 ### II Divisão Zona Sul 2012/13
