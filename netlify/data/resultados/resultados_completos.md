@@ -193,7 +193,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### Taça de Portugal 1939/1940
 
-**📊 Resumo:** 2 jogos • ✅ 0V • ➖ 0E • ❌ 2D • ⚽ 9 golos marcados • 🥅 6 golos sofridos • 📈 Saldo: +3
+**📊 Resumo:** 2 jogos • ✅ 0V • ➖ 0E • ❌ 2D • ⚽ 0 golos marcados • 🥅 15 golos sofridos • 📈 Saldo: -15
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
@@ -214,7 +214,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 
 ### II Divisão Série Algarve 1939/1940
 
-**📊 Resumo:** 6 jogos • ✅ 4V • ➖ 1E • ❌ 1D • ⚽ 13 golos marcados • 🥅 1 golos sofridos • 📈 Saldo: +12
+**📊 Resumo:** 6 jogos • ✅ 4V • ➖ 1E • ❌ 1D • ⚽ 14 golos marcados • 🥅 3 golos sofridos • 📈 Saldo: +11
 
 | Jornada | Data | Jogo | Resultado |
 |:-------:|:----:|:-----|:---------:|
