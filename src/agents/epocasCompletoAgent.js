@@ -65,11 +65,19 @@ class EpocasCompletoAgent extends BaseAgent {
       let consolidatedResponse = `# 📊 ÉPOCA ${searchPattern} - SPORTING CLUBE FARENSE\n\n`;
 
       // 1. Try to find classification/standings from classificacoes file
-      const classifRegex = new RegExp(`###\\s+[^\\n]*${searchPattern}[^\\n]*[\\s\\S]*?(?=\\n###|$)`, 'i');
-      const classifMatch = classificacoesData.match(classifRegex);
-      
-      if (classifMatch) {
-        consolidatedResponse += `## 🏆 Classificação\n${classifMatch[0]}\n\n`;
+      // Look for main season entry and all subsections (Série Algarve, Fase Final, etc)
+      const classifRegex = new RegExp(`###\\s+(?:.*\\s)?(?:${year1})[\\s/.-]?${year2}[^\\n]*[\\s\\S]*?(?=\\n###\\s+|$)`, 'gi');
+      const classifMatches = classificacoesData.match(classifRegex);
+
+      if (classifMatches && classifMatches.length > 0) {
+        consolidatedResponse += `## 🏆 Classificação Final\n\n`;
+        // Include all classification entries for this season
+        classifMatches.forEach(match => {
+          // Skip "Dados não disponíveis" entries, include actual tables
+          if (!match.includes('(Dados não disponíveis)') || match.includes('|')) {
+            consolidatedResponse += match + '\n\n';
+          }
+        });
       }
 
       // 2. Try to find all results for this season from resultados file
