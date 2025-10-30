@@ -56,6 +56,9 @@ class EpocasCompletoAgent extends BaseAgent {
     const year2 = seasonMatch[3];
     const searchPattern = year2 ? `${year1}/${year2}` : year1;
 
+    // Build the full next year (e.g., 1939 + 40 = 1940)
+    const fullNextYear = year2 ? `${String(year1).substring(0, 2)}${year2}` : '';
+
     console.log(`[EPOCAS COMPLETO] Processing season query for: ${searchPattern}`);
 
     try {
@@ -67,7 +70,7 @@ class EpocasCompletoAgent extends BaseAgent {
       // 1. Try to find classification/standings from classificacoes file
       // Look for sections with actual classification tables (containing |)
       // Match both abbreviated (1939/40) and full (1939/1940) year formats
-      const classifRegex = new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|1${year2})[^\\n]*\\n[^\\n]*\\|[\\s\\S]*?(?=\\n###\\s+|$)`, 'gi');
+      const classifRegex = new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|${fullNextYear})[^\\n]*\\n[^\\n]*\\|[\\s\\S]*?(?=\\n###\\s+|$)`, 'gi');
       const classifMatches = classificacoesData.match(classifRegex);
 
       if (classifMatches && classifMatches.length > 0) {
@@ -78,7 +81,7 @@ class EpocasCompletoAgent extends BaseAgent {
         });
       } else {
         // No specific classification found, check if data is available
-        const noDataCheck = classificacoesData.match(new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|1${year2})[^\\n]*\\n\\(Dados não disponíveis\\)`, 'i'));
+        const noDataCheck = classificacoesData.match(new RegExp(`###\\s+[^\\n]*${year1}[\\s/.-](?:${year2}|${fullNextYear})[^\\n]*\\n\\(Dados não disponíveis\\)`, 'i'));
         if (noDataCheck) {
           consolidatedResponse += `## 🏆 Classificação Final\n(Dados não disponíveis para a época ${searchPattern})\n\n`;
         }
@@ -87,7 +90,7 @@ class EpocasCompletoAgent extends BaseAgent {
       // 2. Try to find all results for this season from resultados file
       // Look for all competitions in this season
       // Match both abbreviated (1939/40) and full (1939/1940) year formats
-      const competitionRegex = new RegExp(`###\\s+[^\\n]*${year1}[^\\n]*(?:${year2}|1${year2})[^\\n]*[\\s\\S]*?(?=\\n###\\s+[^\\n]*(?:19|20)\\d{2}|$)`, 'gmi');
+      const competitionRegex = new RegExp(`###\\s+[^\\n]*${year1}[^\\n]*(?:${year2}|${fullNextYear})[^\\n]*[\\s\\S]*?(?=\\n###\\s+[^\\n]*(?:19|20)\\d{2}|$)`, 'gmi');
       const competitionMatches = resultadosData.match(competitionRegex);
 
       if (competitionMatches && competitionMatches.length > 0) {
