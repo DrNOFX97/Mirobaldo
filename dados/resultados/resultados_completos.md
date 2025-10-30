@@ -548,7 +548,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J12 | 1955-11-20 | **SC Farense 4** - 2 Arroios | ✅ |
 | J13 | 1955-11-27 | Montijo 1 - **0 SC Farense** | ❌ |
 | J14 | 1955-12-04 | **SC Farense 3** - 1 Portimonense | ✅ |
-| J25 | 1955-09-04 | Portimonense 2-2 E J1 - Fora Arroios 4 - **3 SC Farense** | ❌ |
+| J25 | 1955-09-04 | Portimonense 2-2 | ❌ |
 
 
 ### Taça de Portugal 1955/1956
@@ -775,7 +775,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J7 | 1962-12-09 | Oriental 1 - **3 SC Farense** | ✅ |
 | J8 | 1962-12-23 | **SC Farense 0** - 1 Portimonense | ❌ |
 | J9 | 1962-12-30 | Sacavenense 4 - **0 SC Farense** | ❌ |
-| J10 | 1963-01-13 | Alhandra 1-1 E J11 1963 -01-06 15:00 Casa Seixal FC 1 - **1 SC Farense** | ➖ |
+| J10 | 1963-01-13 | Alhandra 1-1 | ➖ |
 | J12 | 1963-01-20 | **SC Farense 3** - 2 Lusitano VRSA | ✅ |
 | J13 | 1963-01-27 | Montijo 2 - **1 SC Farense** | ❌ |
 | J14 | 1963-02-03 | CD Cova Piedade 2 - **0 SC Farense** | ❌ |
@@ -1146,7 +1146,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J19 | 1972-02-13 | **SC Farense 3** - 1 Atlético CP | ✅ |
 | J20 | 1972-02-20 | Leixões 1 - **0 SC Farense** | ❌ |
 | J21 | 1972-02-27 | **SC Farense 4** - 2 Académica OAF | ✅ |
-| J22 | 1972-03-19 | **SC Farense 5** - 1 Sporting 1-1 E J23 1972 -03-12 00:00 Fora Vitória SC | ❌ |
+| J22 | 1972-03-19 | **SC Farense 5** - 1 Sporting | ❌ |
 | J24 | 1972-03-26 | **SC Farense 3** - 1 Belenenses | ✅ |
 | J25 | 1972-04-09 | FC Porto 2 - **0 SC Farense** | ❌ |
 | J26 | 1972-04-16 | **SC Farense 2** - 2 CUF | ➖ |
@@ -1612,7 +1612,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J22 | 1983-03-26 | Odivelas 2 - **2 SC Farense** | ➖ |
 | J23 | 1983-04-10 | **SC Farense 1** - 1 Sacavenense | ➖ |
 | J24 | 1983-04-17 | Barreirense 2 - **2 SC Farense** | ➖ |
-| J25 | 1983-05-01 | O Elvas 1-1 E J26 1983 -04-24 00:00 Casa Olhanense 3 - **3 SC Farense** | ➖ |
+| J25 | 1983-05-01 | O Elvas 1-1 | ➖ |
 | J27 | 1983-05-15 | **SC Farense 1** - 0 Belenenses | ✅ |
 | J28 | 1983-05-22 | Nacional 1 - **2 SC Farense** | ✅ |
 | J29 | 1983-05-29 | **SC Farense 7** - 1 Lusit. Évora | ✅ |
@@ -1751,7 +1751,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J5 | 1985-10-20 | Olhanense 2 - **2 SC Farense** | ➖ |
 | J6 | 1985-10-27 | **SC Farense 2** - 0 CD Cova Piedade | ✅ |
 | J7 | 1985-11-03 | Barreirense 1 - **0 SC Farense** | ❌ |
-| J8 | 1985-11-24 | Estoril Praia 2-2 E J9 1985 -11-10 Casa Atlético CP 3 - **0 SC Farense** | ✅ |
+| J8 | 1985-11-24 | Estoril Praia 2-2 | ✅ |
 | J10 | 1985-12-01 | **SC Farense 2** - 1 União Madeira | ✅ |
 | J11 | 1985-12-08 | Lusit. Évora 1 - **3 SC Farense** | ✅ |
 | J12 | 1985-12-22 | **SC Farense 1** - 0 Sacavenense | ✅ |
@@ -2256,7 +2256,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J18 | 1995-01-21 | Sporting 1 - **1 SC Farense** | ➖ |
 | J19 | 1995-02-04 | **SC Farense 1** - 0 Boavista | ✅ |
 | J20 | 1995-02-12 | SC Salgueiros 0 - **3 SC Farense** | ✅ |
-| J21 | 1995-02-25 | SC Braga 0-0 E J22 1995 -02-19 00:00 Casa Tirsense 1 - **0 SC Farense** | ✅ |
+| J21 | 1995-02-25 | SC Braga 0-0 | ✅ |
 | J23 | 1995-03-04 | **SC Farense 3** - 0 Beira -Mar | ✅ |
 | J24 | 1995-03-12 | União Madeira 3 - **0 SC Farense** | ❌ |
 | J25 | 1995-03-19 | **SC Farense 2** - 0 Vitória FC | ✅ |
@@ -2410,7 +2410,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J5 | 1997-09-26 | Vitória SC 2 - **0 SC Farense** | ❌ |
 | J6 | 1997-10-06 | **SC Farense 0** - 0 Boavista | ➖ |
 | J7 | 1997-10-19 | Benfica 3 - **1 SC Farense** | ❌ |
-| J8 | 1997-11-09 | Marítimo 1-1 E J9 1997 -11-02 15:00 Casa SC Salgueiros 0 - **0 SC Farense** | ➖ |
+| J8 | 1997-11-09 | Marítimo 1-1 | ➖ |
 | J10 | 1997-11-23 | **SC Farense 1** - 0 Varzim | ✅ |
 | J11 | 1997-12-01 | FC Porto 5 - **2 SC Farense** | ❌ |
 | J12 | 1997-12-07 | **SC Farense 1** - 1 Est. Amadora | ➖ |
@@ -2684,7 +2684,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J19 | 2003-01-26 | Portimonense 1 - **2 SC Farense** | ✅ |
 | J20 | 2003-02-02 | **SC Farense 0** - 1 FC Felgueiras (Extinto) | ❌ |
 | J21 | 2003-02-09 | Maia 2 - **0 SC Farense** | ❌ |
-| J22 | 2003-02-23 | Est. Amadora 1-1 E J23 2003 -02-16 00:00 Casa U. Lamas 1 - **0 SC Farense** | ✅ |
+| J22 | 2003-02-23 | Est. Amadora 1-1 | ✅ |
 | J24 | 2003-03-01 | **SC Farense 4** - 0 SC Salgueiros | ✅ |
 | J25 | 2003-03-16 | União Madeira 3 - **1 SC Farense** | ❌ |
 | J26 | 2003-03-23 | GD Chaves 1 - **0 SC Farense** | ❌ |
@@ -3275,7 +3275,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J40 | 2016-04-10 | Varzim 2 - **2 SC Farense** | ➖ |
 | J41 | 2016-04-13 | **SC Farense 1** - 2 FC Porto B | ❌ |
 | J42 | 2016-04-17 | Olhanense 1 - **0 SC Farense** | ❌ |
-| J43 | 2016-04-30 | GD Chaves 1-1 E J44 2016 -04-24 16:00 Casa Atlético CP 2 - **1 SC Farense** | ✅ |
+| J43 | 2016-04-30 | GD Chaves 1-1 | ✅ |
 | J45 | 2016-05-08 | **SC Farense 2** - 1 CD Aves | ✅ |
 | J46 | 2016-05-14 | Gil Vicente 2 - **3 SC Farense** | ✅ |
 
@@ -3302,7 +3302,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J4 | 2017-03-05 | CD Fátima 0 - **2 SC Farense** | ✅ |
 | J5 | 2017-03-12 | Real SC 1 - **0 SC Farense** | ❌ |
 | J6 | 2017-03-19 | **SC Farense 0** - 0 Sacavenense | ➖ |
-| J7 | 2017-04-02 | Louletano 2-2 E J8 2017 -03-26 16:00 Fora SC Praiense 2 - **2 SC Farense** | ➖ |
+| J7 | 2017-04-02 | Louletano 2-2 | ➖ |
 | J9 | 2017-04-09 | **SC Farense 4** - 1 Operário Lagoa | ✅ |
 | J10 | 2017-04-15 | Torreense 1 - **1 SC Farense** | ➖ |
 | J11 | 2017-04-23 | **SC Farense 3** - 1 CD Fátima | ✅ |
@@ -3721,7 +3721,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J16 | 2024-01-06 | **SC Farense 1** - 0 Gil Vicente | ✅ |
 | J17 | 2024-01-12 | Portimonense 1 - **0 SC Farense** | ❌ |
 | J18 | 2024-01-20 | Casa Pia AC 1 - **3 SC Farense** | ✅ |
-| J19 | 2024-02-04 | GD Chaves 1-1 E J20 2024 -01-28 18:00 Casa FC Porto 1 - **3 SC Farense** | ❌ |
+| J19 | 2024-02-04 | GD Chaves 1-1 | ❌ |
 | J21 | 2024-02-10 | **SC Farense 1** - 1 FC Famalicão | ➖ |
 | J22 | 2024-02-18 | SC Braga 2 - **1 SC Farense** | ❌ |
 | J23 | 2024-02-24 | **SC Farense 0** - 1 Moreirense | ❌ |
