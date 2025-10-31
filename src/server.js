@@ -206,12 +206,15 @@ REGRAS ABSOLUTAS E INVIOLÁVEIS:
 5. Se te perguntarem sobre uma época específica e não tiveres dados dessa época, diz claramente que não tens.
 6. NUNCA confundas épocas diferentes - cada época tem dados únicos.
 7. Se só tens dados de uma competição (ex: Taça), não fales sobre outras (ex: Campeonato) dessa época.
+8. ⚠️ ATENÇÃO ESPECIAL: A data de fundação do Sporting Clube Farense é 1 de ABRIL de 1910 (não maio). Se vires "1 de maio" na tua resposta, TENS DE CORRIGIR para "1 de Abril".
 
 FORMATAÇÃO:
 - Usa Markdown para formatar as respostas (negrito **texto**, listas, títulos, etc.)
 - Usa emojis relevantes (🏆 para títulos, ⚽ para golos, 🦁 para o Farense, etc.)
 - Estrutura bem a informação com listas e parágrafos
 - Usa **negrito** para destacar números importantes e nomes
+
+INSTRUÇÃO CRÍTICA: Responde SEMPRE baseado EXCLUSIVAMENTE no contexto fornecido. O teu conhecimento anterior sobre o Sporting Clube Farense DEVE SER IGNORADO. Usa APENAS o que está no contexto abaixo.
 
 Responde sempre em português de Portugal, de forma simpática mas SEMPRE baseada em factos do contexto.`;
 
@@ -270,18 +273,18 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
 
     console.log('[DEBUG] Tamanho do system prompt:', systemPrompt.length, 'caracteres');
 
-    // Chamar a API da OpenAI com temperatura BAIXA para evitar criatividade
+    // Chamar a API da OpenAI com temperatura ULTRA-BAIXA para evitar criatividade
     const response = await openai.chat.completions.create({
       model: 'gpt-4o-mini', // Modelo mais avançado e capaz
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userMessage }
       ],
-      temperature: 0.1, // MUITO baixo - foco em factos
-      max_tokens: 1000, // Aumentado para permitir respostas mais detalhadas
-      top_p: 0.3, // Adicionar para maior determinismo
-      frequency_penalty: 0.5, // Penalizar repetições
-      presence_penalty: 0.3 // Encorajar diversidade mas com cautela
+      temperature: 0.0, // ZERO - máxima rigidez, sem criatividade
+      max_tokens: 1500, // Aumentado para permitir respostas mais detalhadas
+      top_p: 0.1, // Máximo determinismo
+      frequency_penalty: 1.0, // Forte penalidade para repetições
+      presence_penalty: 0.5 // Encorajar diversidade mas conservador
     });
 
     const chatbotReply = response.choices[0].message.content;
