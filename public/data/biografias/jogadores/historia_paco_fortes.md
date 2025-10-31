@@ -1,5 +1,7 @@
 # Paco Fortes: O Catalão Mais Farense de Que Há Memória
-**04/01/1955, Barcelona, Espanha** | **Jogador e Treinador** | **“El Feo”**
+**04/01/1955, Barcelona, Espanha** | **Jogador e Treinador** | **"El Feo"**
+
+![Paco Fortes](/fotografias/jogadores/paco_fortes.webp)
 
 ## De Barcelona para Faro: Uma Viagem Improvável
 
