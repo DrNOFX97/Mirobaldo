@@ -143,10 +143,11 @@ function getAgentByTopic(userMessage) {
   }
   
   // Fundação e História
-  if (lowerMsg.includes('fundação') || lowerMsg.includes('história') || lowerMsg.includes('origem') || 
-      lowerMsg.includes('criação') || lowerMsg.includes('início') || lowerMsg.includes('fundador') || 
+  if (lowerMsg.includes('fundação') || lowerMsg.includes('fundado') || lowerMsg.includes('história') || lowerMsg.includes('origem') ||
+      lowerMsg.includes('criação') || lowerMsg.includes('início') || lowerMsg.includes('fundador') ||
       lowerMsg.includes('1910') || lowerMsg.includes('primeiro') || lowerMsg.includes('começo') ||
-      lowerMsg.includes('nascimento') || lowerMsg.includes('surgiu') || lowerMsg.includes('surgimento')) {
+      lowerMsg.includes('nascimento') || lowerMsg.includes('surgiu') || lowerMsg.includes('surgimento') ||
+      lowerMsg.includes('foi fundado') || lowerMsg.includes('foi criado')) {
     return fundacaoAgent;
   }
   
