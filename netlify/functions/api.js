@@ -227,6 +227,23 @@ exports.handler = async (event, context) => {
       // Converter agentes para formato esperado (simplified)
       const agents = [
         {
+          name: 'fundacaoAgent',
+          context: fundacaoAgent.context,
+          keywords: ['fundação', 'fundado', 'história', 'origem', 'criação', 'início', 'fundador', '1910', 'primeiro', 'começo', 'foi fundado', 'foi criado'],
+          process: async (msg) => {
+            // Check if asking about founding
+            const fundacaoKeywords = ['fundação', 'fundado', 'história', 'origem', 'criação', '1910', 'foi fundado', 'foi criado'];
+            const hasFundacaoKeyword = fundacaoKeywords.some(keyword => msg.toLowerCase().includes(keyword));
+
+            if (hasFundacaoKeyword) {
+              console.log('[NETLIFY] Fundacao agent triggered for message:', msg.substring(0, 50));
+              // Return agent context which will be added to GPT system prompt
+              return null; // Let GPT handle it with context
+            }
+            return null;
+          },
+        },
+        {
           name: 'epocasCompletoAgent',
           keywords: ['época', 'temporada', 'season', 'resultados de', 'classificação de', 'campeonato'],
           process: async (msg) => {
@@ -325,9 +342,9 @@ exports.handler = async (event, context) => {
         if (selectedAgent.name === 'biografiasAgent' || selectedAgent.name === 'epocasAgent' || selectedAgent.name === 'epocasCompletoAgent' || selectedAgent.name === 'classificacoesAgent' || selectedAgent.name === 'resultadosAgent') {
           finalResponse = agentResponse;
         } else {
-          // For other agents (resultados context-based), use the context with GPT
+          // For other agents (context-based like fundacaoAgent), use the context with GPT
           console.log('[NETLIFY] Agent provided context, using GPT with agent context');
-          const agentContext = agentResponse; // This is the context from the agent
+          const agentContext = selectedAgent.context || agentResponse; // Use the context property if available
 
           const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
 
@@ -346,9 +363,11 @@ CRITICAL INSTRUCTIONS:
               { role: 'system', content: systemPrompt },
               { role: 'user', content: userMessage },
             ],
-            temperature: 0.1,
+            temperature: 0.0, // ZERO - máxima rigidez
             max_tokens: 1500,
-            top_p: 0.3,
+            top_p: 0.1, // Máximo determinismo
+            frequency_penalty: 1.0,
+            presence_penalty: 0.5,
           });
 
           finalResponse = completion.choices[0].message.content;
