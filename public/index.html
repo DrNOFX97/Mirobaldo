@@ -2,12 +2,29 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SC Farense AI Assistant</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Assistente de IA especializado em história, estatísticas e análise do Sporting Clube Farense desde 1910">
+    <meta name="keywords" content="SC Farense, IA, Assistente, História, Estatísticas, Futebol">
+    <meta name="theme-color" content="#1A1A1A">
+    <meta name="color-scheme" content="light dark">
+
+    <title>SC Farense AI Assistant - Mirobaldo</title>
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts with display=swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Web App Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🦁</text></svg>">
 </head>
 <body>
     <div class="container">
@@ -21,12 +38,12 @@
                     </div>
                 </div>
             </div>
-            <div class="sidebar-content">
+            <nav class="sidebar-content" aria-label="Histórico de conversas">
                 <h2>HISTÓRICO</h2>
-                <ul id="chat-history">
+                <ul id="chat-history" role="list">
                     <!-- Histórico de conversas será carregado aqui -->
                 </ul>
-            </div>
+            </nav>
             <div class="sidebar-footer">
                 <div class="stats">
                     <div class="stat-item">
@@ -40,56 +57,74 @@
                 </div>
             </div>
         </div>
-        <div class="chat-area">
-            <header>
+        <section class="chat-area" aria-label="Chat do assistente SC Farense">
+            <header role="banner">
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Abrir/fechar menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="header-content">
                     <h1>SPORTING CLUBE FARENSE</h1>
                     <p class="header-subtitle">Assistente de Inteligência Artificial · História & Dados desde 1910</p>
                 </div>
-                <div class="header-status">
-                    <span class="status-dot"></span>
+                <div class="header-status" aria-live="polite" aria-label="Status da conexão">
+                    <span class="status-dot" aria-hidden="true"></span>
                     <span class="status-text">ONLINE</span>
                 </div>
             </header>
-            <main id="chat-messages">
+
+            <main id="chat-messages" role="region" aria-label="Mensagens de chat" aria-live="polite" aria-atomic="false">
                 <div class="welcome-screen">
-                    <div class="welcome-icon">🦁</div>
+                    <div class="welcome-icon" aria-hidden="true">🦁</div>
                     <h2 class="welcome-title">BEM-VINDO AO ASSISTENTE SC FARENSE</h2>
                     <p class="welcome-description">Sistema de IA especializado em história, estatísticas e análise do Sporting Clube Farense</p>
-                    <div class="quick-actions">
-                        <button class="quick-action-btn" data-query="Quem são as 10 personalidades mais importantes da história do Farense?">
-                            <span class="quick-action-icon">👥</span>
+
+                    <div class="quick-actions" role="group" aria-label="Ações rápidas">
+                        <button class="quick-action-btn" data-query="Quem são as 10 personalidades mais importantes da história do Farense?" aria-label="Top 10 Personalidades mais importantes">
+                            <span class="quick-action-icon" aria-hidden="true">👥</span>
                             <span class="quick-action-text">TOP 10 Personalidades</span>
                         </button>
-                        <button class="quick-action-btn" data-query="Qual foi a melhor época do Farense?">
-                            <span class="quick-action-icon">🏆</span>
+                        <button class="quick-action-btn" data-query="Qual foi a melhor época do Farense?" aria-label="Melhor época do Farense">
+                            <span class="quick-action-icon" aria-hidden="true">🏆</span>
                             <span class="quick-action-text">Melhor Época</span>
                         </button>
-                        <button class="quick-action-btn" data-query="TOP 5 séries invictas fora de casa">
-                            <span class="quick-action-icon">⚽</span>
+                        <button class="quick-action-btn" data-query="TOP 5 séries invictas fora de casa" aria-label="Top 5 séries invictas fora de casa">
+                            <span class="quick-action-icon" aria-hidden="true">⚽</span>
                             <span class="quick-action-text">Séries Invictas</span>
                         </button>
-                        <button class="quick-action-btn" data-query="Fala-me sobre Hassan Nader">
-                            <span class="quick-action-icon">⭐</span>
+                        <button class="quick-action-btn" data-query="Fala-me sobre Hassan Nader" aria-label="Informações sobre Hassan Nader">
+                            <span class="quick-action-icon" aria-hidden="true">⭐</span>
                             <span class="quick-action-text">Hassan Nader</span>
                         </button>
                     </div>
                 </div>
             </main>
-            <div class="chat-input">
-                <div class="input-wrapper">
-                    <input type="text" id="user-input" placeholder="Pergunta sobre o SC Farense..." autocomplete="off">
-                    <button id="send-button">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+
+            <section class="chat-input" aria-label="Área de entrada de mensagens">
+                <form id="chat-form" class="input-wrapper">
+                    <input
+                        type="text"
+                        id="user-input"
+                        placeholder="Pergunta sobre o SC Farense..."
+                        autocomplete="off"
+                        aria-label="Campo de entrada de mensagem"
+                        required>
+                    <button
+                        id="send-button"
+                        type="submit"
+                        aria-label="Enviar mensagem"
+                        title="Enviar mensagem (Enter)">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                             <path d="M2 10L18 2L10 18L8 11L2 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                </div>
+                </form>
                 <div class="input-info">
                     <span class="input-hint">Pergunte sobre história, jogadores, épocas, resultados ou estatísticas</span>
                 </div>
-            </div>
-        </div>
+            </section>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>

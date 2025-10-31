@@ -1,11 +1,60 @@
+// Desabilitar pinch-to-zoom e impedir zoom acidental
+document.addEventListener('touchmove', (e) => {
+    if (e.touches.length > 1) {
+        e.preventDefault();
+    }
+}, { passive: false });
+
+document.addEventListener('gesturestart', (e) => {
+    e.preventDefault();
+});
+
+// Desabilitar duplo-clique para zoom
+let lastTouchEnd = 0;
+document.addEventListener('touchend', (e) => {
+    const now = Date.now();
+    if (now - lastTouchEnd <= 300) {
+        e.preventDefault();
+    }
+    lastTouchEnd = now;
+}, false);
+
 document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
     const chatMessages = document.getElementById('chat-messages');
     const chatHistory = document.getElementById('chat-history');
     const quickActionBtns = document.querySelectorAll('.quick-action-btn');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const sidebar = document.querySelector('.sidebar');
 
     let currentChatId = null; // ID da conversa atual
+
+    // Sidebar Toggle Functionality
+    if (sidebarToggle && sidebar) {
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('visible');
+            sidebarToggle.classList.toggle('open');
+            const isExpanded = sidebar.classList.contains('visible');
+            sidebarToggle.setAttribute('aria-expanded', isExpanded);
+        });
+
+        // Close sidebar when clicking on a history item
+        chatHistory.addEventListener('click', () => {
+            sidebar.classList.remove('visible');
+            sidebarToggle.classList.remove('open');
+            sidebarToggle.setAttribute('aria-expanded', 'false');
+        });
+
+        // Close sidebar when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!sidebar.contains(e.target) && e.target !== sidebarToggle && !sidebarToggle.contains(e.target)) {
+                sidebar.classList.remove('visible');
+                sidebarToggle.classList.remove('open');
+                sidebarToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 
     // Função para esconder o welcome screen
     function hideWelcomeScreen() {
