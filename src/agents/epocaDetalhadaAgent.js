@@ -118,6 +118,7 @@ class EpocaDetalhadaAgent extends BaseAgent {
       keywords: ['época', 'temporada', 'resultado', 'classificação', 'época', 'detalhes', 'tabela'],
       enabled: true
     });
+    // Force function recompilation - prioritize main headers over subsections
   }
 
   async process(message) {
