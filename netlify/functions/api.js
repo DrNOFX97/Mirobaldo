@@ -237,8 +237,9 @@ exports.handler = async (event, context) => {
 
             if (hasFundacaoKeyword) {
               console.log('[NETLIFY] Fundacao agent triggered for message:', msg.substring(0, 50));
-              // Return agent context which will be added to GPT system prompt
-              return null; // Let GPT handle it with context
+              // Return a marker to indicate agent matched but needs GPT
+              // We return a special marker that the system can recognize
+              return 'AGENT_MATCHED_NEEDS_GPT';
             }
             return null;
           },
@@ -344,7 +345,8 @@ exports.handler = async (event, context) => {
         } else {
           // For other agents (context-based like fundacaoAgent), use the context with GPT
           console.log('[NETLIFY] Agent provided context, using GPT with agent context');
-          const agentContext = selectedAgent.context || agentResponse; // Use the context property if available
+          // Use the context property - it's always available for context-based agents
+          const agentContext = selectedAgent.context;
 
           const systemPrompt = `You are Mirobaldo, an intelligent assistant specialized in the history of Sporting Clube Farense.
 
