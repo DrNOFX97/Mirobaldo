@@ -88,10 +88,9 @@ class ResultadosAgent extends BaseAgent {
           const nextYear = `${String(year1).substring(0, 2)}${year2}`;
           const fullNextYear = `${String(year1).substring(0, 2)}${String(year2).substring(0, 2)}`;
           const searchPatterns = [
-            `## ⚽ Época ${year1}/${year2}`,
-            `## ⚽ Época ${year1}/${fullNextYear}`,
             `## Temporada ${year1}/${year2}`,
             `## Época ${year1}/${year2}`,
+            `## Época ${year1}/${fullNextYear}`,
             `### Época ${year1}/${year2}`,
             `### I Divisão ${year1}/${year2}`,
             `### I Divisão ${year1}/${nextYear}`,

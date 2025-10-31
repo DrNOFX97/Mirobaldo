@@ -191,7 +191,7 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | 1/8 | 1939-05-21 | **SC Farense 1** - 2 Sporting | ❌ |
 
 
-## ⚽ Época 1939/1940
+## Época 1939/1940
 
 ![SC Farense 1939-40](/fotografias/equipas/1939-40.webp)
 
