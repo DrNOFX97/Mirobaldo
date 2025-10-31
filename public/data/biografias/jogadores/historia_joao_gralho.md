@@ -1,5 +1,7 @@
 # João Gralho: O Fundador que Plantou a Primeira Semente
 
+![João Gralho](/fotografias/jogadores/joao_gralho.webp)
+
 ## O Nascimento de um Sonho
 
 Era 1909. Faro era uma cidade pequena, ainda distante dos holofotes do futebol nacional. No Largo de São Francisco, um grupo de jovens entusiastas juntava-se para jogar à bola com militares e marinheiros que por ali passavam. Entre eles estava **João Gralho**, uma figura pequena e franzina, mas com um coração do tamanho do Algarve.
