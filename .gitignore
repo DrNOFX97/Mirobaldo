@@ -19,3 +19,5 @@ Thumbs.db
 
 # Temporary folders
 autiliza/
+# Team photos (keeping only WebP)
+public/fotografias/equipas/*.png
