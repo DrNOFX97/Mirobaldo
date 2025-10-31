@@ -2263,7 +2263,8 @@ Arquivo histórico completo com mais de **2000 jogos** registados, incluindo:
 | J26 | 1994-04-10 | Gil Vicente 0 - **0 SC Farense** | ➖ |
 | J27 | 1994-04-24 | **SC Farense 0** - 0 SC Braga | ➖ |
 | J28 | 1994-04-30 | Vitória SC 2 - **2 SC Farense** | ➖ |
-| J29 | 1994-05-15 | Boavista 0-1 V J30 1994 -05-08 00:00 Casa Paços de Ferreira 3 - **0 SC Farense** | ✅ |
+| J29 | 1994-05-15 | **Boavista 0** - 1 SC Farense | ✅ |
+| J30 | 1994-05-08 | Paços de Ferreira 3 - **0 SC Farense** | ❌ |
 | J31 | 1994-05-22 | **SC Farense 4** - 1 SC Salgueiros | ✅ |
 | J32 | 1994-05-25 | FC Porto 1 - **0 SC Farense** | ❌ |
 | J33 | 1994-05-29 | Vitória FC 2 - **0 SC Farense** | ❌ |
