@@ -220,9 +220,12 @@ Responde sempre em português de Portugal, de forma simpática mas SEMPRE basead
 
     // Verificar se há um agente especializado para este tema
     const agent = getAgentByTopic(userMessage);
+    console.log('[DEBUG] Agent selecionado:', agent ? agent.name : 'NENHUM');
     if (agent) {
+      console.log('[DEBUG] Agent context length antes:', systemPrompt.length);
       // Adicionar contexto do agente especializado
       systemPrompt += '\n\n' + agent.context;
+      console.log('[DEBUG] Agent context length depois:', systemPrompt.length);
 
       // Se for o agente de biografias, fazer busca dinâmica
       if (agent === biografiasAgent && biografiasAgent.searchBiografias) {
