@@ -54,14 +54,14 @@ function normalizarEpoca(epoca) {
 
 function extrairResultadosEpoca(conteudo, epoca) {
   // Procura por TODAS as seções da época nos resultados (pode ter múltiplas fases, taça, etc)
-  // Captura o header (###) e todo o conteúdo da seção para preservar títulos das competições
-  const regexEpoca = new RegExp(`(###\\s+[^\\n]*${epoca.replace('/', '.*')}[^\\n]*)\\n([\\s\\S]*?)(?=\\n###|$)`, 'gi');
+  // Captura o header (## ou ###) e todo o conteúdo da seção para preservar títulos das competições
+  const regexEpoca = new RegExp(`(#{2,3}\\s+[^\\n]*${epoca.replace('/', '.*')}[^\\n]*)\\n([\\s\\S]*?)(?=\\n#{2,3}|$)`, 'gi');
   const matches = conteudo.matchAll(regexEpoca);
 
   let resultadosCompletos = '';
   for (const match of matches) {
     if (match[1]) {
-      // Incluir o header (###) + conteúdo
+      // Incluir o header (## ou ###) + conteúdo
       resultadosCompletos += match[1] + '\n' + match[2] + '\n\n';
     }
   }
