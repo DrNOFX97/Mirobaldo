@@ -164,10 +164,9 @@ class ResultadosAgent extends BaseAgent {
       }
     }
 
-    // No season found or year not extracted - return specific message instead of null
-    const year1 = seasonMatch ? seasonMatch[1] : '?';
-    const year2 = seasonMatch ? seasonMatch[2] : '?';
-    return `Não tenho dados sobre a época ${year1}/${year2}.`;
+    // No season found or year not extracted - return null for GPT to handle
+    // (GPT will provide fallback response based on general knowledge)
+    return null;
   }
 
   getContext() {
