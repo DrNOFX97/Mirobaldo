@@ -1,9 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const { getInstance: getCDNConfig } = require('../config/cdnConfig');
 
 /**
  * Utilitário para injetar referências a imagens nas biografias
  * Detecta imagens nas pastas de fotografia e as adiciona às biografias correspondentes
+ * Utiliza configuração CDN para servir imagens otimizadas
  */
 
 // Função para normalizar nomes para comparação
@@ -13,7 +15,7 @@ function normalizeName(name) {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[_\-\s]/g, '_')
-    .replace(/.png|.jpg|.jpeg/gi, '');
+    .replace(/.png|.jpg|.jpeg|.webp/gi, '');
 }
 
 // Função para extrair o nome da pessoa a partir do nome da biografia
@@ -46,24 +48,29 @@ function hasImage(bioContent) {
   return /<img\s+src/.test(bioContent);
 }
 
-// Função para injetar a imagem na biografia
-function injectImageInBio(bioContent, imageName, imagePath, category) {
+// Função para injetar a imagem na biografia usando CDN configuration
+function injectImageInBio(bioContent, imageName, category) {
   // Se já tem imagem, não fazer nada
   if (hasImage(bioContent)) {
     return bioContent;
   }
 
-  // Corrigir o caminho - se imagePath for um caminho, extrair apenas a categoria
-  let cat = category;
-  if (!cat || cat === 'undefined') {
-    cat = imagePath.split('/').pop();
-  }
+  const cdn = getCDNConfig();
 
-  const imageUrl = `/fotografias/${cat}/${encodeURIComponent(imageName)}`;
-  const alt = imageName.replace(/\.(png|jpg|jpeg)$/i, '');
+  // Construir caminho relativo para CDN
+  const imagePath = `${category}/${encodeURIComponent(imageName)}`;
 
-  // Criar a tag de imagem
-  const imageTag = `<img src="${imageUrl}" alt="${alt} - Retrato histórico" width="280" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: block; margin: 16px 0;" />`;
+  // Gerar tag de imagem com CDN configuration
+  const imageTag = cdn.generateImgTag(
+    imagePath,
+    imageName.replace(/\.(png|jpg|jpeg|webp)$/i, ''),
+    {
+      width: 280,
+      height: 'auto',
+      className: 'biography-image',
+      style: 'border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: block; margin: 16px 0;'
+    }
+  );
 
   // Inserir após o primeiro título (##) ou após o primeiro parágrafo
   const lines = bioContent.split('\n');
@@ -105,7 +112,12 @@ function injectImagesIntoBios() {
   let updatedCount = 0;
   let errorCount = 0;
 
-  console.log('🖼️  Iniciando injeção de imagens nas biografias...\n');
+  const cdn = getCDNConfig();
+  const cdnStatus = cdn.getStatus();
+
+  console.log('🖼️  Iniciando injeção de imagens nas biografias...');
+  console.log(`📡 Usando CDN: ${cdnStatus.provider} (${cdnStatus.optimization})`);
+  console.log(`🔗 Base URL: ${cdnStatus.baseUrl}\n`);
 
   for (const category of categories) {
     const biographiesPath = path.join(biografiasDir, category);
@@ -146,7 +158,7 @@ function injectImagesIntoBios() {
         const imageName = findImageForBio(bioName, imagesPath);
 
         if (imageName) {
-          // Injetar a imagem
+          // Injetar a imagem com configuração CDN
           bioContent = injectImageInBio(bioContent, imageName, category);
           fs.writeFileSync(bioPath, bioContent, 'utf-8');
           console.log(`  ✨ ${bioFile} - imagem adicionada (${imageName})`);
@@ -169,6 +181,8 @@ function injectImagesIntoBios() {
   console.log(`   Biografias processadas: ${processedCount}`);
   console.log(`   Biografias atualizadas: ${updatedCount}`);
   console.log(`   Erros encontrados: ${errorCount}`);
+  console.log(`   CDN Provider: ${cdnStatus.provider}`);
+  console.log(`   Cache TTL: ${cdnStatus.cacheTTL}s`);
   console.log('');
 
   if (updatedCount > 0) {
@@ -178,7 +192,7 @@ function injectImagesIntoBios() {
   }
 }
 
-// Exportar função
+// Exportar funções
 module.exports = {
   injectImagesIntoBios,
   injectImageInBio,
