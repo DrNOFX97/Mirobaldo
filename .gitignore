@@ -21,3 +21,15 @@ Thumbs.db
 autiliza/
 # Team photos (keeping only WebP)
 public/fotografias/equipas/*.png
+
+# Video files - should not be versioned
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+dados/fotografias/equipas/**/*.mp4
+dados/fotografias/equipas/**/*.avi
+public/fotografias/equipas/**/*.mp4
+public/fotografias/equipas/**/*.avi
